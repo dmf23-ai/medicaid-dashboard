@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #1e40af;
+  --color-primary-light: #3b82f6;
+  --color-primary-dark: #1e3a8a;
+  --color-accent: #059669;
+  --color-accent-light: #10b981;
+  --color-warning: #d97706;
+  --color-danger: #dc2626;
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-text: #0f172a;
+  --color-text-secondary: #475569;
+  --color-border: #e2e8f0;
+  --color-texas: #bf360c;
+  --color-texas-light: #ff6f00;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.state-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.state-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+.live-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
