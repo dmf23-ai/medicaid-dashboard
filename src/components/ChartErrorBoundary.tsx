@@ -30,17 +30,17 @@ export default class ChartErrorBoundary extends React.Component<Props, State> {
   render() {
     if (this.state.hasError) {
       return (
-        <div className="bg-white rounded-xl border border-slate-200 p-8 flex flex-col items-center justify-center text-center min-h-[200px]">
+        <div className="bg-[#111827] rounded-xl border border-[#1E293B] p-8 flex flex-col items-center justify-center text-center min-h-[200px]">
           <AlertTriangle className="w-8 h-8 text-amber-500 mb-3" />
-          <p className="text-sm font-medium text-slate-700">
+          <p className="text-sm font-medium text-[#F1F5F9]">
             {this.props.fallbackMessage || "Unable to render chart"}
           </p>
-          <p className="text-xs text-slate-400 mt-1">
+          <p className="text-xs text-[#64748B] mt-1">
             Try selecting different states or refreshing the page.
           </p>
           <button
             onClick={() => this.setState({ hasError: false })}
-            className="mt-3 text-xs px-3 py-1.5 bg-slate-100 hover:bg-slate-200 text-slate-600 rounded-full transition-colors"
+            className="mt-3 text-xs px-3 py-1.5 bg-[#1E293B] hover:bg-[#2A3547] text-[#94A3B8] rounded-full transition-colors"
           >
             Try Again
           </button>

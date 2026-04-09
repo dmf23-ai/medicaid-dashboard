@@ -27,7 +27,7 @@ export interface SpendingData {
   federalShare: number;
   stateShare: number;
   perEnrollee: number;
-  fmapRate: number; // Federal Medical Assistance Percentage
+  fmapRate: number;
   spendingTrend: MonthlyDataPoint[];
   spendingByCategory: {
     category: string;
@@ -37,7 +37,7 @@ export interface SpendingData {
 }
 
 export interface ManagedCareData {
-  penetrationRate: number; // % of enrollees in managed care
+  penetrationRate: number;
   numberOfMCOs: number;
   averageStarRating: number;
   plans: {
@@ -48,7 +48,7 @@ export interface ManagedCareData {
 }
 
 export interface QualityMetrics {
-  overallScore: number; // 0-100 composite
+  overallScore: number;
   preventiveCare: number;
   behavioralHealth: number;
   maternalHealth: number;
@@ -78,7 +78,7 @@ export interface PolicyData {
 }
 
 export interface ComparisonConfig {
-  anchorState: string; // Default: TX
+  anchorState: string;
   comparisonStates: string[];
   metrics: string[];
   dateRange: {
@@ -89,17 +89,13 @@ export interface ComparisonConfig {
 
 export interface DashboardAlert {
   id: string;
+  stateCode: string;
+  stateName: string;
+  type: "enrollment_change" | "spending_spike" | "policy_change" | "quality_alert";
+  severity: "high" | "medium" | "low" | "critical";
   title: string;
-  severity: "critical" | "warning" | "info" | "high" | "medium" | "low";
   description: string;
-  states?: string[];
-  timestamp: string;
-  category?: string;
-  // Legacy fields (for backward compat with sample data)
-  stateCode?: string;
-  stateName?: string;
-  type?: "enrollment_change" | "spending_spike" | "policy_change" | "quality_alert";
-  date?: string;
+  date: string;
   metric?: string;
   change?: number;
 }
@@ -108,9 +104,57 @@ export interface StateSummary {
   stateCode: string;
   stateName: string;
   enrollment: number;
-  enrollmentChange: number; // YoY percentage
+  enrollmentChange: number;
   perEnrolleeSpending: number;
   managedCarePenetration: number;
   qualityScore: number;
   expansionStatus: "expanded" | "not_expanded" | "partial";
+}
+
+// --- New types for the executive dashboard ---
+
+export interface ExecutiveInsight {
+  id: string;
+  rank: number;
+  title: string;
+  summary: string;
+  whyItMatters: string;
+  confidence: "high" | "medium" | "low";
+  category: "operational" | "financial" | "regulatory" | "competitive" | "quality";
+  impactLevel: "critical" | "high" | "moderate";
+  actionPrompt: string;
+  relatedStates: string[];
+  source: string;
+  timestamp: string;
+}
+
+export interface SignalItem {
+  id: string;
+  title: string;
+  summary: string;
+  source: string;
+  sourceUrl?: string;
+  category: "procurement" | "policy" | "regulatory" | "oig" | "cms" | "legislative";
+  relevance: "high" | "medium" | "low";
+  timestamp: string;
+  affectedStates?: string[];
+}
+
+export interface RiskOpportunityItem {
+  id: string;
+  label: string;
+  description: string;
+  risk: number;       // 0-100
+  opportunity: number; // 0-100
+  impact: number;      // 0-100 (bubble size)
+  trend: "improving" | "stable" | "deteriorating";
+  category: "procurement" | "operations" | "policy" | "quality" | "competitive";
+}
+
+export interface TexasPulseMetric {
+  label: string;
+  value: string;
+  delta?: string;
+  deltaDirection?: "up" | "down" | "neutral";
+  icon?: string;
 }

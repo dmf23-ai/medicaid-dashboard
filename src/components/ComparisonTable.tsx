@@ -15,6 +15,25 @@ export default function ComparisonTable({
   const formatNumber = (n: number) => n.toLocaleString();
   const formatCurrency = (n: number) => `$${n.toLocaleString()}`;
 
+  // Calculate peer medians (excluding anchor state for peer comparison)
+  const peerStates = data.filter((s) => s.stateCode !== anchorState);
+  const calculateMedian = (metric: keyof StateSummary): number => {
+    const values = peerStates
+      .map((s) => s[metric] as number)
+      .filter((v) => typeof v === "number")
+      .sort((a, b) => a - b);
+    if (values.length === 0) return 0;
+    const mid = Math.floor(values.length / 2);
+    return values.length % 2 !== 0
+      ? values[mid]
+      : (values[mid - 1] + values[mid]) / 2;
+  };
+
+  const enrollmentMedian = calculateMedian("enrollment");
+  const perEnrolleeMedian = calculateMedian("perEnrolleeSpending");
+  const managedCareMedian = calculateMedian("managedCarePenetration");
+  const qualityScoreMedian = calculateMedian("qualityScore");
+
   const getRankBadge = (stateCode: string, metric: keyof StateSummary, rows: StateSummary[], higherIsBetter: boolean) => {
     const sorted = [...rows].sort((a, b) => {
       const aVal = a[metric] as number;
@@ -24,14 +43,14 @@ export default function ComparisonTable({
     const rank = sorted.findIndex((s) => s.stateCode === stateCode) + 1;
     if (rank <= 3) {
       return (
-        <span className="ml-1.5 text-[10px] px-1.5 py-0.5 bg-emerald-50 text-emerald-700 rounded-full font-semibold">
+        <span className="ml-1.5 text-[10px] px-1.5 py-0.5 bg-emerald-900/40 text-emerald-400 rounded-full font-semibold">
           #{rank}
         </span>
       );
     }
     if (rank >= rows.length - 1) {
       return (
-        <span className="ml-1.5 text-[10px] px-1.5 py-0.5 bg-red-50 text-red-700 rounded-full font-semibold">
+        <span className="ml-1.5 text-[10px] px-1.5 py-0.5 bg-red-900/40 text-red-400 rounded-full font-semibold">
           #{rank}
         </span>
       );
@@ -41,9 +60,9 @@ export default function ComparisonTable({
 
   const getExpansionBadge = (status: string) => {
     const colors = {
-      expanded: "bg-emerald-50 text-emerald-700",
-      not_expanded: "bg-amber-50 text-amber-700",
-      partial: "bg-blue-50 text-blue-700",
+      expanded: "bg-emerald-900/30 text-emerald-400",
+      not_expanded: "bg-amber-900/30 text-amber-400",
+      partial: "bg-blue-900/30 text-blue-400",
     };
     const labels = {
       expanded: "Expanded",
@@ -61,73 +80,92 @@ export default function ComparisonTable({
     );
   };
 
+  const getPeerIndicator = (value: number, median: number, higherIsBetter: boolean) => {
+    if (value > median) {
+      return higherIsBetter ? (
+        <ArrowUp className="w-3 h-3 text-emerald-400 inline-block ml-1" />
+      ) : (
+        <ArrowDown className="w-3 h-3 text-amber-400 inline-block ml-1" />
+      );
+    } else if (value < median) {
+      return higherIsBetter ? (
+        <ArrowDown className="w-3 h-3 text-amber-400 inline-block ml-1" />
+      ) : (
+        <ArrowUp className="w-3 h-3 text-emerald-400 inline-block ml-1" />
+      );
+    }
+    return null;
+  };
+
   return (
-    <div className="bg-white rounded-xl border border-slate-200 overflow-hidden">
-      <div className="p-5 border-b border-slate-100">
-        <h3 className="text-sm font-semibold text-slate-900">
-          State Comparison
+    <div className="bg-[#111827] rounded-xl border border-[#1E293B] overflow-hidden">
+      <div className="p-5 border-b border-[#1E293B] bg-[#0B1120]">
+        <h3 className="text-sm font-semibold text-[#F1F5F9]">
+          State Benchmarking
         </h3>
-        <p className="text-xs text-slate-500 mt-0.5">
-          Key metrics across selected states
+        <p className="text-xs text-[#94A3B8] mt-0.5">
+          Texas vs. selected peers with median comparison
         </p>
       </div>
       <div className="overflow-x-auto">
         <table className="w-full text-sm">
           <thead>
-            <tr className="bg-slate-50 text-left">
-              <th className="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">
+            <tr className="bg-[#0B1120] text-left">
+              <th className="px-4 py-3 text-xs font-semibold text-[#64748B] uppercase tracking-wider">
                 State
               </th>
-              <th className="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider text-right">
+              <th className="px-4 py-3 text-xs font-semibold text-[#64748B] uppercase tracking-wider text-right">
                 Enrollment
               </th>
-              <th className="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider text-right">
+              <th className="px-4 py-3 text-xs font-semibold text-[#64748B] uppercase tracking-wider text-right">
                 YoY Change
               </th>
-              <th className="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider text-right">
+              <th className="px-4 py-3 text-xs font-semibold text-[#64748B] uppercase tracking-wider text-right">
                 Per Enrollee
               </th>
-              <th className="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider text-right">
+              <th className="px-4 py-3 text-xs font-semibold text-[#64748B] uppercase tracking-wider text-right">
                 Managed Care
               </th>
-              <th className="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider text-right">
+              <th className="px-4 py-3 text-xs font-semibold text-[#64748B] uppercase tracking-wider text-right">
                 Quality Score
               </th>
-              <th className="px-4 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">
+              <th className="px-4 py-3 text-xs font-semibold text-[#64748B] uppercase tracking-wider">
                 Expansion
               </th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-slate-100">
+          <tbody className="divide-y divide-[#1E293B]">
             {data.map((state) => (
               <tr
                 key={state.stateCode}
-                className={`hover:bg-slate-50 transition-colors ${
+                className={`transition-colors ${
                   state.stateCode === anchorState
-                    ? "bg-orange-50/50"
-                    : ""
+                    ? "bg-[#F97316]/5 hover:bg-[#F97316]/10"
+                    : "hover:bg-[#1E293B]/50"
                 }`}
               >
                 <td className="px-4 py-3">
                   <div className="flex items-center gap-2">
                     {state.stateCode === anchorState && (
-                      <Star className="w-3.5 h-3.5 fill-orange-400 text-orange-400" />
+                      <Star className="w-3.5 h-3.5 fill-[#F97316] text-[#F97316]" />
                     )}
-                    <span className="font-semibold text-slate-900">
+                    <span className="font-semibold text-[#F1F5F9]">
                       {state.stateCode}
                     </span>
-                    <span className="text-slate-500">{state.stateName}</span>
+                    <span className="text-[#94A3B8]">{state.stateName}</span>
                   </div>
                 </td>
-                <td className="px-4 py-3 text-right font-medium text-slate-900">
+                <td className="px-4 py-3 text-right font-medium text-[#F1F5F9]">
                   {formatNumber(state.enrollment)}
+                  {state.stateCode === anchorState &&
+                    getPeerIndicator(state.enrollment, enrollmentMedian, true)}
                 </td>
                 <td className="px-4 py-3 text-right">
                   <span
                     className={`inline-flex items-center gap-1 font-medium ${
                       state.enrollmentChange > 0
-                        ? "text-emerald-600"
-                        : "text-red-600"
+                        ? "text-emerald-400"
+                        : "text-red-400"
                     }`}
                   >
                     {state.enrollmentChange > 0 ? (
@@ -138,16 +176,28 @@ export default function ComparisonTable({
                     {Math.abs(state.enrollmentChange)}%
                   </span>
                 </td>
-                <td className="px-4 py-3 text-right font-medium text-slate-900">
+                <td className="px-4 py-3 text-right font-medium text-[#F1F5F9]">
                   {formatCurrency(state.perEnrolleeSpending)}
+                  {state.stateCode === anchorState &&
+                    getPeerIndicator(
+                      state.perEnrolleeSpending,
+                      perEnrolleeMedian,
+                      false
+                    )}
                   {getRankBadge(state.stateCode, "perEnrolleeSpending", data, false)}
                 </td>
-                <td className="px-4 py-3 text-right font-medium text-slate-900">
+                <td className="px-4 py-3 text-right font-medium text-[#F1F5F9]">
                   {state.managedCarePenetration}%
+                  {state.stateCode === anchorState &&
+                    getPeerIndicator(
+                      state.managedCarePenetration,
+                      managedCareMedian,
+                      true
+                    )}
                 </td>
                 <td className="px-4 py-3 text-right">
                   <div className="flex items-center justify-end gap-2">
-                    <div className="w-16 bg-slate-100 rounded-full h-2">
+                    <div className="w-16 bg-[#1E293B] rounded-full h-2">
                       <div
                         className={`h-2 rounded-full ${
                           state.qualityScore >= 70
@@ -159,9 +209,15 @@ export default function ComparisonTable({
                         style={{ width: `${state.qualityScore}%` }}
                       />
                     </div>
-                    <span className="font-medium text-slate-900 w-6 text-right">
+                    <span className="font-medium text-[#F1F5F9] w-6 text-right">
                       {state.qualityScore}
                     </span>
+                    {state.stateCode === anchorState &&
+                      getPeerIndicator(
+                        state.qualityScore,
+                        qualityScoreMedian,
+                        true
+                      )}
                   </div>
                 </td>
                 <td className="px-4 py-3">
@@ -169,8 +225,35 @@ export default function ComparisonTable({
                 </td>
               </tr>
             ))}
+            {/* Peer Median Row */}
+            <tr className="border-t-2 border-dashed border-[#1E293B] bg-[#0B1120]/50">
+              <td className="px-4 py-3">
+                <span className="italic text-[#94A3B8] text-sm">Peer Median</span>
+              </td>
+              <td className="px-4 py-3 text-right font-medium text-[#94A3B8] italic">
+                {formatNumber(enrollmentMedian)}
+              </td>
+              <td className="px-4 py-3"></td>
+              <td className="px-4 py-3 text-right font-medium text-[#94A3B8] italic">
+                {formatCurrency(perEnrolleeMedian)}
+              </td>
+              <td className="px-4 py-3 text-right font-medium text-[#94A3B8] italic">
+                {managedCareMedian.toFixed(1)}%
+              </td>
+              <td className="px-4 py-3 text-right font-medium text-[#94A3B8] italic">
+                {qualityScoreMedian.toFixed(1)}
+              </td>
+              <td className="px-4 py-3"></td>
+            </tr>
           </tbody>
         </table>
+      </div>
+      <div className="p-4 border-t border-[#1E293B] bg-[#0B1120]">
+        <p className="text-[11px] text-[#64748B] leading-relaxed">
+          Comparisons across expansion/non-expansion states require careful
+          interpretation. Structural differences in eligibility rules and
+          demographics affect all metrics.
+        </p>
       </div>
     </div>
   );

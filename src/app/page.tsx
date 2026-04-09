@@ -3,51 +3,54 @@
 import { useState } from "react";
 import { Users, DollarSign, Shield, BarChart3 } from "lucide-react";
 import Header from "@/components/Header";
+import TexasPulse from "@/components/TexasPulse";
 import MetricCard from "@/components/MetricCard";
+import ExecutiveAttention from "@/components/ExecutiveAttention";
 import StateSelector from "@/components/StateSelector";
 import EnrollmentChart from "@/components/EnrollmentChart";
 import ComparisonTable from "@/components/ComparisonTable";
+import RiskOpportunityChart from "@/components/RiskOpportunityChart";
+import SignalsFeed from "@/components/SignalsFeed";
 import AlertsFeed from "@/components/AlertsFeed";
-import IntelligenceBriefing from "@/components/IntelligenceBriefing";
 import ChartErrorBoundary from "@/components/ChartErrorBoundary";
-import { useDashboardData } from "@/lib/use-dashboard-data";
+import {
+  sampleStateSummaries,
+  sampleAlerts,
+} from "@/lib/sample-data";
 
 export default function Home() {
-  const { states, trends, alerts, intelligence, dataSource, lastUpdated, isLoading } =
-    useDashboardData();
-
   const [selectedStates, setSelectedStates] = useState<string[]>([
     "CA", "FL", "NY",
   ]);
 
   // Filter table data to show anchor + selected states
-  const tableData = states.filter(
+  const tableData = sampleStateSummaries.filter(
     (s) => s.stateCode === "TX" || selectedStates.includes(s.stateCode)
   );
 
   // Texas data for the hero metrics
-  const texas = states.find((s) => s.stateCode === "TX");
+  const texas = sampleStateSummaries.find((s) => s.stateCode === "TX");
 
   return (
-    <div className="min-h-screen bg-slate-50">
-      <Header dataSource={dataSource} lastUpdated={lastUpdated} />
+    <div className="min-h-screen" style={{ background: "var(--bg-deep)" }}>
+      {/* Sticky header */}
+      <Header />
+
+      {/* Texas Pulse ribbon - always visible, data-rich ticker */}
+      <TexasPulse />
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        {/* Data source banner (when using sample data) */}
-        {!isLoading && dataSource === "sample" && (
-          <div className="mb-4 px-4 py-2.5 bg-amber-50 border border-amber-200 rounded-lg flex items-center gap-2 text-xs text-amber-800">
-            <span className="font-semibold">Sample data.</span>
-            <span>
-              Run the data pipeline (<code className="bg-amber-100 px-1 rounded">python orchestrator.py</code>) to load live enrollment data from CMS.
-            </span>
-          </div>
-        )}
 
-        {/* Hero Metrics - Texas overview */}
-        <section className="mb-6">
+        {/* === SECTION 1: Texas at a Glance — Hero Metrics === */}
+        <section className="mb-8">
           <div className="flex items-center gap-2 mb-4">
-            <h2 className="text-lg font-bold text-slate-900">Texas at a Glance</h2>
-            <span className="text-xs px-2 py-0.5 bg-orange-100 text-orange-800 rounded-full font-semibold">
+            <h2 className="text-lg font-bold" style={{ color: "var(--text-primary)" }}>
+              Texas at a Glance
+            </h2>
+            <span
+              className="text-xs px-2.5 py-0.5 rounded-full font-semibold"
+              style={{ background: "var(--texas-dim)", color: "var(--texas-primary)" }}
+            >
               Anchor State
             </span>
           </div>
@@ -83,84 +86,49 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Main Content Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* Left column: Charts + Table (spans 2 cols) */}
+        {/* === SECTION 2: Executive Intelligence — Two-column layout === */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+          {/* Left column: Executive Attention + Enrollment Chart */}
           <div className="lg:col-span-2 space-y-6">
-            <StateSelector
-              selectedStates={selectedStates}
-              onSelectionChange={setSelectedStates}
-            />
+            <ExecutiveAttention />
 
             <ChartErrorBoundary fallbackMessage="Unable to render enrollment trends">
-              <EnrollmentChart states={selectedStates} trends={trends} />
+              <EnrollmentChart states={selectedStates} />
             </ChartErrorBoundary>
-
-            <ComparisonTable data={tableData} />
           </div>
 
-          {/* Right column: AI Briefing + Alerts + Info */}
+          {/* Right column: Signals + Alerts */}
           <div className="space-y-6">
-            <IntelligenceBriefing data={intelligence} />
-            <AlertsFeed alerts={alerts} />
-
-            {/* Data Sources Attribution */}
-            <div className="bg-white rounded-xl border border-slate-200 p-5">
-              <h3 className="text-sm font-semibold text-slate-900 mb-3">
-                Data Sources
-              </h3>
-              <div className="space-y-2">
-                {[
-                  { name: "data.medicaid.gov", desc: "Enrollment & expenditure" },
-                  { name: "CMS Core Set", desc: "Quality measures" },
-                  { name: "MACPAC MACStats", desc: "Spending analysis" },
-                  { name: "KFF State Health Facts", desc: "Policy tracking" },
-                ].map((source) => (
-                  <div key={source.name} className="flex items-center gap-2">
-                    <div className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
-                    <span className="text-xs font-medium text-slate-700">
-                      {source.name}
-                    </span>
-                    <span className="text-xs text-slate-400">
-                      {source.desc}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Architecture Note */}
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl border border-blue-100 p-5">
-              <h3 className="text-sm font-semibold text-blue-900 mb-2">
-                How This Works
-              </h3>
-              <p className="text-xs text-blue-700 leading-relaxed">
-                This dashboard is powered by a multi-agent data pipeline that
-                automatically collects, normalizes, and analyzes Medicaid data
-                from federal APIs. AI agents generate state briefings and
-                detect anomalies across 50 states in real time.
-              </p>
-              <div className="flex flex-wrap gap-1.5 mt-3">
-                {["Data Agents", "AI Analysis", "Live APIs", "50 States"].map(
-                  (tag) => (
-                    <span
-                      key={tag}
-                      className="text-[10px] px-2 py-0.5 bg-white/70 text-blue-700 rounded-full font-medium"
-                    >
-                      {tag}
-                    </span>
-                  )
-                )}
-              </div>
-            </div>
+            <SignalsFeed />
+            <AlertsFeed alerts={sampleAlerts} />
           </div>
         </div>
+
+        {/* === SECTION 3: Peer-State Benchmarking === */}
+        <section className="mb-8">
+          <StateSelector
+            selectedStates={selectedStates}
+            onSelectionChange={setSelectedStates}
+          />
+        </section>
+
+        <section className="mb-8">
+          <ComparisonTable data={tableData} />
+        </section>
+
+        {/* === SECTION 4: Risk & Opportunity Matrix === */}
+        <section className="mb-8">
+          <ChartErrorBoundary fallbackMessage="Unable to render risk/opportunity matrix">
+            <RiskOpportunityChart />
+          </ChartErrorBoundary>
+        </section>
       </main>
 
-      <footer className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 mt-8 border-t border-slate-200">
-        <div className="flex items-center justify-between text-xs text-slate-400">
-          <span>National Medicaid Intelligence Dashboard v0.1</span>
-          <span>Data sourced from public federal datasets</span>
+      {/* Footer */}
+      <footer className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 mt-4" style={{ borderTop: "1px solid var(--border-subtle)" }}>
+        <div className="flex items-center justify-between text-xs" style={{ color: "var(--text-muted)" }}>
+          <span>National Medicaid Intelligence Dashboard v0.2</span>
+          <span>Data sourced from public federal datasets | AI-powered analysis</span>
         </div>
       </footer>
     </div>

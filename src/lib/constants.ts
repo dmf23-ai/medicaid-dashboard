@@ -53,34 +53,46 @@ export const US_STATES: Record<string, { name: string; region: string; expansion
   WY: { name: "Wyoming", region: "West", expansionStatus: "not_expanded" },
 };
 
-// States that have NOT expanded Medicaid (as of 2026)
 export const NON_EXPANSION_STATES = Object.entries(US_STATES)
   .filter(([, data]) => data.expansionStatus === "not_expanded")
   .map(([code]) => code);
 
-// Suggested peer states for Texas comparison
+// Peer-group framework aligned with the Chief's mental model
 export const TEXAS_PEER_STATES = {
-  byPopulation: ["CA", "FL", "NY", "PA", "IL"], // Large states
-  byRegion: ["FL", "LA", "OK", "AR", "MS"],     // Southern/neighboring
-  byExpansion: ["FL", "GA", "MS", "TN", "WY", "SC", "KS"], // Non-expansion peers
+  scaleStates: ["CA", "FL", "NY", "PA", "IL"],             // Comparable program size
+  nonExpansionPeers: ["FL", "GA", "MS", "TN", "SC", "KS", "WY"], // Same expansion posture
+  sunBeltPeers: ["FL", "GA", "AZ", "NC", "LA"],            // Demographics + geography
+  managedCarePeers: ["FL", "TN", "OH", "PA", "LA"],        // High managed-care penetration
+  pursuitStates: ["OH", "NC", "IN", "VA", "MI"],            // States where Accenture may pursue new work
 };
 
-// Color palette for state comparison charts
+export const PEER_GROUP_LABELS: Record<string, { label: string; description: string }> = {
+  scaleStates: { label: "Scale Peers", description: "Large Medicaid programs by enrollment" },
+  nonExpansionPeers: { label: "Non-Expansion", description: "States that haven't expanded Medicaid" },
+  sunBeltPeers: { label: "Sun Belt", description: "Similar demographics and geography" },
+  managedCarePeers: { label: "Managed Care", description: "High managed-care penetration states" },
+  pursuitStates: { label: "Pursuit States", description: "Strategic growth targets" },
+};
+
+// Color palette for state comparison charts — updated for dark theme
 export const STATE_COLORS: Record<string, string> = {
-  TX: "#bf360c", // Texas gets a distinct warm color
-  CA: "#1565c0",
-  FL: "#2e7d32",
-  NY: "#6a1b9a",
-  PA: "#00838f",
-  IL: "#e65100",
-  OH: "#283593",
-  GA: "#4e342e",
-  NC: "#1b5e20",
-  MI: "#0d47a1",
-  DEFAULT: "#546e7a",
+  TX: "#F97316", // Texas orange
+  CA: "#60A5FA", // Blue
+  FL: "#34D399", // Emerald
+  NY: "#C084FC", // Purple
+  PA: "#22D3EE", // Cyan
+  IL: "#FB923C", // Amber
+  OH: "#818CF8", // Indigo
+  GA: "#F472B6", // Pink
+  NC: "#A3E635", // Lime
+  MI: "#38BDF8", // Sky
+  TN: "#FBBF24", // Yellow
+  MS: "#F87171", // Red
+  LA: "#2DD4BF", // Teal
+  SC: "#E879F9", // Fuchsia
+  DEFAULT: "#94A3B8", // Slate
 };
 
-// Metric display configuration
 export const METRICS = {
   enrollment: {
     label: "Total Enrollment",

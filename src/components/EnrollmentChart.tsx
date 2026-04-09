@@ -16,25 +16,20 @@ import { sampleEnrollmentTrends } from "@/lib/sample-data";
 interface EnrollmentChartProps {
   states: string[];
   anchorState?: string;
-  trends?: Record<string, { month: string; value: number }[]>;
 }
 
 export default function EnrollmentChart({
   states,
   anchorState = "TX",
-  trends,
 }: EnrollmentChartProps) {
-  // Use provided trends (from hook/pipeline) or fall back to sample data
-  const trendData = trends && Object.keys(trends).length > 0 ? trends : sampleEnrollmentTrends;
-
   const allStates = [anchorState, ...states.filter((s) => s !== anchorState)];
 
   // Build unified dataset: each row has month + value per state
-  const months = trendData[anchorState]?.map((d) => d.month) || [];
+  const months = sampleEnrollmentTrends[anchorState]?.map((d) => d.month) || [];
   const chartData = months.map((month) => {
     const row: Record<string, string | number> = { month };
     allStates.forEach((code) => {
-      const trend = trendData[code];
+      const trend = sampleEnrollmentTrends[code];
       const point = trend?.find((d) => d.month === month);
       if (point) {
         row[code] = point.value;
@@ -56,32 +51,32 @@ export default function EnrollmentChart({
   };
 
   return (
-    <div className="bg-white rounded-xl border border-slate-200 p-5">
+    <div className="bg-[#111827] rounded-xl border border-[#1E293B] p-5">
       <div className="flex items-center justify-between mb-4">
         <div>
-          <h3 className="text-sm font-semibold text-slate-900">
-            Enrollment Trends
+          <h3 className="text-sm font-semibold text-[#F1F5F9]">
+            Texas vs. Peer States: Enrollment
           </h3>
-          <p className="text-xs text-slate-500 mt-0.5">
+          <p className="text-xs text-[#94A3B8] mt-0.5">
             Monthly Medicaid &amp; CHIP enrollment by state
           </p>
         </div>
-        <span className="text-xs text-slate-400">2025</span>
+        <span className="text-xs text-[#475569]">2025</span>
       </div>
 
       <ResponsiveContainer width="100%" height={320}>
         <LineChart data={chartData}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" />
+          <CartesianGrid strokeDasharray="3 3" stroke="#1E293B" />
           <XAxis
             dataKey="month"
             tickFormatter={formatMonth}
-            tick={{ fontSize: 11, fill: "#94a3b8" }}
-            axisLine={{ stroke: "#e2e8f0" }}
+            tick={{ fontSize: 11, fill: "#64748B" }}
+            axisLine={{ stroke: "#1E293B" }}
           />
           <YAxis
             tickFormatter={formatValue}
-            tick={{ fontSize: 11, fill: "#94a3b8" }}
-            axisLine={{ stroke: "#e2e8f0" }}
+            tick={{ fontSize: 11, fill: "#64748B" }}
+            axisLine={{ stroke: "#1E293B" }}
             width={55}
           />
           <Tooltip
@@ -91,14 +86,16 @@ export default function EnrollmentChart({
             ]}
             labelFormatter={(label: unknown) => formatMonth(String(label))}
             contentStyle={{
+              background: "#1E293B",
+              border: "1px solid #2A3547",
+              color: "#F1F5F9",
               borderRadius: "8px",
-              border: "1px solid #e2e8f0",
-              boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
+              boxShadow: "0 20px 25px -5px rgba(0,0,0,0.5)",
               fontSize: "12px",
             }}
           />
           <Legend
-            wrapperStyle={{ fontSize: "12px", paddingTop: "8px" }}
+            wrapperStyle={{ fontSize: "12px", paddingTop: "8px", color: "#94A3B8" }}
           />
           {allStates.map((code) => (
             <Line
