@@ -157,12 +157,13 @@ export function useDashboardData(): DashboardData {
     if (intelligence?.alerts && intelligence.alerts.length > 0) {
       mergedAlerts = intelligence.alerts.map((a) => ({
         id: `ai-${a.title.replace(/\s+/g, "-").toLowerCase().slice(0, 30)}`,
+        stateCode: (a.states && a.states[0]) || "US",
+        stateName: (a.states && a.states[0]) || "National",
+        type: "policy_change" as DashboardAlert["type"],
         title: a.title,
         severity: a.severity as DashboardAlert["severity"],
         description: a.description,
-        states: a.states || [],
-        timestamp: a.timestamp || new Date().toISOString(),
-        category: a.category || "ai_detected",
+        date: a.timestamp || new Date().toISOString().split("T")[0],
       }));
     }
 
