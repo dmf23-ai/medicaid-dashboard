@@ -162,7 +162,11 @@ export default function AlertsFeed({ alerts, onStateClick }: AlertsFeedProps) {
           );
         })}
       </div>
-      <SourceLink label="CMS data analysis + AI anomaly detection" date="Mar 2026" />
+      <SourceLink
+        label="CMS data analysis + AI anomaly detection"
+        url="/methodology#alerts"
+        date="Mar 2026"
+      />
     </div>
   );
 }

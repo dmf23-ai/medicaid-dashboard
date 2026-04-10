@@ -490,7 +490,11 @@ export default function RiskOpportunityChart() {
         </div>
       )}
 
-      <SourceLink label="Accenture Intelligence Analysis" date="Mar 2026" />
+      <SourceLink
+        label="Accenture Intelligence Analysis"
+        url="/methodology#risk-opportunity"
+        date="Mar 2026"
+      />
     </div>
   );
 }

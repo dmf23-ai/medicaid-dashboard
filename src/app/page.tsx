@@ -15,6 +15,7 @@ import AlertsFeed from "@/components/AlertsFeed";
 import ChartErrorBoundary from "@/components/ChartErrorBoundary";
 import SpendingBreakdownChart from "@/components/SpendingBreakdownChart";
 import StateDetailPanel from "@/components/StateDetailPanel";
+import AskClaude from "@/components/AskClaude";
 import { useDashboardData } from "@/lib/use-dashboard-data";
 
 export default function Home() {
@@ -93,7 +94,7 @@ export default function Home() {
               invertTrend
               tooltip="Average annual Medicaid spending per enrollee in Texas. Lower can indicate efficiency or access concerns."
               sourceLabel="CMS MBES/CBES (CMS-64)"
-              sourceUrl="https://www.medicaid.gov/medicaid/financial-management/state-expenditure-reporting/expenditure-reports/index.html"
+              sourceUrl="https://www.medicaid.gov/medicaid/financial-management/state-budget-expenditure-reporting-for-medicaid-and-chip/expenditure-reports-mbes/cbes"
             />
             <MetricCard
               title="Managed Care Rate"
@@ -101,7 +102,7 @@ export default function Home() {
               icon={<Shield className="w-5 h-5" />}
               tooltip="Share of Texas Medicaid enrollees served through managed care organizations (STAR, STAR+PLUS, STAR Kids, STAR Health)."
               sourceLabel="CMS Medicaid Managed Care Enrollment Report"
-              sourceUrl="https://www.medicaid.gov/medicaid/managed-care/enrollment/index.html"
+              sourceUrl="https://www.medicaid.gov/medicaid/managed-care/enrollment-report"
             />
             <MetricCard
               title="Quality Score"
@@ -111,7 +112,7 @@ export default function Home() {
               icon={<BarChart3 className="w-5 h-5" />}
               tooltip="Composite quality score based on CMS Adult & Child Core Set measures (preventive care, chronic disease, behavioral health)."
               sourceLabel="CMS Medicaid Core Set Quality Measures"
-              sourceUrl="https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures/index.html"
+              sourceUrl="https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures"
             />
           </div>
         </section>
@@ -119,12 +120,14 @@ export default function Home() {
         {/* === SECTION 2: Executive Intelligence — Two-column layout === */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
           {/* Left column: Executive Attention + Enrollment Chart */}
-          <div className="lg:col-span-2 space-y-6">
+          <div className="lg:col-span-2 flex flex-col gap-6">
             <ExecutiveAttention />
 
-            <ChartErrorBoundary fallbackMessage="Unable to render enrollment trends">
-              <EnrollmentChart states={selectedStates} />
-            </ChartErrorBoundary>
+            <div className="flex-1 flex flex-col min-h-0">
+              <ChartErrorBoundary fallbackMessage="Unable to render enrollment trends">
+                <EnrollmentChart states={selectedStates} />
+              </ChartErrorBoundary>
+            </div>
           </div>
 
           {/* Right column: Signals + Alerts */}
@@ -187,6 +190,9 @@ export default function Home() {
         states={states}
         trends={trends}
       />
+
+      {/* Ask Claude floating button + drawer */}
+      <AskClaude />
     </div>
   );
 }

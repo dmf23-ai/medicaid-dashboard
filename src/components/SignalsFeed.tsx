@@ -233,7 +233,11 @@ export default function SignalsFeed() {
 
       {/* Source Link */}
       <div className="px-6 py-4 border-t border-border-subtle">
-        <SourceLink label="Public procurement portals, CMS.gov, Federal Register" date="Mar 2026" />
+        <SourceLink
+          label="Public procurement portals, CMS.gov, Federal Register"
+          url="/methodology#signals"
+          date="Mar 2026"
+        />
       </div>
     </div>
   );

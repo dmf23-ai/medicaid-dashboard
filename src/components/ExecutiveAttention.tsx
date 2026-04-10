@@ -16,7 +16,7 @@ import { sampleInsights } from "@/lib/sample-data";
 import { Tooltip as TooltipHint } from "./Tooltip";
 import { SourceLink } from "./SourceLink";
 
-const DEFAULT_VISIBLE = 2;
+const DEFAULT_VISIBLE = 3;
 
 export default function ExecutiveAttention() {
   const insights = sampleInsights;
@@ -323,7 +323,11 @@ export default function ExecutiveAttention() {
       )}
 
       {/* Source Link */}
-      <SourceLink label="AI Intelligence Analysis (Claude)" date="Mar 2026" />
+      <SourceLink
+        label="AI Intelligence Analysis (Claude)"
+        url="/methodology#executive-attention"
+        date="Mar 2026"
+      />
     </div>
   );
 }

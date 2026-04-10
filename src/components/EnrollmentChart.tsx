@@ -53,8 +53,8 @@ export default function EnrollmentChart({
   };
 
   return (
-    <div className="bg-[#111827] rounded-xl border border-[#1E293B] p-5">
-      <div className="flex items-center justify-between mb-4">
+    <div className="bg-[#111827] rounded-xl border border-[#1E293B] p-5 h-full flex flex-col">
+      <div className="flex items-center justify-between mb-4 flex-shrink-0">
         <div>
           <TooltipHint content="Monthly enrollment headcount for Texas and selected comparison states. Dashed lines indicate non-anchor states.">
             <h3 className="text-sm font-semibold text-[#F1F5F9] border-b border-dashed border-[#475569]">
@@ -68,8 +68,9 @@ export default function EnrollmentChart({
         <span className="text-xs text-[#475569]">2025</span>
       </div>
 
-      <ResponsiveContainer width="100%" height={320}>
-        <LineChart data={chartData}>
+      <div className="flex-1 min-h-[320px]">
+        <ResponsiveContainer width="100%" height="100%">
+          <LineChart data={chartData}>
           <CartesianGrid strokeDasharray="3 3" stroke="#1E293B" />
           <XAxis
             dataKey="month"
@@ -115,8 +116,9 @@ export default function EnrollmentChart({
               strokeDasharray={code === anchorState ? undefined : "5 3"}
             />
           ))}
-        </LineChart>
-      </ResponsiveContainer>
+          </LineChart>
+        </ResponsiveContainer>
+      </div>
       <SourceLink label="CMS Monthly Medicaid & CHIP Enrollment" url="https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360" />
     </div>
   );
