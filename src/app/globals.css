@@ -77,6 +77,9 @@ html {
 .ticker-animate {
   animation: ticker-scroll 30s linear infinite;
 }
+.ticker-animate:hover {
+  animation-play-state: paused;
+}
 
 @keyframes fade-in {
   from { opacity: 0; transform: translateY(8px); }

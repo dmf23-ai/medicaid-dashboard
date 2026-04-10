@@ -98,6 +98,8 @@ export interface DashboardAlert {
   date: string;
   metric?: string;
   change?: number;
+  sourceUrl?: string;
+  sourceLabel?: string;
 }
 
 export interface StateSummary {
@@ -125,6 +127,7 @@ export interface ExecutiveInsight {
   actionPrompt: string;
   relatedStates: string[];
   source: string;
+  sourceUrl?: string;
   timestamp: string;
 }
 
@@ -149,6 +152,8 @@ export interface RiskOpportunityItem {
   impact: number;      // 0-100 (bubble size)
   trend: "improving" | "stable" | "deteriorating";
   category: "procurement" | "operations" | "policy" | "quality" | "competitive";
+  sourceUrl?: string;
+  recommendedAction?: string;
 }
 
 export interface TexasPulseMetric {
@@ -157,4 +162,6 @@ export interface TexasPulseMetric {
   delta?: string;
   deltaDirection?: "up" | "down" | "neutral";
   icon?: string;
+  tooltip?: string;
+  sourceUrl?: string;
 }

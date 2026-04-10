@@ -198,6 +198,8 @@ export const sampleAlerts: DashboardAlert[] = [
     date: "2025-12-15",
     metric: "enrollment",
     change: -11.3,
+    sourceUrl: "https://www.kff.org/medicaid/issue-brief/medicaid-enrollment-and-unwinding-tracker/",
+    sourceLabel: "KFF Medicaid Unwinding Tracker",
   },
   {
     id: "2",
@@ -209,6 +211,8 @@ export const sampleAlerts: DashboardAlert[] = [
     description:
       "The 2025 Reconciliation Act's work requirements may affect partial expansion planning and legislative discussions. While Texas hasn't expanded, this may shape legislative posture.",
     date: "2025-12-08",
+    sourceUrl: "https://www.congress.gov/",
+    sourceLabel: "Congress.gov — 2025 Reconciliation Act",
   },
   {
     id: "3",
@@ -222,6 +226,8 @@ export const sampleAlerts: DashboardAlert[] = [
     date: "2025-11-30",
     metric: "perEnrolleeSpending",
     change: 9.2,
+    sourceUrl: "https://www.medicaid.gov/medicaid/financial-management/state-expenditure-reporting/expenditure-reports/index.html",
+    sourceLabel: "CMS MBES Expenditure Reports",
   },
   {
     id: "4",
@@ -233,6 +239,8 @@ export const sampleAlerts: DashboardAlert[] = [
     description:
       "Georgia's Pathways to Coverage 1115 waiver (partial expansion with work requirements) faces federal review under the new reconciliation framework.",
     date: "2025-12-20",
+    sourceUrl: "https://www.medicaid.gov/medicaid/section-1115-demonstrations/index.html",
+    sourceLabel: "CMS 1115 Demonstration Waivers",
   },
   {
     id: "5",
@@ -245,6 +253,8 @@ export const sampleAlerts: DashboardAlert[] = [
       "Mississippi's composite quality score of 48 ranks last among all states, with particular weakness in maternal health and preventive care metrics.",
     date: "2025-12-01",
     metric: "qualityScore",
+    sourceUrl: "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures/index.html",
+    sourceLabel: "CMS Core Set Quality Measures",
   },
 ];
 
@@ -271,6 +281,7 @@ export const sampleInsights: ExecutiveInsight[] = [
     actionPrompt: "Brief growth team on adjacency; request pre-RFP engagement with HHSC analytics lead",
     relatedStates: ["TX"],
     source: "HHSC Procurement Forecast",
+    sourceUrl: "https://www.txsmartbuy.com/sp",
     timestamp: "2026-04-07",
   },
   {
@@ -285,6 +296,7 @@ export const sampleInsights: ExecutiveInsight[] = [
     actionPrompt: "Review outreach metrics with BusOps ops lead; prepare proactive HHSC talking points",
     relatedStates: ["TX", "FL", "TN"],
     source: "CMS Enrollment Snapshot + Pipeline Analysis",
+    sourceUrl: "https://www.medicaid.gov/medicaid/program-information/medicaid-and-chip-enrollment-data/index.html",
     timestamp: "2026-04-06",
   },
   {
@@ -299,6 +311,7 @@ export const sampleInsights: ExecutiveInsight[] = [
     actionPrompt: "Model FMAP impact scenarios; align finance team on amendment strategy",
     relatedStates: ["TX"],
     source: "CMS All-State Call Materials",
+    sourceUrl: "https://www.medicaid.gov/federal-policy-guidance/index.html",
     timestamp: "2026-04-03",
   },
   {
@@ -313,6 +326,7 @@ export const sampleInsights: ExecutiveInsight[] = [
     actionPrompt: "Map quality improvement levers within BusOps scope; prepare for quality review prep",
     relatedStates: ["TX"],
     source: "CMS Core Set + Pipeline Analysis",
+    sourceUrl: "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures/index.html",
     timestamp: "2026-04-05",
   },
 ];
@@ -400,6 +414,8 @@ export const sampleRiskOpportunity: RiskOpportunityItem[] = [
     impact: 85,
     trend: "improving",
     category: "procurement",
+    sourceUrl: "https://www.txsmartbuy.com/sp",
+    recommendedAction: "Brief growth team; request pre-RFP engagement with HHSC analytics lead",
   },
   {
     id: "ro-2",
@@ -410,6 +426,8 @@ export const sampleRiskOpportunity: RiskOpportunityItem[] = [
     impact: 70,
     trend: "deteriorating",
     category: "operations",
+    sourceUrl: "https://www.kff.org/medicaid/issue-brief/medicaid-enrollment-and-unwinding-tracker/",
+    recommendedAction: "Review outreach metrics with BusOps ops lead; prepare proactive HHSC briefing",
   },
   {
     id: "ro-3",
@@ -420,6 +438,8 @@ export const sampleRiskOpportunity: RiskOpportunityItem[] = [
     impact: 80,
     trend: "stable",
     category: "policy",
+    sourceUrl: "https://www.medicaid.gov/medicaid/financial-management/federal-matching-assistance-percentages/index.html",
+    recommendedAction: "Model FMAP scenarios for FY2027 budget; align with finance lead",
   },
   {
     id: "ro-4",
@@ -430,6 +450,8 @@ export const sampleRiskOpportunity: RiskOpportunityItem[] = [
     impact: 90,
     trend: "improving",
     category: "competitive",
+    sourceUrl: "https://procure.ohio.gov/",
+    recommendedAction: "Confirm pursuit decision; stand up Ohio capture team by end of quarter",
   },
   {
     id: "ro-5",
@@ -440,6 +462,8 @@ export const sampleRiskOpportunity: RiskOpportunityItem[] = [
     impact: 55,
     trend: "improving",
     category: "quality",
+    sourceUrl: "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures/index.html",
+    recommendedAction: "Map quality improvement levers within BusOps scope",
   },
   {
     id: "ro-6",
@@ -450,6 +474,8 @@ export const sampleRiskOpportunity: RiskOpportunityItem[] = [
     impact: 50,
     trend: "deteriorating",
     category: "operations",
+    sourceUrl: "https://oig.hhs.gov/reports/",
+    recommendedAction: "Audit encounter data pipeline completeness; prep remediation memo",
   },
   {
     id: "ro-7",
@@ -460,6 +486,8 @@ export const sampleRiskOpportunity: RiskOpportunityItem[] = [
     impact: 65,
     trend: "stable",
     category: "procurement",
+    sourceUrl: "https://www.medicaid.gov/medicaid/home-community-based-services/guidance/electronic-visit-verification-evv/index.html",
+    recommendedAction: "Submit extension request 60 days before renewal window opens",
   },
   {
     id: "ro-8",
@@ -470,17 +498,74 @@ export const sampleRiskOpportunity: RiskOpportunityItem[] = [
     impact: 95,
     trend: "deteriorating",
     category: "policy",
+    sourceUrl: "https://www.congress.gov/",
+    recommendedAction: "Monitor legislation; brief leadership on per-capita cap exposure",
   },
 ];
 
 // --- Texas Pulse ribbon metrics ---
 export const samplePulseMetrics: TexasPulseMetric[] = [
-  { label: "Enrollment", value: "5.84M", delta: "-8.2% YoY", deltaDirection: "down" },
-  { label: "12-Mo Delta", value: "-508K", delta: "vs -420K peers", deltaDirection: "down" },
-  { label: "Per Enrollee", value: "$7,450", delta: "+4.2% YoY", deltaDirection: "up" },
-  { label: "Managed Care", value: "92%", deltaDirection: "neutral" },
-  { label: "Quality Score", value: "62/100", delta: "+2 pts", deltaDirection: "up" },
-  { label: "Procurement Items", value: "3 active", delta: "1 new this week", deltaDirection: "neutral" },
-  { label: "OIG Signals", value: "2 open", delta: "encounter data focus", deltaDirection: "neutral" },
-  { label: "Next Major Milestone", value: "47 days", delta: "EVV renewal window", deltaDirection: "neutral" },
+  {
+    label: "Enrollment",
+    value: "5.84M",
+    delta: "-8.2% YoY",
+    deltaDirection: "down",
+    tooltip: "Total Texas Medicaid & CHIP members as of the most recent CMS monthly snapshot. Year-over-year change reflects net enrollment movement across all eligibility categories.",
+    sourceUrl: "https://www.medicaid.gov/medicaid/program-information/medicaid-and-chip-enrollment-data/index.html",
+  },
+  {
+    label: "12-Mo Delta",
+    value: "-508K",
+    delta: "vs -420K peers",
+    deltaDirection: "down",
+    tooltip: "Net change in Texas enrollment over the trailing twelve months. Peer benchmark is the median of non-expansion states over the same period.",
+    sourceUrl: "https://www.medicaid.gov/medicaid/program-information/medicaid-and-chip-enrollment-data/index.html",
+  },
+  {
+    label: "Per Enrollee",
+    value: "$7,450",
+    delta: "+4.2% YoY",
+    deltaDirection: "up",
+    tooltip: "Average annual Medicaid spending per Texas enrollee, drawn from CMS MBES/CBES (CMS-64) reports. Rising costs can signal care intensity shifts, pharmacy pressure, or utilization changes.",
+    sourceUrl: "https://www.medicaid.gov/medicaid/financial-management/state-expenditure-reporting/expenditure-reports/index.html",
+  },
+  {
+    label: "Managed Care",
+    value: "92%",
+    deltaDirection: "neutral",
+    tooltip: "Share of Texas Medicaid enrollees served through managed care organizations (STAR, STAR+PLUS, STAR Kids, STAR Health). Texas has one of the highest managed care penetration rates in the country.",
+    sourceUrl: "https://www.medicaid.gov/medicaid/managed-care/enrollment/index.html",
+  },
+  {
+    label: "Quality Score",
+    value: "62/100",
+    delta: "+2 pts",
+    deltaDirection: "up",
+    tooltip: "Composite quality score derived from CMS Adult & Child Core Set measures. Includes preventive care, chronic disease management, behavioral health, and maternal health. Texas currently sits in the 38th percentile nationally.",
+    sourceUrl: "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures/index.html",
+  },
+  {
+    label: "Procurement Items",
+    value: "3 active",
+    delta: "1 new this week",
+    deltaDirection: "neutral",
+    tooltip: "Count of open or imminent HHSC Medicaid-related procurements being tracked on the Texas SmartBuy forecast and solicitation board. Used as a leading indicator of upcoming competitive activity.",
+    sourceUrl: "https://www.txsmartbuy.com/sp",
+  },
+  {
+    label: "OIG Signals",
+    value: "2 open",
+    delta: "encounter data focus",
+    deltaDirection: "neutral",
+    tooltip: "Active HHS Office of Inspector General reports, memos, or investigations touching Texas Medicaid operations. Current focus areas drive audit and remediation priorities.",
+    sourceUrl: "https://oig.hhs.gov/reports/",
+  },
+  {
+    label: "Next Major Milestone",
+    value: "47 days",
+    delta: "EVV renewal window",
+    deltaDirection: "neutral",
+    tooltip: "Days remaining until the next scheduled HHSC contract, waiver, or policy milestone requiring Accenture action. Used to pace leadership attention and capture team readiness.",
+    sourceUrl: "https://www.medicaid.gov/medicaid/home-community-based-services/guidance/electronic-visit-verification-evv/index.html",
+  },
 ];

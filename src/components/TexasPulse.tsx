@@ -3,6 +3,7 @@
 import { TrendingUp, TrendingDown, Minus } from 'lucide-react';
 import { samplePulseMetrics } from '@/lib/sample-data';
 import { TexasPulseMetric } from '@/lib/types';
+import { Tooltip } from './Tooltip';
 
 export default function TexasPulse() {
   // Duplicate metrics for seamless scrolling
@@ -53,41 +54,36 @@ export default function TexasPulse() {
       <div className="relative h-full overflow-hidden">
         {/* Gradient overlays for seamless edges */}
         <div
-          className="absolute left-0 top-0 bottom-0 w-8 z-10"
+          className="absolute left-0 top-0 bottom-0 w-8 z-10 pointer-events-none"
           style={{
             backgroundImage: 'linear-gradient(to right, var(--bg-primary), transparent)',
           }}
         />
         <div
-          className="absolute right-0 top-0 bottom-0 w-8 z-10"
+          className="absolute right-0 top-0 bottom-0 w-8 z-10 pointer-events-none"
           style={{
             backgroundImage: 'linear-gradient(to left, var(--bg-primary), transparent)',
           }}
         />
 
-        {/* Scrolling ticker */}
+        {/* Scrolling ticker (pauses on hover via globals.css) */}
         <div className="ticker-animate flex h-full items-center">
-          {displayMetrics.map((metric, idx) => (
-            <div
-              key={`${metric.label}-${idx}`}
-              className="flex items-center px-6 shrink-0"
-              style={{
-                minWidth: '200px',
-              }}
-            >
-              {/* Metric content */}
-              <div className="flex flex-col gap-0.5">
-                {/* Label */}
+          {displayMetrics.map((metric, idx) => {
+            const metricInner = (
+              <div className="flex flex-col gap-0.5 cursor-help">
+                {/* Label with dashed underline cue */}
                 <div
-                  className="text-xs font-medium tracking-wide uppercase"
-                  style={{ color: 'var(--text-secondary)' }}
+                  className="text-xs font-medium tracking-wide uppercase border-b border-dashed"
+                  style={{
+                    color: 'var(--text-secondary)',
+                    borderColor: 'var(--text-muted)',
+                  }}
                 >
                   {metric.label}
                 </div>
 
                 {/* Value and delta on same line */}
                 <div className="flex items-center gap-2">
-                  {/* Value */}
                   <div
                     className="text-sm font-bold"
                     style={{ color: 'var(--text-primary)' }}
@@ -95,7 +91,6 @@ export default function TexasPulse() {
                     {metric.value}
                   </div>
 
-                  {/* Delta */}
                   {metric.delta && (
                     <div
                       className="flex items-center gap-1 text-xs font-medium"
@@ -107,16 +102,34 @@ export default function TexasPulse() {
                   )}
                 </div>
               </div>
+            );
 
-              {/* Vertical divider (except for last item in each set) */}
-              {idx < samplePulseMetrics.length - 1 || idx >= samplePulseMetrics.length ? (
-                <div
-                  className="ml-6 w-px h-8"
-                  style={{ backgroundColor: 'var(--border-subtle)' }}
-                />
-              ) : null}
-            </div>
-          ))}
+            return (
+              <div
+                key={`${metric.label}-${idx}`}
+                className="flex items-center px-6 shrink-0"
+                style={{
+                  minWidth: '200px',
+                }}
+              >
+                {metric.tooltip ? (
+                  <Tooltip content={metric.tooltip} position="top">
+                    {metricInner}
+                  </Tooltip>
+                ) : (
+                  metricInner
+                )}
+
+                {/* Vertical divider (except for last item in each set) */}
+                {idx < samplePulseMetrics.length - 1 || idx >= samplePulseMetrics.length ? (
+                  <div
+                    className="ml-6 w-px h-8"
+                    style={{ backgroundColor: 'var(--border-subtle)' }}
+                  />
+                ) : null}
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

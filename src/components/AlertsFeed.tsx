@@ -5,6 +5,7 @@ import {
   TrendingDown,
   FileText,
   Activity,
+  ExternalLink,
 } from "lucide-react";
 import { DashboardAlert } from "@/lib/types";
 import { Tooltip as TooltipHint } from "./Tooltip";
@@ -12,9 +13,10 @@ import { SourceLink } from "./SourceLink";
 
 interface AlertsFeedProps {
   alerts: DashboardAlert[];
+  onStateClick?: (stateCode: string) => void;
 }
 
-export default function AlertsFeed({ alerts }: AlertsFeedProps) {
+export default function AlertsFeed({ alerts, onStateClick }: AlertsFeedProps) {
   const getAlertIcon = (type: string) => {
     switch (type) {
       case "enrollment_change":
@@ -94,7 +96,7 @@ export default function AlertsFeed({ alerts }: AlertsFeedProps) {
           return (
             <div
               key={alert.id}
-              className={`${styles.bg} ${styles.border} rounded-lg p-3 cursor-pointer hover:border-[#2A3547] transition-colors`}
+              className={`${styles.bg} ${styles.border} rounded-lg p-3 hover:border-[#2A3547] transition-colors`}
             >
               <div className="flex items-start gap-3">
                 <div className={`mt-0.5 ${styles.icon}`}>
@@ -102,9 +104,21 @@ export default function AlertsFeed({ alerts }: AlertsFeedProps) {
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs font-bold text-[#F1F5F9]">
-                      {alert.stateCode}
-                    </span>
+                    {/* State chip — opens State Detail panel when clicked */}
+                    {onStateClick ? (
+                      <button
+                        type="button"
+                        onClick={() => onStateClick(alert.stateCode)}
+                        className="text-xs font-bold text-[#F1F5F9] hover:text-[#F97316] transition-colors cursor-pointer"
+                        aria-label={`Open ${alert.stateName} detail panel`}
+                      >
+                        {alert.stateCode}
+                      </button>
+                    ) : (
+                      <span className="text-xs font-bold text-[#F1F5F9]">
+                        {alert.stateCode}
+                      </span>
+                    )}
                     <span
                       className={`text-[10px] px-1.5 py-0.5 rounded-full font-semibold ${styles.badge}`}
                     >
@@ -113,6 +127,28 @@ export default function AlertsFeed({ alerts }: AlertsFeedProps) {
                     <span className="text-[10px] text-[#475569] ml-auto">
                       {alert.date}
                     </span>
+                    {/* External source link */}
+                    {alert.sourceUrl && (
+                      <TooltipHint
+                        content={
+                          alert.sourceLabel
+                            ? `Source: ${alert.sourceLabel}`
+                            : "Open source"
+                        }
+                        position="top"
+                      >
+                        <a
+                          href={alert.sourceUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[#64748B] hover:text-[#F97316] transition-colors"
+                          aria-label="Open source in new tab"
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          <ExternalLink className="w-3 h-3" />
+                        </a>
+                      </TooltipHint>
+                    )}
                   </div>
                   <p className="text-xs font-semibold text-[#F1F5F9] leading-snug">
                     {alert.title}

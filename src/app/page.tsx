@@ -130,7 +130,7 @@ export default function Home() {
           {/* Right column: Signals + Alerts */}
           <div className="space-y-6">
             <SignalsFeed />
-            <AlertsFeed alerts={alerts} />
+            <AlertsFeed alerts={alerts} onStateClick={setDetailStateCode} />
           </div>
         </div>
 
