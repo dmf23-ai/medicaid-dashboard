@@ -1,6 +1,8 @@
 "use client";
 
 import { TrendingUp, TrendingDown, Minus } from "lucide-react";
+import { Tooltip } from "./Tooltip";
+import { SourceLink } from "./SourceLink";
 
 interface MetricCardProps {
   title: string;
@@ -11,6 +13,9 @@ interface MetricCardProps {
   highlight?: boolean;
   /** When true, positive change = bad (red), negative = good (green). Use for cost metrics. */
   invertTrend?: boolean;
+  tooltip?: string;
+  sourceLabel?: string;
+  sourceUrl?: string;
 }
 
 export default function MetricCard({
@@ -21,6 +26,9 @@ export default function MetricCard({
   icon,
   highlight = false,
   invertTrend = false,
+  tooltip,
+  sourceLabel,
+  sourceUrl,
 }: MetricCardProps) {
   const getTrendIcon = () => {
     if (change === undefined) return null;
@@ -47,7 +55,13 @@ export default function MetricCard({
     >
       <div className="flex items-start justify-between">
         <div>
-          <p className="text-sm text-[#94A3B8] font-medium">{title}</p>
+          {tooltip ? (
+            <Tooltip content={tooltip}>
+              <p className={`text-sm text-[#94A3B8] font-medium border-b border-dashed border-[#475569]`}>{title}</p>
+            </Tooltip>
+          ) : (
+            <p className="text-sm text-[#94A3B8] font-medium">{title}</p>
+          )}
           <p className="text-2xl font-bold text-[#F1F5F9] mt-1">{value}</p>
         </div>
         {icon && (
@@ -64,6 +78,9 @@ export default function MetricCard({
             <span className="text-[#475569] font-normal ml-1">{changeLabel}</span>
           )}
         </div>
+      )}
+      {sourceLabel && (
+        <SourceLink label={sourceLabel} url={sourceUrl} />
       )}
     </div>
   );

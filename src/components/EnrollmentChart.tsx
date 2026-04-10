@@ -12,6 +12,8 @@ import {
 } from "recharts";
 import { STATE_COLORS } from "@/lib/constants";
 import { sampleEnrollmentTrends } from "@/lib/sample-data";
+import { Tooltip as TooltipHint } from "./Tooltip";
+import { SourceLink } from "./SourceLink";
 
 interface EnrollmentChartProps {
   states: string[];
@@ -54,9 +56,11 @@ export default function EnrollmentChart({
     <div className="bg-[#111827] rounded-xl border border-[#1E293B] p-5">
       <div className="flex items-center justify-between mb-4">
         <div>
-          <h3 className="text-sm font-semibold text-[#F1F5F9]">
-            Texas vs. Peer States: Enrollment
-          </h3>
+          <TooltipHint content="Monthly enrollment headcount for Texas and selected comparison states. Dashed lines indicate non-anchor states.">
+            <h3 className="text-sm font-semibold text-[#F1F5F9] border-b border-dashed border-[#475569]">
+              Texas vs. Peer States: Enrollment
+            </h3>
+          </TooltipHint>
           <p className="text-xs text-[#94A3B8] mt-0.5">
             Monthly Medicaid &amp; CHIP enrollment by state
           </p>
@@ -113,6 +117,7 @@ export default function EnrollmentChart({
           ))}
         </LineChart>
       </ResponsiveContainer>
+      <SourceLink label="CMS Monthly Medicaid & CHIP Enrollment" url="https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360" />
     </div>
   );
 }

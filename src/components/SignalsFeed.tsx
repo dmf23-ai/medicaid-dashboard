@@ -13,6 +13,8 @@ import {
 } from "lucide-react";
 import { SignalItem } from "@/lib/types";
 import { sampleSignals } from "@/lib/sample-data";
+import { Tooltip as TooltipHint } from "./Tooltip";
+import { SourceLink } from "./SourceLink";
 
 type CategoryFilter =
   | "all"
@@ -118,9 +120,11 @@ export default function SignalsFeed() {
       <div className="px-6 py-4 border-b border-border-subtle">
         <div className="flex items-center gap-3 mb-4">
           <Radar size={20} className="text-accent-blue" />
-          <h2 className="text-lg font-semibold text-text-primary">
-            Signals from the Edge
-          </h2>
+          <TooltipHint content="External developments in Medicaid policy, procurement, and regulatory activity that may affect Accenture's position">
+            <h2 className="text-lg font-semibold text-text-primary border-b border-dashed border-[#475569]">
+              Signals from the Edge
+            </h2>
+          </TooltipHint>
         </div>
 
         {/* Filter Pills */}
@@ -225,6 +229,11 @@ export default function SignalsFeed() {
             </p>
           </div>
         )}
+      </div>
+
+      {/* Source Link */}
+      <div className="px-6 py-4 border-t border-border-subtle">
+        <SourceLink label="Public procurement portals, CMS.gov, Federal Register" date="Mar 2026" />
       </div>
     </div>
   );

@@ -1,16 +1,20 @@
 "use client";
 
-import { ArrowUp, ArrowDown, Star } from "lucide-react";
+import { ArrowUp, ArrowDown, Star, ChevronRight } from "lucide-react";
 import { StateSummary } from "@/lib/types";
+import { Tooltip as TooltipHint } from "./Tooltip";
+import { SourceLink } from "./SourceLink";
 
 interface ComparisonTableProps {
   data: StateSummary[];
   anchorState?: string;
+  onStateClick?: (stateCode: string) => void;
 }
 
 export default function ComparisonTable({
   data,
   anchorState = "TX",
+  onStateClick,
 }: ComparisonTableProps) {
   const formatNumber = (n: number) => n.toLocaleString();
   const formatCurrency = (n: number) => `$${n.toLocaleString()}`;
@@ -115,34 +119,48 @@ export default function ComparisonTable({
                 State
               </th>
               <th className="px-4 py-3 text-xs font-semibold text-[#64748B] uppercase tracking-wider text-right">
-                Enrollment
+                <TooltipHint content="Total Medicaid and CHIP beneficiaries enrolled at period end">
+                  <span className="border-b border-dashed border-[#64748B] cursor-help">Enrollment</span>
+                </TooltipHint>
               </th>
               <th className="px-4 py-3 text-xs font-semibold text-[#64748B] uppercase tracking-wider text-right">
-                YoY Change
+                <TooltipHint content="Year-over-year enrollment change as a percentage">
+                  <span className="border-b border-dashed border-[#64748B] cursor-help">YoY Change</span>
+                </TooltipHint>
               </th>
               <th className="px-4 py-3 text-xs font-semibold text-[#64748B] uppercase tracking-wider text-right">
-                Per Enrollee
+                <TooltipHint content="Annual Medicaid spending per enrolled beneficiary (federal + state)">
+                  <span className="border-b border-dashed border-[#64748B] cursor-help">Per Enrollee</span>
+                </TooltipHint>
               </th>
               <th className="px-4 py-3 text-xs font-semibold text-[#64748B] uppercase tracking-wider text-right">
-                Managed Care
+                <TooltipHint content="Percentage of beneficiaries enrolled in managed care organizations">
+                  <span className="border-b border-dashed border-[#64748B] cursor-help">Managed Care</span>
+                </TooltipHint>
               </th>
               <th className="px-4 py-3 text-xs font-semibold text-[#64748B] uppercase tracking-wider text-right">
-                Quality Score
+                <TooltipHint content="Composite quality score based on CMS Core Set measures (0-100 scale)">
+                  <span className="border-b border-dashed border-[#64748B] cursor-help">Quality Score</span>
+                </TooltipHint>
               </th>
               <th className="px-4 py-3 text-xs font-semibold text-[#64748B] uppercase tracking-wider">
-                Expansion
+                <TooltipHint content="Whether the state has expanded Medicaid under the ACA">
+                  <span className="border-b border-dashed border-[#64748B] cursor-help">Expansion</span>
+                </TooltipHint>
               </th>
+              <th className="px-4 py-3 text-xs font-semibold text-[#64748B] uppercase tracking-wider w-8"></th>
             </tr>
           </thead>
           <tbody className="divide-y divide-[#1E293B]">
             {data.map((state) => (
               <tr
                 key={state.stateCode}
+                onClick={() => onStateClick?.(state.stateCode)}
                 className={`transition-colors ${
                   state.stateCode === anchorState
                     ? "bg-[#F97316]/5 hover:bg-[#F97316]/10"
                     : "hover:bg-[#1E293B]/50"
-                }`}
+                } ${onStateClick ? "cursor-pointer" : ""}`}
               >
                 <td className="px-4 py-3">
                   <div className="flex items-center gap-2">
@@ -223,6 +241,11 @@ export default function ComparisonTable({
                 <td className="px-4 py-3">
                   {getExpansionBadge(state.expansionStatus)}
                 </td>
+                <td className="px-4 py-3 text-center">
+                  {onStateClick && (
+                    <ChevronRight className="w-4 h-4 text-[#64748B] inline-block" />
+                  )}
+                </td>
               </tr>
             ))}
             {/* Peer Median Row */}
@@ -244,6 +267,7 @@ export default function ComparisonTable({
                 {qualityScoreMedian.toFixed(1)}
               </td>
               <td className="px-4 py-3"></td>
+              <td className="px-4 py-3"></td>
             </tr>
           </tbody>
         </table>
@@ -254,6 +278,7 @@ export default function ComparisonTable({
           interpretation. Structural differences in eligibility rules and
           demographics affect all metrics.
         </p>
+        <SourceLink label="CMS/Medicaid.gov & KFF State Health Facts" url="https://data.medicaid.gov" />
       </div>
     </div>
   );

@@ -7,6 +7,8 @@ import {
   Activity,
 } from "lucide-react";
 import { DashboardAlert } from "@/lib/types";
+import { Tooltip as TooltipHint } from "./Tooltip";
+import { SourceLink } from "./SourceLink";
 
 interface AlertsFeedProps {
   alerts: DashboardAlert[];
@@ -72,9 +74,11 @@ export default function AlertsFeed({ alerts }: AlertsFeedProps) {
     <div className="bg-[#111827] rounded-xl border border-[#1E293B] p-5 hover:border-[#2A3547] transition-colors">
       <div className="flex items-center justify-between mb-4">
         <div>
-          <h3 className="text-sm font-semibold text-[#F1F5F9]">
-            Intelligence Alerts
-          </h3>
+          <TooltipHint content="AI-detected anomalies and significant changes in Medicaid enrollment, spending, quality, and policy across monitored states">
+            <h3 className="text-sm font-semibold text-[#F1F5F9] border-b border-dashed border-[#475569]">
+              Intelligence Alerts
+            </h3>
+          </TooltipHint>
           <p className="text-xs text-[#94A3B8] mt-0.5">
             AI-detected changes and notable events
           </p>
@@ -122,6 +126,7 @@ export default function AlertsFeed({ alerts }: AlertsFeedProps) {
           );
         })}
       </div>
+      <SourceLink label="CMS data analysis + AI anomaly detection" date="Mar 2026" />
     </div>
   );
 }

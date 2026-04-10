@@ -1,8 +1,33 @@
 "use client";
 
 import { Activity, Database, Brain } from "lucide-react";
+import { Tooltip } from "./Tooltip";
 
-export default function Header() {
+interface HeaderProps {
+  dataSource?: "pipeline" | "sample";
+  lastUpdated?: string;
+}
+
+export default function Header({
+  dataSource = "sample",
+  lastUpdated,
+}: HeaderProps) {
+  const isLive = dataSource === "pipeline";
+  const badgeLabel = isLive ? "Live Data" : "Sample Data";
+  const badgeTooltip = isLive
+    ? "Pipeline data loaded from CMS sources (enrollment, expenditure, quality)."
+    : "Currently showing sample demonstration data. The CMS data pipeline has not been run yet — once the Python agents run, this badge will turn green.";
+  const dotColor = isLive ? "bg-emerald-500" : "bg-slate-500";
+  const textColor = isLive ? "text-emerald-500" : "text-slate-400";
+  const borderColor = isLive ? "border-emerald-500" : "border-slate-500";
+
+  const updatedLabel = lastUpdated
+    ? new Date(lastUpdated).toLocaleDateString("en-US", {
+        month: "short",
+        year: "numeric",
+      })
+    : "Mar 2026";
+
   return (
     <header className="bg-[#060A13] border-b border-[#1E293B] sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -28,16 +53,22 @@ export default function Header() {
               <Database className="w-3.5 h-3.5" />
               <span>50 states</span>
               <span className="text-[#2A3547]">|</span>
-              <span>Last updated: Mar 2026</span>
+              <span>Last updated: {updatedLabel}</span>
             </div>
-            <div className="flex items-center gap-2 text-xs text-emerald-500 font-medium">
-              <div className="w-2 h-2 bg-emerald-500 rounded-full live-dot" />
-              <span className="hidden sm:inline">Live Data</span>
-            </div>
-            <div className="flex items-center gap-1.5 px-3 py-1.5 bg-[#1E293B] text-[#A78BFA] rounded-full text-xs font-medium">
-              <Brain className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">AI-Powered</span>
-            </div>
+            <Tooltip content={badgeTooltip}>
+              <div
+                className={`flex items-center gap-2 text-xs ${textColor} font-medium border-b border-dashed ${borderColor}`}
+              >
+                <div className={`w-2 h-2 ${dotColor} rounded-full ${isLive ? "live-dot" : ""}`} />
+                <span className="hidden sm:inline">{badgeLabel}</span>
+              </div>
+            </Tooltip>
+            <Tooltip content="Dashboard analysis is augmented by Claude AI for insight ranking, anomaly detection, and executive briefings">
+              <div className="flex items-center gap-1.5 px-3 py-1.5 bg-[#1E293B] text-[#A78BFA] rounded-full text-xs font-medium border border-dashed border-[#A78BFA]">
+                <Brain className="w-3.5 h-3.5" />
+                <span className="hidden sm:inline">AI-Powered</span>
+              </div>
+            </Tooltip>
           </div>
         </div>
       </div>

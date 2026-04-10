@@ -1,10 +1,12 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import {
   Brain,
   Sparkles,
   ChevronRight,
+  ChevronDown,
+  ChevronUp,
   AlertTriangle,
   Target,
   TrendingUp,
@@ -12,9 +14,18 @@ import {
 } from "lucide-react";
 import { ExecutiveInsight } from "@/lib/types";
 import { sampleInsights } from "@/lib/sample-data";
+import { Tooltip as TooltipHint } from "./Tooltip";
+import { SourceLink } from "./SourceLink";
+
+const DEFAULT_VISIBLE = 2;
 
 export default function ExecutiveAttention() {
   const insights = sampleInsights;
+  const [isExpanded, setIsExpanded] = useState(false);
+  const visibleInsights = isExpanded
+    ? insights
+    : insights.slice(0, DEFAULT_VISIBLE);
+  const hiddenCount = insights.length - DEFAULT_VISIBLE;
 
   // Category color mapping
   const categoryColors: Record<
@@ -135,15 +146,17 @@ export default function ExecutiveAttention() {
             Executive Attention Now
           </h2>
         </div>
-        <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-700 bg-opacity-50 border border-slate-600">
-          <Sparkles className="w-3.5 h-3.5 text-slate-300" />
-          <span className="text-xs font-medium text-slate-300">AI-Ranked</span>
-        </div>
+        <TooltipHint content="Insights are ranked by AI based on strategic relevance, time-sensitivity, and potential impact to Accenture's TX HHSC contract position">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-700 bg-opacity-50 border border-slate-600 border-dashed">
+            <Sparkles className="w-3.5 h-3.5 text-slate-300" />
+            <span className="text-xs font-medium text-slate-300">AI-Ranked</span>
+          </div>
+        </TooltipHint>
       </div>
 
       {/* Insights Stack */}
       <div className="space-y-4">
-        {insights.map((insight) => {
+        {visibleInsights.map((insight) => {
           const catColor = categoryColors[insight.category];
           const impactColor = impactColors[insight.impactLevel];
 
@@ -189,13 +202,15 @@ export default function ExecutiveAttention() {
                       </span>
 
                       {/* Confidence Indicator */}
-                      <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-slate-800 bg-opacity-60">
-                        {getConfidenceIndicator(insight.confidence)}
-                        <span className="text-xs text-slate-400 ml-1">
-                          {insight.confidence.charAt(0).toUpperCase() +
-                            insight.confidence.slice(1)}
-                        </span>
-                      </div>
+                      <TooltipHint content="Confidence level: High (3 dots), Medium (2 dots), Low (1 dot) — based on source reliability and data recency">
+                        <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-slate-800 bg-opacity-60 border border-dashed border-slate-600">
+                          {getConfidenceIndicator(insight.confidence)}
+                          <span className="text-xs text-slate-400 ml-1">
+                            {insight.confidence.charAt(0).toUpperCase() +
+                              insight.confidence.slice(1)}
+                          </span>
+                        </div>
+                      </TooltipHint>
                     </div>
                   </div>
                 </div>
@@ -253,6 +268,33 @@ export default function ExecutiveAttention() {
           );
         })}
       </div>
+
+      {/* Show more / Collapse toggle */}
+      {hiddenCount > 0 && (
+        <div className="flex justify-center">
+          <button
+            type="button"
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-800 bg-opacity-60 border border-slate-700 hover:bg-slate-700 hover:border-slate-600 transition-colors text-sm font-medium text-slate-300 hover:text-slate-100"
+            aria-expanded={isExpanded}
+          >
+            {isExpanded ? (
+              <>
+                <ChevronUp className="w-4 h-4" />
+                Collapse
+              </>
+            ) : (
+              <>
+                <ChevronDown className="w-4 h-4" />
+                Show {hiddenCount} more {hiddenCount === 1 ? "insight" : "insights"}
+              </>
+            )}
+          </button>
+        </div>
+      )}
+
+      {/* Source Link */}
+      <SourceLink label="AI Intelligence Analysis (Claude)" date="Mar 2026" />
     </div>
   );
 }

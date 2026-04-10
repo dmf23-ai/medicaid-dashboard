@@ -17,6 +17,8 @@ import {
 import { Crosshair } from "lucide-react";
 import { sampleRiskOpportunity } from "@/lib/sample-data";
 import { RiskOpportunityItem } from "@/lib/types";
+import { Tooltip as TooltipHint } from "./Tooltip";
+import { SourceLink } from "./SourceLink";
 
 // Color mapping for trends
 const trendColors: Record<string, string> = {
@@ -75,9 +77,11 @@ export default function RiskOpportunityChart() {
       {/* Header */}
       <div className="flex items-center gap-3">
         <Crosshair className="h-5 w-5 text-blue-400" />
-        <h2 className="text-xl font-semibold text-white">
-          Risk & Opportunity Matrix
-        </h2>
+        <TooltipHint content="Risk-opportunity assessment of key Medicaid developments. Bubble size indicates potential impact magnitude. Color indicates trend direction.">
+          <h2 className="text-xl font-semibold text-white border-b border-dashed border-[#475569]">
+            Risk & Opportunity Matrix
+          </h2>
+        </TooltipHint>
       </div>
 
       {/* Chart */}
@@ -231,6 +235,7 @@ export default function RiskOpportunityChart() {
           <span className="text-sm text-gray-300">Deteriorating</span>
         </div>
       </div>
+      <SourceLink label="Accenture Intelligence Analysis" date="Mar 2026" />
     </div>
   );
 }
