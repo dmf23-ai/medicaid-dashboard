@@ -71,7 +71,7 @@ export default function StateSelector({
         <div>
           <h3 className="text-sm font-semibold text-[#F1F5F9]">Compare States</h3>
           <p className="text-xs text-[#94A3B8] mt-0.5">
-            Texas (anchor) vs. up to {maxSelections} comparison states
+            Selected states appear in the Enrollment chart above and Benchmarking table below.
           </p>
         </div>
         <div className="flex items-center gap-1.5 px-2.5 py-1 bg-[#7C2D12] text-[#F97316] rounded-full text-xs font-semibold">

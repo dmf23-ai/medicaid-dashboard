@@ -204,15 +204,23 @@ export default function SignalsFeed() {
 
                     {/* External Link Icon */}
                     {signal.sourceUrl && (
-                      <a
-                        href={signal.sourceUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="ml-auto text-text-tertiary hover:text-accent-blue transition-colors"
-                        aria-label="Open source link"
-                      >
-                        <ExternalLink size={14} />
-                      </a>
+                      <span className="ml-auto inline-flex">
+                        <TooltipHint
+                          content={`Source: ${signal.source}`}
+                          position="top"
+                        >
+                          <a
+                            href={signal.sourceUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-text-tertiary hover:text-accent-blue transition-colors"
+                            aria-label={`Open source: ${signal.source}`}
+                            onClick={(e) => e.stopPropagation()}
+                          >
+                            <ExternalLink size={14} />
+                          </a>
+                        </TooltipHint>
+                      </span>
                     )}
                   </div>
                 </div>

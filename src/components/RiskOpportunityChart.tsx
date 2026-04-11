@@ -147,22 +147,21 @@ export default function RiskOpportunityChart() {
     ? rankedItems.find((i) => i.id === selectedId)
     : null;
 
-  // Custom shape draws bubble with rank number inside
-  // Typed as `any` because Recharts' ScatterShapeProps treats node.z as string|number
-  // and does not carry through our payload generic.
+  // Custom shape draws bubble with rank number inside.
+  // Typed as `any` because Recharts' ScatterShapeProps does not carry through
+  // our payload generic.
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const renderBubble = (props: any) => {
-    const { cx, cy, fill, payload, node } = props;
+    const { cx, cy, fill, payload } = props;
     if (cx === undefined || cy === undefined || !payload) return <g />;
-    // Bubble radius derived from impact range using ZAxis node.z when available
-    const rawZ = node?.z;
-    const z: number =
-      typeof rawZ === "number"
-        ? rawZ
-        : typeof rawZ === "string"
-        ? Number(rawZ) || payload.impact * 10
-        : payload.impact * 10;
-    const radius = Math.max(14, Math.min(28, Math.sqrt(z) / 1.2));
+    // Radius derived directly from payload.impact so bubble size tracks
+    // impact 40 → r=12, impact 100 → r=32 (linear), with safety clamp.
+    const impactRaw = payload.impact;
+    const impact =
+      typeof impactRaw === "number" && Number.isFinite(impactRaw)
+        ? impactRaw
+        : 50;
+    const radius = Math.max(10, Math.min(34, 12 + ((impact - 40) / 60) * 20));
     const isSelected = selectedId === payload.id;
     return (
       <g
