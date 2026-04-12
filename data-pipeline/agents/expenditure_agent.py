@@ -13,6 +13,10 @@ The CMS-64 expenditure data breaks down state Medicaid spending by:
 """
 
 import json
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from json_utils import safe_json_dump
 import logging
 import time
 from datetime import datetime
@@ -442,12 +446,33 @@ class ExpenditureAgent:
             else:
                 df_latest = df
                 df_prior = pd.DataFrame()
+            # Detect partial fiscal year — if latest FY has fewer distinct
+            # quarters than prior FY, restrict the prior to the same quarters
+            # so the YoY comparison is apples-to-apples.
+            latest_quarters = set()
+            prior_quarters = set()
+            is_partial_year = False
+            if "quarter" in df.columns:
+                latest_quarters = set(df_latest["quarter"].dropna().unique())
+                if not df_prior.empty:
+                    prior_quarters = set(df_prior["quarter"].dropna().unique())
+                if prior_quarters and latest_quarters and len(latest_quarters) < len(prior_quarters):
+                    is_partial_year = True
+                    # Restrict prior FY to only the quarters we have in latest
+                    df_prior = df_prior[df_prior["quarter"].isin(latest_quarters)]
+                    logger.info(f"Partial year detected: FY {latest_fy} has quarters "
+                                f"{sorted(latest_quarters)} vs FY {prior_fy} {sorted(prior_quarters)}. "
+                                f"Restricting prior to same quarters for fair YoY comparison.")
+
             logger.info(f"Using FY {latest_fy} (prior: FY {prior_fy}) — "
-                        f"{len(df_latest)} rows latest, {len(df_prior)} rows prior")
+                        f"{len(df_latest)} rows latest, {len(df_prior)} rows prior"
+                        f"{' [PARTIAL YEAR]' if is_partial_year else ''}")
         else:
             df_latest = df
             df_prior = pd.DataFrame()
             latest_fy = None
+            is_partial_year = False
+            latest_quarters = set()
 
         # Load enrollment data to compute per-enrollee spending
         enrollment_by_state = {}
@@ -577,6 +602,8 @@ class ExpenditureAgent:
                 "fiscalYear": latest_fy if latest_fy else None,
                 "rollupBreakdown": national_rollup,
                 "rollupBreakdownPct": national_rollup_pct,
+                "partialYear": is_partial_year,
+                "quartersAvailable": sorted(latest_quarters),
             },
             "updated": now,
             "source": "data.medicaid.gov",
@@ -587,23 +614,17 @@ class ExpenditureAgent:
 
     def save_raw(self, data: list[dict]):
         """Save raw API response for debugging."""
-        self.raw_data_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(self.raw_data_path, "w") as f:
-            json.dump({
-                "fetched_at": datetime.now().isoformat(),
-                "record_count": len(data),
-                "columns": list(data[0].keys()) if data else [],
-                "sample": data[:3] if data else [],
-                "data": data,
-            }, f, indent=2)
-        logger.info(f"Saved raw data to {self.raw_data_path}")
+        safe_json_dump({
+            "fetched_at": datetime.now().isoformat(),
+            "record_count": len(data),
+            "columns": list(data[0].keys()) if data else [],
+            "sample": data[:3] if data else [],
+            "data": data,
+        }, self.raw_data_path)
 
     def save_output(self, metrics: dict):
         """Save processed metrics as JSON for the dashboard frontend."""
-        self.output_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(self.output_path, "w") as f:
-            json.dump(metrics, f, indent=2)
-        logger.info(f"Saved output to {self.output_path}")
+        safe_json_dump(metrics, self.output_path)
 
     # ─── Main Pipeline ───────────────────────────────────────────────
 

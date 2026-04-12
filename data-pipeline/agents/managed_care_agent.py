@@ -13,6 +13,10 @@ rate each state.
 """
 
 import json
+import sys
+from pathlib import Path as _Path
+sys.path.insert(0, str(_Path(__file__).resolve().parent.parent))
+from json_utils import safe_json_dump
 import logging
 import re
 import time
@@ -287,6 +291,28 @@ class ManagedCareAgent:
             df_latest = df
             latest_year = None
 
+        # Prior year data for YoY penetration change
+        prior_year = (latest_year - 1) if latest_year else None
+        prior_penetration_map: dict[str, float] = {}
+        if prior_year and "year" in df.columns:
+            df_prior = df[df["year"] == prior_year]
+            for code in df_prior["state_code"].unique():
+                rows = df_prior[df_prior["state_code"] == code]
+                p_total_medicaid = (rows["total_medicaid_enrollment"].sum()
+                                    if "total_medicaid_enrollment" in rows.columns else 0)
+                p_mc_cols = [c for c in ["total_managed_care_enrollment",
+                                         "comprehensive_mc", "pccm", "limited_mc"]
+                             if c in rows.columns]
+                if "total_managed_care_enrollment" in p_mc_cols:
+                    p_total_mc = rows["total_managed_care_enrollment"].sum()
+                else:
+                    p_total_mc = sum(rows[c].sum() for c in p_mc_cols
+                                     if c != "total_managed_care_enrollment")
+                if pd.notna(p_total_mc) and pd.notna(p_total_medicaid) and p_total_medicaid > 0:
+                    prior_penetration_map[code] = round(float(p_total_mc / p_total_medicaid) * 100, 1)
+            logger.info(f"Prior year ({prior_year}) penetration computed for "
+                        f"{len(prior_penetration_map)} states")
+
         states_data = []
         for code in df_latest["state_code"].unique():
             rows = df_latest[df_latest["state_code"] == code]
@@ -329,11 +355,17 @@ class ManagedCareAgent:
                     except Exception:
                         pass
 
+            # YoY penetration change (percentage points)
+            penetration_change = None
+            if penetration is not None and code in prior_penetration_map:
+                penetration_change = round(penetration - prior_penetration_map[code], 1)
+
             states_data.append({
                 "stateCode": code,
                 "managedCareEnrollment": int(total_mc),
                 "totalMedicaidEnrollment": int(total_medicaid) if total_medicaid > 0 else None,
                 "managedCarePenetration": penetration,
+                "penetrationChange": penetration_change,
                 "year": latest_year,
             })
 
@@ -359,22 +391,16 @@ class ManagedCareAgent:
     # ─── Persistence ─────────────────────────────────────────────────
 
     def save_raw(self, data: list[dict]):
-        self.raw_data_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(self.raw_data_path, "w") as f:
-            json.dump({
-                "fetched_at": datetime.now().isoformat(),
-                "record_count": len(data),
-                "columns": list(data[0].keys()) if data else [],
-                "sample": data[:3] if data else [],
-                "data": data,
-            }, f, indent=2)
-        logger.info(f"Saved raw data to {self.raw_data_path}")
+        safe_json_dump({
+            "fetched_at": datetime.now().isoformat(),
+            "record_count": len(data),
+            "columns": list(data[0].keys()) if data else [],
+            "sample": data[:3] if data else [],
+            "data": data,
+        }, self.raw_data_path)
 
     def save_output(self, metrics: dict):
-        self.output_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(self.output_path, "w") as f:
-            json.dump(metrics, f, indent=2)
-        logger.info(f"Saved output to {self.output_path}")
+        safe_json_dump(metrics, self.output_path)
 
     # ─── Main Pipeline ───────────────────────────────────────────────
 

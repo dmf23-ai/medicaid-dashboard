@@ -13,6 +13,10 @@ from published CMS reports.
 """
 
 import json
+import sys
+from pathlib import Path as _Path
+sys.path.insert(0, str(_Path(__file__).resolve().parent.parent))
+from json_utils import safe_json_dump
 import logging
 import time
 from datetime import datetime
@@ -400,24 +404,18 @@ class QualityAgent:
 
     def save_raw(self, data: list[dict], source: str):
         """Save raw data for debugging."""
-        self.raw_data_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(self.raw_data_path, "w") as f:
-            json.dump({
-                "fetched_at": datetime.now().isoformat(),
-                "source": source,
-                "record_count": len(data),
-                "columns": list(data[0].keys()) if data else [],
-                "sample": data[:3] if data else [],
-                "data": data,
-            }, f, indent=2)
-        logger.info(f"Saved raw quality data to {self.raw_data_path}")
+        safe_json_dump({
+            "fetched_at": datetime.now().isoformat(),
+            "source": source,
+            "record_count": len(data),
+            "columns": list(data[0].keys()) if data else [],
+            "sample": data[:3] if data else [],
+            "data": data,
+        }, self.raw_data_path)
 
     def save_output(self, metrics: dict):
         """Save processed metrics for the dashboard frontend."""
-        self.output_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(self.output_path, "w") as f:
-            json.dump(metrics, f, indent=2)
-        logger.info(f"Saved output to {self.output_path}")
+        safe_json_dump(metrics, self.output_path)
 
     # ─── Main Pipeline ───────────────────────────────────────────────
 

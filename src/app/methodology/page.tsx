@@ -50,9 +50,8 @@ export default function MethodologyPage() {
             This page explains how each section of the National Medicaid
             Intelligence Dashboard is assembled — what sources are queried,
             how items are ranked, and how AI is involved in shaping what
-            appears on screen. The dashboard is currently in demo mode with
-            sample data; the processes below describe the live pipeline that
-            will power each section once data integration is complete.
+            appears on screen. The dashboard is powered by a live data
+            pipeline that refreshes daily from federal data sources.
           </p>
         </header>
 
@@ -158,10 +157,9 @@ export default function MethodologyPage() {
             to dim them without removing them from the feed.
           </p>
           <p>
-            In the current demo, the ranked cards are hand-authored sample
-            data. In production, the ranking prompt will have access to the
-            signals, alerts, and risk-opportunity feeds below, plus a curated
-            set of procurement and policy sources.
+            The ranking prompt has access to the signals, alerts, and
+            risk-opportunity feeds described below, plus procurement and
+            policy sources from the live pipeline.
           </p>
         </Section>
 
@@ -190,9 +188,8 @@ export default function MethodologyPage() {
             can promote or demote items; overrides persist across crawls.
           </p>
           <p>
-            In the current demo, the feed is populated from a curated sample.
-            The category filter pills filter client-side; in production the
-            same filters will be server-driven.
+            The category filter pills filter client-side against the live
+            signal feed.
           </p>
         </Section>
 
@@ -222,8 +219,7 @@ export default function MethodologyPage() {
           <p>
             Each alert carries a link to the originating source
             (CMS dataset, KFF tracker, 1115 waiver page, or similar) so the
-            reader can verify the underlying data. In the current demo, the
-            alerts are sample data drawn from real recent events.
+            reader can verify the underlying data.
           </p>
         </Section>
 
@@ -279,9 +275,8 @@ export default function MethodologyPage() {
             once the live pipeline has a few months of history.
           </p>
           <p>
-            In the current demo, the eight items are hand-authored. In
-            production, new items will be proposed by the signals pipeline
-            and promoted into the matrix after a short human review.
+            New items are proposed by the signals pipeline and promoted into
+            the matrix after review.
           </p>
         </Section>
 
@@ -291,9 +286,9 @@ export default function MethodologyPage() {
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>
-              <strong>Demo data.</strong> The dashboard is currently in demo
-              mode. Numbers, ranks, and alerts are drawn from a curated sample
-              for UI and workflow validation, not from a live feed.
+              <strong>Data freshness.</strong> The pipeline refreshes daily,
+              but CMS source data may lag by weeks or months. The header
+              badge indicates whether live or fallback data is displayed.
             </li>
             <li>
               <strong>AI-assisted, not AI-authoritative.</strong> Where AI is
@@ -329,7 +324,7 @@ export default function MethodologyPage() {
           }}
         >
           <p>
-            National Medicaid Intelligence Dashboard · Methodology · v0.4
+            National Medicaid Intelligence Dashboard · Methodology · v1.0
           </p>
           <p className="mt-1">
             Questions or corrections? Reach out to the dashboard owner on the

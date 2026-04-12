@@ -18,6 +18,10 @@ signals list rather than crashing.
 """
 
 import json
+import sys as _sys
+from pathlib import Path as _P
+_sys.path.insert(0, str(_P(__file__).resolve().parent.parent))
+from json_utils import safe_json_dump
 import logging
 import re
 import time
@@ -528,21 +532,15 @@ class SignalsAgent:
     # ─── Persistence ─────────────────────────────────────────────────
 
     def save_raw(self, metrics: dict):
-        self.raw_data_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(self.raw_data_path, "w") as f:
-            json.dump({
-                "fetched_at": datetime.now().isoformat(),
-                "signal_count": len(metrics.get("signals", [])),
-                "sample": metrics.get("signals", [])[:3],
-                "errors": metrics.get("errors", {}),
-            }, f, indent=2)
-        logger.info(f"Saved raw data to {self.raw_data_path}")
+        safe_json_dump({
+            "fetched_at": datetime.now().isoformat(),
+            "signal_count": len(metrics.get("signals", [])),
+            "sample": metrics.get("signals", [])[:3],
+            "errors": metrics.get("errors", {}),
+        }, self.raw_data_path)
 
     def save_output(self, metrics: dict):
-        self.output_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(self.output_path, "w") as f:
-            json.dump(metrics, f, indent=2)
-        logger.info(f"Saved output to {self.output_path}")
+        safe_json_dump(metrics, self.output_path)
 
     # ─── Main Pipeline ───────────────────────────────────────────────
 

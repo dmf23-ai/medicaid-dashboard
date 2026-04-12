@@ -72,17 +72,19 @@ export default function EnrollmentChart({
       <div className="flex-1 min-h-[320px]">
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={chartData}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#1E293B" />
+          <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
           <XAxis
             dataKey="month"
             tickFormatter={formatMonth}
-            tick={{ fontSize: 11, fill: "#64748B" }}
-            axisLine={{ stroke: "#1E293B" }}
+            tick={{ fontSize: 11, fill: "#94A3B8" }}
+            axisLine={{ stroke: "#475569" }}
+            tickLine={{ stroke: "#475569" }}
           />
           <YAxis
             tickFormatter={formatValue}
-            tick={{ fontSize: 11, fill: "#64748B" }}
-            axisLine={{ stroke: "#1E293B" }}
+            tick={{ fontSize: 11, fill: "#94A3B8" }}
+            axisLine={{ stroke: "#475569" }}
+            tickLine={{ stroke: "#475569" }}
             width={55}
           />
           <Tooltip

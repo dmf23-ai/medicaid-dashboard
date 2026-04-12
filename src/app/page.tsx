@@ -104,6 +104,8 @@ export default function Home() {
             <MetricCard
               title="Managed Care Rate"
               value={texas ? `${texas.managedCarePenetration}%` : "—"}
+              change={(texas as Record<string, unknown>)?.managedCarePenetrationChange as number | undefined}
+              changeLabel="pp YoY"
               icon={<Shield className="w-5 h-5" />}
               tooltip="Share of Texas Medicaid enrollees served through managed care organizations (STAR, STAR+PLUS, STAR Kids, STAR Health)."
               sourceLabel="CMS Medicaid Managed Care Enrollment Report"
@@ -128,7 +130,7 @@ export default function Home() {
           <div className="lg:col-span-2 flex flex-col gap-6">
             <ExecutiveAttention insights={executiveInsights} />
 
-            <div className="flex-1 flex flex-col min-h-0">
+            <div className="flex flex-col">
               <ChartErrorBoundary fallbackMessage="Unable to render enrollment trends">
                 <EnrollmentChart states={selectedStates} trends={trends} />
               </ChartErrorBoundary>
@@ -185,9 +187,12 @@ export default function Home() {
           className="flex items-center justify-between text-xs"
           style={{ color: "var(--text-muted)" }}
         >
-          <span>National Medicaid Intelligence Dashboard v0.3</span>
+          <span>National Medicaid Intelligence Dashboard v1.0</span>
           <span>
-            Data sourced from public federal datasets | AI-powered analysis
+            Data sourced from public federal datasets | AI-powered analysis |{" "}
+            <a href="/methodology" className="underline hover:text-[#94A3B8]">
+              Methodology
+            </a>
           </span>
         </div>
       </footer>

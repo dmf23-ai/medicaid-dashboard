@@ -32,6 +32,8 @@ except ImportError:
         DATA_DIR, OUTPUT_DIR,
     )
 
+from json_utils import safe_json_dump
+
 logger = logging.getLogger("intelligence_agent")
 
 # ─── Prompt templates ───────────────────────────────────────────────
@@ -1023,10 +1025,7 @@ class IntelligenceAgent:
                 output = template_output
 
             # Save output
-            self.output_path.parent.mkdir(parents=True, exist_ok=True)
-            with open(self.output_path, "w") as f:
-                json.dump(output, f, indent=2)
-            logger.info(f"Saved intelligence output to {self.output_path}")
+            safe_json_dump(output, self.output_path)
 
             elapsed = time.time() - start_time
             alert_count = len(output.get("alerts", []))

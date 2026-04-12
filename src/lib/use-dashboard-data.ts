@@ -100,6 +100,7 @@ interface ManagedCareJson {
     stateCode: string;
     managedCarePenetration: number | null;
     managedCareEnrollment: number;
+    penetrationChange?: number | null;
   }>;
 }
 
@@ -211,10 +212,13 @@ export function useDashboardData(): DashboardData {
       }
     }
 
-    const managedCareByState: Record<string, number | null> = {};
+    const managedCareByState: Record<string, { penetration: number | null; change: number | null }> = {};
     if (managedCare?.states) {
       for (const s of managedCare.states) {
-        managedCareByState[s.stateCode] = s.managedCarePenetration;
+        managedCareByState[s.stateCode] = {
+          penetration: s.managedCarePenetration,
+          change: s.penetrationChange ?? null,
+        };
       }
     }
 
@@ -226,7 +230,7 @@ export function useDashboardData(): DashboardData {
       const stateInfo = US_STATES[ps.stateCode];
       const expData = expenditureByState[ps.stateCode];
       const qual = qualityByState[ps.stateCode];
-      const mcPen = managedCareByState[ps.stateCode];
+      const mcData = managedCareByState[ps.stateCode];
 
       return {
         stateCode: ps.stateCode,
@@ -238,7 +242,8 @@ export function useDashboardData(): DashboardData {
           expData?.perEnrolleeSpending ?? sample?.perEnrolleeSpending ?? 0,
         perEnrolleeSpendingChange: expData?.spendingChange ?? null,
         managedCarePenetration:
-          mcPen ?? sample?.managedCarePenetration ?? 0,
+          mcData?.penetration ?? sample?.managedCarePenetration ?? 0,
+        managedCarePenetrationChange: mcData?.change ?? null,
         qualityScore: qual?.score ?? sample?.qualityScore ?? 0,
         qualityScoreChange: qual?.change ?? null,
         expansionStatus:

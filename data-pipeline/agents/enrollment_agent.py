@@ -13,6 +13,10 @@ derived metrics the dashboard needs.
 import json
 import logging
 import time
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from json_utils import safe_json_dump
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -516,23 +520,17 @@ class EnrollmentAgent:
 
     def save_raw(self, data: list[dict]):
         """Save raw API response for debugging and reprocessing."""
-        self.raw_data_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(self.raw_data_path, "w") as f:
-            json.dump({
-                "fetched_at": datetime.now().isoformat(),
-                "record_count": len(data),
-                "columns": list(data[0].keys()) if data else [],
-                "sample": data[:3] if data else [],
-                "data": data,
-            }, f, indent=2)
-        logger.info(f"Saved raw data to {self.raw_data_path}")
+        safe_json_dump({
+            "fetched_at": datetime.now().isoformat(),
+            "record_count": len(data),
+            "columns": list(data[0].keys()) if data else [],
+            "sample": data[:3] if data else [],
+            "data": data,
+        }, self.raw_data_path)
 
     def save_output(self, metrics: dict):
         """Save processed metrics as JSON for the dashboard frontend."""
-        self.output_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(self.output_path, "w") as f:
-            json.dump(metrics, f, indent=2)
-        logger.info(f"Saved output to {self.output_path}")
+        safe_json_dump(metrics, self.output_path)
 
     # ─── Main Pipeline ───────────────────────────────────────────────
 
