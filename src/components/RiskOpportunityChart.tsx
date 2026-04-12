@@ -23,7 +23,6 @@ import {
   ExternalLink,
   ArrowRight,
 } from "lucide-react";
-import { sampleRiskOpportunity } from "@/lib/sample-data";
 import { RiskOpportunityItem } from "@/lib/types";
 import { Tooltip as TooltipHint } from "./Tooltip";
 import { SourceLink } from "./SourceLink";
@@ -120,16 +119,22 @@ const CustomTooltip = ({ active, payload }: { active?: boolean; payload?: Array<
   );
 };
 
-export default function RiskOpportunityChart() {
+interface RiskOpportunityChartProps {
+  items: RiskOpportunityItem[];
+}
+
+export default function RiskOpportunityChart({
+  items,
+}: RiskOpportunityChartProps) {
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
   // Rank items by priority score (descending) and attach rank number
   const rankedItems = useMemo(() => {
-    const sorted = [...sampleRiskOpportunity].sort(
+    const sorted = [...items].sort(
       (a, b) => priorityScore(b) - priorityScore(a)
     );
     return sorted.map((item, idx) => ({ ...item, rank: idx + 1 }));
-  }, []);
+  }, [items]);
 
   // Count items per quadrant
   const quadrantCounts = useMemo(() => {

@@ -105,6 +105,21 @@ CURATED_STATE_QUALITY = {
     "SD": 61, "ND": 65, "AK": 59, "VT": 79, "WY": 57,
 }
 
+# Prior year composite scores (2023 CMS Core Set reporting). Used to
+# compute qualityScoreChange (YoY) when the curated fallback is in use.
+CURATED_STATE_QUALITY_PRIOR = {
+    "TX": 64, "CA": 70, "NY": 74, "FL": 58, "OH": 67,
+    "PA": 70, "IL": 66, "GA": 54, "NC": 62, "MI": 69,
+    "NJ": 72, "VA": 65, "WA": 77, "MA": 80, "AZ": 62,
+    "IN": 60, "TN": 57, "MO": 56, "MD": 73, "WI": 71,
+    "CO": 74, "MN": 79, "SC": 52, "AL": 51, "LA": 55,
+    "KY": 59, "OR": 73, "OK": 50, "CT": 76, "IA": 70,
+    "MS": 47, "AR": 53, "KS": 59, "UT": 68, "NV": 57,
+    "NM": 56, "NE": 65, "WV": 54, "HI": 73, "ID": 61,
+    "ME": 71, "NH": 75, "RI": 76, "MT": 62, "DE": 67,
+    "SD": 60, "ND": 64, "AK": 58, "VT": 78, "WY": 56,
+}
+
 # Number of states reporting each measure (out of 50+DC) — for context
 CURATED_REPORTING_RATES = {
     "FVA-AD": 42, "BCS-AD": 47, "CCS-AD": 46,
@@ -127,7 +142,10 @@ class QualityAgent:
     """
 
     def __init__(self):
-        self.dataset_config = DATASETS.get("quality", {})
+        # Pull both adult and child core sets; they're the two separate
+        # DKAN distributions on data.medicaid.gov.
+        self.adult_config = DATASETS.get("quality_adult", {})
+        self.child_config = DATASETS.get("quality_child", {})
         self.raw_data_path = DATA_DIR / "quality_raw.json"
         self.output_path = OUTPUT_DIR / "quality.json"
 
@@ -155,13 +173,12 @@ class QualityAgent:
                     raise
         return []
 
-    def fetch_dkan(self) -> list[dict]:
-        """Attempt to fetch quality data from the DKAN datastore API."""
-        endpoint = self.dataset_config.get("dkan_endpoint")
+    def fetch_dkan_endpoint(self, endpoint: str, label: str) -> list[dict]:
+        """Page through one DKAN distribution and return all records."""
         if not endpoint:
-            raise ValueError("No DKAN endpoint configured for quality")
+            return []
 
-        logger.info(f"Fetching from DKAN API: {endpoint}")
+        logger.info(f"Fetching {label} from DKAN API: {endpoint}")
         all_records = []
         offset = 0
 
@@ -190,6 +207,11 @@ class QualityAgent:
             if not records:
                 break
 
+            # Tag each record with its core set label for downstream use
+            for r in records:
+                if isinstance(r, dict):
+                    r["_core_set"] = label
+
             all_records.extend(records)
             logger.info(f"  Page fetched: {len(records)} records (total: {len(all_records)})")
 
@@ -202,16 +224,29 @@ class QualityAgent:
     def fetch_data(self) -> tuple[list[dict], str]:
         """
         Fetch quality data. Returns (data, source).
-        Tries DKAN first, falls back to curated data.
+        Pulls both Adult and Child Core Sets; falls back to curated data
+        if neither is reachable.
         """
+        all_records = []
         try:
-            data = self.fetch_dkan()
-            if data:
-                logger.info(f"DKAN fetch succeeded: {len(data)} records")
-                return data, "api"
-            logger.warning("DKAN returned no data, using curated fallback")
+            adult = self.fetch_dkan_endpoint(self.adult_config.get("dkan_endpoint"), "adult")
+            all_records.extend(adult)
+            logger.info(f"Adult core set: {len(adult)} records")
         except Exception as e:
-            logger.warning(f"DKAN fetch failed ({e}), using curated fallback")
+            logger.warning(f"Adult core set fetch failed: {e}")
+
+        try:
+            child = self.fetch_dkan_endpoint(self.child_config.get("dkan_endpoint"), "child")
+            all_records.extend(child)
+            logger.info(f"Child core set: {len(child)} records")
+        except Exception as e:
+            logger.warning(f"Child core set fetch failed: {e}")
+
+        if all_records:
+            logger.info(f"DKAN fetch succeeded: {len(all_records)} total records")
+            return all_records, "api"
+
+        logger.warning("Both core set fetches returned no data, using curated fallback")
 
         # Curated fallback — return structured data from published CMS reports
         logger.info("Using curated quality data from CMS 2024 Core Set reports")
@@ -245,37 +280,67 @@ class QualityAgent:
             logger.error("No state_code column found in quality data")
             return self.process_curated_data()
 
-        # Convert rate to numeric
+        # Convert rate + year to numeric
         if "rate" in df.columns:
             df["rate"] = pd.to_numeric(df["rate"], errors="coerce")
+        if "year" in df.columns:
+            df["year"] = pd.to_numeric(df["year"], errors="coerce")
 
-        # Compute composite score per state (average of available measure rates)
+        # Year-aware composite: use the latest year per state, and compare
+        # to prior year for YoY delta.
         state_scores = {}
+        latest_year = None
+        prior_year = None
+        if "year" in df.columns and not df["year"].isna().all():
+            latest_year = int(df["year"].max())
+            prior_year = latest_year - 1
+            logger.info(f"Quality data years: latest={latest_year}, prior={prior_year}")
+
         for code in df["state_code"].unique():
             state_df = df[df["state_code"] == code]
-            if "rate" in state_df.columns:
-                rates = state_df["rate"].dropna()
-                if len(rates) > 0:
-                    state_scores[code] = {
-                        "compositeScore": round(rates.mean(), 1),
-                        "measuresReported": len(rates),
-                        "measuresAvailable": len(KEY_MEASURES),
-                    }
+            if "rate" not in state_df.columns:
+                continue
 
-        return self._build_output(state_scores, "data.medicaid.gov")
+            if latest_year is not None:
+                latest_rates = state_df[state_df["year"] == latest_year]["rate"].dropna()
+                prior_rates = state_df[state_df["year"] == prior_year]["rate"].dropna()
+            else:
+                latest_rates = state_df["rate"].dropna()
+                prior_rates = pd.Series(dtype=float)
+
+            if len(latest_rates) == 0:
+                continue
+
+            composite = round(float(latest_rates.mean()), 1)
+            prior_composite = round(float(prior_rates.mean()), 1) if len(prior_rates) > 0 else None
+            change = None
+            if prior_composite is not None and prior_composite > 0:
+                change = round(composite - prior_composite, 1)
+
+            state_scores[code] = {
+                "compositeScore": composite,
+                "qualityScoreChange": change,
+                "measuresReported": int(len(latest_rates)),
+                "measuresAvailable": len(KEY_MEASURES),
+            }
+
+        return self._build_output(state_scores, "data.medicaid.gov", reporting_year=latest_year)
 
     def process_curated_data(self) -> dict:
         """Process the curated fallback quality data."""
         state_scores = {}
         for code, score in CURATED_STATE_QUALITY.items():
+            prior = CURATED_STATE_QUALITY_PRIOR.get(code)
+            change = round(score - prior, 1) if prior is not None else None
             state_scores[code] = {
                 "compositeScore": score,
+                "qualityScoreChange": change,
                 "measuresReported": None,  # Not applicable for curated
                 "measuresAvailable": len(KEY_MEASURES),
             }
-        return self._build_output(state_scores, "curated_cms_2024")
+        return self._build_output(state_scores, "curated_cms_2024", reporting_year=2024)
 
-    def _build_output(self, state_scores: dict, source: str) -> dict:
+    def _build_output(self, state_scores: dict, source: str, reporting_year: int | None = 2024) -> dict:
         """Build the final output structure."""
         now = datetime.now().isoformat()
 
@@ -293,6 +358,7 @@ class QualityAgent:
             states_data.append({
                 "stateCode": code,
                 "qualityScore": scores["compositeScore"],
+                "qualityScoreChange": scores.get("qualityScoreChange"),
                 "qualityTier": tier,
                 "measuresReported": scores.get("measuresReported"),
                 "measuresAvailable": scores.get("measuresAvailable"),
@@ -327,7 +393,7 @@ class QualityAgent:
             "measures": measures,
             "updated": now,
             "source": source,
-            "reportingYear": 2024,
+            "reportingYear": reporting_year,
         }
 
     # ─── Persistence ─────────────────────────────────────────────────

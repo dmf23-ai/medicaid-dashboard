@@ -26,7 +26,9 @@ try:
         DATASETS, REQUEST_HEADERS, REQUEST_TIMEOUT,
         MAX_RETRIES, RETRY_DELAY, DKAN_PAGE_SIZE,
         SOCRATA_PAGE_SIZE, DATA_DIR, OUTPUT_DIR,
+        EXPENDITURE_ROLLUP,
     )
+    from agents.managed_care_agent import _state_name_to_code
 except ImportError:
     import sys
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -34,7 +36,9 @@ except ImportError:
         DATASETS, REQUEST_HEADERS, REQUEST_TIMEOUT,
         MAX_RETRIES, RETRY_DELAY, DKAN_PAGE_SIZE,
         SOCRATA_PAGE_SIZE, DATA_DIR, OUTPUT_DIR,
+        EXPENDITURE_ROLLUP,
     )
+    from agents.managed_care_agent import _state_name_to_code
 
 logger = logging.getLogger("expenditure_agent")
 
@@ -42,11 +46,13 @@ logger = logging.getLogger("expenditure_agent")
 # MBES/CBES datasets use varying column names across versions.
 
 COLUMN_ALIASES = {
-    # State
+    # State — note: the CAA 2023 dataset uses `state` with full state names
+    # (e.g. "Alabama"), so we remap to state_name_raw and convert in a
+    # separate step via _state_name_to_code(), same pattern as managed_care.
     "state_abbreviation": "state_code",
     "state_ab": "state_code",
-    "state": "state_code",
-    "state_name": "state_name",
+    "state": "state_name_raw",
+    "state_name": "state_name_raw",
     # Time
     "fiscal_year": "fiscal_year",
     "fy": "fiscal_year",
@@ -54,16 +60,20 @@ COLUMN_ALIASES = {
     "quarter": "quarter",
     "qtr": "quarter",
     "reporting_period": "reporting_period",
+    "quarter_end_date": "quarter_end_date",
     # Expenditure categories (total computable)
     "total_expenditures": "total_expenditures",
     "total_computable": "total_expenditures",
     "total_medicaid_expenditures": "total_expenditures",
     "medical_assistance_total": "total_expenditures",
+    "total_computable_all_medical_assistance_expenditures": "total_expenditures",
     # Federal share
     "federal_share": "federal_share",
     "federal_expenditures": "federal_share",
     "federal_financial_participation": "federal_share",
     "ffp": "federal_share",
+    "federal_share_all_medical_assistance_expenditures": "federal_share",
+    "total_federal_share_of_all_caa_2023_expenditures": "federal_share_caa2023",
     # State share
     "state_share": "state_share",
     "non_federal_share": "state_share",
@@ -271,21 +281,89 @@ class ExpenditureAgent:
 
         df = self.normalize_columns(df)
 
-        # Convert numeric columns
-        numeric_cols = ["total_expenditures", "federal_share", "state_share",
-                        "fiscal_year", "quarter"] + SERVICE_CATEGORIES
+        # The CAA 2023 dataset returns numeric values as comma-formatted
+        # strings (e.g. "1,969,735,646"). Strip commas before pd.to_numeric.
+        # Also treat "--", "N/A", and "." as null placeholders.
+        numeric_cols = [
+            "total_expenditures", "federal_share", "state_share",
+            "federal_share_caa2023", "fiscal_year", "quarter"
+        ] + SERVICE_CATEGORIES
         for col in numeric_cols:
             if col in df.columns:
+                if not pd.api.types.is_numeric_dtype(df[col]):
+                    df[col] = (df[col].astype(str)
+                               .str.replace(",", "", regex=False)
+                               .str.replace("$", "", regex=False)
+                               .str.strip()
+                               .replace({"--": None, "N/A": None,
+                                         "NA": None, ".": None,
+                                         "None": None, "nan": None,
+                                         "": None}))
                 df[col] = pd.to_numeric(df[col], errors="coerce")
 
-        # Filter to valid state codes
+        # Derive state_code from state name if the dataset only gives full names
+        if "state_code" not in df.columns and "state_name_raw" in df.columns:
+            df["state_code"] = df["state_name_raw"].apply(_state_name_to_code)
+
+        # Derive fiscal_year from quarter_end_date if fiscal_year is missing.
+        # quarter_end_date is an ISO date string like "2024-03-31"; CMS's
+        # federal fiscal year runs Oct 1 – Sep 30, so a Q2 FY24 row has
+        # quarter_end_date 2024-03-31 and fiscal_year 2024.
+        if ("fiscal_year" not in df.columns
+                and "quarter_end_date" in df.columns):
+            def _fy_from_qed(qed):
+                if not isinstance(qed, str) or not qed:
+                    return None
+                try:
+                    dt = datetime.fromisoformat(qed[:10])
+                except ValueError:
+                    return None
+                # Oct, Nov, Dec belong to the next federal fiscal year
+                return dt.year + 1 if dt.month >= 10 else dt.year
+            df["fiscal_year"] = df["quarter_end_date"].apply(_fy_from_qed)
+
+        # Filter to valid state codes (drops TOTALS, territories, unknowns)
         if "state_code" in df.columns:
+            before = len(df)
             df = df.dropna(subset=["state_code"])
             df = df[df["state_code"].str.len() == 2]
+            logger.info(f"Filtered to {len(df)} rows with valid state codes "
+                        f"(dropped {before - len(df)} totals/territories/unknowns)")
 
         logger.info(f"Cleaned dataframe: {df.shape[0]} rows, "
                      f"states: {df['state_code'].nunique() if 'state_code' in df.columns else '?'}")
         return df
+
+    def rollup_breakdown(self, breakdown: dict) -> dict:
+        """
+        Roll the fine-grained CMS-64 service categories into the six
+        dashboard buckets defined by EXPENDITURE_ROLLUP in config.
+
+        Returns a dict keyed by dashboard bucket name with float values.
+        Buckets with no contributing categories are still included with 0.
+        """
+        if not breakdown:
+            return {bucket: 0.0 for bucket in EXPENDITURE_ROLLUP}
+
+        rollup = {}
+        assigned = set()
+        for bucket, categories in EXPENDITURE_ROLLUP.items():
+            total = 0.0
+            for cat in categories:
+                if cat in breakdown:
+                    total += float(breakdown[cat])
+                    assigned.add(cat)
+            rollup[bucket] = round(total, 2)
+
+        # Any categories not explicitly mapped spill into "Admin & Other"
+        leftover = 0.0
+        for cat, val in breakdown.items():
+            if cat not in assigned:
+                leftover += float(val)
+        if leftover > 0:
+            rollup["Admin & Other"] = round(rollup.get("Admin & Other", 0) + leftover, 2)
+
+        return rollup
 
     def compute_metrics(self, df: pd.DataFrame, enrollment_data: dict = None) -> dict:
         """
@@ -301,13 +379,71 @@ class ExpenditureAgent:
         if df.empty or "state_code" not in df.columns:
             return {"states": [], "national": {}, "updated": now, "source": "data.medicaid.gov"}
 
-        # Determine which fiscal year to use (most recent available)
-        if "fiscal_year" in df.columns:
-            latest_fy = df["fiscal_year"].max()
-            prior_fy = latest_fy - 1
-            df_latest = df[df["fiscal_year"] == latest_fy]
-            df_prior = df[df["fiscal_year"] == prior_fy]
-            logger.info(f"Using FY {int(latest_fy)} (prior: FY {int(prior_fy)})")
+        # Determine which fiscal year to use.
+        # NOTE: CMS rolls out quarterly expenditure data gradually — the most
+        # recent 1–2 fiscal years often have sparse or all-NaN total_expenditures
+        # until states finish reporting. Pick the most recent FY whose
+        # total_expenditures actually sums to > 0 rather than blindly taking
+        # max(fiscal_year).
+        #
+        # Defensive fallback: if total_expenditures is all-zero across every
+        # FY (happens when CMS publishes a CAA-2023 snapshot where the main
+        # total column is blanked out), synthesize total_expenditures from
+        # the CAA-2023 per-quarter FMAP columns so the dashboard still has
+        # something to show. See b33/b34 diagnostic runs.
+        if ("fiscal_year" in df.columns
+                and not df["fiscal_year"].isna().all()
+                and "total_expenditures" in df.columns):
+            fy_sums = (df.dropna(subset=["fiscal_year"])
+                         .groupby("fiscal_year")["total_expenditures"]
+                         .sum()
+                         .sort_index(ascending=False))
+            logger.info(f"Expenditure totals by FY: "
+                        f"{ {int(k): float(v) for k, v in fy_sums.items()} }")
+
+            # Fallback: if every FY sums to 0 or NaN, try to use the
+            # federal_share_all_medical_assistance_expenditures column
+            # (the CAA 2023 dataset populates this even when total_computable
+            # is blank). Scale it by an assumed 66% FMAP to approximate total.
+            if fy_sums.empty or (fy_sums.fillna(0) <= 0).all():
+                logger.warning("All FY total_expenditures are zero — "
+                               "attempting fallback via federal_share column")
+                if "federal_share" in df.columns:
+                    fed_sums = (df.dropna(subset=["fiscal_year"])
+                                  .groupby("fiscal_year")["federal_share"]
+                                  .sum()
+                                  .sort_index(ascending=False))
+                    logger.info(f"Federal share totals by FY: "
+                                f"{ {int(k): float(v) for k, v in fed_sums.items()} }")
+                    if not fed_sums.empty and (fed_sums.fillna(0) > 0).any():
+                        # Synthesize total = federal_share / 0.66 (avg FMAP)
+                        df["total_expenditures"] = (
+                            pd.to_numeric(df["federal_share"], errors="coerce")
+                            / 0.66
+                        )
+                        fy_sums = (df.dropna(subset=["fiscal_year"])
+                                     .groupby("fiscal_year")["total_expenditures"]
+                                     .sum()
+                                     .sort_index(ascending=False))
+                        logger.info(f"Synthesized FY totals from federal_share: "
+                                    f"{ {int(k): float(v) for k, v in fy_sums.items()} }")
+
+            latest_fy = None
+            for fy, total in fy_sums.items():
+                if pd.notna(total) and total > 0:
+                    latest_fy = int(fy)
+                    break
+            if latest_fy is None:
+                latest_fy = int(fy_sums.index.max()) if not fy_sums.empty else None
+            prior_fy = (latest_fy - 1) if latest_fy else None
+            if latest_fy is not None:
+                df_latest = df[df["fiscal_year"] == latest_fy]
+                df_prior = df[df["fiscal_year"] == prior_fy] if prior_fy else pd.DataFrame()
+            else:
+                df_latest = df
+                df_prior = pd.DataFrame()
+            logger.info(f"Using FY {latest_fy} (prior: FY {prior_fy}) — "
+                        f"{len(df_latest)} rows latest, {len(df_prior)} rows prior")
         else:
             df_latest = df
             df_prior = pd.DataFrame()
@@ -392,6 +528,8 @@ class ExpenditureAgent:
                     if cat in row and not pd.isna(row.get(cat)) and row.get(cat, 0) > 0:
                         breakdown[cat] = float(row[cat])
 
+            rollup = self.rollup_breakdown(breakdown) if breakdown else None
+
             entry = {
                 "stateCode": code,
                 "totalExpenditures": float(total),
@@ -401,6 +539,7 @@ class ExpenditureAgent:
                 "spendingChange": yoy_change,
                 "enrollment": enrollment if enrollment > 0 else None,
                 "breakdown": breakdown if breakdown else None,
+                "rollupBreakdown": rollup,
             }
             states_data.append(entry)
 
@@ -413,6 +552,21 @@ class ExpenditureAgent:
         total_enrollment = sum(enrollment_by_state.values()) if enrollment_by_state else 0
         national_per_enrollee = round(national_total / total_enrollment, 2) if total_enrollment > 0 else None
 
+        # National rollup — sum each of the 6 dashboard buckets across states
+        national_rollup = {bucket: 0.0 for bucket in EXPENDITURE_ROLLUP}
+        for s in states_data:
+            if s.get("rollupBreakdown"):
+                for bucket, val in s["rollupBreakdown"].items():
+                    national_rollup[bucket] = national_rollup.get(bucket, 0) + val
+        national_rollup = {k: round(v, 2) for k, v in national_rollup.items()}
+
+        # Also compute percentage shares for the chart
+        national_rollup_total = sum(national_rollup.values())
+        national_rollup_pct = {}
+        if national_rollup_total > 0:
+            for bucket, val in national_rollup.items():
+                national_rollup_pct[bucket] = round((val / national_rollup_total) * 100, 1)
+
         return {
             "states": states_data,
             "national": {
@@ -420,7 +574,9 @@ class ExpenditureAgent:
                 "federalShare": national_federal,
                 "perEnrolleeSpending": national_per_enrollee,
                 "statesReporting": len(states_data),
-                "fiscalYear": int(latest_fy) if latest_fy and not pd.isna(latest_fy) else None,
+                "fiscalYear": latest_fy if latest_fy else None,
+                "rollupBreakdown": national_rollup,
+                "rollupBreakdownPct": national_rollup_pct,
             },
             "updated": now,
             "source": "data.medicaid.gov",

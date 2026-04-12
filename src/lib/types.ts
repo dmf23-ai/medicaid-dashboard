@@ -108,8 +108,10 @@ export interface StateSummary {
   enrollment: number;
   enrollmentChange: number;
   perEnrolleeSpending: number;
+  perEnrolleeSpendingChange?: number | null;
   managedCarePenetration: number;
   qualityScore: number;
+  qualityScoreChange?: number | null;
   expansionStatus: "expanded" | "not_expanded" | "partial";
 }
 

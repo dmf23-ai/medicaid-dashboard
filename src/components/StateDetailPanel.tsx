@@ -19,8 +19,7 @@ import {
   ResponsiveContainer,
   Tooltip,
 } from "recharts";
-import { StateSummary } from "@/lib/types";
-import { sampleSignals, sampleAlerts } from "@/lib/sample-data";
+import { StateSummary, SignalItem, DashboardAlert } from "@/lib/types";
 import { US_STATES } from "@/lib/constants";
 
 interface StateDetailPanelProps {
@@ -28,6 +27,8 @@ interface StateDetailPanelProps {
   onClose: () => void;
   states: StateSummary[];
   trends: Record<string, { month: string; value: number }[]>;
+  signals: SignalItem[];
+  alerts: DashboardAlert[];
 }
 
 export default function StateDetailPanel({
@@ -35,6 +36,8 @@ export default function StateDetailPanel({
   onClose,
   states,
   trends,
+  signals,
+  alerts,
 }: StateDetailPanelProps) {
   if (!stateCode) return null;
 
@@ -48,12 +51,12 @@ export default function StateDetailPanel({
   const last6Months = trendData.slice(-6);
 
   // Get related signals
-  const relatedSignals = sampleSignals.filter(
+  const relatedSignals = signals.filter(
     (signal) => signal.affectedStates?.includes(stateCode)
   );
 
   // Get related alerts
-  const relatedAlerts = sampleAlerts.filter(
+  const relatedAlerts = alerts.filter(
     (alert) => alert.stateCode === stateCode
   );
 

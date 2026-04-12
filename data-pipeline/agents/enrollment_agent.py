@@ -13,7 +13,7 @@ derived metrics the dashboard needs.
 import json
 import logging
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import requests
@@ -24,6 +24,8 @@ try:
         DATASETS, REQUEST_HEADERS, REQUEST_TIMEOUT,
         MAX_RETRIES, RETRY_DELAY, DKAN_PAGE_SIZE,
         SOCRATA_PAGE_SIZE, DATA_DIR, OUTPUT_DIR,
+        ENROLLMENT_MONTHS_BACK, ENROLLMENT_MAX_RECORDS,
+        ENROLLMENT_DATE_COLUMNS,
     )
 except ImportError:
     import sys
@@ -32,6 +34,8 @@ except ImportError:
         DATASETS, REQUEST_HEADERS, REQUEST_TIMEOUT,
         MAX_RETRIES, RETRY_DELAY, DKAN_PAGE_SIZE,
         SOCRATA_PAGE_SIZE, DATA_DIR, OUTPUT_DIR,
+        ENROLLMENT_MONTHS_BACK, ENROLLMENT_MAX_RECORDS,
+        ENROLLMENT_DATE_COLUMNS,
     )
 
 logger = logging.getLogger("enrollment_agent")
@@ -106,51 +110,155 @@ class EnrollmentAgent:
                     raise
         return []
 
+    @staticmethod
+    def _extract_records(result) -> list[dict]:
+        """Unwrap a DKAN query response into a flat list of record dicts."""
+        if isinstance(result, list):
+            return result
+        if not isinstance(result, dict):
+            return []
+        records = result.get("results", result.get("data", []))
+        # Some DKAN versions nest further: results.results
+        if isinstance(records, dict):
+            records = records.get("results", [])
+        return records if isinstance(records, list) else []
+
+    def _probe_schema(self, endpoint: str) -> tuple[list[str], str | None]:
+        """
+        Fetch a single record to discover the dataset's column names, then
+        pick the first date-like column from ENROLLMENT_DATE_COLUMNS.
+
+        Returns (columns, date_column_or_None).
+        """
+        logger.info("Probing DKAN schema...")
+        try:
+            result = self._request_with_retry(
+                endpoint, method="POST",
+                json_body={"limit": 1, "offset": 0},
+            )
+        except Exception as e:
+            logger.warning(f"Schema probe failed: {e}")
+            return [], None
+
+        records = self._extract_records(result)
+        if not records:
+            logger.warning("Schema probe returned no records")
+            return [], None
+
+        # Normalize column names for comparison (lowercase, underscores)
+        sample = records[0]
+        raw_cols = list(sample.keys())
+        norm_cols = [c.strip().lower().replace(" ", "_") for c in raw_cols]
+        col_map = dict(zip(norm_cols, raw_cols))
+
+        logger.info(f"  Schema columns: {norm_cols}")
+
+        date_col = None
+        for candidate in ENROLLMENT_DATE_COLUMNS:
+            if candidate in norm_cols:
+                date_col = col_map[candidate]  # use the raw-cased name for the API
+                break
+
+        # Fallback: any column containing "date" or "period"
+        if date_col is None:
+            for nc, raw in col_map.items():
+                if "date" in nc or "period" in nc or "month" in nc:
+                    date_col = raw
+                    logger.info(f"  Heuristic date column: {raw}")
+                    break
+
+        if date_col:
+            logger.info(f"  Using date column: {date_col}")
+        else:
+            logger.warning("  No date column found — will rely on MAX_RECORDS cap")
+
+        return raw_cols, date_col
+
     def fetch_dkan(self) -> list[dict]:
         """
         Fetch enrollment data from the DKAN datastore API.
-        DKAN uses POST requests with a JSON query body for pagination.
+
+        Strategy:
+        1. Probe the schema to find a date-like column.
+        2. If found, request only the last ENROLLMENT_MONTHS_BACK months,
+           sorted descending so we get the newest data first.
+        3. Paginate until we hit either the end of the filtered result set
+           or the ENROLLMENT_MAX_RECORDS safety cap.
         """
         endpoint = self.dataset_config.get("dkan_endpoint")
         if not endpoint:
             raise ValueError("No DKAN endpoint configured")
 
         logger.info(f"Fetching from DKAN API: {endpoint}")
-        all_records = []
+
+        # Probe the schema before the main fetch
+        _cols, date_col = self._probe_schema(endpoint)
+
+        # Build the base query (conditions + sorts) once.
+        # `reporting_period` in the CMS enrollment dataset is a YYYYMM
+        # string (e.g. "202404"); other date columns we've seen use
+        # YYYY-MM-DD. Format the cutoff to match.
+        base_query: dict = {}
+        if date_col:
+            cutoff_dt = datetime.now() - timedelta(days=ENROLLMENT_MONTHS_BACK * 31)
+            if date_col.lower() in ("reporting_period", "report_period",
+                                    "applications_rpt_mth"):
+                cutoff_str = cutoff_dt.strftime("%Y%m")
+            else:
+                cutoff_str = cutoff_dt.strftime("%Y-%m-%d")
+            base_query["conditions"] = [
+                {"property": date_col, "value": cutoff_str, "operator": ">="}
+            ]
+            base_query["sorts"] = [{"property": date_col, "order": "desc"}]
+            logger.info(f"  Date filter: {date_col} >= {cutoff_str}")
+
+        all_records: list[dict] = []
         offset = 0
+        filter_active = bool(date_col)
 
         while True:
-            # DKAN datastore query uses POST with JSON body
+            # Safety cap — hard stop regardless of filter
+            if len(all_records) >= ENROLLMENT_MAX_RECORDS:
+                logger.warning(
+                    f"  Hit ENROLLMENT_MAX_RECORDS cap ({ENROLLMENT_MAX_RECORDS}). Stopping."
+                )
+                break
+
             query_body = {
+                **base_query,
                 "limit": DKAN_PAGE_SIZE,
                 "offset": offset,
-                "sort": {"descending": True},
             }
 
             try:
-                result = self._request_with_retry(endpoint, method="POST",
-                                                   json_body=query_body)
-            except Exception:
-                # If POST fails, try GET with query params (some DKAN versions)
-                params = {"limit": DKAN_PAGE_SIZE, "offset": offset}
-                result = self._request_with_retry(endpoint, params=params)
+                result = self._request_with_retry(
+                    endpoint, method="POST", json_body=query_body
+                )
+            except Exception as e:
+                # If POST with conditions fails (e.g. filter syntax rejected),
+                # retry once without the filter — the MAX_RECORDS cap will keep us safe.
+                if filter_active and offset == 0:
+                    logger.warning(
+                        f"  Filtered query failed ({e}); retrying without filter"
+                    )
+                    base_query = {}
+                    filter_active = False
+                    continue
+                # Also try GET as a fallback for older DKAN versions
+                try:
+                    params = {"limit": DKAN_PAGE_SIZE, "offset": offset}
+                    result = self._request_with_retry(endpoint, params=params)
+                except Exception:
+                    raise
 
-            # DKAN wraps results differently than Socrata
-            if isinstance(result, dict):
-                records = result.get("results", result.get("data", []))
-                # Some DKAN responses nest further
-                if isinstance(records, dict):
-                    records = records.get("results", [])
-            elif isinstance(result, list):
-                records = result
-            else:
-                break
-
+            records = self._extract_records(result)
             if not records:
                 break
 
             all_records.extend(records)
-            logger.info(f"  Page fetched: {len(records)} records (total: {len(all_records)})")
+            logger.info(
+                f"  Page fetched: {len(records)} records (total: {len(all_records)})"
+            )
 
             if len(records) < DKAN_PAGE_SIZE:
                 break
@@ -260,11 +368,17 @@ class EnrollmentAgent:
             if isinstance(med, pd.Series) and isinstance(chip, pd.Series):
                 df["total_enrollment"] = med.fillna(0) + chip.fillna(0)
 
-        # Parse dates: handle both "report_date" and separate year/month
+        # Parse dates: handle "report_date", "reporting_period" (YYYYMM),
+        # or separate year/month columns.
         if "report_date" in df.columns:
             df["report_date"] = pd.to_datetime(df["report_date"], errors="coerce")
             df["year"] = df["report_date"].dt.year
             df["month"] = df["report_date"].dt.month
+        elif "reporting_period" in df.columns:
+            # CMS enrollment dataset packs year and month into a YYYYMM int/str
+            rp = pd.to_numeric(df["reporting_period"], errors="coerce")
+            df["year"] = (rp // 100).astype("Int64")
+            df["month"] = (rp % 100).astype("Int64")
         elif "year" in df.columns and "month" in df.columns:
             df["year"] = pd.to_numeric(df["year"], errors="coerce")
             df["month"] = pd.to_numeric(df["month"], errors="coerce")
@@ -351,23 +465,34 @@ class EnrollmentAgent:
         states_data.sort(key=lambda s: s["enrollment"], reverse=True)
 
         # ── Monthly trends (last 24 months) ──
+        # Drop rows with NaN year/month before astype(int) — pandas Int64
+        # with pd.NA raises on astype(int), which previously left the
+        # output JSON half-written during json.dump.
         trends = {}
         if "year" in df.columns and "month" in df.columns:
-            # Get the most recent 24 months of data per state
-            df_recent = df_sorted.copy()
-            df_recent["ym"] = df_recent["year"].astype(int) * 100 + df_recent["month"].astype(int)
-            cutoff_months = sorted(df_recent["ym"].unique(), reverse=True)[:24]
-            df_recent = df_recent[df_recent["ym"].isin(cutoff_months)]
+            df_recent = df_sorted.dropna(subset=["year", "month"]).copy()
+            if not df_recent.empty:
+                df_recent["ym"] = (df_recent["year"].astype(int) * 100
+                                   + df_recent["month"].astype(int))
+                cutoff_months = sorted(df_recent["ym"].unique(), reverse=True)[:24]
+                df_recent = df_recent[df_recent["ym"].isin(cutoff_months)]
 
-            for code in df_recent["state_code"].unique():
-                state_df = df_recent[df_recent["state_code"] == code].sort_values("ym")
-                trends[code] = [
-                    {
-                        "month": f"{int(r['year'])}-{int(r['month']):02d}",
-                        "value": int(r[enrollment_col]) if not pd.isna(r[enrollment_col]) else 0,
-                    }
-                    for _, r in state_df.iterrows()
-                ]
+                # Deduplicate rows with the same (state, year, month) — CMS
+                # sometimes publishes a preliminary and a final record for the
+                # same period; keep the first (already sorted newest-first).
+                df_recent = df_recent.drop_duplicates(
+                    subset=["state_code", "year", "month"], keep="first"
+                )
+
+                for code in df_recent["state_code"].unique():
+                    state_df = df_recent[df_recent["state_code"] == code].sort_values("ym")
+                    trends[code] = [
+                        {
+                            "month": f"{int(r['year'])}-{int(r['month']):02d}",
+                            "value": int(r[enrollment_col]) if not pd.isna(r[enrollment_col]) else 0,
+                        }
+                        for _, r in state_df.iterrows()
+                    ]
 
         # ── National totals ──
         total_enrollment = sum(s["enrollment"] for s in states_data)

@@ -1,13 +1,16 @@
 'use client';
 
 import { TrendingUp, TrendingDown, Minus } from 'lucide-react';
-import { samplePulseMetrics } from '@/lib/sample-data';
 import { TexasPulseMetric } from '@/lib/types';
 import { Tooltip } from './Tooltip';
 
-export default function TexasPulse() {
+interface TexasPulseProps {
+  metrics: TexasPulseMetric[];
+}
+
+export default function TexasPulse({ metrics }: TexasPulseProps) {
   // Duplicate metrics for seamless scrolling
-  const displayMetrics = [...samplePulseMetrics, ...samplePulseMetrics];
+  const displayMetrics = metrics && metrics.length > 0 ? [...metrics, ...metrics] : [];
 
   const getDeltaColor = (metric: TexasPulseMetric): string => {
     if (metric.deltaDirection === 'neutral') return 'var(--text-secondary)';
@@ -121,7 +124,7 @@ export default function TexasPulse() {
                 )}
 
                 {/* Vertical divider (except for last item in each set) */}
-                {idx < samplePulseMetrics.length - 1 || idx >= samplePulseMetrics.length ? (
+                {metrics.length > 0 && (idx < metrics.length - 1 || idx >= metrics.length) ? (
                   <div
                     className="ml-6 w-px h-8"
                     style={{ backgroundColor: 'var(--border-subtle)' }}

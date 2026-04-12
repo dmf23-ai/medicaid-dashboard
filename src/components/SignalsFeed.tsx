@@ -12,7 +12,6 @@ import {
   ExternalLink,
 } from "lucide-react";
 import { SignalItem } from "@/lib/types";
-import { sampleSignals } from "@/lib/sample-data";
 import { Tooltip as TooltipHint } from "./Tooltip";
 import { SourceLink } from "./SourceLink";
 
@@ -77,13 +76,17 @@ const filterOptions: { value: CategoryFilter; label: string }[] = [
   { value: "legislative", label: "Legislative" },
 ];
 
-export default function SignalsFeed() {
+interface SignalsFeedProps {
+  signals: SignalItem[];
+}
+
+export default function SignalsFeed({ signals }: SignalsFeedProps) {
   const [activeFilter, setActiveFilter] = useState<CategoryFilter>("all");
 
   const filteredSignals =
     activeFilter === "all"
-      ? sampleSignals
-      : sampleSignals.filter((signal) => signal.category === activeFilter);
+      ? signals
+      : signals.filter((signal) => signal.category === activeFilter);
 
   const formatDate = (timestamp: string): string => {
     const date = new Date(timestamp);

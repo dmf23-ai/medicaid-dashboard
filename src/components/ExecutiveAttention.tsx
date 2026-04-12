@@ -12,14 +12,17 @@ import {
   CheckCircle2,
   Check,
 } from "lucide-react";
-import { sampleInsights } from "@/lib/sample-data";
+import { ExecutiveInsight } from "@/lib/types";
 import { Tooltip as TooltipHint } from "./Tooltip";
 import { SourceLink } from "./SourceLink";
 
 const DEFAULT_VISIBLE = 3;
 
-export default function ExecutiveAttention() {
-  const insights = sampleInsights;
+interface ExecutiveAttentionProps {
+  insights: ExecutiveInsight[];
+}
+
+export default function ExecutiveAttention({ insights }: ExecutiveAttentionProps) {
   const [isExpanded, setIsExpanded] = useState(false);
   const [reviewedIds, setReviewedIds] = useState<Set<string>>(new Set());
   const visibleInsights = isExpanded

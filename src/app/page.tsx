@@ -31,6 +31,11 @@ export default function Home() {
     states,
     trends,
     alerts,
+    executiveInsights,
+    signals,
+    riskOpportunity,
+    pulseMetrics,
+    spendingCategories,
     dataSource,
     lastUpdated,
   } = useDashboardData();
@@ -49,7 +54,7 @@ export default function Home() {
       <Header dataSource={dataSource} lastUpdated={lastUpdated} />
 
       {/* Texas Pulse ribbon - always visible, data-rich ticker */}
-      <TexasPulse />
+      <TexasPulse metrics={pulseMetrics} />
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         {/* === SECTION 1: Texas at a Glance — Hero Metrics === */}
@@ -88,7 +93,7 @@ export default function Home() {
               value={
                 texas ? `$${texas.perEnrolleeSpending.toLocaleString()}` : "—"
               }
-              change={4.2}
+              change={texas?.perEnrolleeSpendingChange ?? undefined}
               changeLabel="YoY"
               icon={<DollarSign className="w-5 h-5" />}
               invertTrend
@@ -107,7 +112,7 @@ export default function Home() {
             <MetricCard
               title="Quality Score"
               value={texas ? `${texas.qualityScore}/100` : "—"}
-              change={-2.1}
+              change={texas?.qualityScoreChange ?? undefined}
               changeLabel="YoY"
               icon={<BarChart3 className="w-5 h-5" />}
               tooltip="Composite quality score based on CMS Adult & Child Core Set measures (preventive care, chronic disease, behavioral health)."
@@ -121,18 +126,18 @@ export default function Home() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
           {/* Left column: Executive Attention + Enrollment Chart */}
           <div className="lg:col-span-2 flex flex-col gap-6">
-            <ExecutiveAttention />
+            <ExecutiveAttention insights={executiveInsights} />
 
             <div className="flex-1 flex flex-col min-h-0">
               <ChartErrorBoundary fallbackMessage="Unable to render enrollment trends">
-                <EnrollmentChart states={selectedStates} />
+                <EnrollmentChart states={selectedStates} trends={trends} />
               </ChartErrorBoundary>
             </div>
           </div>
 
           {/* Right column: Signals + Alerts */}
           <div className="space-y-6">
-            <SignalsFeed />
+            <SignalsFeed signals={signals} />
             <AlertsFeed alerts={alerts} onStateClick={setDetailStateCode} />
           </div>
         </div>
@@ -155,14 +160,18 @@ export default function Home() {
         {/* === SECTION 4: Spending Breakdown === */}
         <section className="mb-6">
           <ChartErrorBoundary fallbackMessage="Unable to render spending breakdown">
-            <SpendingBreakdownChart />
+            <SpendingBreakdownChart
+              categories={spendingCategories}
+              stateLabel="National FY2024"
+              perEnrolleeValue={texas?.perEnrolleeSpending ?? null}
+            />
           </ChartErrorBoundary>
         </section>
 
         {/* === SECTION 5: Risk & Opportunity Matrix === */}
         <section className="mb-6">
           <ChartErrorBoundary fallbackMessage="Unable to render risk/opportunity matrix">
-            <RiskOpportunityChart />
+            <RiskOpportunityChart items={riskOpportunity} />
           </ChartErrorBoundary>
         </section>
       </main>
@@ -189,6 +198,8 @@ export default function Home() {
         onClose={() => setDetailStateCode(null)}
         states={states}
         trends={trends}
+        signals={signals}
+        alerts={alerts}
       />
 
       {/* Ask Claude floating button + drawer */}

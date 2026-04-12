@@ -12,8 +12,6 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { DollarSign } from "lucide-react";
-import { sampleSpendingCategories } from "@/lib/sample-data";
-import TooltipWrapper from "./Tooltip";
 import SourceLink from "./SourceLink";
 
 const COLORS = [
@@ -31,16 +29,31 @@ interface SpendingCategory {
   percentOfTotal: number;
 }
 
-export default function SpendingBreakdownChart() {
+interface SpendingBreakdownChartProps {
+  categories: SpendingCategory[];
+  stateLabel?: string;
+  perEnrolleeValue?: number | null;
+}
+
+export default function SpendingBreakdownChart({
+  categories,
+  stateLabel = "Texas FY2025",
+  perEnrolleeValue,
+}: SpendingBreakdownChartProps) {
   // Transform data to add formatted display fields
   const chartData: (SpendingCategory & {
     displayLabel: string;
     displayValue: string;
-  })[] = sampleSpendingCategories.map((item) => ({
+  })[] = categories.map((item) => ({
     ...item,
     displayLabel: `${item.category}`,
     displayValue: `$${item.amount.toLocaleString()} (${item.percentOfTotal}%)`,
   }));
+
+  const subtitle =
+    perEnrolleeValue && perEnrolleeValue > 0
+      ? `${stateLabel} — $${perEnrolleeValue.toLocaleString()} per enrollee`
+      : stateLabel;
 
   return (
     <div className="bg-[#111827] border border-[#1E293B] rounded-xl p-6">
@@ -53,9 +66,7 @@ export default function SpendingBreakdownChart() {
       </div>
 
       {/* Subtitle */}
-      <p className="text-sm text-[#94A3B8] mb-6">
-        Texas FY2025 — $7,450 per enrollee
-      </p>
+      <p className="text-sm text-[#94A3B8] mb-6">{subtitle}</p>
 
       {/* Chart */}
       <div className="mb-6">

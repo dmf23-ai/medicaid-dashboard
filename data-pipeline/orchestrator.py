@@ -20,6 +20,8 @@ from datetime import datetime
 from agents.enrollment_agent import EnrollmentAgent
 from agents.expenditure_agent import ExpenditureAgent
 from agents.quality_agent import QualityAgent
+from agents.managed_care_agent import ManagedCareAgent
+from agents.signals_agent import SignalsAgent
 from agents.intelligence_agent import IntelligenceAgent
 
 logger = logging.getLogger("orchestrator")
@@ -48,10 +50,23 @@ AGENT_REGISTRY = {
         "depends_on": [],
         "layer": "collection",
     },
+    "managed_care": {
+        "class": ManagedCareAgent,
+        "description": "Fetch managed care enrollment summary and compute penetration",
+        # Depends on enrollment for states where the MC dataset doesn't include totals
+        "depends_on": ["enrollment"],
+        "layer": "collection",
+    },
+    "signals": {
+        "class": SignalsAgent,
+        "description": "Aggregate Federal Register, OIG, Congress, and state procurement signals",
+        "depends_on": [],
+        "layer": "collection",
+    },
     "intelligence": {
         "class": IntelligenceAgent,
-        "description": "Generate AI briefings and anomaly alerts",
-        "depends_on": ["enrollment", "expenditure", "quality"],
+        "description": "Generate AI briefings, executive insights, and risk/opportunity matrix",
+        "depends_on": ["enrollment", "expenditure", "quality", "managed_care", "signals"],
         "layer": "intelligence",
     },
 }

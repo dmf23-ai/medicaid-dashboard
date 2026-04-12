@@ -11,27 +11,28 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { STATE_COLORS } from "@/lib/constants";
-import { sampleEnrollmentTrends } from "@/lib/sample-data";
 import { Tooltip as TooltipHint } from "./Tooltip";
 import { SourceLink } from "./SourceLink";
 
 interface EnrollmentChartProps {
   states: string[];
   anchorState?: string;
+  trends: Record<string, { month: string; value: number }[]>;
 }
 
 export default function EnrollmentChart({
   states,
   anchorState = "TX",
+  trends,
 }: EnrollmentChartProps) {
   const allStates = [anchorState, ...states.filter((s) => s !== anchorState)];
 
   // Build unified dataset: each row has month + value per state
-  const months = sampleEnrollmentTrends[anchorState]?.map((d) => d.month) || [];
+  const months = trends[anchorState]?.map((d) => d.month) || [];
   const chartData = months.map((month) => {
     const row: Record<string, string | number> = { month };
     allStates.forEach((code) => {
-      const trend = sampleEnrollmentTrends[code];
+      const trend = trends[code];
       const point = trend?.find((d) => d.month === month);
       if (point) {
         row[code] = point.value;
