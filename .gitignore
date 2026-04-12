@@ -20,8 +20,8 @@ venv/
 # Pipeline data (raw downloads, can be regenerated)
 data-pipeline/data/
 
-# Pipeline output (generated JSON for frontend)
-public/data/*.json
+# Pipeline output — committed so Vercel can deploy live data.
+# Regenerated automatically by the scheduled GitHub Actions workflow.
 
 # Environment variables
 .env

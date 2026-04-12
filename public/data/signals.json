@@ -1,0 +1,179 @@
+{
+  "signals": [
+    {
+      "id": "hhsc-opportunities",
+      "title": "Texas HHSC Procurement Opportunities portal",
+      "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
+      "source": "Texas HHSC (Procurement)",
+      "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs/procurement/procurement-opportunities",
+      "category": "procurement",
+      "relevance": "high",
+      "timestamp": "2026-04-11",
+      "affectedStates": [
+        "TX"
+      ]
+    },
+    {
+      "id": "oig-portfolio-medicaid",
+      "title": "HHS OIG Medicaid Portfolio \u2014 active oversight docket",
+      "summary": "Browse current HHS OIG Medicaid audits, evaluations, and advisories. Scraper fell back; visit directly for the latest items.",
+      "source": "HHS OIG (portfolio page)",
+      "sourceUrl": "https://oig.hhs.gov/reports-and-publications/portfolio/medicaid/",
+      "category": "oig",
+      "relevance": "medium",
+      "timestamp": "2026-04-11"
+    },
+    {
+      "id": "oig-workplan",
+      "title": "HHS OIG Work Plan \u2014 in-progress Medicaid items",
+      "summary": "The OIG Work Plan lists audits and evaluations underway; filter to Medicaid & CHIP for upcoming report drops.",
+      "source": "HHS OIG (work plan)",
+      "sourceUrl": "https://oig.hhs.gov/reports-and-publications/workplan/active-item-table.asp",
+      "category": "oig",
+      "relevance": "medium",
+      "timestamp": "2026-04-11"
+    },
+    {
+      "id": "txsmartbuy-esbd",
+      "title": "Texas Electronic State Business Daily (ESBD) \u2014 search portal",
+      "summary": "Statewide solicitation search. Filter by HHSC agency code and 'Medical Services' category for current Medicaid awards and renewals.",
+      "source": "Texas ESBD (TxSmartBuy)",
+      "sourceUrl": "https://www.txsmartbuy.gov/esbd",
+      "category": "procurement",
+      "relevance": "medium",
+      "timestamp": "2026-04-11",
+      "affectedStates": [
+        "TX"
+      ]
+    },
+    {
+      "id": "ohiobuys-public",
+      "title": "OhioBuys public RFP browser \u2014 Ohio Department of Medicaid track",
+      "summary": "Browse Ohio Department of Medicaid procurement opportunities and active RFPs. Page is JS-rendered; scraper fell back, visit directly for current items.",
+      "source": "OhioBuys",
+      "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
+      "category": "procurement",
+      "relevance": "low",
+      "timestamp": "2026-04-11",
+      "affectedStates": [
+        "OH"
+      ]
+    },
+    {
+      "id": "fr-2026-07016",
+      "title": "Agency Information Collection Activities: Proposed Collection; Comment Request",
+      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal Regi\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/10/2026-07016/agency-information-collection-activities-proposed-collection-comment-request",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-04-10"
+    },
+    {
+      "id": "fr-2026-06946",
+      "title": "Agency Information Collection Activities: Proposed Collection; Comment Request",
+      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal Regi\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/10/2026-06946/agency-information-collection-activities-proposed-collection-comment-request",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-04-10"
+    },
+    {
+      "id": "fr-2026-06861",
+      "title": "Medicare and Medicaid Programs: Application From DNV Healthcare USA Inc. for Continued CMS-Approval of Its Hospital Accreditation Program",
+      "summary": "This notice acknowledges the receipt of an application from DNV Healthcare USA Inc. (DNV) for continued recognition as a national accrediting organization for its hospital accreditation program to participate in the Medicare or Medicaid programs.",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/09/2026-06861/medicare-and-medicaid-programs-application-from-dnv-healthcare-usa-inc-for-continued-cms-approval-of",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-04-09"
+    },
+    {
+      "id": "fr-2026-06725",
+      "title": "Agency Information Collection Activities: Submission for OMB Review; Comment Request",
+      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal Regi\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/07/2026-06725/agency-information-collection-activities-submission-for-omb-review-comment-request",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-04-07"
+    },
+    {
+      "id": "fr-2026-06573",
+      "title": "Agency Information Collection Activities: Proposed Collection; Comment Request",
+      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal Regi\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/06/2026-06573/agency-information-collection-activities-proposed-collection-comment-request",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-04-06"
+    },
+    {
+      "id": "fr-2026-06570",
+      "title": "Agency Information Collection Activities: Submission for OMB Review; Comment Request",
+      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal Regi\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/06/2026-06570/agency-information-collection-activities-submission-for-omb-review-comment-request",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-04-06"
+    },
+    {
+      "id": "fr-2026-06600",
+      "title": "Medicare Program; Contract Year 2027 and Certain Contract Year 2026 Policy and Technical Changes to the Medicare Advantage Program, Medicare Prescription Drug Benefit Program, and Medicare Cost Plan P",
+      "summary": "This final rule revises the Medicare Advantage (Part C), Medicare Prescription Drug Benefit (Part D), and Medicare cost plan regulations to implement changes related to Star Ratings, marketing and communications, drug coverage, enrollment processes, special needs plans, and other\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/06/2026-06600/medicare-program-contract-year-2027-and-certain-contract-year-2026-policy-and-technical-changes-to",
+      "category": "regulatory",
+      "relevance": "medium",
+      "timestamp": "2026-04-06"
+    },
+    {
+      "id": "fr-2026-06508",
+      "title": "Medicare and Medicaid Programs; Application From Joint Commission (JC) for Continued CMS-Approval of Its Home Health Agency (HHA) Accreditation Program",
+      "summary": "This proposed notice acknowledges the receipt of an application from Joint Commission for continued recognition as a national accrediting organization for home health agencies that wish to participate in the Medicare or Medicaid programs. It also provides the public with the oppo\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/03/2026-06508/medicare-and-medicaid-programs-application-from-joint-commission-jc-for-continued-cms-approval-of",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-04-03"
+    },
+    {
+      "id": "fr-2026-06500",
+      "title": "Medicare and Medicaid Programs; Approval of Application by the Accreditation Commission for Health Care Inc. (ACHC) for Continued CMS-Approval of its Hospice Accreditation Program",
+      "summary": "This notice acknowledges the approval of an application from the Accreditation Commission for Health Care Inc., for continued CMS approval as a national accrediting organization for hospice programs that wish to participate in the Medicare or Medicaid programs.",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/03/2026-06500/medicare-and-medicaid-programs-approval-of-application-by-the-accreditation-commission-for-health",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-04-03"
+    },
+    {
+      "id": "fr-2026-06499",
+      "title": "Medicare and Medicaid Programs: Application From the Accreditation Commission for Health Care Inc. (ACHC) for Continued Approval of Its Critical Access Hospital Accreditation Program",
+      "summary": "This notice announces our decision to approve the Accreditation Commission for Health Care Inc. (ACHC) for continued recognition as a national accrediting organization for critical access hospitals that wish to participate in the Medicare or Medicaid programs.",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/03/2026-06499/medicare-and-medicaid-programs-application-from-the-accreditation-commission-for-health-care-inc",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-04-03"
+    }
+  ],
+  "national": {
+    "totalSignals": 15,
+    "byCategory": {
+      "procurement": 3,
+      "oig": 2,
+      "regulatory": 10
+    },
+    "byRelevance": {
+      "high": 10,
+      "medium": 4,
+      "low": 1
+    }
+  },
+  "errors": {},
+  "updated": "2026-04-11T17:30:47.250307",
+  "source": "aggregated"
+}

@@ -1,0 +1,369 @@
+{
+  "states": [
+    {
+      "stateCode": "HI",
+      "managedCareEnrollment": 432125,
+      "totalMedicaidEnrollment": 432222,
+      "managedCarePenetration": 100.0,
+      "year": 2024
+    },
+    {
+      "stateCode": "VT",
+      "managedCareEnrollment": 165372,
+      "totalMedicaidEnrollment": 165372,
+      "managedCarePenetration": 100.0,
+      "year": 2024
+    },
+    {
+      "stateCode": "NE",
+      "managedCareEnrollment": 350451,
+      "totalMedicaidEnrollment": 351141,
+      "managedCarePenetration": 99.8,
+      "year": 2024
+    },
+    {
+      "stateCode": "RI",
+      "managedCareEnrollment": 314175,
+      "totalMedicaidEnrollment": 317797,
+      "managedCarePenetration": 98.9,
+      "year": 2024
+    },
+    {
+      "stateCode": "MI",
+      "managedCareEnrollment": 2362471,
+      "totalMedicaidEnrollment": 2416518,
+      "managedCarePenetration": 97.8,
+      "year": 2024
+    },
+    {
+      "stateCode": "UT",
+      "managedCareEnrollment": 322526,
+      "totalMedicaidEnrollment": 331012,
+      "managedCarePenetration": 97.4,
+      "year": 2024
+    },
+    {
+      "stateCode": "DC",
+      "managedCareEnrollment": 264158,
+      "totalMedicaidEnrollment": 275158,
+      "managedCarePenetration": 96.0,
+      "year": 2024
+    },
+    {
+      "stateCode": "PA",
+      "managedCareEnrollment": 2821039,
+      "totalMedicaidEnrollment": 2967715,
+      "managedCarePenetration": 95.1,
+      "year": 2024
+    },
+    {
+      "stateCode": "MD",
+      "managedCareEnrollment": 1665975,
+      "totalMedicaidEnrollment": 1762462,
+      "managedCarePenetration": 94.5,
+      "year": 2024
+    },
+    {
+      "stateCode": "TN",
+      "managedCareEnrollment": 1436583,
+      "totalMedicaidEnrollment": 1526625,
+      "managedCarePenetration": 94.1,
+      "year": 2024
+    },
+    {
+      "stateCode": "IA",
+      "managedCareEnrollment": 610326,
+      "totalMedicaidEnrollment": 649899,
+      "managedCarePenetration": 93.9,
+      "year": 2024
+    },
+    {
+      "stateCode": "CA",
+      "managedCareEnrollment": 13978531,
+      "totalMedicaidEnrollment": 14904950,
+      "managedCarePenetration": 93.8,
+      "year": 2024
+    },
+    {
+      "stateCode": "TX",
+      "managedCareEnrollment": 3863808,
+      "totalMedicaidEnrollment": 4141972,
+      "managedCarePenetration": 93.3,
+      "year": 2024
+    },
+    {
+      "stateCode": "ID",
+      "managedCareEnrollment": 308110,
+      "totalMedicaidEnrollment": 331580,
+      "managedCarePenetration": 92.9,
+      "year": 2024
+    },
+    {
+      "stateCode": "LA",
+      "managedCareEnrollment": 1533577,
+      "totalMedicaidEnrollment": 1676215,
+      "managedCarePenetration": 91.5,
+      "year": 2024
+    },
+    {
+      "stateCode": "NJ",
+      "managedCareEnrollment": 1555225,
+      "totalMedicaidEnrollment": 1700910,
+      "managedCarePenetration": 91.4,
+      "year": 2024
+    },
+    {
+      "stateCode": "DE",
+      "managedCareEnrollment": 236213,
+      "totalMedicaidEnrollment": 259168,
+      "managedCarePenetration": 91.1,
+      "year": 2024
+    },
+    {
+      "stateCode": "NH",
+      "managedCareEnrollment": 181676,
+      "totalMedicaidEnrollment": 199513,
+      "managedCarePenetration": 91.1,
+      "year": 2024
+    },
+    {
+      "stateCode": "CO",
+      "managedCareEnrollment": 1079583,
+      "totalMedicaidEnrollment": 1197490,
+      "managedCarePenetration": 90.2,
+      "year": 2024
+    },
+    {
+      "stateCode": "KY",
+      "managedCareEnrollment": 1303955,
+      "totalMedicaidEnrollment": 1449651,
+      "managedCarePenetration": 89.9,
+      "year": 2024
+    },
+    {
+      "stateCode": "OR",
+      "managedCareEnrollment": 1198880,
+      "totalMedicaidEnrollment": 1340084,
+      "managedCarePenetration": 89.5,
+      "year": 2024
+    },
+    {
+      "stateCode": "FL",
+      "managedCareEnrollment": 3897852,
+      "totalMedicaidEnrollment": 4363948,
+      "managedCarePenetration": 89.3,
+      "year": 2024
+    },
+    {
+      "stateCode": "AR",
+      "managedCareEnrollment": 803185,
+      "totalMedicaidEnrollment": 900323,
+      "managedCarePenetration": 89.2,
+      "year": 2024
+    },
+    {
+      "stateCode": "ME",
+      "managedCareEnrollment": 366314,
+      "totalMedicaidEnrollment": 415298,
+      "managedCarePenetration": 88.2,
+      "year": 2024
+    },
+    {
+      "stateCode": "OH",
+      "managedCareEnrollment": 2663304,
+      "totalMedicaidEnrollment": 3018792,
+      "managedCarePenetration": 88.2,
+      "year": 2024
+    },
+    {
+      "stateCode": "WV",
+      "managedCareEnrollment": 463781,
+      "totalMedicaidEnrollment": 533405,
+      "managedCarePenetration": 86.9,
+      "year": 2024
+    },
+    {
+      "stateCode": "VA",
+      "managedCareEnrollment": 1679853,
+      "totalMedicaidEnrollment": 1953730,
+      "managedCarePenetration": 86.0,
+      "year": 2024
+    },
+    {
+      "stateCode": "GA",
+      "managedCareEnrollment": 1975478,
+      "totalMedicaidEnrollment": 2314875,
+      "managedCarePenetration": 85.3,
+      "year": 2024
+    },
+    {
+      "stateCode": "AZ",
+      "managedCareEnrollment": 1843297,
+      "totalMedicaidEnrollment": 2181548,
+      "managedCarePenetration": 84.5,
+      "year": 2024
+    },
+    {
+      "stateCode": "NC",
+      "managedCareEnrollment": 2581735,
+      "totalMedicaidEnrollment": 3057965,
+      "managedCarePenetration": 84.4,
+      "year": 2024
+    },
+    {
+      "stateCode": "WA",
+      "managedCareEnrollment": 1660905,
+      "totalMedicaidEnrollment": 1984868,
+      "managedCarePenetration": 83.7,
+      "year": 2024
+    },
+    {
+      "stateCode": "MO",
+      "managedCareEnrollment": 1021856,
+      "totalMedicaidEnrollment": 1222962,
+      "managedCarePenetration": 83.6,
+      "year": 2024
+    },
+    {
+      "stateCode": "MN",
+      "managedCareEnrollment": 1001988,
+      "totalMedicaidEnrollment": 1204793,
+      "managedCarePenetration": 83.2,
+      "year": 2024
+    },
+    {
+      "stateCode": "MT",
+      "managedCareEnrollment": 174914,
+      "totalMedicaidEnrollment": 213159,
+      "managedCarePenetration": 82.1,
+      "year": 2024
+    },
+    {
+      "stateCode": "NM",
+      "managedCareEnrollment": 735622,
+      "totalMedicaidEnrollment": 900757,
+      "managedCarePenetration": 81.7,
+      "year": 2024
+    },
+    {
+      "stateCode": "IN",
+      "managedCareEnrollment": 1609664,
+      "totalMedicaidEnrollment": 1972638,
+      "managedCarePenetration": 81.6,
+      "year": 2024
+    },
+    {
+      "stateCode": "KS",
+      "managedCareEnrollment": 359577,
+      "totalMedicaidEnrollment": 453240,
+      "managedCarePenetration": 79.3,
+      "year": 2024
+    },
+    {
+      "stateCode": "AL",
+      "managedCareEnrollment": 837805,
+      "totalMedicaidEnrollment": 1098614,
+      "managedCarePenetration": 76.3,
+      "year": 2024
+    },
+    {
+      "stateCode": "IL",
+      "managedCareEnrollment": 2584970,
+      "totalMedicaidEnrollment": 3418634,
+      "managedCarePenetration": 75.6,
+      "year": 2024
+    },
+    {
+      "stateCode": "MS",
+      "managedCareEnrollment": 478746,
+      "totalMedicaidEnrollment": 645050,
+      "managedCarePenetration": 74.2,
+      "year": 2024
+    },
+    {
+      "stateCode": "NV",
+      "managedCareEnrollment": 610941,
+      "totalMedicaidEnrollment": 824507,
+      "managedCarePenetration": 74.1,
+      "year": 2024
+    },
+    {
+      "stateCode": "SD",
+      "managedCareEnrollment": 106872,
+      "totalMedicaidEnrollment": 144864,
+      "managedCarePenetration": 73.8,
+      "year": 2024
+    },
+    {
+      "stateCode": "NY",
+      "managedCareEnrollment": 5056572,
+      "totalMedicaidEnrollment": 6964926,
+      "managedCarePenetration": 72.6,
+      "year": 2024
+    },
+    {
+      "stateCode": "OK",
+      "managedCareEnrollment": 751924,
+      "totalMedicaidEnrollment": 1040358,
+      "managedCarePenetration": 72.3,
+      "year": 2024
+    },
+    {
+      "stateCode": "WI",
+      "managedCareEnrollment": 952642,
+      "totalMedicaidEnrollment": 1339124,
+      "managedCarePenetration": 71.1,
+      "year": 2024
+    },
+    {
+      "stateCode": "MA",
+      "managedCareEnrollment": 1225762,
+      "totalMedicaidEnrollment": 1983201,
+      "managedCarePenetration": 61.8,
+      "year": 2024
+    },
+    {
+      "stateCode": "SC",
+      "managedCareEnrollment": 814123,
+      "totalMedicaidEnrollment": 1354616,
+      "managedCarePenetration": 60.1,
+      "year": 2024
+    },
+    {
+      "stateCode": "ND",
+      "managedCareEnrollment": 24546,
+      "totalMedicaidEnrollment": 105070,
+      "managedCarePenetration": 23.4,
+      "year": 2024
+    },
+    {
+      "stateCode": "WY",
+      "managedCareEnrollment": 202,
+      "totalMedicaidEnrollment": 73053,
+      "managedCarePenetration": 0.3,
+      "year": 2024
+    },
+    {
+      "stateCode": "AK",
+      "managedCareEnrollment": 0,
+      "totalMedicaidEnrollment": 236414,
+      "managedCarePenetration": null,
+      "year": 2024
+    },
+    {
+      "stateCode": "CT",
+      "managedCareEnrollment": 0,
+      "totalMedicaidEnrollment": 1085951,
+      "managedCarePenetration": null,
+      "year": 2024
+    }
+  ],
+  "national": {
+    "averagePenetration": 83.2,
+    "statesReporting": 49,
+    "year": 2024
+  },
+  "updated": "2026-04-11T17:30:47.183766",
+  "source": "data.medicaid.gov",
+  "record_count": 459
+}

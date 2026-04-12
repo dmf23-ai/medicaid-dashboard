@@ -1,0 +1,494 @@
+{
+  "states": [
+    {
+      "stateCode": "MA",
+      "qualityScore": 81,
+      "qualityScoreChange": 1,
+      "qualityTier": "high",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "MN",
+      "qualityScore": 80,
+      "qualityScoreChange": 1,
+      "qualityTier": "high",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "VT",
+      "qualityScore": 79,
+      "qualityScoreChange": 1,
+      "qualityTier": "high",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "WA",
+      "qualityScore": 78,
+      "qualityScoreChange": 1,
+      "qualityTier": "high",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "RI",
+      "qualityScore": 78,
+      "qualityScoreChange": 2,
+      "qualityTier": "high",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "CT",
+      "qualityScore": 77,
+      "qualityScoreChange": 1,
+      "qualityTier": "high",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "CO",
+      "qualityScore": 76,
+      "qualityScoreChange": 2,
+      "qualityTier": "high",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "NH",
+      "qualityScore": 76,
+      "qualityScoreChange": 1,
+      "qualityTier": "high",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "NY",
+      "qualityScore": 75,
+      "qualityScoreChange": 1,
+      "qualityTier": "high",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "OR",
+      "qualityScore": 75,
+      "qualityScoreChange": 2,
+      "qualityTier": "high",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "MD",
+      "qualityScore": 74,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "HI",
+      "qualityScore": 74,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "NJ",
+      "qualityScore": 73,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "ME",
+      "qualityScore": 73,
+      "qualityScoreChange": 2,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "CA",
+      "qualityScore": 72,
+      "qualityScoreChange": 2,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "WI",
+      "qualityScore": 72,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "PA",
+      "qualityScore": 71,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "IA",
+      "qualityScore": 71,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "MI",
+      "qualityScore": 70,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "UT",
+      "qualityScore": 69,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "OH",
+      "qualityScore": 68,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "DE",
+      "qualityScore": 68,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "IL",
+      "qualityScore": 67,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "VA",
+      "qualityScore": 66,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "NE",
+      "qualityScore": 66,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "ND",
+      "qualityScore": 65,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "NC",
+      "qualityScore": 64,
+      "qualityScoreChange": 2,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "AZ",
+      "qualityScore": 63,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "MT",
+      "qualityScore": 63,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "TX",
+      "qualityScore": 62,
+      "qualityScoreChange": -2,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "ID",
+      "qualityScore": 62,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "IN",
+      "qualityScore": 61,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "SD",
+      "qualityScore": 61,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "KY",
+      "qualityScore": 60,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "KS",
+      "qualityScore": 60,
+      "qualityScoreChange": 1,
+      "qualityTier": "moderate",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "FL",
+      "qualityScore": 59,
+      "qualityScoreChange": 1,
+      "qualityTier": "low",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "AK",
+      "qualityScore": 59,
+      "qualityScoreChange": 1,
+      "qualityTier": "low",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "TN",
+      "qualityScore": 58,
+      "qualityScoreChange": 1,
+      "qualityTier": "low",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "NV",
+      "qualityScore": 58,
+      "qualityScoreChange": 1,
+      "qualityTier": "low",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "MO",
+      "qualityScore": 57,
+      "qualityScoreChange": 1,
+      "qualityTier": "low",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "NM",
+      "qualityScore": 57,
+      "qualityScoreChange": 1,
+      "qualityTier": "low",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "WY",
+      "qualityScore": 57,
+      "qualityScoreChange": 1,
+      "qualityTier": "low",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "LA",
+      "qualityScore": 56,
+      "qualityScoreChange": 1,
+      "qualityTier": "low",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "GA",
+      "qualityScore": 55,
+      "qualityScoreChange": 1,
+      "qualityTier": "low",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "WV",
+      "qualityScore": 55,
+      "qualityScoreChange": 1,
+      "qualityTier": "low",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "AR",
+      "qualityScore": 54,
+      "qualityScoreChange": 1,
+      "qualityTier": "low",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "SC",
+      "qualityScore": 53,
+      "qualityScoreChange": 1,
+      "qualityTier": "low",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "AL",
+      "qualityScore": 52,
+      "qualityScoreChange": 1,
+      "qualityTier": "low",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "OK",
+      "qualityScore": 51,
+      "qualityScoreChange": 1,
+      "qualityTier": "low",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    },
+    {
+      "stateCode": "MS",
+      "qualityScore": 48,
+      "qualityScoreChange": 1,
+      "qualityTier": "low",
+      "measuresReported": null,
+      "measuresAvailable": 13
+    }
+  ],
+  "national": {
+    "averageScore": 65.6,
+    "medianScore": 66,
+    "highPerformers": 10,
+    "lowPerformers": 15,
+    "statesReporting": 50
+  },
+  "measures": {
+    "FVA-AD": {
+      "name": "Flu Vaccination (Adults)",
+      "domain": "preventive",
+      "higherIsBetter": true,
+      "statesReporting": 42
+    },
+    "BCS-AD": {
+      "name": "Breast Cancer Screening",
+      "domain": "preventive",
+      "higherIsBetter": true,
+      "statesReporting": 47
+    },
+    "CCS-AD": {
+      "name": "Cervical Cancer Screening",
+      "domain": "preventive",
+      "higherIsBetter": true,
+      "statesReporting": 46
+    },
+    "FUH-AD": {
+      "name": "Follow-Up After Hospitalization (Adults)",
+      "domain": "behavioral_health",
+      "higherIsBetter": true,
+      "statesReporting": 48
+    },
+    "AMM-AD": {
+      "name": "Antidepressant Medication Management",
+      "domain": "behavioral_health",
+      "higherIsBetter": true,
+      "statesReporting": 47
+    },
+    "FUA-AD": {
+      "name": "Follow-Up After ED Visit (Alcohol/Drug)",
+      "domain": "behavioral_health",
+      "higherIsBetter": true,
+      "statesReporting": 44
+    },
+    "HPC-AD": {
+      "name": "Comprehensive Diabetes Care (HbA1c)",
+      "domain": "chronic",
+      "higherIsBetter": true,
+      "statesReporting": 40
+    },
+    "CBP-AD": {
+      "name": "Controlling High Blood Pressure",
+      "domain": "chronic",
+      "higherIsBetter": true,
+      "statesReporting": 39
+    },
+    "PPC-AD": {
+      "name": "Prenatal & Postpartum Care",
+      "domain": "maternal",
+      "higherIsBetter": true,
+      "statesReporting": 43
+    },
+    "AIS-E": {
+      "name": "Adult Immunization Status",
+      "domain": "access",
+      "higherIsBetter": true,
+      "statesReporting": 38
+    },
+    "CIS-CH": {
+      "name": "Childhood Immunization Status",
+      "domain": "child",
+      "higherIsBetter": true,
+      "statesReporting": 47
+    },
+    "W30-CH": {
+      "name": "Well-Child Visits (First 30 Months)",
+      "domain": "child",
+      "higherIsBetter": true,
+      "statesReporting": 45
+    },
+    "WCV-CH": {
+      "name": "Well-Child Visits (3-21 Years)",
+      "domain": "child",
+      "higherIsBetter": true,
+      "statesReporting": 48
+    }
+  },
+  "updated": "2026-04-11T17:30:45.437664",
+  "source": "curated_cms_2024",
+  "reportingYear": 2024
+}
