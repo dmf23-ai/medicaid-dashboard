@@ -104,7 +104,7 @@ export default function Home() {
             <MetricCard
               title="Managed Care Rate"
               value={texas ? `${texas.managedCarePenetration}%` : "—"}
-              change={(texas as Record<string, unknown>)?.managedCarePenetrationChange as number | undefined}
+              change={texas?.managedCarePenetrationChange ?? undefined}
               changeLabel="pp YoY"
               icon={<Shield className="w-5 h-5" />}
               tooltip="Share of Texas Medicaid enrollees served through managed care organizations (STAR, STAR+PLUS, STAR Kids, STAR Health)."
@@ -200,15 +200,4 @@ export default function Home() {
       {/* State Detail Drill-down Panel */}
       <StateDetailPanel
         stateCode={detailStateCode}
-        onClose={() => setDetailStateCode(null)}
-        states={states}
-        trends={trends}
-        signals={signals}
-        alerts={alerts}
-      />
-
-      {/* Ask Claude floating button + drawer */}
-      <AskClaude />
-    </div>
-  );
-}
+        onClose={() => setDetailStateCode(n

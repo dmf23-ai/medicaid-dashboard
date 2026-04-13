@@ -249,10 +249,7 @@ export function useDashboardData(): DashboardData {
         expansionStatus:
           (stateInfo?.expansionStatus as StateSummary["expansionStatus"]) ??
           "not_expanded",
-      } as StateSummary & {
-        perEnrolleeSpendingChange: number | null;
-        qualityScoreChange: number | null;
-      };
+      } as StateSummary;
     });
 
     // Merge alerts: prefer intelligence agent alerts, fall back to sample
@@ -326,19 +323,3 @@ export function useDashboardData(): DashboardData {
       alerts: mergedAlerts,
       intelligence: intelligenceData,
       executiveInsights,
-      signals: liveSignals,
-      riskOpportunity,
-      pulseMetrics,
-      spendingCategories,
-      dataSource: "pipeline",
-      lastUpdated: enrollment!.updated || new Date().toISOString(),
-      isLoading: false,
-    });
-  }, []);
-
-  useEffect(() => {
-    loadPipelineData();
-  }, [loadPipelineData]);
-
-  return data;
-}
