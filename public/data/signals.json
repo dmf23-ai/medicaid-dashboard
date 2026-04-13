@@ -5,7 +5,7 @@
       "title": "Texas HHSC Procurement Opportunities portal",
       "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
       "source": "Texas HHSC (Procurement)",
-      "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs/procurement/procurement-opportunities",
+      "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
       "timestamp": "2026-04-12",
@@ -18,7 +18,7 @@
       "title": "HHS OIG Medicaid Portfolio \u2014 active oversight docket",
       "summary": "Browse current HHS OIG Medicaid audits, evaluations, and advisories. Scraper fell back; visit directly for the latest items.",
       "source": "HHS OIG (portfolio page)",
-      "sourceUrl": "https://oig.hhs.gov/reports-and-publications/portfolio/medicaid/",
+      "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
       "timestamp": "2026-04-12"
@@ -28,7 +28,7 @@
       "title": "HHS OIG Work Plan \u2014 in-progress Medicaid items",
       "summary": "The OIG Work Plan lists audits and evaluations underway; filter to Medicaid & CHIP for upcoming report drops.",
       "source": "HHS OIG (work plan)",
-      "sourceUrl": "https://oig.hhs.gov/reports-and-publications/workplan/active-item-table.asp",
+      "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
       "timestamp": "2026-04-12"
