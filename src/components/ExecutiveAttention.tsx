@@ -18,6 +18,21 @@ import { SourceLink } from "./SourceLink";
 
 const DEFAULT_VISIBLE = 3;
 
+/** Fallback URLs when the pipeline returns an empty sourceUrl. */
+const SOURCE_URL_FALLBACK: Record<string, string> = {
+  expenditures_data:
+    "https://www.medicaid.gov/medicaid/financial-management/state-budget-expenditure-reporting-for-medicaid-and-chip/expenditure-reports-mbes/cbes",
+  curated_cms_2024:
+    "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures",
+  enrollment_data:
+    "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360",
+  managed_care_data:
+    "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
+  quality_data:
+    "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures",
+  external_signals: "https://www.hhs.texas.gov/",
+};
+
 interface ExecutiveAttentionProps {
   insights: ExecutiveInsight[];
 }
@@ -255,21 +270,27 @@ export default function ExecutiveAttention({ insights }: ExecutiveAttentionProps
                 </div>
               )}
 
-              {/* Action Prompt Box — linked when sourceUrl present */}
-              {insight.sourceUrl ? (
-                <a
-                  href={insight.sourceUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="ml-12 mb-4 p-3.5 rounded-lg bg-gradient-to-r from-slate-800 to-slate-900 border border-slate-600 flex items-start gap-3 hover:border-slate-500 hover:from-slate-700 hover:to-slate-800 transition-colors cursor-pointer"
-                >
-                  {actionPromptInner}
-                </a>
-              ) : (
-                <div className="ml-12 mb-4 p-3.5 rounded-lg bg-gradient-to-r from-slate-800 to-slate-900 border border-slate-600 flex items-start gap-3">
-                  {actionPromptInner}
-                </div>
-              )}
+              {/* Action Prompt Box — always linked (fallback URL by source) */}
+              {(() => {
+                const actionUrl =
+                  insight.sourceUrl ||
+                  SOURCE_URL_FALLBACK[insight.source] ||
+                  "";
+                return actionUrl ? (
+                  <a
+                    href={actionUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-12 mb-4 p-3.5 rounded-lg bg-gradient-to-r from-slate-800 to-slate-900 border border-slate-600 flex items-start gap-3 hover:border-slate-500 hover:from-slate-700 hover:to-slate-800 transition-colors cursor-pointer"
+                  >
+                    {actionPromptInner}
+                  </a>
+                ) : (
+                  <div className="ml-12 mb-4 p-3.5 rounded-lg bg-gradient-to-r from-slate-800 to-slate-900 border border-slate-600 flex items-start gap-3">
+                    {actionPromptInner}
+                  </div>
+                );
+              })()}
 
               {/* Footer: Source, Timestamp, Mark Reviewed */}
               <div className="ml-12 flex items-center justify-between text-xs text-slate-500 gap-3">
