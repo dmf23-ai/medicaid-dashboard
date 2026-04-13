@@ -114,6 +114,15 @@ class SignalsAgent:
             if not any(k in searchable for k in MEDICAID_KEYWORDS):
                 continue
 
+            # Skip routine CMS paperwork notices — these are generic
+            # info-collection requests that clutter the feed with identical
+            # titles while providing no actionable intelligence.
+            routine_prefixes = (
+                "Agency Information Collection Activities",
+            )
+            if title.startswith(routine_prefixes):
+                continue
+
             items.append({
                 "id": f"fr-{doc.get('document_number', pub_date)}",
                 "title": title[:200],
@@ -216,7 +225,7 @@ class SignalsAgent:
                 "title": "HHS OIG Medicaid Portfolio — active oversight docket",
                 "summary": "Browse current HHS OIG Medicaid audits, evaluations, and advisories. Scraper fell back; visit directly for the latest items.",
                 "source": "HHS OIG (portfolio page)",
-                "sourceUrl": "https://oig.hhs.gov/reports-and-publications/portfolio/medicaid/",
+                "sourceUrl": "https://oig.hhs.gov/reports/",
                 "category": "oig",
                 "relevance": "medium",
                 "timestamp": today,
@@ -226,7 +235,7 @@ class SignalsAgent:
                 "title": "HHS OIG Work Plan — in-progress Medicaid items",
                 "summary": "The OIG Work Plan lists audits and evaluations underway; filter to Medicaid & CHIP for upcoming report drops.",
                 "source": "HHS OIG (work plan)",
-                "sourceUrl": "https://oig.hhs.gov/reports-and-publications/workplan/active-item-table.asp",
+                "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
                 "category": "oig",
                 "relevance": "medium",
                 "timestamp": today,
@@ -373,7 +382,7 @@ class SignalsAgent:
                 "title": "Texas HHSC Procurement Opportunities portal",
                 "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
                 "source": "Texas HHSC (Procurement)",
-                "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs/procurement/procurement-opportunities",
+                "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
                 "category": "procurement",
                 "relevance": "high",
                 "timestamp": today,
@@ -508,6 +517,18 @@ class SignalsAgent:
             return (ts, -rel_rank)
 
         all_signals.sort(key=sort_key, reverse=True)
+
+        # Deduplicate by title — when multiple signals share the same title
+        # (common with Federal Register routine notices), keep the most recent.
+        seen_titles: set[str] = set()
+        deduped: list[dict] = []
+        for sig in all_signals:
+            t = sig.get("title", "")
+            if t in seen_titles:
+                continue
+            seen_titles.add(t)
+            deduped.append(sig)
+        all_signals = deduped
 
         return {
             "signals": all_signals,

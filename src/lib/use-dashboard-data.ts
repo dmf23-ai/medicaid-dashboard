@@ -294,11 +294,17 @@ export function useDashboardData(): DashboardData {
         ? intelligence.pulseMetrics
         : samplePulseMetrics;
 
-    // Signals feed
-    const liveSignals =
+    // Signals feed — deduplicate by title (keep first / most recent)
+    const rawSignals =
       signals?.signals && signals.signals.length > 0
         ? signals.signals
         : sampleSignals;
+    const seenTitles = new Set<string>();
+    const liveSignals = rawSignals.filter((s) => {
+      if (seenTitles.has(s.title)) return false;
+      seenTitles.add(s.title);
+      return true;
+    });
 
     // Spending categories (6 buckets) from expenditure national rollup
     let spendingCategories: SpendingCategory[] =
