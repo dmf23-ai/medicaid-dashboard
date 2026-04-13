@@ -200,4 +200,15 @@ export default function Home() {
       {/* State Detail Drill-down Panel */}
       <StateDetailPanel
         stateCode={detailStateCode}
-        onClose={() => setDetailStateCode(n
+        onClose={() => setDetailStateCode(null)}
+        states={states}
+        trends={trends}
+        signals={signals}
+        alerts={alerts}
+      />
+
+      {/* Ask Claude floating button + drawer */}
+      <AskClaude />
+    </div>
+  );
+}
