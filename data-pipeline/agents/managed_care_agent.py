@@ -431,19 +431,4 @@ class ManagedCareAgent:
 
         except Exception as e:
             elapsed = time.time() - start_time
-            logger.error(f"Pipeline failed after {elapsed:.1f}s: {e}")
-            return {
-                "status": "error",
-                "error": str(e),
-                "elapsed_seconds": round(elapsed, 1),
-            }
-
-
-if __name__ == "__main__":
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s [%(name)s] %(levelname)s: %(message)s",
-    )
-    agent = ManagedCareAgent()
-    result = agent.run()
-    print(f"\nResult: {json.dumps(result, indent=2)}")
+            logger.error(f"Pipeline failed after {elapsed:.1f}

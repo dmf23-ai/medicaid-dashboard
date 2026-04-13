@@ -50,8 +50,7 @@ export default function MethodologyPage() {
             This page explains how each section of the National Medicaid
             Intelligence Dashboard is assembled — what sources are queried,
             how items are ranked, and how AI is involved in shaping what
-            appears on screen. The dashboard is powered by a live data
-            pipeline that refreshes daily from federal data sources.
+            appears on screen.
           </p>
         </header>
 
@@ -158,8 +157,8 @@ export default function MethodologyPage() {
           </p>
           <p>
             The ranking prompt has access to the signals, alerts, and
-            risk-opportunity feeds described below, plus procurement and
-            policy sources from the live pipeline.
+            risk-opportunity feeds below, plus a curated set of procurement
+            and policy sources.
           </p>
         </Section>
 
@@ -188,8 +187,8 @@ export default function MethodologyPage() {
             can promote or demote items; overrides persist across crawls.
           </p>
           <p>
-            The category filter pills filter client-side against the live
-            signal feed.
+            The category filter pills filter client-side; as the feed grows,
+            the same filters will move to server-driven queries.
           </p>
         </Section>
 
@@ -276,7 +275,7 @@ export default function MethodologyPage() {
           </p>
           <p>
             New items are proposed by the signals pipeline and promoted into
-            the matrix after review.
+            the matrix after a short human review.
           </p>
         </Section>
 
@@ -285,11 +284,6 @@ export default function MethodologyPage() {
             A few things to keep in mind when reading the dashboard:
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>
-              <strong>Data freshness.</strong> The pipeline refreshes daily,
-              but CMS source data may lag by weeks or months. The header
-              badge indicates whether live or fallback data is displayed.
-            </li>
             <li>
               <strong>AI-assisted, not AI-authoritative.</strong> Where AI is
               used (Executive Attention ranking, alert summarization, the Ask

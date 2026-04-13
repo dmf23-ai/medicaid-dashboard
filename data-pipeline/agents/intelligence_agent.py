@@ -1027,33 +1027,4 @@ class IntelligenceAgent:
             # Save output
             safe_json_dump(output, self.output_path)
 
-            elapsed = time.time() - start_time
-            alert_count = len(output.get("alerts", []))
-            logger.info(f"Pipeline completed in {elapsed:.1f}s — "
-                         f"{alert_count} alerts generated, source: {output['source']}")
-
-            return {
-                "status": "success",
-                "source": output["source"],
-                "alerts": alert_count,
-                "elapsed_seconds": round(elapsed, 1),
-            }
-
-        except Exception as e:
-            elapsed = time.time() - start_time
-            logger.error(f"Pipeline failed after {elapsed:.1f}s: {e}")
-            return {
-                "status": "error",
-                "error": str(e),
-                "elapsed_seconds": round(elapsed, 1),
-            }
-
-
-if __name__ == "__main__":
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s [%(name)s] %(levelname)s: %(message)s",
-    )
-    agent = IntelligenceAgent()
-    result = agent.run()
-    print(f"\nResult: {json.dumps(result, indent=2)}")
+            elap

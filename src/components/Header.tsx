@@ -24,7 +24,6 @@ export default function Header({
   const textColor = isLive ? "text-emerald-500" : "text-slate-400";
   const borderColor = isLive ? "border-emerald-500" : "border-slate-500";
 
-  // Compute the date label client-side only to avoid hydration mismatch
   const [updatedLabel, setUpdatedLabel] = useState("—");
   useEffect(() => {
     if (lastUpdated) {
@@ -35,11 +34,11 @@ export default function Header({
         })
       );
     } else {
-      setUpdatedLabel("Apr 2026");
+      setUpdatedLabel("Mar 2026");
     }
   }, [lastUpdated]);
 
-  const stateLabel = stateCount ? `${stateCount} states` : "50 states + DC";
+  const stateLabel = stateCount ? `${stateCount} states` : "50 states";
 
   return (
     <header className="bg-[#060A13] border-b border-[#1E293B] sticky top-0 z-50">

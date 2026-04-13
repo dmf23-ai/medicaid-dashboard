@@ -1,87 +1,38 @@
-// Ask Claude — powered by the Anthropic Messages API.
-//
-// Reads the dashboard's current data files from /public/data/ to give Claude
-// context about the live metrics, then answers the user's question.
+/**
+ * POST /api/ask — Ask Claude about the Medicaid dashboard.
+ *
+ * Sends the user's question to the Anthropic API with a system prompt that
+ * contextualises the National Medicaid Intelligence Dashboard. Falls back to
+ * a friendly stub response when the ANTHROPIC_API_KEY env var is missing.
+ */
 
-import { readFile } from "fs/promises";
-import { join } from "path";
+const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY ?? "";
+const MODEL = "claude-sonnet-4-20250514";
+
+const SYSTEM_PROMPT = `You are the AI analyst embedded in the National Medicaid Intelligence Dashboard, a tool built for senior leaders on Accenture's Texas HHSC Medicaid engagement.
+
+Your job is to answer questions about Medicaid data, policy, procurement, and strategy — always through the lens of what matters to the Accenture account team working with the Texas Health and Human Services Commission.
+
+Guidelines:
+- Be concise. Answers should be 2–4 short paragraphs max.
+- Ground answers in publicly available Medicaid data (CMS enrollment, expenditure, quality measures, Federal Register, OIG reports) when possible.
+- When you reference a data point, mention the source (e.g. "CMS Monthly Enrollment data" or "KFF State Health Facts").
+- If a question is outside the Medicaid / HHSC domain, say so briefly and redirect.
+- Never fabricate statistics. If you don't have a number, say so.
+- Use plain business language — the audience is account directors and engagement leads, not data engineers.`;
 
 interface AskRequest {
   question?: unknown;
 }
 
-const DATA_DIR = join(process.cwd(), "public", "data");
+interface AnthropicMessage {
+  role: string;
+  content: string | Array<{ type: string; text: string }>;
+}
 
-async function loadDataSummary(): Promise<string> {
-  const files = [
-    "enrollment.json",
-    "expenditure.json",
-    "quality.json",
-    "managed_care.json",
-    "signals.json",
-    "intelligence.json",
-  ];
-
-  const sections: string[] = [];
-
-  for (const file of files) {
-    try {
-      const raw = await readFile(join(DATA_DIR, file), "utf-8");
-      const data = JSON.parse(raw);
-
-      if (file === "enrollment.json" && data.national) {
-        const nat = data.national;
-        sections.push(
-          `ENROLLMENT: ${nat.totalEnrollment?.toLocaleString() ?? "N/A"} total enrollees across ${nat.statesReporting ?? "?"} states. ` +
-          `National YoY change: ${nat.enrollmentChange ?? "N/A"}%.`
-        );
-      }
-
-      if (file === "expenditure.json" && data.national) {
-        const nat = data.national;
-        sections.push(
-          `EXPENDITURE: $${nat.totalExpenditures?.toLocaleString() ?? "N/A"} total (FY${nat.fiscalYear ?? "?"}). ` +
-          `Per-enrollee: $${nat.perEnrolleeSpending?.toLocaleString() ?? "N/A"}. ` +
-          `${nat.partialYear ? "NOTE: partial fiscal year — YoY comparisons use matching quarters only." : ""}`
-        );
-      }
-
-      if (file === "quality.json" && data.national) {
-        const nat = data.national;
-        sections.push(
-          `QUALITY: National composite score ${nat.compositeScore ?? "N/A"}/100. ` +
-          `Reporting year: ${data.reportingYear ?? "?"}.`
-        );
-      }
-
-      if (file === "managed_care.json" && data.national) {
-        const nat = data.national;
-        sections.push(
-          `MANAGED CARE: Average penetration ${nat.averagePenetration ?? "N/A"}% across ${nat.statesReporting ?? "?"} states (${nat.year ?? "?"}).`
-        );
-      }
-
-      if (file === "signals.json" && data.signals) {
-        const counts: Record<string, number> = {};
-        for (const s of data.signals) {
-          counts[s.category] = (counts[s.category] ?? 0) + 1;
-        }
-        sections.push(
-          `SIGNALS: ${data.signals.length} items — ${Object.entries(counts).map(([k, v]) => `${k}: ${v}`).join(", ")}.`
-        );
-      }
-
-      if (file === "intelligence.json") {
-        if (data.executiveSummary) {
-          sections.push(`EXECUTIVE SUMMARY: ${data.executiveSummary.slice(0, 500)}`);
-        }
-      }
-    } catch {
-      // File missing or unparseable — skip silently
-    }
-  }
-
-  return sections.join("\n\n");
+interface AnthropicResponse {
+  content?: Array<{ type: string; text?: string }>;
+  error?: { message: string };
 }
 
 export async function POST(request: Request) {
@@ -102,59 +53,65 @@ export async function POST(request: Request) {
     );
   }
 
-  const apiKey = process.env.ANTHROPIC_API_KEY;
-  if (!apiKey) {
+  // If no API key, return a helpful stub
+  if (!ANTHROPIC_API_KEY) {
     return Response.json({
-      text: "The Ask Claude feature requires an Anthropic API key. Please add ANTHROPIC_API_KEY to the environment variables.",
+      text: [
+        "The Ask Claude feature requires an Anthropic API key.",
+        "",
+        `You asked: "${question}"`,
+        "",
+        "To enable live AI answers, add the ANTHROPIC_API_KEY environment variable in your Vercel project settings (Settings → Environment Variables) and redeploy.",
+      ].join("\n"),
     });
   }
 
   try {
-    const dataSummary = await loadDataSummary();
+    const messages: AnthropicMessage[] = [
+      { role: "user", content: question },
+    ];
 
-    const systemPrompt = [
-      "You are an AI analyst embedded in the National Medicaid Intelligence Dashboard.",
-      "You help senior leadership (specifically the Accenture team on the Texas HHSC Medicaid engagement) understand dashboard data.",
-      "Answer concisely and directly. Use specific numbers from the data when available.",
-      "If the data doesn't contain what the user is asking about, say so clearly.",
-      "",
-      "Current dashboard data:",
-      dataSummary || "(No pipeline data available — the dashboard may be showing sample data.)",
-    ].join("\n");
-
-    const response = await fetch("https://api.anthropic.com/v1/messages", {
+    const resp = await fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "x-api-key": apiKey,
+        "x-api-key": ANTHROPIC_API_KEY,
         "anthropic-version": "2023-06-01",
       },
       body: JSON.stringify({
-        model: "claude-sonnet-4-20250514",
+        model: MODEL,
         max_tokens: 1024,
-        system: systemPrompt,
-        messages: [{ role: "user", content: question }],
+        system: SYSTEM_PROMPT,
+        messages,
       }),
     });
 
-    if (!response.ok) {
-      const errText = await response.text();
-      console.error("Anthropic API error:", response.status, errText);
-      return Response.json({
-        text: `Sorry, I couldn't process your question right now. (API returned ${response.status})`,
-      });
+    if (!resp.ok) {
+      const errorBody = await resp.text();
+      console.error("Anthropic API error:", resp.status, errorBody);
+      return Response.json(
+        {
+          text: "Sorry, I wasn't able to reach the AI service right now. Please try again in a moment.",
+        },
+        { status: 502 }
+      );
     }
 
-    const result = await response.json();
+    const result = (await resp.json()) as AnthropicResponse;
     const text =
-      result.content?.[0]?.text ??
-      "I received a response but couldn't extract the text. Please try again.";
+      result.content
+        ?.filter((block) => block.type === "text")
+        .map((block) => block.text)
+        .join("\n\n") || "No response generated.";
 
     return Response.json({ text });
   } catch (err) {
     console.error("Ask Claude error:", err);
-    return Response.json({
-      text: "Sorry, something went wrong while processing your question. Please try again.",
-    });
+    return Response.json(
+      {
+        text: "An unexpected error occurred. Please try again.",
+      },
+      { status: 500 }
+    );
   }
 }
