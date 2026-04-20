@@ -513,6 +513,264 @@
       "spendingChange": null,
       "enrollment": 588268,
       "breakdown": null,
-      "rollupBreakdown": {
-        "Managed Care": 3576496504.0,
- 
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "NM",
+      "totalExpenditures": 2058352936.0,
+      "federalShare": 1644927191.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 3015.01,
+      "spendingChange": null,
+      "enrollment": 682701,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "AL",
+      "totalExpenditures": 2023513835.0,
+      "federalShare": 1512028171.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 2154.82,
+      "spendingChange": null,
+      "enrollment": 939065,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "AR",
+      "totalExpenditures": 1869651327.0,
+      "federalShare": 1476831288.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 2334.08,
+      "spendingChange": null,
+      "enrollment": 801024,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "IA",
+      "totalExpenditures": 1676521964.0,
+      "federalShare": 1228754543.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 2519.49,
+      "spendingChange": null,
+      "enrollment": 665421,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "NV",
+      "totalExpenditures": 1504816409.0,
+      "federalShare": 1159710653.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 2071.65,
+      "spendingChange": null,
+      "enrollment": 726387,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "WV",
+      "totalExpenditures": 1205371461.0,
+      "federalShare": 946759636.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 2459.16,
+      "spendingChange": null,
+      "enrollment": 490156,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "KS",
+      "totalExpenditures": 1172306054.0,
+      "federalShare": 731150005.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 2944.61,
+      "spendingChange": null,
+      "enrollment": 398119,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "ME",
+      "totalExpenditures": 1165239842.0,
+      "federalShare": 795710955.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 3450.06,
+      "spendingChange": null,
+      "enrollment": 337745,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "UT",
+      "totalExpenditures": 1106970782.0,
+      "federalShare": 802016557.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 3393.61,
+      "spendingChange": null,
+      "enrollment": 326193,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "NE",
+      "totalExpenditures": 910966946.0,
+      "federalShare": 609972026.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 2753.87,
+      "spendingChange": null,
+      "enrollment": 330795,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "RI",
+      "totalExpenditures": 841503920.0,
+      "federalShare": 527818932.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 2824.38,
+      "spendingChange": null,
+      "enrollment": 297943,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "ID",
+      "totalExpenditures": 821500095.0,
+      "federalShare": 614886728.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 2639.3,
+      "spendingChange": null,
+      "enrollment": 311257,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "HI",
+      "totalExpenditures": 799355836.0,
+      "federalShare": 647841572.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 2059.75,
+      "spendingChange": null,
+      "enrollment": 388083,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "DE",
+      "totalExpenditures": 794849824.0,
+      "federalShare": 556565015.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 3305.59,
+      "spendingChange": null,
+      "enrollment": 240456,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "AK",
+      "totalExpenditures": 643309254.0,
+      "federalShare": 495113777.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 3056.46,
+      "spendingChange": null,
+      "enrollment": 210475,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "VT",
+      "totalExpenditures": 520828700.0,
+      "federalShare": 323610408.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 3456.45,
+      "spendingChange": null,
+      "enrollment": 150683,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "MT",
+      "totalExpenditures": 475728453.0,
+      "federalShare": 357076307.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 2260.59,
+      "spendingChange": null,
+      "enrollment": 210444,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "NH",
+      "totalExpenditures": 461111636.0,
+      "federalShare": 263887401.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 2636.05,
+      "spendingChange": null,
+      "enrollment": 174925,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "ND",
+      "totalExpenditures": 386347620.0,
+      "federalShare": 249691782.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 3720.75,
+      "spendingChange": null,
+      "enrollment": 103836,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "SD",
+      "totalExpenditures": 353694579.0,
+      "federalShare": 244350315.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 2591.0,
+      "spendingChange": null,
+      "enrollment": 136509,
+      "breakdown": null,
+      "rollupBreakdown": null
+    },
+    {
+      "stateCode": "WY",
+      "totalExpenditures": 230256964.0,
+      "federalShare": 129858806.0,
+      "stateShare": 0.0,
+      "perEnrolleeSpending": 3883.83,
+      "spendingChange": null,
+      "enrollment": 59286,
+      "breakdown": null,
+      "rollupBreakdown": null
+    }
+  ],
+  "national": {
+    "totalExpenditures": 215903780451.0,
+    "federalShare": 142028311257.0,
+    "perEnrolleeSpending": 2851.12,
+    "statesReporting": 50,
+    "fiscalYear": 2024,
+    "rollupBreakdown": {
+      "Managed Care": 445721923122.1,
+      "Fee-for-Service": 153101703845.0,
+      "Prescription Drugs": 17989980629.0,
+      "Long-Term Care": 171405245224.0,
+      "Behavioral Health": 0.0,
+      "Admin & Other": 29870829212.0
+    },
+    "rollupBreakdownPct": {
+      "Managed Care": 54.5,
+      "Fee-for-Service": 18.7,
+      "Prescription Drugs": 2.2,
+      "Long-Term Care": 21.0,
+      "Behavioral Health": 0.0,
+      "Admin & Other": 3.7
+    }
+  },
+  "updated": "2026-04-12T07:08:06.228445",
+  "source": "data.medicaid.gov",
+  "record_count": 150
+}
