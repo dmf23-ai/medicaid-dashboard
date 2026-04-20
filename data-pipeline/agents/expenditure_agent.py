@@ -120,6 +120,24 @@ SERVICE_CATEGORIES = [
     "administration", "other_services",
 ]
 
+# MACPAC Exhibit 17 (FY2024) — per-state service-category breakdowns
+MACPAC_EXHIBIT17_URL = "https://www.macpac.gov/wp-content/uploads/2026/01/EXHIBIT-17.-Total-Medicaid-Benefit-Spending-by-State-and-Category-FY-2024.xlsx"
+
+# Map MACPAC columns → dashboard rollup buckets. MACPAC values are in $M.
+MACPAC_COLUMN_TO_BUCKET = {
+    "Hospital": "Fee-for-Service",
+    "Physician": "Fee-for-Service",
+    "Other practitioner": "Fee-for-Service",
+    "Clinic and health center": "Fee-for-Service",
+    "Other acute": "Fee-for-Service",
+    "Drugs": "Prescription Drugs",
+    "Institutional LTSS": "Long-Term Care",
+    "Home- and community-based LTSS": "Long-Term Care",
+    "Managed care and premium assistance": "Managed Care",
+    "Dental": "Admin & Other",
+    "Medicare premiums and coinsurance": "Admin & Other",
+    # "Collections" (rebates/adjustments) excluded — it's negative and not a service category
+}
 
 class ExpenditureAgent:
     """
@@ -255,6 +273,62 @@ class ExpenditureAgent:
             logger.error(f"Both DKAN and Socrata fetches failed: {e}")
             raise
 
+    def fetch_macpac_breakdown(self) -> dict:
+        """
+        Fetch MACPAC Exhibit 17 (FY2024) for per-state service-category spending.
+        Returns dict keyed by state_code with 6-bucket rollup values in dollars.
+        """
+        logger.info(f"Fetching MACPAC Exhibit 17: {MACPAC_EXHIBIT17_URL}")
+        try:
+            from io import BytesIO
+            resp = requests.get(
+                MACPAC_EXHIBIT17_URL,
+                headers=REQUEST_HEADERS,
+                timeout=REQUEST_TIMEOUT,
+            )
+            resp.raise_for_status()
+            df = pd.read_excel(
+                BytesIO(resp.content),
+                sheet_name="Exhibit 17",
+                header=3,
+            )
+        except Exception as e:
+            logger.warning(f"MACPAC fetch failed: {e}")
+            return {}
+
+        logger.info(f"MACPAC columns: {list(df.columns)}")
+
+        # MACPAC Exhibit 17 uses 2-row headers; some labels sit in row 3 only.
+        df = df.rename(columns={
+            "Unnamed: 0": "state_name",
+            "Unnamed: 11": "Managed care and premium assistance",
+            "Unnamed: 12": "Medicare premiums and coinsurance",
+            "Unnamed: 13": "Collections",
+        })
+        df = df[df["state_name"].notna()]
+
+        result = {}
+        for _, row in df.iterrows():
+            state_name = str(row["state_name"]).strip()
+            code = _state_name_to_code(state_name)
+            if not code:
+                continue
+            rollup = {bucket: 0.0 for bucket in EXPENDITURE_ROLLUP}
+            for col, bucket in MACPAC_COLUMN_TO_BUCKET.items():
+                if col in row.index:
+                    val = row[col]
+                    if pd.notna(val):
+                        try:
+                            rollup[bucket] += float(val)
+                        except (ValueError, TypeError):
+                            pass
+            # Millions → dollars
+            rollup = {b: round(v * 1_000_000, 2) for b, v in rollup.items()}
+            result[code] = rollup
+
+        logger.info(f"MACPAC breakdown loaded for {len(result)} states")
+        return result
+
     # ─── Data Processing ─────────────────────────────────────────────
 
     def normalize_columns(self, df: pd.DataFrame) -> pd.DataFrame:
@@ -325,6 +399,23 @@ class ExpenditureAgent:
                 # Oct, Nov, Dec belong to the next federal fiscal year
                 return dt.year + 1 if dt.month >= 10 else dt.year
             df["fiscal_year"] = df["quarter_end_date"].apply(_fy_from_qed)
+
+        # Derive federal-FY quarter (1-4) from quarter_end_date so the
+        # partial-year guard below has a "quarter" column to work with.
+        if "quarter" not in df.columns and "quarter_end_date" in df.columns:
+            def _q_from_qed(qed):
+                if not isinstance(qed, str) or not qed:
+                    return None
+                try:
+                    dt = datetime.fromisoformat(qed[:10])
+                except Exception:
+                    return None
+                m = dt.month
+                if m in (10, 11, 12): return 1
+                if m in (1, 2, 3):    return 2
+                if m in (4, 5, 6):    return 3
+                return 4
+            df["quarter"] = df["quarter_end_date"].apply(_q_from_qed)
 
         # Filter to valid state codes (drops TOTALS, territories, unknowns)
         if "state_code" in df.columns:
@@ -495,6 +586,7 @@ class ExpenditureAgent:
         # Aggregate expenditure by state for the latest fiscal year
         # Some datasets have one row per state; others have one row per category
         states_data = []
+        macpac_breakdowns = self.fetch_macpac_breakdown()
 
         if "service_category" in df_latest.columns and "total_expenditures" in df_latest.columns:
             # Data is broken out by service category — aggregate per state
@@ -540,20 +632,9 @@ class ExpenditureAgent:
                     if prior_val > 0:
                         yoy_change = round(((total - prior_val) / prior_val) * 100, 1)
 
-            # Category breakdown
-            breakdown = {}
-            if category_pivot is not None and code in category_pivot.index:
-                for cat in SERVICE_CATEGORIES:
-                    if cat in category_pivot.columns:
-                        val = category_pivot.loc[code, cat]
-                        if val > 0:
-                            breakdown[cat] = float(val)
-            else:
-                for cat in SERVICE_CATEGORIES:
-                    if cat in row and not pd.isna(row.get(cat)) and row.get(cat, 0) > 0:
-                        breakdown[cat] = float(row[cat])
-
-            rollup = self.rollup_breakdown(breakdown) if breakdown else None
+            # Category rollup from MACPAC Exhibit 17 (FY2024)
+            rollup = macpac_breakdowns.get(code)
+            breakdown = None  # Raw categoricals not available from MACPAC
 
             entry = {
                 "stateCode": code,
@@ -651,4 +732,25 @@ class ExpenditureAgent:
             return {
                 "status": "success",
                 "records": len(raw_data),
-                "states": st
+                "states": state_count,
+                "elapsed_seconds": round(elapsed, 1),
+            }
+
+        except Exception as e:
+            elapsed = time.time() - start_time
+            logger.error(f"Pipeline failed after {elapsed:.1f}s: {e}")
+            return {
+                "status": "error",
+                "error": str(e),
+                "elapsed_seconds": round(elapsed, 1),
+            }
+
+
+if __name__ == "__main__":
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(name)s] %(levelname)s: %(message)s",
+    )
+    agent = ExpenditureAgent()
+    result = agent.run()
+    print(f"\nResult: {json.dumps(result, indent=2)}")

@@ -184,7 +184,7 @@ export default function SignalsFeed({ signals }: SignalsFeedProps) {
                     <span className="text-xs bg-gray-800 text-text-secondary px-2 py-0.5 rounded">
                       {signal.source}
                     </span>
-                    <span className="text-xs text-text-tertiary">
+                    <span className="text-xs text-text-tertiary" suppressHydrationWarning>
                       {formatDate(signal.timestamp)}
                     </span>
 

@@ -82,4 +82,7 @@ def safe_json_dump(obj, filepath: Path | str, **kwargs):
         logger.error(f"JSON validation failed for {filepath}: {e}")
         raise RuntimeError(
             f"Pipeline produced invalid JSON at {filepath}. "
-            f"This is a bug in the sanitizer — please report it. E
+            f"This is a bug in the sanitizer — please report it. Error: {e}"
+        ) from e
+
+    logger.info(f"Saved validated JSON to {filepath}")

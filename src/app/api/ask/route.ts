@@ -1,3 +1,6 @@
+import { readFile } from "fs/promises";
+import { join } from "path";
+
 /**
  * POST /api/ask — Ask Claude about the Medicaid dashboard.
  *
@@ -20,6 +23,29 @@ Guidelines:
 - If a question is outside the Medicaid / HHSC domain, say so briefly and redirect.
 - Never fabricate statistics. If you don't have a number, say so.
 - Use plain business language — the audience is account directors and engagement leads, not data engineers.`;
+
+const DATA_FILES = [
+  "enrollment.json",
+  "expenditure.json",
+  "intelligence.json",
+  "managed_care.json",
+  "quality.json",
+  "signals.json",
+];
+
+async function loadDashboardContext(): Promise<string> {
+  const dataDir = join(process.cwd(), "public", "data");
+  const sections: string[] = [];
+  for (const file of DATA_FILES) {
+    try {
+      const content = await readFile(join(dataDir, file), "utf-8");
+      sections.push(`--- ${file} ---\n${content}`);
+    } catch {
+      // Skip any missing file
+    }
+  }
+  return sections.join("\n\n");
+}
 
 interface AskRequest {
   question?: unknown;
@@ -81,7 +107,7 @@ export async function POST(request: Request) {
       body: JSON.stringify({
         model: MODEL,
         max_tokens: 1024,
-        system: SYSTEM_PROMPT,
+        system: `${SYSTEM_PROMPT}\n\n--- CURRENT DASHBOARD DATA ---\nBelow is a JSON snapshot of the live dashboard. Reference specific values when answering.\n\n${await loadDashboardContext()}`,
         messages,
       }),
     });

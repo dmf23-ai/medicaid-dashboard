@@ -130,10 +130,16 @@ export default function Home() {
           <div className="lg:col-span-2 flex flex-col gap-6">
             <ExecutiveAttention insights={executiveInsights} />
 
-            <div className="flex flex-col">
+            <div className="h-[625px]">
               <ChartErrorBoundary fallbackMessage="Unable to render enrollment trends">
                 <EnrollmentChart states={selectedStates} trends={trends} />
               </ChartErrorBoundary>
+            </div>
+            <div className="flex-1">
+              <StateSelector
+                selectedStates={selectedStates}
+                onSelectionChange={setSelectedStates}
+              />
             </div>
           </div>
 
@@ -143,14 +149,6 @@ export default function Home() {
             <AlertsFeed alerts={alerts} onStateClick={setDetailStateCode} />
           </div>
         </div>
-
-        {/* === SECTION 3: Peer-State Benchmarking === */}
-        <section className="mb-6">
-          <StateSelector
-            selectedStates={selectedStates}
-            onSelectionChange={setSelectedStates}
-          />
-        </section>
 
         <section className="mb-6">
           <ComparisonTable
@@ -164,8 +162,7 @@ export default function Home() {
           <ChartErrorBoundary fallbackMessage="Unable to render spending breakdown">
             <SpendingBreakdownChart
               categories={spendingCategories}
-              stateLabel="National FY2024"
-              perEnrolleeValue={texas?.perEnrolleeSpending ?? null}
+              stateLabel="National FY2024 — per enrollee"
             />
           </ChartErrorBoundary>
         </section>

@@ -309,16 +309,16 @@ export default function RiskOpportunityChart({
               <ReferenceLine y={50} stroke="#475569" strokeDasharray="4 4" />
 
               {/* Quadrant labels with counts */}
-              <text x="13%" y="10%" fontSize={11} fontWeight={600} fill="#10B981" opacity={0.9} textAnchor="middle">
+              <text x="13%" y="9%" fontSize={11} fontWeight={600} fill="#10B981" opacity={0.9} textAnchor="start">
                 Pursue ({quadrantCounts.pursue})
               </text>
-              <text x="87%" y="10%" fontSize={11} fontWeight={600} fill="#F97316" opacity={0.9} textAnchor="middle">
+              <text x="94%" y="9%" fontSize={11} fontWeight={600} fill="#F97316" opacity={0.9} textAnchor="end">
                 Executive Priority ({quadrantCounts.executive})
               </text>
-              <text x="13%" y="94%" fontSize={11} fontWeight={600} fill="#64748B" opacity={0.9} textAnchor="middle">
+              <text x="13%" y="83%" fontSize={11} fontWeight={600} fill="#64748B" opacity={0.9} textAnchor="start">
                 Backburner ({quadrantCounts.backburner})
               </text>
-              <text x="87%" y="94%" fontSize={11} fontWeight={600} fill="#EF4444" opacity={0.9} textAnchor="middle">
+              <text x="94%" y="83%" fontSize={11} fontWeight={600} fill="#EF4444" opacity={0.9} textAnchor="end">
                 Defend ({quadrantCounts.defend})
               </text>
 

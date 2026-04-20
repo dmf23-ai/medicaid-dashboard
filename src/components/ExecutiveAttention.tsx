@@ -300,7 +300,7 @@ export default function ExecutiveAttention({ insights }: ExecutiveAttentionProps
                 <div className="flex items-center gap-3 flex-shrink-0">
                   <div className="flex items-center gap-1">
                     <Clock className="w-3 h-3" />
-                    <span>{formatDate(insight.timestamp)}</span>
+                    <span suppressHydrationWarning>{formatDate(insight.timestamp)}</span>
                   </div>
                   <button
                     type="button"

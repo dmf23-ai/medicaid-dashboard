@@ -6,10 +6,17 @@
       "federalShare": 17777781584.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 2262.76,
-      "spendingChange": -52.0,
+      "spendingChange": null,
       "enrollment": 12649707,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 68909110852.1,
+        "Fee-for-Service": 35593410894.0,
+        "Prescription Drugs": 8172249465.0,
+        "Long-Term Care": 32033119694.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 5705774044.0
+      }
     },
     {
       "stateCode": "NY",
@@ -17,10 +24,17 @@
       "federalShare": 13304397042.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 3410.61,
-      "spendingChange": -58.9,
+      "spendingChange": null,
       "enrollment": 6515805,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 51587947684.0,
+        "Fee-for-Service": 17350039004.0,
+        "Prescription Drugs": 2317909994.0,
+        "Long-Term Care": 21807909297.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 2960774544.0
+      }
     },
     {
       "stateCode": "PA",
@@ -28,10 +42,17 @@
       "federalShare": 8141906583.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 4368.27,
-      "spendingChange": -33.3,
+      "spendingChange": null,
       "enrollment": 2990577,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 34071363355.0,
+        "Fee-for-Service": 2174674722.0,
+        "Prescription Drugs": -14688499.0,
+        "Long-Term Care": 6271593249.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 1033275217.0
+      }
     },
     {
       "stateCode": "TX",
@@ -39,10 +60,17 @@
       "federalShare": 7459294758.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 2950.13,
-      "spendingChange": -54.9,
+      "spendingChange": null,
       "enrollment": 4083939,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 31562935336.0,
+        "Fee-for-Service": 12090537362.0,
+        "Prescription Drugs": 399998507.0,
+        "Long-Term Care": 5214423063.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 1706613104.0
+      }
     },
     {
       "stateCode": "OH",
@@ -50,10 +78,17 @@
       "federalShare": 6895701636.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 3522.08,
-      "spendingChange": -38.3,
+      "spendingChange": null,
       "enrollment": 2729099,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 21384381086.0,
+        "Fee-for-Service": 3669200940.0,
+        "Prescription Drugs": -70213918.0,
+        "Long-Term Care": 8411083519.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 866125555.0
+      }
     },
     {
       "stateCode": "IL",
@@ -61,10 +96,17 @@
       "federalShare": 5006001835.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 2708.49,
-      "spendingChange": -50.9,
+      "spendingChange": null,
       "enrollment": 3000140,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 22406402076.0,
+        "Fee-for-Service": 5158786041.0,
+        "Prescription Drugs": 93475052.0,
+        "Long-Term Care": 4048739366.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 838799590.0
+      }
     },
     {
       "stateCode": "NC",
@@ -72,10 +114,17 @@
       "federalShare": 5434824775.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 2612.52,
-      "spendingChange": -24.4,
+      "spendingChange": null,
       "enrollment": 2860490,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 20007559216.0,
+        "Fee-for-Service": 3744710864.0,
+        "Prescription Drugs": 221063776.0,
+        "Long-Term Care": 3715131645.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 1114214541.0
+      }
     },
     {
       "stateCode": "FL",
@@ -83,10 +132,17 @@
       "federalShare": 4300140265.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 2029.48,
-      "spendingChange": -54.7,
+      "spendingChange": null,
       "enrollment": 3592110,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 23101237388.0,
+        "Fee-for-Service": 4398759668.0,
+        "Prescription Drugs": 164919895.0,
+        "Long-Term Care": 5034483574.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 2839454855.0
+      }
     },
     {
       "stateCode": "MA",
@@ -94,10 +150,17 @@
       "federalShare": 3784188487.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 4184.87,
-      "spendingChange": -44.4,
+      "spendingChange": null,
       "enrollment": 1580723,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 11348940363.0,
+        "Fee-for-Service": 5986675286.0,
+        "Prescription Drugs": 174591525.0,
+        "Long-Term Care": 6253657796.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 1271267361.0
+      }
     },
     {
       "stateCode": "NJ",
@@ -105,10 +168,17 @@
       "federalShare": 3628753964.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 3395.93,
-      "spendingChange": -45.9,
+      "spendingChange": null,
       "enrollment": 1741837,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 14882180577.0,
+        "Fee-for-Service": 3571892569.0,
+        "Prescription Drugs": 15876335.0,
+        "Long-Term Care": 4362810768.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 593316560.0
+      }
     },
     {
       "stateCode": "VA",
@@ -116,10 +186,17 @@
       "federalShare": 3526090902.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 3267.91,
-      "spendingChange": -48.8,
+      "spendingChange": null,
       "enrollment": 1676475,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 12097368497.0,
+        "Fee-for-Service": 5109846726.0,
+        "Prescription Drugs": 17196513.0,
+        "Long-Term Care": 4226598837.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 862246873.0
+      }
     },
     {
       "stateCode": "MI",
@@ -127,10 +204,17 @@
       "federalShare": 4015635885.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 2402.03,
-      "spendingChange": -53.7,
+      "spendingChange": null,
       "enrollment": 2272434,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 16332342856.0,
+        "Fee-for-Service": 2478225272.0,
+        "Prescription Drugs": 723689346.0,
+        "Long-Term Care": 4596276864.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 846587047.0
+      }
     },
     {
       "stateCode": "IN",
@@ -138,10 +222,17 @@
       "federalShare": 3658993159.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 3431.42,
-      "spendingChange": -41.9,
+      "spendingChange": null,
       "enrollment": 1511819,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 9266812018.0,
+        "Fee-for-Service": 2826554346.0,
+        "Prescription Drugs": 132519983.0,
+        "Long-Term Care": 6882135167.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 438708386.0
+      }
     },
     {
       "stateCode": "LA",
@@ -149,10 +240,17 @@
       "federalShare": 3919117790.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 3639.45,
-      "spendingChange": -35.7,
+      "spendingChange": null,
       "enrollment": 1394638,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 12351124249.0,
+        "Fee-for-Service": 796030119.0,
+        "Prescription Drugs": 77453066.0,
+        "Long-Term Care": 3090878066.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 602858162.0
+      }
     },
     {
       "stateCode": "WA",
@@ -160,10 +258,17 @@
       "federalShare": 2959203128.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 2642.76,
-      "spendingChange": -74.2,
+      "spendingChange": null,
       "enrollment": 1785532,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 8203572056.0,
+        "Fee-for-Service": 5772183765.0,
+        "Prescription Drugs": 52862663.0,
+        "Long-Term Care": 6603616742.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 868246834.0
+      }
     },
     {
       "stateCode": "AZ",
@@ -171,10 +276,17 @@
       "federalShare": 3617751492.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 2792.35,
-      "spendingChange": -56.0,
+      "spendingChange": null,
       "enrollment": 1678092,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 16618079891.0,
+        "Fee-for-Service": 2300117741.0,
+        "Prescription Drugs": 379617867.0,
+        "Long-Term Care": 116955902.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 552000305.0
+      }
     },
     {
       "stateCode": "MO",
@@ -182,10 +294,17 @@
       "federalShare": 3051467976.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 3387.62,
-      "spendingChange": -48.4,
+      "spendingChange": null,
       "enrollment": 1250365,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 4668370550.0,
+        "Fee-for-Service": 4228176805.0,
+        "Prescription Drugs": 660741856.0,
+        "Long-Term Care": 5979354012.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 493401307.0
+      }
     },
     {
       "stateCode": "MD",
@@ -193,10 +312,17 @@
       "federalShare": 2540055514.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 2988.44,
-      "spendingChange": -53.5,
+      "spendingChange": null,
       "enrollment": 1397431,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 6708624204.0,
+        "Fee-for-Service": 4383096289.0,
+        "Prescription Drugs": 296881624.0,
+        "Long-Term Care": 5666362262.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 793130734.0
+      }
     },
     {
       "stateCode": "MN",
@@ -204,10 +330,17 @@
       "federalShare": 2448473633.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 3599.04,
-      "spendingChange": -57.9,
+      "spendingChange": null,
       "enrollment": 1147701,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 8386435563.0,
+        "Fee-for-Service": 2342991738.0,
+        "Prescription Drugs": -228649347.0,
+        "Long-Term Care": 7876541238.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 305411293.0
+      }
     },
     {
       "stateCode": "GA",
@@ -215,10 +348,17 @@
       "federalShare": 2741545774.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 2189.05,
-      "spendingChange": -48.6,
+      "spendingChange": null,
       "enrollment": 1855242,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 5609812549.0,
+        "Fee-for-Service": 4148825762.0,
+        "Prescription Drugs": 373019764.0,
+        "Long-Term Care": 4137738863.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 736487926.0
+      }
     },
     {
       "stateCode": "KY",
@@ -226,10 +366,17 @@
       "federalShare": 3149846894.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 3023.53,
-      "spendingChange": -54.1,
+      "spendingChange": null,
       "enrollment": 1321415,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 12587621476.0,
+        "Fee-for-Service": 1379512768.0,
+        "Prescription Drugs": 77094307.0,
+        "Long-Term Care": 3537297144.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 345155845.0
+      }
     },
     {
       "stateCode": "OR",
@@ -237,10 +384,17 @@
       "federalShare": 2590310308.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 2772.22,
-      "spendingChange": -55.5,
+      "spendingChange": null,
       "enrollment": 1303114,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 9204663384.0,
+        "Fee-for-Service": 1614524283.0,
+        "Prescription Drugs": 188775027.0,
+        "Long-Term Care": 4793656139.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 365848219.0
+      }
     },
     {
       "stateCode": "CO",
@@ -248,10 +402,17 @@
       "federalShare": 2025848023.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 2843.15,
-      "spendingChange": -48.5,
+      "spendingChange": null,
       "enrollment": 1184326,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 1960316249.0,
+        "Fee-for-Service": 6392689069.0,
+        "Prescription Drugs": 546529603.0,
+        "Long-Term Care": 4335369649.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 683965890.0
+      }
     },
     {
       "stateCode": "WI",
@@ -259,10 +420,17 @@
       "federalShare": 2073501320.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 2952.87,
-      "spendingChange": -45.3,
+      "spendingChange": null,
       "enrollment": 1121592,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 5811861430.0,
+        "Fee-for-Service": 2767272813.0,
+        "Prescription Drugs": 680431412.0,
+        "Long-Term Care": 2637236529.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 589995236.0
+      }
     },
     {
       "stateCode": "TN",
@@ -270,10 +438,17 @@
       "federalShare": 2000663476.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 2131.79,
-      "spendingChange": -50.0,
+      "spendingChange": null,
       "enrollment": 1403189,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 8980741177.0,
+        "Fee-for-Service": 1705100995.0,
+        "Prescription Drugs": 743804426.0,
+        "Long-Term Care": 1165623162.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 719109670.0
+      }
     },
     {
       "stateCode": "CT",
@@ -281,10 +456,17 @@
       "federalShare": 1572189427.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 2881.71,
-      "spendingChange": -49.4,
+      "spendingChange": null,
       "enrollment": 905885,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 36395323.0,
+        "Fee-for-Service": 5154478168.0,
+        "Prescription Drugs": 751073041.0,
+        "Long-Term Care": 4150724276.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 874441008.0
+      }
     },
     {
       "stateCode": "SC",
@@ -292,10 +474,17 @@
       "federalShare": 1697286795.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 2446.21,
-      "spendingChange": -49.4,
+      "spendingChange": null,
       "enrollment": 977554,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 5728100332.0,
+        "Fee-for-Service": 1520650784.0,
+        "Prescription Drugs": 53417890.0,
+        "Long-Term Care": 2275533448.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 507795486.0
+      }
     },
     {
       "stateCode": "OK",
@@ -303,10 +492,17 @@
       "federalShare": 1743245179.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 2351.6,
-      "spendingChange": -51.8,
+      "spendingChange": null,
       "enrollment": 968050,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 1907623385.0,
+        "Fee-for-Service": 4442739052.0,
+        "Prescription Drugs": 988339456.0,
+        "Long-Term Care": 2180394953.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 355823620.0
+      }
     },
     {
       "stateCode": "MS",
@@ -314,260 +510,9 @@
       "federalShare": 1645531585.0,
       "stateShare": 0.0,
       "perEnrolleeSpending": 3615.55,
-      "spendingChange": -30.9,
+      "spendingChange": null,
       "enrollment": 588268,
       "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "NM",
-      "totalExpenditures": 2058352936.0,
-      "federalShare": 1644927191.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 3015.01,
-      "spendingChange": -48.8,
-      "enrollment": 682701,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "AL",
-      "totalExpenditures": 2023513835.0,
-      "federalShare": 1512028171.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 2154.82,
-      "spendingChange": -46.8,
-      "enrollment": 939065,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "AR",
-      "totalExpenditures": 1869651327.0,
-      "federalShare": 1476831288.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 2334.08,
-      "spendingChange": -54.3,
-      "enrollment": 801024,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "IA",
-      "totalExpenditures": 1676521964.0,
-      "federalShare": 1228754543.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 2519.49,
-      "spendingChange": -53.7,
-      "enrollment": 665421,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "NV",
-      "totalExpenditures": 1504816409.0,
-      "federalShare": 1159710653.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 2071.65,
-      "spendingChange": -49.3,
-      "enrollment": 726387,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "WV",
-      "totalExpenditures": 1205371461.0,
-      "federalShare": 946759636.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 2459.16,
-      "spendingChange": -57.0,
-      "enrollment": 490156,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "KS",
-      "totalExpenditures": 1172306054.0,
-      "federalShare": 731150005.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 2944.61,
-      "spendingChange": -52.9,
-      "enrollment": 398119,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "ME",
-      "totalExpenditures": 1165239842.0,
-      "federalShare": 795710955.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 3450.06,
-      "spendingChange": -45.5,
-      "enrollment": 337745,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "UT",
-      "totalExpenditures": 1106970782.0,
-      "federalShare": 802016557.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 3393.61,
-      "spendingChange": -54.5,
-      "enrollment": 326193,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "NE",
-      "totalExpenditures": 910966946.0,
-      "federalShare": 609972026.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 2753.87,
-      "spendingChange": -51.1,
-      "enrollment": 330795,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "RI",
-      "totalExpenditures": 841503920.0,
-      "federalShare": 527818932.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 2824.38,
-      "spendingChange": -50.4,
-      "enrollment": 297943,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "ID",
-      "totalExpenditures": 821500095.0,
-      "federalShare": 614886728.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 2639.3,
-      "spendingChange": -47.5,
-      "enrollment": 311257,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "HI",
-      "totalExpenditures": 799355836.0,
-      "federalShare": 647841572.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 2059.75,
-      "spendingChange": -44.4,
-      "enrollment": 388083,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "DE",
-      "totalExpenditures": 794849824.0,
-      "federalShare": 556565015.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 3305.59,
-      "spendingChange": -52.7,
-      "enrollment": 240456,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "AK",
-      "totalExpenditures": 643309254.0,
-      "federalShare": 495113777.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 3056.46,
-      "spendingChange": -51.1,
-      "enrollment": 210475,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "VT",
-      "totalExpenditures": 520828700.0,
-      "federalShare": 323610408.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 3456.45,
-      "spendingChange": -48.9,
-      "enrollment": 150683,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "MT",
-      "totalExpenditures": 475728453.0,
-      "federalShare": 357076307.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 2260.59,
-      "spendingChange": -64.3,
-      "enrollment": 210444,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "NH",
-      "totalExpenditures": 461111636.0,
-      "federalShare": 263887401.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 2636.05,
-      "spendingChange": -64.7,
-      "enrollment": 174925,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "ND",
-      "totalExpenditures": 386347620.0,
-      "federalShare": 249691782.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 3720.75,
-      "spendingChange": -50.4,
-      "enrollment": 103836,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "SD",
-      "totalExpenditures": 353694579.0,
-      "federalShare": 244350315.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 2591.0,
-      "spendingChange": -41.6,
-      "enrollment": 136509,
-      "breakdown": null,
-      "rollupBreakdown": null
-    },
-    {
-      "stateCode": "WY",
-      "totalExpenditures": 230256964.0,
-      "federalShare": 129858806.0,
-      "stateShare": 0.0,
-      "perEnrolleeSpending": 3883.83,
-      "spendingChange": -31.7,
-      "enrollment": 59286,
-      "breakdown": null,
-      "rollupBreakdown": null
-    }
-  ],
-  "national": {
-    "totalExpenditures": 215903780451.0,
-    "federalShare": 142028311257.0,
-    "perEnrolleeSpending": 2851.12,
-    "statesReporting": 50,
-    "fiscalYear": 2024,
-    "rollupBreakdown": {
-      "Managed Care": 0.0,
-      "Fee-for-Service": 0.0,
-      "Prescription Drugs": 0.0,
-      "Long-Term Care": 0.0,
-      "Behavioral Health": 0.0,
-      "Admin & Other": 0.0
-    },
-    "rollupBreakdownPct": {}
-  },
-  "updated": "2026-04-12T07:08:06.228445",
-  "source": "data.medicaid.gov",
-  "record_count": 150
-}
+      "rollupBreakdown": {
+        "Managed Care": 3576496504.0,
+ 

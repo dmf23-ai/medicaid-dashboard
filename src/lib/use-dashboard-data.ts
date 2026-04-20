@@ -312,9 +312,17 @@ export function useDashboardData(): DashboardData {
     if (expenditure?.national?.rollupBreakdown) {
       const rollup = expenditure.national.rollupBreakdown;
       const pct = expenditure.national.rollupBreakdownPct || {};
+      const nationalEnrollment = (expenditure.states || []).reduce(
+        (sum: number, s: { enrollment?: number | null }) =>
+          sum + (s.enrollment || 0),
+        0
+      );
       spendingCategories = Object.entries(rollup).map(([category, amount]) => ({
         category,
-        amount,
+        amount:
+          nationalEnrollment > 0
+            ? Math.round((amount as number) / nationalEnrollment)
+            : (amount as number),
         percentOfTotal: pct[category] ?? 0,
       }));
     }
