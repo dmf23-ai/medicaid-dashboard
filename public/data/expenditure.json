@@ -513,7 +513,14 @@
       "spendingChange": null,
       "enrollment": 588268,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 3576496504.0,
+        "Fee-for-Service": 1135748304.0,
+        "Prescription Drugs": -56682017.0,
+        "Long-Term Care": 2179045762.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 352471788.0
+      }
     },
     {
       "stateCode": "NM",
@@ -524,7 +531,14 @@
       "spendingChange": null,
       "enrollment": 682701,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 6089211508.0,
+        "Fee-for-Service": 749457340.0,
+        "Prescription Drugs": -15892889.0,
+        "Long-Term Care": 890111167.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 229272047.0
+      }
     },
     {
       "stateCode": "AL",
@@ -535,7 +549,14 @@
       "spendingChange": null,
       "enrollment": 939065,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 169812986.0,
+        "Fee-for-Service": 4791121729.0,
+        "Prescription Drugs": 454092006.0,
+        "Long-Term Care": 2185527672.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 556249072.0
+      }
     },
     {
       "stateCode": "AR",
@@ -546,7 +567,14 @@
       "spendingChange": null,
       "enrollment": 801024,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 2612153630.0,
+        "Fee-for-Service": 2781800853.0,
+        "Prescription Drugs": 159033354.0,
+        "Long-Term Care": 1872802104.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 406907399.0
+      }
     },
     {
       "stateCode": "IA",
@@ -557,7 +585,14 @@
       "spendingChange": null,
       "enrollment": 665421,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 8188770286.0,
+        "Fee-for-Service": 316344906.0,
+        "Prescription Drugs": 11845856.0,
+        "Long-Term Care": 103180924.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 193756583.0
+      }
     },
     {
       "stateCode": "NV",
@@ -568,7 +603,14 @@
       "spendingChange": null,
       "enrollment": 726387,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 2923732973.0,
+        "Fee-for-Service": 1658375730.0,
+        "Prescription Drugs": 153064585.0,
+        "Long-Term Care": 916516618.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 303767574.0
+      }
     },
     {
       "stateCode": "WV",
@@ -579,7 +621,14 @@
       "spendingChange": null,
       "enrollment": 490156,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 2144627075.0,
+        "Fee-for-Service": 335142711.0,
+        "Prescription Drugs": 285508630.0,
+        "Long-Term Care": 1964434736.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 212495028.0
+      }
     },
     {
       "stateCode": "KS",
@@ -590,7 +639,14 @@
       "spendingChange": null,
       "enrollment": 398119,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 4753219776.0,
+        "Fee-for-Service": 187518359.0,
+        "Prescription Drugs": -768171.0,
+        "Long-Term Care": 105546794.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 147156111.0
+      }
     },
     {
       "stateCode": "ME",
@@ -601,7 +657,14 @@
       "spendingChange": null,
       "enrollment": 337745,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 37902250.0,
+        "Fee-for-Service": 2263926657.0,
+        "Prescription Drugs": 217030409.0,
+        "Long-Term Care": 1749959115.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 341662472.0
+      }
     },
     {
       "stateCode": "UT",
@@ -612,7 +675,14 @@
       "spendingChange": null,
       "enrollment": 326193,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 2318024841.0,
+        "Fee-for-Service": 1127764814.0,
+        "Prescription Drugs": 131820412.0,
+        "Long-Term Care": 1252547609.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 113306490.0
+      }
     },
     {
       "stateCode": "NE",
@@ -623,7 +693,14 @@
       "spendingChange": null,
       "enrollment": 330795,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 2035034055.0,
+        "Fee-for-Service": 113837560.0,
+        "Prescription Drugs": -192135.0,
+        "Long-Term Care": 1433609855.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 85991358.0
+      }
     },
     {
       "stateCode": "RI",
@@ -634,7 +711,14 @@
       "spendingChange": null,
       "enrollment": 297943,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 1986153442.0,
+        "Fee-for-Service": 473204950.0,
+        "Prescription Drugs": 4321177.0,
+        "Long-Term Care": 949901035.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 113011601.0
+      }
     },
     {
       "stateCode": "ID",
@@ -645,7 +729,14 @@
       "spendingChange": null,
       "enrollment": 311257,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 786033787.0,
+        "Fee-for-Service": 1803988843.0,
+        "Prescription Drugs": 263609144.0,
+        "Long-Term Care": 978336960.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 101827412.0
+      }
     },
     {
       "stateCode": "HI",
@@ -656,7 +747,14 @@
       "spendingChange": null,
       "enrollment": 388083,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 2576828684.0,
+        "Fee-for-Service": 247063198.0,
+        "Prescription Drugs": 3842441.0,
+        "Long-Term Care": 180377834.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 105645673.0
+      }
     },
     {
       "stateCode": "DE",
@@ -667,7 +765,14 @@
       "spendingChange": null,
       "enrollment": 240456,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 2508472561.0,
+        "Fee-for-Service": 226732300.0,
+        "Prescription Drugs": -38201163.0,
+        "Long-Term Care": 380742092.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 129941226.0
+      }
     },
     {
       "stateCode": "AK",
@@ -678,7 +783,14 @@
       "spendingChange": null,
       "enrollment": 210475,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 735665.0,
+        "Fee-for-Service": 1811545642.0,
+        "Prescription Drugs": 87800841.0,
+        "Long-Term Care": 680235563.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 149091859.0
+      }
     },
     {
       "stateCode": "VT",
@@ -689,7 +801,14 @@
       "spendingChange": null,
       "enrollment": 150683,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 22494726.0,
+        "Fee-for-Service": 1190904436.0,
+        "Prescription Drugs": 110893962.0,
+        "Long-Term Care": 709274226.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 99612943.0
+      }
     },
     {
       "stateCode": "MT",
@@ -700,7 +819,14 @@
       "spendingChange": null,
       "enrollment": 210444,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 33588097.0,
+        "Fee-for-Service": 1524126524.0,
+        "Prescription Drugs": 142682827.0,
+        "Long-Term Care": 581133901.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 108598603.0
+      }
     },
     {
       "stateCode": "NH",
@@ -711,7 +837,14 @@
       "spendingChange": null,
       "enrollment": 174925,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 880475825.0,
+        "Fee-for-Service": 423424240.0,
+        "Prescription Drugs": 7145187.0,
+        "Long-Term Care": 1088468895.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 65433991.0
+      }
     },
     {
       "stateCode": "ND",
@@ -722,7 +855,14 @@
       "spendingChange": null,
       "enrollment": 103836,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 209015995.0,
+        "Fee-for-Service": 324874684.0,
+        "Prescription Drugs": 50458872.0,
+        "Long-Term Care": 798241477.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 39254576.0
+      }
     },
     {
       "stateCode": "SD",
@@ -733,7 +873,14 @@
       "spendingChange": null,
       "enrollment": 136509,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 2974010.0,
+        "Fee-for-Service": 698017002.0,
+        "Prescription Drugs": 149999420.0,
+        "Long-Term Care": 580460584.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 84472138.0
+      }
     },
     {
       "stateCode": "WY",
@@ -744,7 +891,14 @@
       "spendingChange": null,
       "enrollment": 59286,
       "breakdown": null,
-      "rollupBreakdown": null
+      "rollupBreakdown": {
+        "Managed Care": 2622735.0,
+        "Fee-for-Service": 327756749.0,
+        "Prescription Drugs": 50423616.0,
+        "Long-Term Care": 348538619.0,
+        "Behavioral Health": 0.0,
+        "Admin & Other": 38201134.0
+      }
     }
   ],
   "national": {
@@ -754,23 +908,27 @@
     "statesReporting": 50,
     "fiscalYear": 2024,
     "rollupBreakdown": {
-      "Managed Care": 445721923122.1,
-      "Fee-for-Service": 153101703845.0,
-      "Prescription Drugs": 17989980629.0,
-      "Long-Term Care": 171405245224.0,
+      "Managed Care": 489580304533.1,
+      "Fee-for-Service": 177614381376.0,
+      "Prescription Drugs": 20161816993.0,
+      "Long-Term Care": 193334238766.0,
       "Behavioral Health": 0.0,
-      "Admin & Other": 29870829212.0
+      "Admin & Other": 33848956290.0
     },
     "rollupBreakdownPct": {
-      "Managed Care": 54.5,
-      "Fee-for-Service": 18.7,
+      "Managed Care": 53.5,
+      "Fee-for-Service": 19.4,
       "Prescription Drugs": 2.2,
-      "Long-Term Care": 21.0,
+      "Long-Term Care": 21.1,
       "Behavioral Health": 0.0,
       "Admin & Other": 3.7
-    }
+    },
+    "partialYear": true,
+    "quartersAvailable": [
+      1
+    ]
   },
-  "updated": "2026-04-12T07:08:06.228445",
+  "updated": "2026-04-20T11:38:09.906005",
   "source": "data.medicaid.gov",
   "record_count": 150
 }
