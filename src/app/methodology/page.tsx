@@ -320,10 +320,6 @@ export default function MethodologyPage() {
           <p>
             National Medicaid Intelligence Dashboard · Methodology · v1.0
           </p>
-          <p className="mt-1">
-            Questions or corrections? Reach out to the dashboard owner on the
-            Accenture TX HHSC team.
-          </p>
         </footer>
       </main>
     </div>
