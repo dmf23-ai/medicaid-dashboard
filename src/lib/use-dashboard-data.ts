@@ -79,6 +79,7 @@ interface ExpenditureJson {
     perEnrolleeSpending: number | null;
     spendingChange: number | null;
     rollupBreakdown?: Record<string, number>;
+    enrollment?: number | null;
   }>;
   national?: {
     rollupBreakdown?: Record<string, number>;
