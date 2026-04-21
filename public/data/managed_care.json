@@ -5,6 +5,7 @@
       "managedCareEnrollment": 432125,
       "totalMedicaidEnrollment": 432222,
       "managedCarePenetration": 100.0,
+      "penetrationChange": 0.0,
       "year": 2024
     },
     {
@@ -12,6 +13,7 @@
       "managedCareEnrollment": 165372,
       "totalMedicaidEnrollment": 165372,
       "managedCarePenetration": 100.0,
+      "penetrationChange": 0.0,
       "year": 2024
     },
     {
@@ -19,6 +21,7 @@
       "managedCareEnrollment": 350451,
       "totalMedicaidEnrollment": 351141,
       "managedCarePenetration": 99.8,
+      "penetrationChange": 0.7,
       "year": 2024
     },
     {
@@ -26,6 +29,7 @@
       "managedCareEnrollment": 314175,
       "totalMedicaidEnrollment": 317797,
       "managedCarePenetration": 98.9,
+      "penetrationChange": -0.1,
       "year": 2024
     },
     {
@@ -33,6 +37,7 @@
       "managedCareEnrollment": 2362471,
       "totalMedicaidEnrollment": 2416518,
       "managedCarePenetration": 97.8,
+      "penetrationChange": -2.1,
       "year": 2024
     },
     {
@@ -40,6 +45,7 @@
       "managedCareEnrollment": 322526,
       "totalMedicaidEnrollment": 331012,
       "managedCarePenetration": 97.4,
+      "penetrationChange": 2.4,
       "year": 2024
     },
     {
@@ -47,6 +53,7 @@
       "managedCareEnrollment": 264158,
       "totalMedicaidEnrollment": 275158,
       "managedCarePenetration": 96.0,
+      "penetrationChange": 0.8,
       "year": 2024
     },
     {
@@ -54,6 +61,7 @@
       "managedCareEnrollment": 2821039,
       "totalMedicaidEnrollment": 2967715,
       "managedCarePenetration": 95.1,
+      "penetrationChange": -0.1,
       "year": 2024
     },
     {
@@ -61,6 +69,7 @@
       "managedCareEnrollment": 1665975,
       "totalMedicaidEnrollment": 1762462,
       "managedCarePenetration": 94.5,
+      "penetrationChange": 1.3,
       "year": 2024
     },
     {
@@ -68,6 +77,7 @@
       "managedCareEnrollment": 1436583,
       "totalMedicaidEnrollment": 1526625,
       "managedCarePenetration": 94.1,
+      "penetrationChange": 0.3,
       "year": 2024
     },
     {
@@ -75,6 +85,7 @@
       "managedCareEnrollment": 610326,
       "totalMedicaidEnrollment": 649899,
       "managedCarePenetration": 93.9,
+      "penetrationChange": -0.7,
       "year": 2024
     },
     {
@@ -82,6 +93,7 @@
       "managedCareEnrollment": 13978531,
       "totalMedicaidEnrollment": 14904950,
       "managedCarePenetration": 93.8,
+      "penetrationChange": 3.2,
       "year": 2024
     },
     {
@@ -89,6 +101,7 @@
       "managedCareEnrollment": 3863808,
       "totalMedicaidEnrollment": 4141972,
       "managedCarePenetration": 93.3,
+      "penetrationChange": -4.0,
       "year": 2024
     },
     {
@@ -96,6 +109,7 @@
       "managedCareEnrollment": 308110,
       "totalMedicaidEnrollment": 331580,
       "managedCarePenetration": 92.9,
+      "penetrationChange": -1.4,
       "year": 2024
     },
     {
@@ -103,6 +117,7 @@
       "managedCareEnrollment": 1533577,
       "totalMedicaidEnrollment": 1676215,
       "managedCarePenetration": 91.5,
+      "penetrationChange": -1.1,
       "year": 2024
     },
     {
@@ -110,6 +125,7 @@
       "managedCareEnrollment": 1555225,
       "totalMedicaidEnrollment": 1700910,
       "managedCarePenetration": 91.4,
+      "penetrationChange": -5.5,
       "year": 2024
     },
     {
@@ -117,6 +133,7 @@
       "managedCareEnrollment": 236213,
       "totalMedicaidEnrollment": 259168,
       "managedCarePenetration": 91.1,
+      "penetrationChange": 2.2,
       "year": 2024
     },
     {
@@ -124,6 +141,7 @@
       "managedCareEnrollment": 181676,
       "totalMedicaidEnrollment": 199513,
       "managedCarePenetration": 91.1,
+      "penetrationChange": 2.1,
       "year": 2024
     },
     {
@@ -131,6 +149,7 @@
       "managedCareEnrollment": 1079583,
       "totalMedicaidEnrollment": 1197490,
       "managedCarePenetration": 90.2,
+      "penetrationChange": -3.6,
       "year": 2024
     },
     {
@@ -138,6 +157,7 @@
       "managedCareEnrollment": 1303955,
       "totalMedicaidEnrollment": 1449651,
       "managedCarePenetration": 89.9,
+      "penetrationChange": -1.2,
       "year": 2024
     },
     {
@@ -145,6 +165,7 @@
       "managedCareEnrollment": 1198880,
       "totalMedicaidEnrollment": 1340084,
       "managedCarePenetration": 89.5,
+      "penetrationChange": 2.9,
       "year": 2024
     },
     {
@@ -152,6 +173,7 @@
       "managedCareEnrollment": 3897852,
       "totalMedicaidEnrollment": 4363948,
       "managedCarePenetration": 89.3,
+      "penetrationChange": -4.3,
       "year": 2024
     },
     {
@@ -159,6 +181,7 @@
       "managedCareEnrollment": 803185,
       "totalMedicaidEnrollment": 900323,
       "managedCarePenetration": 89.2,
+      "penetrationChange": 0.8,
       "year": 2024
     },
     {
@@ -166,6 +189,7 @@
       "managedCareEnrollment": 366314,
       "totalMedicaidEnrollment": 415298,
       "managedCarePenetration": 88.2,
+      "penetrationChange": -1.2,
       "year": 2024
     },
     {
@@ -173,6 +197,7 @@
       "managedCareEnrollment": 2663304,
       "totalMedicaidEnrollment": 3018792,
       "managedCarePenetration": 88.2,
+      "penetrationChange": -0.3,
       "year": 2024
     },
     {
@@ -180,6 +205,7 @@
       "managedCareEnrollment": 463781,
       "totalMedicaidEnrollment": 533405,
       "managedCarePenetration": 86.9,
+      "penetrationChange": -1.0,
       "year": 2024
     },
     {
@@ -187,6 +213,7 @@
       "managedCareEnrollment": 1679853,
       "totalMedicaidEnrollment": 1953730,
       "managedCarePenetration": 86.0,
+      "penetrationChange": -1.8,
       "year": 2024
     },
     {
@@ -194,6 +221,7 @@
       "managedCareEnrollment": 1975478,
       "totalMedicaidEnrollment": 2314875,
       "managedCarePenetration": 85.3,
+      "penetrationChange": -2.9,
       "year": 2024
     },
     {
@@ -201,6 +229,7 @@
       "managedCareEnrollment": 1843297,
       "totalMedicaidEnrollment": 2181548,
       "managedCarePenetration": 84.5,
+      "penetrationChange": -0.2,
       "year": 2024
     },
     {
@@ -208,6 +237,7 @@
       "managedCareEnrollment": 2581735,
       "totalMedicaidEnrollment": 3057965,
       "managedCarePenetration": 84.4,
+      "penetrationChange": 2.5,
       "year": 2024
     },
     {
@@ -215,6 +245,7 @@
       "managedCareEnrollment": 1660905,
       "totalMedicaidEnrollment": 1984868,
       "managedCarePenetration": 83.7,
+      "penetrationChange": -0.4,
       "year": 2024
     },
     {
@@ -222,6 +253,7 @@
       "managedCareEnrollment": 1021856,
       "totalMedicaidEnrollment": 1222962,
       "managedCarePenetration": 83.6,
+      "penetrationChange": 2.3,
       "year": 2024
     },
     {
@@ -229,6 +261,7 @@
       "managedCareEnrollment": 1001988,
       "totalMedicaidEnrollment": 1204793,
       "managedCarePenetration": 83.2,
+      "penetrationChange": -4.7,
       "year": 2024
     },
     {
@@ -236,6 +269,7 @@
       "managedCareEnrollment": 174914,
       "totalMedicaidEnrollment": 213159,
       "managedCarePenetration": 82.1,
+      "penetrationChange": -8.7,
       "year": 2024
     },
     {
@@ -243,6 +277,7 @@
       "managedCareEnrollment": 735622,
       "totalMedicaidEnrollment": 900757,
       "managedCarePenetration": 81.7,
+      "penetrationChange": -0.3,
       "year": 2024
     },
     {
@@ -250,6 +285,7 @@
       "managedCareEnrollment": 1609664,
       "totalMedicaidEnrollment": 1972638,
       "managedCarePenetration": 81.6,
+      "penetrationChange": 3.0,
       "year": 2024
     },
     {
@@ -257,6 +293,7 @@
       "managedCareEnrollment": 359577,
       "totalMedicaidEnrollment": 453240,
       "managedCarePenetration": 79.3,
+      "penetrationChange": -3.6,
       "year": 2024
     },
     {
@@ -264,6 +301,7 @@
       "managedCareEnrollment": 837805,
       "totalMedicaidEnrollment": 1098614,
       "managedCarePenetration": 76.3,
+      "penetrationChange": -3.2,
       "year": 2024
     },
     {
@@ -271,6 +309,7 @@
       "managedCareEnrollment": 2584970,
       "totalMedicaidEnrollment": 3418634,
       "managedCarePenetration": 75.6,
+      "penetrationChange": 1.2,
       "year": 2024
     },
     {
@@ -278,6 +317,7 @@
       "managedCareEnrollment": 478746,
       "totalMedicaidEnrollment": 645050,
       "managedCarePenetration": 74.2,
+      "penetrationChange": 27.0,
       "year": 2024
     },
     {
@@ -285,6 +325,7 @@
       "managedCareEnrollment": 610941,
       "totalMedicaidEnrollment": 824507,
       "managedCarePenetration": 74.1,
+      "penetrationChange": -1.2,
       "year": 2024
     },
     {
@@ -292,6 +333,7 @@
       "managedCareEnrollment": 106872,
       "totalMedicaidEnrollment": 144864,
       "managedCarePenetration": 73.8,
+      "penetrationChange": -15.1,
       "year": 2024
     },
     {
@@ -299,6 +341,7 @@
       "managedCareEnrollment": 5056572,
       "totalMedicaidEnrollment": 6964926,
       "managedCarePenetration": 72.6,
+      "penetrationChange": -3.5,
       "year": 2024
     },
     {
@@ -306,6 +349,7 @@
       "managedCareEnrollment": 751924,
       "totalMedicaidEnrollment": 1040358,
       "managedCarePenetration": 72.3,
+      "penetrationChange": 6.9,
       "year": 2024
     },
     {
@@ -313,6 +357,7 @@
       "managedCareEnrollment": 952642,
       "totalMedicaidEnrollment": 1339124,
       "managedCarePenetration": 71.1,
+      "penetrationChange": -2.3,
       "year": 2024
     },
     {
@@ -320,6 +365,7 @@
       "managedCareEnrollment": 1225762,
       "totalMedicaidEnrollment": 1983201,
       "managedCarePenetration": 61.8,
+      "penetrationChange": -0.5,
       "year": 2024
     },
     {
@@ -327,6 +373,7 @@
       "managedCareEnrollment": 814123,
       "totalMedicaidEnrollment": 1354616,
       "managedCarePenetration": 60.1,
+      "penetrationChange": -4.3,
       "year": 2024
     },
     {
@@ -334,6 +381,7 @@
       "managedCareEnrollment": 24546,
       "totalMedicaidEnrollment": 105070,
       "managedCarePenetration": 23.4,
+      "penetrationChange": -58.2,
       "year": 2024
     },
     {
@@ -341,6 +389,7 @@
       "managedCareEnrollment": 202,
       "totalMedicaidEnrollment": 73053,
       "managedCarePenetration": 0.3,
+      "penetrationChange": 0.1,
       "year": 2024
     },
     {
@@ -348,6 +397,7 @@
       "managedCareEnrollment": 0,
       "totalMedicaidEnrollment": 236414,
       "managedCarePenetration": null,
+      "penetrationChange": null,
       "year": 2024
     },
     {
@@ -355,6 +405,7 @@
       "managedCareEnrollment": 0,
       "totalMedicaidEnrollment": 1085951,
       "managedCarePenetration": null,
+      "penetrationChange": null,
       "year": 2024
     }
   ],
@@ -363,7 +414,7 @@
     "statesReporting": 49,
     "year": 2024
   },
-  "updated": "2026-04-12T07:08:07.087601",
+  "updated": "2026-04-21T07:27:51.758527",
   "source": "data.medicaid.gov",
   "record_count": 459
 }

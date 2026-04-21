@@ -8,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-04-12",
+      "timestamp": "2026-04-21",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-04-12"
+      "timestamp": "2026-04-21"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-04-12"
+      "timestamp": "2026-04-21"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-04-12",
+      "timestamp": "2026-04-21",
       "affectedStates": [
         "TX"
       ]
@@ -54,30 +54,30 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-04-12",
+      "timestamp": "2026-04-21",
       "affectedStates": [
         "OH"
       ]
     },
     {
-      "id": "fr-2026-07016",
-      "title": "Agency Information Collection Activities: Proposed Collection; Comment Request",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal Regi\u2026",
+      "id": "fr-2026-07440",
+      "title": "Medicaid and Children's Health Insurance Program (CHIP) Generic Information Collection Activities: Proposed Collection; Comment Request",
+      "summary": "On May 28, 2010, the Office of Management and Budget (OMB) issued Paperwork Reduction Act (PRA) guidance related to the \"generic\" clearance process. Generally, this is an expedited process by which agencies may obtain OMB's approval of collection of information requests that are \u2026",
       "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/10/2026-07016/agency-information-collection-activities-proposed-collection-comment-request",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/16/2026-07440/medicaid-and-childrens-health-insurance-program-chip-generic-information-collection-activities",
       "category": "regulatory",
       "relevance": "high",
-      "timestamp": "2026-04-10"
+      "timestamp": "2026-04-16"
     },
     {
-      "id": "fr-2026-06946",
-      "title": "Agency Information Collection Activities: Proposed Collection; Comment Request",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal Regi\u2026",
+      "id": "fr-2026-07205",
+      "title": "Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Pla",
+      "summary": "These proposals are intended to improve the electronic exchange of health care data and streamline processes related to prior authorization by increasing the interoperability of systems used across the health care industry. We are proposing new requirements for Medicare Advantage\u2026",
       "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/10/2026-06946/agency-information-collection-activities-proposed-collection-comment-request",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/14/2026-07205/medicare-and-medicaid-programs-patient-protection-and-affordable-care-act-interoperability-standards",
       "category": "regulatory",
       "relevance": "high",
-      "timestamp": "2026-04-10"
+      "timestamp": "2026-04-14"
     },
     {
       "id": "fr-2026-06861",
@@ -90,36 +90,6 @@
       "timestamp": "2026-04-09"
     },
     {
-      "id": "fr-2026-06725",
-      "title": "Agency Information Collection Activities: Submission for OMB Review; Comment Request",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal Regi\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/07/2026-06725/agency-information-collection-activities-submission-for-omb-review-comment-request",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-04-07"
-    },
-    {
-      "id": "fr-2026-06573",
-      "title": "Agency Information Collection Activities: Proposed Collection; Comment Request",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal Regi\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/06/2026-06573/agency-information-collection-activities-proposed-collection-comment-request",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-04-06"
-    },
-    {
-      "id": "fr-2026-06570",
-      "title": "Agency Information Collection Activities: Submission for OMB Review; Comment Request",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' intention to collect information from the public. Under the Paperwork Reduction Act of 1995 (PRA), federal agencies are required to publish notice in the Federal Regi\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/06/2026-06570/agency-information-collection-activities-submission-for-omb-review-comment-request",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-04-06"
-    },
-    {
       "id": "fr-2026-06600",
       "title": "Medicare Program; Contract Year 2027 and Certain Contract Year 2026 Policy and Technical Changes to the Medicare Advantage Program, Medicare Prescription Drug Benefit Program, and Medicare Cost Plan P",
       "summary": "This final rule revises the Medicare Advantage (Part C), Medicare Prescription Drug Benefit (Part D), and Medicare cost plan regulations to implement changes related to Star Ratings, marketing and communications, drug coverage, enrollment processes, special needs plans, and other\u2026",
@@ -128,52 +98,22 @@
       "category": "regulatory",
       "relevance": "medium",
       "timestamp": "2026-04-06"
-    },
-    {
-      "id": "fr-2026-06508",
-      "title": "Medicare and Medicaid Programs; Application From Joint Commission (JC) for Continued CMS-Approval of Its Home Health Agency (HHA) Accreditation Program",
-      "summary": "This proposed notice acknowledges the receipt of an application from Joint Commission for continued recognition as a national accrediting organization for home health agencies that wish to participate in the Medicare or Medicaid programs. It also provides the public with the oppo\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/03/2026-06508/medicare-and-medicaid-programs-application-from-joint-commission-jc-for-continued-cms-approval-of",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-04-03"
-    },
-    {
-      "id": "fr-2026-06500",
-      "title": "Medicare and Medicaid Programs; Approval of Application by the Accreditation Commission for Health Care Inc. (ACHC) for Continued CMS-Approval of its Hospice Accreditation Program",
-      "summary": "This notice acknowledges the approval of an application from the Accreditation Commission for Health Care Inc., for continued CMS approval as a national accrediting organization for hospice programs that wish to participate in the Medicare or Medicaid programs.",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/03/2026-06500/medicare-and-medicaid-programs-approval-of-application-by-the-accreditation-commission-for-health",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-04-03"
-    },
-    {
-      "id": "fr-2026-06499",
-      "title": "Medicare and Medicaid Programs: Application From the Accreditation Commission for Health Care Inc. (ACHC) for Continued Approval of Its Critical Access Hospital Accreditation Program",
-      "summary": "This notice announces our decision to approve the Accreditation Commission for Health Care Inc. (ACHC) for continued recognition as a national accrediting organization for critical access hospitals that wish to participate in the Medicare or Medicaid programs.",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/03/2026-06499/medicare-and-medicaid-programs-application-from-the-accreditation-commission-for-health-care-inc",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-04-03"
     }
   ],
   "national": {
-    "totalSignals": 15,
+    "totalSignals": 9,
     "byCategory": {
       "procurement": 3,
       "oig": 2,
-      "regulatory": 10
+      "regulatory": 4
     },
     "byRelevance": {
-      "high": 10,
+      "high": 4,
       "medium": 4,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-04-12T07:08:07.133857",
+  "updated": "2026-04-21T07:27:51.824719",
   "source": "aggregated"
 }
