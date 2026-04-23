@@ -8,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-04-22",
+      "timestamp": "2026-04-23",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-04-22"
+      "timestamp": "2026-04-23"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-04-22"
+      "timestamp": "2026-04-23"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-04-22",
+      "timestamp": "2026-04-23",
       "affectedStates": [
         "TX"
       ]
@@ -54,20 +54,20 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-04-22",
+      "timestamp": "2026-04-23",
       "affectedStates": [
         "OH"
       ]
     },
     {
-      "id": "fr-2026-07440",
+      "id": "fr-2026-07803",
       "title": "Medicaid and Children's Health Insurance Program (CHIP) Generic Information Collection Activities: Proposed Collection; Comment Request",
       "summary": "On May 28, 2010, the Office of Management and Budget (OMB) issued Paperwork Reduction Act (PRA) guidance related to the \"generic\" clearance process. Generally, this is an expedited process by which agencies may obtain OMB's approval of collection of information requests that are \u2026",
       "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/16/2026-07440/medicaid-and-childrens-health-insurance-program-chip-generic-information-collection-activities",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/22/2026-07803/medicaid-and-childrens-health-insurance-program-chip-generic-information-collection-activities",
       "category": "regulatory",
       "relevance": "high",
-      "timestamp": "2026-04-16"
+      "timestamp": "2026-04-22"
     },
     {
       "id": "fr-2026-07205",
@@ -88,32 +88,22 @@
       "category": "regulatory",
       "relevance": "high",
       "timestamp": "2026-04-09"
-    },
-    {
-      "id": "fr-2026-06600",
-      "title": "Medicare Program; Contract Year 2027 and Certain Contract Year 2026 Policy and Technical Changes to the Medicare Advantage Program, Medicare Prescription Drug Benefit Program, and Medicare Cost Plan P",
-      "summary": "This final rule revises the Medicare Advantage (Part C), Medicare Prescription Drug Benefit (Part D), and Medicare cost plan regulations to implement changes related to Star Ratings, marketing and communications, drug coverage, enrollment processes, special needs plans, and other\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/06/2026-06600/medicare-program-contract-year-2027-and-certain-contract-year-2026-policy-and-technical-changes-to",
-      "category": "regulatory",
-      "relevance": "medium",
-      "timestamp": "2026-04-06"
     }
   ],
   "national": {
-    "totalSignals": 9,
+    "totalSignals": 8,
     "byCategory": {
       "procurement": 3,
       "oig": 2,
-      "regulatory": 4
+      "regulatory": 3
     },
     "byRelevance": {
       "high": 4,
-      "medium": 4,
+      "medium": 3,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-04-22T07:25:40.242703",
+  "updated": "2026-04-23T07:29:35.848376",
   "source": "aggregated"
 }
