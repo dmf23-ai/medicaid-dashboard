@@ -3,4734 +3,520 @@
     {
       "stateCode": "CA",
       "stateName": "California",
-      "enrollment": 12649707,
-      "enrollmentChange": -5.6,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 1228746,
-      "medicaidEnrollment": 11420961
+      "enrollment": 12555434,
+      "enrollmentChange": -6.2,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 1237976,
+      "medicaidEnrollment": 11317458
     },
     {
       "stateCode": "NY",
       "stateName": "New York",
-      "enrollment": 6515805,
-      "enrollmentChange": -1.6,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 662420,
-      "medicaidEnrollment": 5853385
+      "enrollment": 6476902,
+      "enrollmentChange": -1.8,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 659617,
+      "medicaidEnrollment": 5817285
     },
     {
       "stateCode": "TX",
       "stateName": "Texas",
-      "enrollment": 4083939,
-      "enrollmentChange": -2.2,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 344976,
-      "medicaidEnrollment": 3738963
+      "enrollment": 4032864,
+      "enrollmentChange": -3.1,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 344813,
+      "medicaidEnrollment": 3688051
     },
     {
       "stateCode": "FL",
       "stateName": "Florida",
-      "enrollment": 3592110,
+      "enrollment": 3588652,
       "enrollmentChange": -4.0,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 160955,
-      "medicaidEnrollment": 3431155
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 163022,
+      "medicaidEnrollment": 3425630
     },
     {
       "stateCode": "IL",
       "stateName": "Illinois",
-      "enrollment": 3000140,
-      "enrollmentChange": -6.5,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 318336,
-      "medicaidEnrollment": 2681804
+      "enrollment": 2992984,
+      "enrollmentChange": -6.2,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 320864,
+      "medicaidEnrollment": 2672120
     },
     {
       "stateCode": "PA",
       "stateName": "Pennsylvania",
-      "enrollment": 2990577,
-      "enrollmentChange": -2.7,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 280410,
-      "medicaidEnrollment": 2710167
+      "enrollment": 2984740,
+      "enrollmentChange": -3.1,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 278730,
+      "medicaidEnrollment": 2706010
     },
     {
       "stateCode": "NC",
       "stateName": "North Carolina",
-      "enrollment": 2860490,
-      "enrollmentChange": 1.6,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 344953,
-      "medicaidEnrollment": 2515537
+      "enrollment": 2857213,
+      "enrollmentChange": 0.5,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 344352,
+      "medicaidEnrollment": 2512861
     },
     {
       "stateCode": "OH",
       "stateName": "Ohio",
-      "enrollment": 2729099,
-      "enrollmentChange": -3.8,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 242337,
-      "medicaidEnrollment": 2486762
+      "enrollment": 2698937,
+      "enrollmentChange": -4.4,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 242200,
+      "medicaidEnrollment": 2456737
     },
     {
       "stateCode": "MI",
       "stateName": "Michigan",
-      "enrollment": 2272434,
-      "enrollmentChange": -3.9,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 167087,
-      "medicaidEnrollment": 2105347
+      "enrollment": 2196941,
+      "enrollmentChange": -7.6,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 167306,
+      "medicaidEnrollment": 2029635
     },
     {
       "stateCode": "GA",
       "stateName": "Georgia",
-      "enrollment": 1855242,
-      "enrollmentChange": -3.9,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 185500,
-      "medicaidEnrollment": 1669742
+      "enrollment": 1851524,
+      "enrollmentChange": -3.6,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 183456,
+      "medicaidEnrollment": 1668068
     },
     {
       "stateCode": "WA",
       "stateName": "Washington",
-      "enrollment": 1785532,
-      "enrollmentChange": -2.7,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 64618,
-      "medicaidEnrollment": 1720914
+      "enrollment": 1787085,
+      "enrollmentChange": -2.5,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 65228,
+      "medicaidEnrollment": 1721857
     },
     {
       "stateCode": "NJ",
       "stateName": "New Jersey",
-      "enrollment": 1741837,
-      "enrollmentChange": -0.8,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 258231,
-      "medicaidEnrollment": 1483606
-    },
-    {
-      "stateCode": "AZ",
-      "stateName": "Arizona",
-      "enrollment": 1678092,
-      "enrollmentChange": -11.7,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 112634,
-      "medicaidEnrollment": 1565458
+      "enrollment": 1735024,
+      "enrollmentChange": -1.9,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 256572,
+      "medicaidEnrollment": 1478452
     },
     {
       "stateCode": "VA",
       "stateName": "Virginia",
-      "enrollment": 1676475,
-      "enrollmentChange": -6.6,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 193509,
-      "medicaidEnrollment": 1482966
+      "enrollment": 1672169,
+      "enrollmentChange": -6.8,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 192709,
+      "medicaidEnrollment": 1479460
+    },
+    {
+      "stateCode": "AZ",
+      "stateName": "Arizona",
+      "enrollment": 1662690,
+      "enrollmentChange": -11.2,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 112545,
+      "medicaidEnrollment": 1550145
     },
     {
       "stateCode": "MA",
       "stateName": "Massachusetts",
-      "enrollment": 1580723,
-      "enrollmentChange": -4.1,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 191201,
-      "medicaidEnrollment": 1389522
+      "enrollment": 1574688,
+      "enrollmentChange": -3.3,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 188257,
+      "medicaidEnrollment": 1386431
     },
     {
       "stateCode": "IN",
       "stateName": "Indiana",
-      "enrollment": 1511819,
-      "enrollmentChange": -14.4,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 122727,
-      "medicaidEnrollment": 1389092
+      "enrollment": 1457607,
+      "enrollmentChange": -17.2,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 122313,
+      "medicaidEnrollment": 1335294
     },
     {
       "stateCode": "TN",
       "stateName": "Tennessee",
-      "enrollment": 1403189,
-      "enrollmentChange": -2.3,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 181780,
-      "medicaidEnrollment": 1221409
+      "enrollment": 1402697,
+      "enrollmentChange": -2.1,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 181049,
+      "medicaidEnrollment": 1221648
     },
     {
       "stateCode": "MD",
       "stateName": "Maryland",
-      "enrollment": 1397431,
-      "enrollmentChange": -5.3,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 196621,
-      "medicaidEnrollment": 1200810
+      "enrollment": 1393673,
+      "enrollmentChange": -4.8,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 196171,
+      "medicaidEnrollment": 1197502
     },
     {
       "stateCode": "LA",
       "stateName": "Louisiana",
-      "enrollment": 1394638,
-      "enrollmentChange": -8.6,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 137321,
-      "medicaidEnrollment": 1257317
+      "enrollment": 1385567,
+      "enrollmentChange": -8.5,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 137043,
+      "medicaidEnrollment": 1248524
     },
     {
       "stateCode": "KY",
       "stateName": "Kentucky",
-      "enrollment": 1321415,
-      "enrollmentChange": -4.1,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 132867,
-      "medicaidEnrollment": 1188548
+      "enrollment": 1319061,
+      "enrollmentChange": -4.3,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 134031,
+      "medicaidEnrollment": 1185030
     },
     {
       "stateCode": "OR",
       "stateName": "Oregon",
-      "enrollment": 1303114,
-      "enrollmentChange": -0.6,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 183955,
-      "medicaidEnrollment": 1119159
+      "enrollment": 1297017,
+      "enrollmentChange": -0.9,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 184066,
+      "medicaidEnrollment": 1112951
     },
     {
       "stateCode": "MO",
       "stateName": "Missouri",
-      "enrollment": 1250365,
-      "enrollmentChange": 0.0,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 133560,
-      "medicaidEnrollment": 1116805
+      "enrollment": 1249056,
+      "enrollmentChange": -0.6,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 134247,
+      "medicaidEnrollment": 1114809
     },
     {
       "stateCode": "CO",
       "stateName": "Colorado",
-      "enrollment": 1184326,
-      "enrollmentChange": -0.9,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 140079,
-      "medicaidEnrollment": 1044247
+      "enrollment": 1188887,
+      "enrollmentChange": -1.7,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 140483,
+      "medicaidEnrollment": 1048404
     },
     {
       "stateCode": "MN",
       "stateName": "Minnesota",
-      "enrollment": 1147701,
-      "enrollmentChange": -0.3,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 4226,
-      "medicaidEnrollment": 1143475
+      "enrollment": 1139499,
+      "enrollmentChange": -1.4,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 4104,
+      "medicaidEnrollment": 1135395
     },
     {
       "stateCode": "WI",
       "stateName": "Wisconsin",
-      "enrollment": 1121592,
+      "enrollment": 1119628,
       "enrollmentChange": -5.6,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 99749,
-      "medicaidEnrollment": 1021843
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 99940,
+      "medicaidEnrollment": 1019688
     },
     {
       "stateCode": "SC",
       "stateName": "South Carolina",
-      "enrollment": 977554,
-      "enrollmentChange": -5.5,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 112832,
-      "medicaidEnrollment": 864722
+      "enrollment": 973021,
+      "enrollmentChange": -5.9,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 113356,
+      "medicaidEnrollment": 859665
     },
     {
       "stateCode": "OK",
       "stateName": "Oklahoma",
-      "enrollment": 968050,
-      "enrollmentChange": -2.1,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 79005,
-      "medicaidEnrollment": 889045
+      "enrollment": 966557,
+      "enrollmentChange": -2.7,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 74717,
+      "medicaidEnrollment": 891840
     },
     {
       "stateCode": "AL",
       "stateName": "Alabama",
-      "enrollment": 939065,
+      "enrollment": 935658,
       "enrollmentChange": -1.0,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 193204,
-      "medicaidEnrollment": 745861
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 194604,
+      "medicaidEnrollment": 741054
     },
     {
       "stateCode": "CT",
       "stateName": "Connecticut",
-      "enrollment": 905885,
-      "enrollmentChange": -2.4,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 25323,
-      "medicaidEnrollment": 880562
+      "enrollment": 905638,
+      "enrollmentChange": -2.5,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 25561,
+      "medicaidEnrollment": 880077
     },
     {
       "stateCode": "AR",
       "stateName": "Arkansas",
-      "enrollment": 801024,
-      "enrollmentChange": -1.7,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 83497,
-      "medicaidEnrollment": 717527
+      "enrollment": 801620,
+      "enrollmentChange": -1.8,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 84160,
+      "medicaidEnrollment": 717460
     },
     {
       "stateCode": "NV",
       "stateName": "Nevada",
-      "enrollment": 726387,
-      "enrollmentChange": -5.2,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 47076,
-      "medicaidEnrollment": 679311
+      "enrollment": 728133,
+      "enrollmentChange": -5.4,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 47335,
+      "medicaidEnrollment": 680798
     },
     {
       "stateCode": "NM",
       "stateName": "New Mexico",
-      "enrollment": 682701,
-      "enrollmentChange": -7.0,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 43713,
-      "medicaidEnrollment": 638988
+      "enrollment": 681756,
+      "enrollmentChange": -6.5,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 44018,
+      "medicaidEnrollment": 637738
     },
     {
       "stateCode": "IA",
       "stateName": "Iowa",
-      "enrollment": 665421,
-      "enrollmentChange": -1.5,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 84972,
-      "medicaidEnrollment": 580449
+      "enrollment": 664765,
+      "enrollmentChange": -1.4,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 84760,
+      "medicaidEnrollment": 580005
     },
     {
       "stateCode": "MS",
       "stateName": "Mississippi",
-      "enrollment": 588268,
-      "enrollmentChange": -1.8,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 83623,
-      "medicaidEnrollment": 504645
+      "enrollment": 588020,
+      "enrollmentChange": -2.0,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 83703,
+      "medicaidEnrollment": 504317
     },
     {
       "stateCode": "WV",
       "stateName": "West Virginia",
-      "enrollment": 490156,
-      "enrollmentChange": -3.0,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 39681,
-      "medicaidEnrollment": 450475
+      "enrollment": 488333,
+      "enrollmentChange": -3.9,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 39648,
+      "medicaidEnrollment": 448685
     },
     {
       "stateCode": "KS",
       "stateName": "Kansas",
-      "enrollment": 398119,
-      "enrollmentChange": -3.6,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 72590,
-      "medicaidEnrollment": 325529
+      "enrollment": 399284,
+      "enrollmentChange": -3.3,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 72803,
+      "medicaidEnrollment": 326481
     },
     {
       "stateCode": "HI",
       "stateName": "Hawaii",
-      "enrollment": 388083,
-      "enrollmentChange": -2.6,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 24762,
-      "medicaidEnrollment": 363321
+      "enrollment": 387938,
+      "enrollmentChange": -4.1,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 25342,
+      "medicaidEnrollment": 362596
     },
     {
       "stateCode": "ME",
       "stateName": "Maine",
-      "enrollment": 337745,
-      "enrollmentChange": -1.5,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 27136,
-      "medicaidEnrollment": 310609
+      "enrollment": 335183,
+      "enrollmentChange": -2.2,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 21431,
+      "medicaidEnrollment": 313752
     },
     {
       "stateCode": "NE",
       "stateName": "Nebraska",
-      "enrollment": 330795,
-      "enrollmentChange": -2.7,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 36847,
-      "medicaidEnrollment": 293948
+      "enrollment": 332216,
+      "enrollmentChange": -2.4,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 37249,
+      "medicaidEnrollment": 294967
     },
     {
       "stateCode": "UT",
       "stateName": "Utah",
-      "enrollment": 326193,
-      "enrollmentChange": -3.2,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 34612,
-      "medicaidEnrollment": 291581
+      "enrollment": 326004,
+      "enrollmentChange": -3.1,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 34679,
+      "medicaidEnrollment": 291325
     },
     {
       "stateCode": "ID",
       "stateName": "Idaho",
-      "enrollment": 311257,
-      "enrollmentChange": -1.9,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 19667,
-      "medicaidEnrollment": 291590
+      "enrollment": 310464,
+      "enrollmentChange": -2.4,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 19587,
+      "medicaidEnrollment": 290877
     },
     {
       "stateCode": "RI",
       "stateName": "Rhode Island",
-      "enrollment": 297943,
+      "enrollment": 299004,
       "enrollmentChange": null,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 33704,
-      "medicaidEnrollment": 264239
-    },
-    {
-      "stateCode": "DC",
-      "stateName": "District of Columbia",
-      "enrollment": 256933,
-      "enrollmentChange": -0.2,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 16284,
-      "medicaidEnrollment": 240649
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 34013,
+      "medicaidEnrollment": 264991
     },
     {
       "stateCode": "DE",
       "stateName": "Delaware",
-      "enrollment": 240456,
-      "enrollmentChange": -3.6,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 13989,
-      "medicaidEnrollment": 226467
+      "enrollment": 239213,
+      "enrollmentChange": -3.5,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 13946,
+      "medicaidEnrollment": 225267
+    },
+    {
+      "stateCode": "DC",
+      "stateName": "District of Columbia",
+      "enrollment": 237274,
+      "enrollmentChange": -7.8,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 16165,
+      "medicaidEnrollment": 221109
     },
     {
       "stateCode": "AK",
       "stateName": "Alaska",
-      "enrollment": 210475,
-      "enrollmentChange": -14.6,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 12846,
-      "medicaidEnrollment": 197629
+      "enrollment": 210172,
+      "enrollmentChange": -14.0,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 12869,
+      "medicaidEnrollment": 197303
     },
     {
       "stateCode": "MT",
       "stateName": "Montana",
-      "enrollment": 210444,
-      "enrollmentChange": -1.3,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 19767,
-      "medicaidEnrollment": 190677
+      "enrollment": 209556,
+      "enrollmentChange": -0.3,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 19792,
+      "medicaidEnrollment": 189764
     },
     {
       "stateCode": "NH",
       "stateName": "New Hampshire",
-      "enrollment": 174925,
-      "enrollmentChange": -6.0,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 18988,
-      "medicaidEnrollment": 155937
+      "enrollment": 173151,
+      "enrollmentChange": -7.4,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 18907,
+      "medicaidEnrollment": 154244
     },
     {
       "stateCode": "VT",
       "stateName": "Vermont",
-      "enrollment": 150683,
-      "enrollmentChange": -4.0,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 5393,
-      "medicaidEnrollment": 145290
+      "enrollment": 150145,
+      "enrollmentChange": -5.0,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 5468,
+      "medicaidEnrollment": 144677
     },
     {
       "stateCode": "SD",
       "stateName": "South Dakota",
-      "enrollment": 136509,
-      "enrollmentChange": -4.8,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 14418,
-      "medicaidEnrollment": 122091
+      "enrollment": 136524,
+      "enrollmentChange": -5.5,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 14404,
+      "medicaidEnrollment": 122120
     },
     {
       "stateCode": "ND",
       "stateName": "North Dakota",
-      "enrollment": 103836,
-      "enrollmentChange": -1.7,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 5387,
-      "medicaidEnrollment": 98449
+      "enrollment": 103684,
+      "enrollmentChange": -2.9,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 5414,
+      "medicaidEnrollment": 98270
     },
     {
       "stateCode": "WY",
       "stateName": "Wyoming",
-      "enrollment": 59286,
-      "enrollmentChange": -6.2,
-      "year": 2025,
-      "month": 12,
-      "chipEnrollment": 5847,
-      "medicaidEnrollment": 53439
+      "enrollment": 59735,
+      "enrollmentChange": -4.7,
+      "year": 2026,
+      "month": 1,
+      "chipEnrollment": 6033,
+      "medicaidEnrollment": 53702
     }
   ],
   "national": {
-    "totalEnrollment": 75725985,
+    "totalEnrollment": 75263587,
     "statesReporting": 51,
-    "latestPeriod": "2025-12"
+    "latestPeriod": "2026-01"
   },
   "trends": {
-    "RI": [
-      {
-        "month": "2024-04",
-        "value": 329405
-      },
-      {
-        "month": "2024-05",
-        "value": 320988
-      },
-      {
-        "month": "2024-06",
-        "value": 316704
-      },
-      {
-        "month": "2024-07",
-        "value": 315965
-      },
-      {
-        "month": "2024-08",
-        "value": 318221
-      },
-      {
-        "month": "2024-09",
-        "value": 316940
-      },
-      {
-        "month": "2024-10",
-        "value": 306344
-      },
-      {
-        "month": "2024-11",
-        "value": 306161
-      },
-      {
-        "month": "2024-12",
-        "value": 0
-      },
-      {
-        "month": "2025-01",
-        "value": 0
-      },
-      {
-        "month": "2025-02",
-        "value": 316553
-      },
-      {
-        "month": "2025-03",
-        "value": 317107
-      },
-      {
-        "month": "2025-04",
-        "value": 318335
-      },
-      {
-        "month": "2025-05",
-        "value": 318036
-      },
-      {
-        "month": "2025-06",
-        "value": 313519
-      },
-      {
-        "month": "2025-07",
-        "value": 306730
-      },
-      {
-        "month": "2025-08",
-        "value": 304696
-      },
-      {
-        "month": "2025-09",
-        "value": 303351
-      },
-      {
-        "month": "2025-10",
-        "value": 303480
-      },
-      {
-        "month": "2025-11",
-        "value": 297026
-      },
-      {
-        "month": "2025-12",
-        "value": 297943
-      }
-    ],
-    "SC": [
-      {
-        "month": "2024-04",
-        "value": 1141154
-      },
-      {
-        "month": "2024-05",
-        "value": 1115174
-      },
-      {
-        "month": "2024-06",
-        "value": 1086586
-      },
-      {
-        "month": "2024-07",
-        "value": 1053713
-      },
-      {
-        "month": "2024-08",
-        "value": 1035647
-      },
-      {
-        "month": "2024-09",
-        "value": 1038756
-      },
-      {
-        "month": "2024-10",
-        "value": 1037498
-      },
-      {
-        "month": "2024-11",
-        "value": 1036822
-      },
-      {
-        "month": "2024-12",
-        "value": 1034836
-      },
-      {
-        "month": "2025-01",
-        "value": 1034214
-      },
-      {
-        "month": "2025-02",
-        "value": 1036771
-      },
-      {
-        "month": "2025-03",
-        "value": 1036888
-      },
-      {
-        "month": "2025-04",
-        "value": 1037023
-      },
-      {
-        "month": "2025-05",
-        "value": 1020041
-      },
-      {
-        "month": "2025-06",
-        "value": 1013694
-      },
-      {
-        "month": "2025-07",
-        "value": 1013106
-      },
-      {
-        "month": "2025-08",
-        "value": 1008019
-      },
-      {
-        "month": "2025-09",
-        "value": 1000546
-      },
-      {
-        "month": "2025-10",
-        "value": 994159
-      },
-      {
-        "month": "2025-11",
-        "value": 987939
-      },
-      {
-        "month": "2025-12",
-        "value": 977554
-      }
-    ],
-    "SD": [
-      {
-        "month": "2024-04",
-        "value": 128701
-      },
-      {
-        "month": "2024-05",
-        "value": 130827
-      },
-      {
-        "month": "2024-06",
-        "value": 133438
-      },
-      {
-        "month": "2024-07",
-        "value": 135981
-      },
-      {
-        "month": "2024-08",
-        "value": 138437
-      },
-      {
-        "month": "2024-09",
-        "value": 140438
-      },
-      {
-        "month": "2024-10",
-        "value": 142007
-      },
-      {
-        "month": "2024-11",
-        "value": 143371
-      },
-      {
-        "month": "2024-12",
-        "value": 143339
-      },
-      {
-        "month": "2025-01",
-        "value": 144398
-      },
-      {
-        "month": "2025-02",
-        "value": 145286
-      },
-      {
-        "month": "2025-03",
-        "value": 144264
-      },
-      {
-        "month": "2025-04",
-        "value": 142487
-      },
-      {
-        "month": "2025-05",
-        "value": 140819
-      },
-      {
-        "month": "2025-06",
-        "value": 139653
-      },
-      {
-        "month": "2025-07",
-        "value": 139110
-      },
-      {
-        "month": "2025-08",
-        "value": 136904
-      },
-      {
-        "month": "2025-09",
-        "value": 136318
-      },
-      {
-        "month": "2025-10",
-        "value": 136919
-      },
-      {
-        "month": "2025-11",
-        "value": 136379
-      },
-      {
-        "month": "2025-12",
-        "value": 136509
-      }
-    ],
-    "TN": [
-      {
-        "month": "2024-04",
-        "value": 1488857
-      },
-      {
-        "month": "2024-05",
-        "value": 1442757
-      },
-      {
-        "month": "2024-06",
-        "value": 1441839
-      },
-      {
-        "month": "2024-07",
-        "value": 1447311
-      },
-      {
-        "month": "2024-08",
-        "value": 1442392
-      },
-      {
-        "month": "2024-09",
-        "value": 1439827
-      },
-      {
-        "month": "2024-10",
-        "value": 1436211
-      },
-      {
-        "month": "2024-11",
-        "value": 1436312
-      },
-      {
-        "month": "2024-12",
-        "value": 1436955
-      },
-      {
-        "month": "2025-01",
-        "value": 1433094
-      },
-      {
-        "month": "2025-02",
-        "value": 1433222
-      },
-      {
-        "month": "2025-03",
-        "value": 1437344
-      },
-      {
-        "month": "2025-04",
-        "value": 1435467
-      },
-      {
-        "month": "2025-05",
-        "value": 1433398
-      },
-      {
-        "month": "2025-06",
-        "value": 1430912
-      },
-      {
-        "month": "2025-07",
-        "value": 1432503
-      },
-      {
-        "month": "2025-08",
-        "value": 1428794
-      },
-      {
-        "month": "2025-09",
-        "value": 1427353
-      },
-      {
-        "month": "2025-10",
-        "value": 1419653
-      },
-      {
-        "month": "2025-11",
-        "value": 1410016
-      },
-      {
-        "month": "2025-12",
-        "value": 1403189
-      }
-    ],
-    "TX": [
-      {
-        "month": "2024-04",
-        "value": 4373607
-      },
-      {
-        "month": "2024-05",
-        "value": 4344285
-      },
-      {
-        "month": "2024-06",
-        "value": 4300313
-      },
-      {
-        "month": "2024-07",
-        "value": 4305215
-      },
-      {
-        "month": "2024-08",
-        "value": 4311942
-      },
-      {
-        "month": "2024-09",
-        "value": 4293010
-      },
-      {
-        "month": "2024-10",
-        "value": 4245262
-      },
-      {
-        "month": "2024-11",
-        "value": 4180609
-      },
-      {
-        "month": "2024-12",
-        "value": 4175309
-      },
-      {
-        "month": "2025-01",
-        "value": 4161960
-      },
-      {
-        "month": "2025-02",
-        "value": 4155776
-      },
-      {
-        "month": "2025-03",
-        "value": 4164694
-      },
-      {
-        "month": "2025-04",
-        "value": 4179892
-      },
-      {
-        "month": "2025-05",
-        "value": 4173887
-      },
-      {
-        "month": "2025-06",
-        "value": 4162177
-      },
-      {
-        "month": "2025-07",
-        "value": 4169127
-      },
-      {
-        "month": "2025-08",
-        "value": 4161101
-      },
-      {
-        "month": "2025-09",
-        "value": 4174990
-      },
-      {
-        "month": "2025-10",
-        "value": 4148608
-      },
-      {
-        "month": "2025-11",
-        "value": 4096954
-      },
-      {
-        "month": "2025-12",
-        "value": 4083939
-      }
-    ],
-    "UT": [
-      {
-        "month": "2024-04",
-        "value": 333720
-      },
-      {
-        "month": "2024-05",
-        "value": 334872
-      },
-      {
-        "month": "2024-06",
-        "value": 335656
-      },
-      {
-        "month": "2024-07",
-        "value": 335097
-      },
-      {
-        "month": "2024-08",
-        "value": 336810
-      },
-      {
-        "month": "2024-09",
-        "value": 338122
-      },
-      {
-        "month": "2024-10",
-        "value": 339379
-      },
-      {
-        "month": "2024-11",
-        "value": 338368
-      },
-      {
-        "month": "2024-12",
-        "value": 337075
-      },
-      {
-        "month": "2025-01",
-        "value": 336593
-      },
-      {
-        "month": "2025-02",
-        "value": 338649
-      },
-      {
-        "month": "2025-03",
-        "value": 340003
-      },
-      {
-        "month": "2025-04",
-        "value": 337852
-      },
-      {
-        "month": "2025-05",
-        "value": 337001
-      },
-      {
-        "month": "2025-06",
-        "value": 334652
-      },
-      {
-        "month": "2025-07",
-        "value": 334589
-      },
-      {
-        "month": "2025-08",
-        "value": 333169
-      },
-      {
-        "month": "2025-09",
-        "value": 332266
-      },
-      {
-        "month": "2025-10",
-        "value": 332621
-      },
-      {
-        "month": "2025-11",
-        "value": 328968
-      },
-      {
-        "month": "2025-12",
-        "value": 326193
-      }
-    ],
-    "VA": [
-      {
-        "month": "2024-04",
-        "value": 1872300
-      },
-      {
-        "month": "2024-05",
-        "value": 1845822
-      },
-      {
-        "month": "2024-06",
-        "value": 1831551
-      },
-      {
-        "month": "2024-07",
-        "value": 1826149
-      },
-      {
-        "month": "2024-08",
-        "value": 1824238
-      },
-      {
-        "month": "2024-09",
-        "value": 1817655
-      },
-      {
-        "month": "2024-10",
-        "value": 1809526
-      },
-      {
-        "month": "2024-11",
-        "value": 1802198
-      },
-      {
-        "month": "2024-12",
-        "value": 1795156
-      },
-      {
-        "month": "2025-01",
-        "value": 1794397
-      },
-      {
-        "month": "2025-02",
-        "value": 1785501
-      },
-      {
-        "month": "2025-03",
-        "value": 1779068
-      },
-      {
-        "month": "2025-04",
-        "value": 1767420
-      },
-      {
-        "month": "2025-05",
-        "value": 1741108
-      },
-      {
-        "month": "2025-06",
-        "value": 1722527
-      },
-      {
-        "month": "2025-07",
-        "value": 1710002
-      },
-      {
-        "month": "2025-08",
-        "value": 1698727
-      },
-      {
-        "month": "2025-09",
-        "value": 1692681
-      },
-      {
-        "month": "2025-10",
-        "value": 1686896
-      },
-      {
-        "month": "2025-11",
-        "value": 1684089
-      },
-      {
-        "month": "2025-12",
-        "value": 1676475
-      }
-    ],
-    "VT": [
-      {
-        "month": "2024-04",
-        "value": 163601
-      },
-      {
-        "month": "2024-05",
-        "value": 161854
-      },
-      {
-        "month": "2024-06",
-        "value": 159459
-      },
-      {
-        "month": "2024-07",
-        "value": 159484
-      },
-      {
-        "month": "2024-08",
-        "value": 159353
-      },
-      {
-        "month": "2024-09",
-        "value": 157548
-      },
-      {
-        "month": "2024-10",
-        "value": 157471
-      },
-      {
-        "month": "2024-11",
-        "value": 156412
-      },
-      {
-        "month": "2024-12",
-        "value": 156970
-      },
-      {
-        "month": "2025-01",
-        "value": 158028
-      },
-      {
-        "month": "2025-02",
-        "value": 157354
-      },
-      {
-        "month": "2025-03",
-        "value": 156750
-      },
-      {
-        "month": "2025-04",
-        "value": 156642
-      },
-      {
-        "month": "2025-05",
-        "value": 155658
-      },
-      {
-        "month": "2025-06",
-        "value": 154780
-      },
-      {
-        "month": "2025-07",
-        "value": 154354
-      },
-      {
-        "month": "2025-08",
-        "value": 153909
-      },
-      {
-        "month": "2025-09",
-        "value": 153259
-      },
-      {
-        "month": "2025-10",
-        "value": 152275
-      },
-      {
-        "month": "2025-11",
-        "value": 151201
-      },
-      {
-        "month": "2025-12",
-        "value": 150683
-      }
-    ],
-    "WA": [
-      {
-        "month": "2024-04",
-        "value": 1852472
-      },
-      {
-        "month": "2024-05",
-        "value": 1851703
-      },
-      {
-        "month": "2024-06",
-        "value": 1838636
-      },
-      {
-        "month": "2024-07",
-        "value": 1836318
-      },
-      {
-        "month": "2024-08",
-        "value": 1833351
-      },
-      {
-        "month": "2024-09",
-        "value": 1830147
-      },
-      {
-        "month": "2024-10",
-        "value": 1837170
-      },
-      {
-        "month": "2024-11",
-        "value": 1835448
-      },
-      {
-        "month": "2024-12",
-        "value": 1836008
-      },
-      {
-        "month": "2025-01",
-        "value": 1833207
-      },
-      {
-        "month": "2025-02",
-        "value": 1823800
-      },
-      {
-        "month": "2025-03",
-        "value": 1820238
-      },
-      {
-        "month": "2025-04",
-        "value": 1816490
-      },
-      {
-        "month": "2025-05",
-        "value": 1802312
-      },
-      {
-        "month": "2025-06",
-        "value": 1790978
-      },
-      {
-        "month": "2025-07",
-        "value": 1792188
-      },
-      {
-        "month": "2025-08",
-        "value": 1787085
-      },
-      {
-        "month": "2025-09",
-        "value": 1788029
-      },
-      {
-        "month": "2025-10",
-        "value": 1787864
-      },
-      {
-        "month": "2025-11",
-        "value": 1780702
-      },
-      {
-        "month": "2025-12",
-        "value": 1785532
-      }
-    ],
-    "WI": [
-      {
-        "month": "2024-04",
-        "value": 1241679
-      },
-      {
-        "month": "2024-05",
-        "value": 1222976
-      },
-      {
-        "month": "2024-06",
-        "value": 1205213
-      },
-      {
-        "month": "2024-07",
-        "value": 1194063
-      },
-      {
-        "month": "2024-08",
-        "value": 1193102
-      },
-      {
-        "month": "2024-09",
-        "value": 1189425
-      },
-      {
-        "month": "2024-10",
-        "value": 1189424
-      },
-      {
-        "month": "2024-11",
-        "value": 1188074
-      },
-      {
-        "month": "2024-12",
-        "value": 1188337
-      },
-      {
-        "month": "2025-01",
-        "value": 1186489
-      },
-      {
-        "month": "2025-02",
-        "value": 1183420
-      },
-      {
-        "month": "2025-03",
-        "value": 1167708
-      },
-      {
-        "month": "2025-04",
-        "value": 1149804
-      },
-      {
-        "month": "2025-05",
-        "value": 1136031
-      },
-      {
-        "month": "2025-06",
-        "value": 1129199
-      },
-      {
-        "month": "2025-07",
-        "value": 1125941
-      },
-      {
-        "month": "2025-08",
-        "value": 1123739
-      },
-      {
-        "month": "2025-09",
-        "value": 1124947
-      },
-      {
-        "month": "2025-10",
-        "value": 1124746
-      },
-      {
-        "month": "2025-11",
-        "value": 1120922
-      },
-      {
-        "month": "2025-12",
-        "value": 1121592
-      }
-    ],
-    "WV": [
-      {
-        "month": "2024-04",
-        "value": 515813
-      },
-      {
-        "month": "2024-05",
-        "value": 514248
-      },
-      {
-        "month": "2024-06",
-        "value": 513112
-      },
-      {
-        "month": "2024-07",
-        "value": 513609
-      },
-      {
-        "month": "2024-08",
-        "value": 513741
-      },
-      {
-        "month": "2024-09",
-        "value": 512543
-      },
-      {
-        "month": "2024-10",
-        "value": 510971
-      },
-      {
-        "month": "2024-11",
-        "value": 506861
-      },
-      {
-        "month": "2024-12",
-        "value": 505131
-      },
-      {
-        "month": "2025-01",
-        "value": 508322
-      },
-      {
-        "month": "2025-02",
-        "value": 508225
-      },
-      {
-        "month": "2025-03",
-        "value": 505266
-      },
-      {
-        "month": "2025-04",
-        "value": 503701
-      },
-      {
-        "month": "2025-05",
-        "value": 503031
-      },
-      {
-        "month": "2025-06",
-        "value": 501577
-      },
-      {
-        "month": "2025-07",
-        "value": 501077
-      },
-      {
-        "month": "2025-08",
-        "value": 498894
-      },
-      {
-        "month": "2025-09",
-        "value": 498188
-      },
-      {
-        "month": "2025-10",
-        "value": 497764
-      },
-      {
-        "month": "2025-11",
-        "value": 491398
-      },
-      {
-        "month": "2025-12",
-        "value": 490156
-      }
-    ],
-    "WY": [
-      {
-        "month": "2024-04",
-        "value": 66431
-      },
-      {
-        "month": "2024-05",
-        "value": 66550
-      },
-      {
-        "month": "2024-06",
-        "value": 66324
-      },
-      {
-        "month": "2024-07",
-        "value": 65619
-      },
-      {
-        "month": "2024-08",
-        "value": 64672
-      },
-      {
-        "month": "2024-09",
-        "value": 63916
-      },
-      {
-        "month": "2024-10",
-        "value": 63292
-      },
-      {
-        "month": "2024-11",
-        "value": 62877
-      },
-      {
-        "month": "2024-12",
-        "value": 63214
-      },
-      {
-        "month": "2025-01",
-        "value": 62693
-      },
-      {
-        "month": "2025-02",
-        "value": 62570
-      },
-      {
-        "month": "2025-03",
-        "value": 62334
-      },
-      {
-        "month": "2025-04",
-        "value": 62182
-      },
-      {
-        "month": "2025-05",
-        "value": 61694
-      },
-      {
-        "month": "2025-06",
-        "value": 61683
-      },
-      {
-        "month": "2025-07",
-        "value": 61342
-      },
-      {
-        "month": "2025-08",
-        "value": 60814
-      },
-      {
-        "month": "2025-09",
-        "value": 59571
-      },
-      {
-        "month": "2025-10",
-        "value": 59714
-      },
-      {
-        "month": "2025-11",
-        "value": 58711
-      },
-      {
-        "month": "2025-12",
-        "value": 59286
-      }
-    ],
-    "AK": [
-      {
-        "month": "2024-04",
-        "value": 248307
-      },
-      {
-        "month": "2024-05",
-        "value": 249770
-      },
-      {
-        "month": "2024-06",
-        "value": 248401
-      },
-      {
-        "month": "2024-07",
-        "value": 250740
-      },
-      {
-        "month": "2024-08",
-        "value": 252398
-      },
-      {
-        "month": "2024-09",
-        "value": 251174
-      },
-      {
-        "month": "2024-10",
-        "value": 250131
-      },
-      {
-        "month": "2024-11",
-        "value": 249774
-      },
-      {
-        "month": "2024-12",
-        "value": 246366
-      },
-      {
-        "month": "2025-01",
-        "value": 244438
-      },
-      {
-        "month": "2025-02",
-        "value": 240405
-      },
-      {
-        "month": "2025-03",
-        "value": 235835
-      },
-      {
-        "month": "2025-04",
-        "value": 231077
-      },
-      {
-        "month": "2025-05",
-        "value": 223020
-      },
-      {
-        "month": "2025-06",
-        "value": 224980
-      },
-      {
-        "month": "2025-07",
-        "value": 208266
-      },
-      {
-        "month": "2025-08",
-        "value": 205737
-      },
-      {
-        "month": "2025-09",
-        "value": 214400
-      },
-      {
-        "month": "2025-10",
-        "value": 211854
-      },
-      {
-        "month": "2025-11",
-        "value": 207807
-      },
-      {
-        "month": "2025-12",
-        "value": 210475
-      }
-    ],
-    "AL": [
-      {
-        "month": "2024-04",
-        "value": 1015099
-      },
-      {
-        "month": "2024-05",
-        "value": 988783
-      },
-      {
-        "month": "2024-06",
-        "value": 965423
-      },
-      {
-        "month": "2024-07",
-        "value": 966928
-      },
-      {
-        "month": "2024-08",
-        "value": 951159
-      },
-      {
-        "month": "2024-09",
-        "value": 953367
-      },
-      {
-        "month": "2024-10",
-        "value": 952073
-      },
-      {
-        "month": "2024-11",
-        "value": 953706
-      },
-      {
-        "month": "2024-12",
-        "value": 948093
-      },
-      {
-        "month": "2025-01",
-        "value": 945069
-      },
-      {
-        "month": "2025-02",
-        "value": 946644
-      },
-      {
-        "month": "2025-03",
-        "value": 944327
-      },
-      {
-        "month": "2025-04",
-        "value": 953178
-      },
-      {
-        "month": "2025-05",
-        "value": 938679
-      },
-      {
-        "month": "2025-06",
-        "value": 937844
-      },
-      {
-        "month": "2025-07",
-        "value": 936239
-      },
-      {
-        "month": "2025-08",
-        "value": 938822
-      },
-      {
-        "month": "2025-09",
-        "value": 937597
-      },
-      {
-        "month": "2025-10",
-        "value": 940264
-      },
-      {
-        "month": "2025-11",
-        "value": 938982
-      },
-      {
-        "month": "2025-12",
-        "value": 939065
-      }
-    ],
-    "AR": [
-      {
-        "month": "2024-04",
-        "value": 822434
-      },
-      {
-        "month": "2024-05",
-        "value": 827617
-      },
-      {
-        "month": "2024-06",
-        "value": 825119
-      },
-      {
-        "month": "2024-07",
-        "value": 821866
-      },
-      {
-        "month": "2024-08",
-        "value": 825834
-      },
-      {
-        "month": "2024-09",
-        "value": 820338
-      },
-      {
-        "month": "2024-10",
-        "value": 821017
-      },
-      {
-        "month": "2024-11",
-        "value": 817144
-      },
-      {
-        "month": "2024-12",
-        "value": 815047
-      },
-      {
-        "month": "2025-01",
-        "value": 816385
-      },
-      {
-        "month": "2025-02",
-        "value": 822228
-      },
-      {
-        "month": "2025-03",
-        "value": 824245
-      },
-      {
-        "month": "2025-04",
-        "value": 820916
-      },
-      {
-        "month": "2025-05",
-        "value": 816798
-      },
-      {
-        "month": "2025-06",
-        "value": 816018
-      },
-      {
-        "month": "2025-07",
-        "value": 814615
-      },
-      {
-        "month": "2025-08",
-        "value": 810357
-      },
-      {
-        "month": "2025-09",
-        "value": 808278
-      },
-      {
-        "month": "2025-10",
-        "value": 808325
-      },
-      {
-        "month": "2025-11",
-        "value": 801189
-      },
-      {
-        "month": "2025-12",
-        "value": 801024
-      }
-    ],
-    "AZ": [
-      {
-        "month": "2024-04",
-        "value": 2032704
-      },
-      {
-        "month": "2024-05",
-        "value": 2025230
-      },
-      {
-        "month": "2024-06",
-        "value": 2018755
-      },
-      {
-        "month": "2024-07",
-        "value": 2004314
-      },
-      {
-        "month": "2024-08",
-        "value": 1994710
-      },
-      {
-        "month": "2024-09",
-        "value": 1975515
-      },
-      {
-        "month": "2024-10",
-        "value": 1963200
-      },
-      {
-        "month": "2024-11",
-        "value": 1934256
-      },
-      {
-        "month": "2024-12",
-        "value": 1899615
-      },
-      {
-        "month": "2025-01",
-        "value": 1872834
-      },
-      {
-        "month": "2025-02",
-        "value": 1859290
-      },
-      {
-        "month": "2025-03",
-        "value": 1849039
-      },
-      {
-        "month": "2025-04",
-        "value": 1830028
-      },
-      {
-        "month": "2025-05",
-        "value": 1818912
-      },
-      {
-        "month": "2025-06",
-        "value": 1793424
-      },
-      {
-        "month": "2025-07",
-        "value": 1788695
-      },
-      {
-        "month": "2025-08",
-        "value": 1761638
-      },
-      {
-        "month": "2025-09",
-        "value": 1744625
-      },
-      {
-        "month": "2025-10",
-        "value": 1720153
-      },
-      {
-        "month": "2025-11",
-        "value": 1693731
-      },
-      {
-        "month": "2025-12",
-        "value": 1678092
-      }
-    ],
-    "CA": [
-      {
-        "month": "2024-04",
-        "value": 13617100
-      },
-      {
-        "month": "2024-05",
-        "value": 13541144
-      },
-      {
-        "month": "2024-06",
-        "value": 13484884
-      },
-      {
-        "month": "2024-07",
-        "value": 13442757
-      },
-      {
-        "month": "2024-08",
-        "value": 13431844
-      },
-      {
-        "month": "2024-09",
-        "value": 13450495
-      },
-      {
-        "month": "2024-10",
-        "value": 13431928
-      },
-      {
-        "month": "2024-11",
-        "value": 13407935
-      },
-      {
-        "month": "2024-12",
-        "value": 13399885
-      },
-      {
-        "month": "2025-01",
-        "value": 13382585
-      },
-      {
-        "month": "2025-02",
-        "value": 13362845
-      },
-      {
-        "month": "2025-03",
-        "value": 13392566
-      },
-      {
-        "month": "2025-04",
-        "value": 13334947
-      },
-      {
-        "month": "2025-05",
-        "value": 13305471
-      },
-      {
-        "month": "2025-06",
-        "value": 13310060
-      },
-      {
-        "month": "2025-07",
-        "value": 13297637
-      },
-      {
-        "month": "2025-08",
-        "value": 13226087
-      },
-      {
-        "month": "2025-09",
-        "value": 13127822
-      },
-      {
-        "month": "2025-10",
-        "value": 13065328
-      },
-      {
-        "month": "2025-11",
-        "value": 12707174
-      },
-      {
-        "month": "2025-12",
-        "value": 12649707
-      }
-    ],
-    "CO": [
-      {
-        "month": "2024-04",
-        "value": 1174868
-      },
-      {
-        "month": "2024-05",
-        "value": 1146718
-      },
-      {
-        "month": "2024-06",
-        "value": 1147223
-      },
-      {
-        "month": "2024-07",
-        "value": 1160609
-      },
-      {
-        "month": "2024-08",
-        "value": 1172334
-      },
-      {
-        "month": "2024-09",
-        "value": 1174588
-      },
-      {
-        "month": "2024-10",
-        "value": 1185011
-      },
-      {
-        "month": "2024-11",
-        "value": 1194765
-      },
-      {
-        "month": "2024-12",
-        "value": 1194852
-      },
-      {
-        "month": "2025-01",
-        "value": 1208864
-      },
-      {
-        "month": "2025-02",
-        "value": 1190587
-      },
-      {
-        "month": "2025-03",
-        "value": 1191549
-      },
-      {
-        "month": "2025-04",
-        "value": 1196520
-      },
-      {
-        "month": "2025-05",
-        "value": 1191958
-      },
-      {
-        "month": "2025-06",
-        "value": 1193176
-      },
-      {
-        "month": "2025-07",
-        "value": 1194665
-      },
-      {
-        "month": "2025-08",
-        "value": 1196877
-      },
-      {
-        "month": "2025-09",
-        "value": 1197220
-      },
-      {
-        "month": "2025-10",
-        "value": 1191047
-      },
-      {
-        "month": "2025-11",
-        "value": 1173577
-      },
-      {
-        "month": "2025-12",
-        "value": 1184326
-      }
-    ],
-    "CT": [
-      {
-        "month": "2024-04",
-        "value": 951387
-      },
-      {
-        "month": "2024-05",
-        "value": 945931
-      },
-      {
-        "month": "2024-06",
-        "value": 941142
-      },
-      {
-        "month": "2024-07",
-        "value": 940531
-      },
-      {
-        "month": "2024-08",
-        "value": 938762
-      },
-      {
-        "month": "2024-09",
-        "value": 936547
-      },
-      {
-        "month": "2024-10",
-        "value": 932771
-      },
-      {
-        "month": "2024-11",
-        "value": 928454
-      },
-      {
-        "month": "2024-12",
-        "value": 927701
-      },
-      {
-        "month": "2025-01",
-        "value": 928986
-      },
-      {
-        "month": "2025-02",
-        "value": 928254
-      },
-      {
-        "month": "2025-03",
-        "value": 926905
-      },
-      {
-        "month": "2025-04",
-        "value": 918951
-      },
-      {
-        "month": "2025-05",
-        "value": 917261
-      },
-      {
-        "month": "2025-06",
-        "value": 915068
-      },
-      {
-        "month": "2025-07",
-        "value": 914739
-      },
-      {
-        "month": "2025-08",
-        "value": 913826
-      },
-      {
-        "month": "2025-09",
-        "value": 913408
-      },
-      {
-        "month": "2025-10",
-        "value": 911816
-      },
-      {
-        "month": "2025-11",
-        "value": 905929
-      },
-      {
-        "month": "2025-12",
-        "value": 905885
-      }
-    ],
-    "DC": [
-      {
-        "month": "2024-04",
-        "value": 264332
-      },
-      {
-        "month": "2024-05",
-        "value": 263400
-      },
-      {
-        "month": "2024-06",
-        "value": 260218
-      },
-      {
-        "month": "2024-07",
-        "value": 260958
-      },
-      {
-        "month": "2024-08",
-        "value": 256426
-      },
-      {
-        "month": "2024-09",
-        "value": 257197
-      },
-      {
-        "month": "2024-10",
-        "value": 255313
-      },
-      {
-        "month": "2024-11",
-        "value": 256206
-      },
-      {
-        "month": "2024-12",
-        "value": 257408
-      },
-      {
-        "month": "2025-01",
-        "value": 257333
-      },
-      {
-        "month": "2025-02",
-        "value": 258221
-      },
-      {
-        "month": "2025-03",
-        "value": 259493
-      },
-      {
-        "month": "2025-04",
-        "value": 259116
-      },
-      {
-        "month": "2025-05",
-        "value": 258770
-      },
-      {
-        "month": "2025-06",
-        "value": 257586
-      },
-      {
-        "month": "2025-07",
-        "value": 257763
-      },
-      {
-        "month": "2025-08",
-        "value": 256737
-      },
-      {
-        "month": "2025-09",
-        "value": 258470
-      },
-      {
-        "month": "2025-10",
-        "value": 257703
-      },
-      {
-        "month": "2025-11",
-        "value": 256709
-      },
-      {
-        "month": "2025-12",
-        "value": 256933
-      }
-    ],
-    "DE": [
-      {
-        "month": "2024-04",
-        "value": 270248
-      },
-      {
-        "month": "2024-05",
-        "value": 265507
-      },
-      {
-        "month": "2024-06",
-        "value": 252239
-      },
-      {
-        "month": "2024-07",
-        "value": 250910
-      },
-      {
-        "month": "2024-08",
-        "value": 251307
-      },
-      {
-        "month": "2024-09",
-        "value": 251745
-      },
-      {
-        "month": "2024-10",
-        "value": 250651
-      },
-      {
-        "month": "2024-11",
-        "value": 249009
-      },
-      {
-        "month": "2024-12",
-        "value": 249368
-      },
-      {
-        "month": "2025-01",
-        "value": 247850
-      },
-      {
-        "month": "2025-02",
-        "value": 247850
-      },
-      {
-        "month": "2025-03",
-        "value": 247380
-      },
-      {
-        "month": "2025-04",
-        "value": 246306
-      },
-      {
-        "month": "2025-05",
-        "value": 245472
-      },
-      {
-        "month": "2025-06",
-        "value": 244962
-      },
-      {
-        "month": "2025-07",
-        "value": 244501
-      },
-      {
-        "month": "2025-08",
-        "value": 244057
-      },
-      {
-        "month": "2025-09",
-        "value": 243805
-      },
-      {
-        "month": "2025-10",
-        "value": 242745
-      },
-      {
-        "month": "2025-11",
-        "value": 241168
-      },
-      {
-        "month": "2025-12",
-        "value": 240456
-      }
-    ],
-    "FL": [
-      {
-        "month": "2024-04",
-        "value": 3901821
-      },
-      {
-        "month": "2024-05",
-        "value": 3867608
-      },
-      {
-        "month": "2024-06",
-        "value": 3796115
-      },
-      {
-        "month": "2024-07",
-        "value": 3796877
-      },
-      {
-        "month": "2024-08",
-        "value": 3808822
-      },
-      {
-        "month": "2024-09",
-        "value": 3797328
-      },
-      {
-        "month": "2024-10",
-        "value": 3765231
-      },
-      {
-        "month": "2024-11",
-        "value": 3788467
-      },
-      {
-        "month": "2024-12",
-        "value": 3740669
-      },
-      {
-        "month": "2025-01",
-        "value": 3739787
-      },
-      {
-        "month": "2025-02",
-        "value": 3737528
-      },
-      {
-        "month": "2025-03",
-        "value": 3735641
-      },
-      {
-        "month": "2025-04",
-        "value": 3715495
-      },
-      {
-        "month": "2025-05",
-        "value": 3699610
-      },
-      {
-        "month": "2025-06",
-        "value": 3695066
-      },
-      {
-        "month": "2025-07",
-        "value": 3671259
-      },
-      {
-        "month": "2025-08",
-        "value": 3674391
-      },
-      {
-        "month": "2025-09",
-        "value": 3639607
-      },
-      {
-        "month": "2025-10",
-        "value": 3648091
-      },
-      {
-        "month": "2025-11",
-        "value": 3611012
-      },
-      {
-        "month": "2025-12",
-        "value": 3592110
-      }
-    ],
-    "GA": [
-      {
-        "month": "2024-04",
-        "value": 1997710
-      },
-      {
-        "month": "2024-05",
-        "value": 1980502
-      },
-      {
-        "month": "2024-06",
-        "value": 1986748
-      },
-      {
-        "month": "2024-07",
-        "value": 1986892
-      },
-      {
-        "month": "2024-08",
-        "value": 1985264
-      },
-      {
-        "month": "2024-09",
-        "value": 1970555
-      },
-      {
-        "month": "2024-10",
-        "value": 1978819
-      },
-      {
-        "month": "2024-11",
-        "value": 1934895
-      },
-      {
-        "month": "2024-12",
-        "value": 1930006
-      },
-      {
-        "month": "2025-01",
-        "value": 1921568
-      },
-      {
-        "month": "2025-02",
-        "value": 1915897
-      },
-      {
-        "month": "2025-03",
-        "value": 1911901
-      },
-      {
-        "month": "2025-04",
-        "value": 1903058
-      },
-      {
-        "month": "2025-05",
-        "value": 1897250
-      },
-      {
-        "month": "2025-06",
-        "value": 1895148
-      },
-      {
-        "month": "2025-07",
-        "value": 1893400
-      },
-      {
-        "month": "2025-08",
-        "value": 1875761
-      },
-      {
-        "month": "2025-09",
-        "value": 1877263
-      },
-      {
-        "month": "2025-10",
-        "value": 1872027
-      },
-      {
-        "month": "2025-11",
-        "value": 1861874
-      },
-      {
-        "month": "2025-12",
-        "value": 1855242
-      }
-    ],
-    "HI": [
-      {
-        "month": "2024-04",
-        "value": 443802
-      },
-      {
-        "month": "2024-05",
-        "value": 429832
-      },
-      {
-        "month": "2024-06",
-        "value": 419168
-      },
-      {
-        "month": "2024-07",
-        "value": 407427
-      },
-      {
-        "month": "2024-08",
-        "value": 402418
-      },
-      {
-        "month": "2024-09",
-        "value": 402926
-      },
-      {
-        "month": "2024-10",
-        "value": 402818
-      },
-      {
-        "month": "2024-11",
-        "value": 403126
-      },
-      {
-        "month": "2024-12",
-        "value": 398380
-      },
-      {
-        "month": "2025-01",
-        "value": 404446
-      },
-      {
-        "month": "2025-02",
-        "value": 403358
-      },
-      {
-        "month": "2025-03",
-        "value": 401395
-      },
-      {
-        "month": "2025-04",
-        "value": 399328
-      },
-      {
-        "month": "2025-05",
-        "value": 395749
-      },
-      {
-        "month": "2025-06",
-        "value": 393950
-      },
-      {
-        "month": "2025-07",
-        "value": 392838
-      },
-      {
-        "month": "2025-08",
-        "value": 391572
-      },
-      {
-        "month": "2025-09",
-        "value": 390181
-      },
-      {
-        "month": "2025-10",
-        "value": 389941
-      },
-      {
-        "month": "2025-11",
-        "value": 388979
-      },
-      {
-        "month": "2025-12",
-        "value": 388083
-      }
-    ],
-    "IA": [
-      {
-        "month": "2024-04",
-        "value": 678107
-      },
-      {
-        "month": "2024-05",
-        "value": 678085
-      },
-      {
-        "month": "2024-06",
-        "value": 677654
-      },
-      {
-        "month": "2024-07",
-        "value": 675902
-      },
-      {
-        "month": "2024-08",
-        "value": 673288
-      },
-      {
-        "month": "2024-09",
-        "value": 673665
-      },
-      {
-        "month": "2024-10",
-        "value": 674985
-      },
-      {
-        "month": "2024-11",
-        "value": 674941
-      },
-      {
-        "month": "2024-12",
-        "value": 675663
-      },
-      {
-        "month": "2025-01",
-        "value": 673986
-      },
-      {
-        "month": "2025-02",
-        "value": 674339
-      },
-      {
-        "month": "2025-03",
-        "value": 669848
-      },
-      {
-        "month": "2025-04",
-        "value": 669456
-      },
-      {
-        "month": "2025-05",
-        "value": 667082
-      },
-      {
-        "month": "2025-06",
-        "value": 667468
-      },
-      {
-        "month": "2025-07",
-        "value": 664883
-      },
-      {
-        "month": "2025-08",
-        "value": 666186
-      },
-      {
-        "month": "2025-09",
-        "value": 666889
-      },
-      {
-        "month": "2025-10",
-        "value": 666800
-      },
-      {
-        "month": "2025-11",
-        "value": 664809
-      },
-      {
-        "month": "2025-12",
-        "value": 665421
-      }
-    ],
-    "ID": [
-      {
-        "month": "2024-04",
-        "value": 330776
-      },
-      {
-        "month": "2024-05",
-        "value": 328384
-      },
-      {
-        "month": "2024-06",
-        "value": 322353
-      },
-      {
-        "month": "2024-07",
-        "value": 318274
-      },
-      {
-        "month": "2024-08",
-        "value": 314459
-      },
-      {
-        "month": "2024-09",
-        "value": 313272
-      },
-      {
-        "month": "2024-10",
-        "value": 314819
-      },
-      {
-        "month": "2024-11",
-        "value": 315309
-      },
-      {
-        "month": "2024-12",
-        "value": 317359
-      },
-      {
-        "month": "2025-01",
-        "value": 318132
-      },
-      {
-        "month": "2025-02",
-        "value": 317072
-      },
-      {
-        "month": "2025-03",
-        "value": 317948
-      },
-      {
-        "month": "2025-04",
-        "value": 318432
-      },
-      {
-        "month": "2025-05",
-        "value": 316465
-      },
-      {
-        "month": "2025-06",
-        "value": 314833
-      },
-      {
-        "month": "2025-07",
-        "value": 314187
-      },
-      {
-        "month": "2025-08",
-        "value": 312098
-      },
-      {
-        "month": "2025-09",
-        "value": 312698
-      },
-      {
-        "month": "2025-10",
-        "value": 312807
-      },
-      {
-        "month": "2025-11",
-        "value": 310481
-      },
-      {
-        "month": "2025-12",
-        "value": 311257
-      }
-    ],
-    "IL": [
-      {
-        "month": "2024-04",
-        "value": 3438447
-      },
-      {
-        "month": "2024-05",
-        "value": 3379793
-      },
-      {
-        "month": "2024-06",
-        "value": 3312187
-      },
-      {
-        "month": "2024-07",
-        "value": 3263255
-      },
-      {
-        "month": "2024-08",
-        "value": 3256089
-      },
-      {
-        "month": "2024-09",
-        "value": 3248845
-      },
-      {
-        "month": "2024-10",
-        "value": 3243413
-      },
-      {
-        "month": "2024-11",
-        "value": 3223840
-      },
-      {
-        "month": "2024-12",
-        "value": 3208484
-      },
-      {
-        "month": "2025-01",
-        "value": 3191264
-      },
-      {
-        "month": "2025-02",
-        "value": 3168689
-      },
-      {
-        "month": "2025-03",
-        "value": 3166322
-      },
-      {
-        "month": "2025-04",
-        "value": 3146295
-      },
-      {
-        "month": "2025-05",
-        "value": 3125044
-      },
-      {
-        "month": "2025-06",
-        "value": 3104051
-      },
-      {
-        "month": "2025-07",
-        "value": 3092838
-      },
-      {
-        "month": "2025-08",
-        "value": 3083535
-      },
-      {
-        "month": "2025-09",
-        "value": 3067497
-      },
-      {
-        "month": "2025-10",
-        "value": 3041306
-      },
-      {
-        "month": "2025-11",
-        "value": 3018004
-      },
-      {
-        "month": "2025-12",
-        "value": 3000140
-      }
-    ],
-    "IN": [
-      {
-        "month": "2024-04",
-        "value": 1803730
-      },
-      {
-        "month": "2024-05",
-        "value": 1788233
-      },
-      {
-        "month": "2024-06",
-        "value": 1809046
-      },
-      {
-        "month": "2024-07",
-        "value": 1774156
-      },
-      {
-        "month": "2024-08",
-        "value": 1771698
-      },
-      {
-        "month": "2024-09",
-        "value": 1775635
-      },
-      {
-        "month": "2024-10",
-        "value": 1804429
-      },
-      {
-        "month": "2024-11",
-        "value": 1768456
-      },
-      {
-        "month": "2024-12",
-        "value": 1765563
-      },
-      {
-        "month": "2025-01",
-        "value": 1760469
-      },
-      {
-        "month": "2025-02",
-        "value": 1767758
-      },
-      {
-        "month": "2025-03",
-        "value": 1763215
-      },
-      {
-        "month": "2025-04",
-        "value": 1752357
-      },
-      {
-        "month": "2025-05",
-        "value": 1744789
-      },
-      {
-        "month": "2025-06",
-        "value": 1666284
-      },
-      {
-        "month": "2025-07",
-        "value": 1667236
-      },
-      {
-        "month": "2025-08",
-        "value": 1640743
-      },
-      {
-        "month": "2025-09",
-        "value": 1586568
-      },
-      {
-        "month": "2025-10",
-        "value": 1598204
-      },
-      {
-        "month": "2025-11",
-        "value": 1541074
-      },
-      {
-        "month": "2025-12",
-        "value": 1511819
-      }
-    ],
-    "KS": [
-      {
-        "month": "2024-04",
-        "value": 427581
-      },
-      {
-        "month": "2024-05",
-        "value": 418808
-      },
-      {
-        "month": "2024-06",
-        "value": 408480
-      },
-      {
-        "month": "2024-07",
-        "value": 407215
-      },
-      {
-        "month": "2024-08",
-        "value": 408930
-      },
-      {
-        "month": "2024-09",
-        "value": 409053
-      },
-      {
-        "month": "2024-10",
-        "value": 411381
-      },
-      {
-        "month": "2024-11",
-        "value": 412106
-      },
-      {
-        "month": "2024-12",
-        "value": 413111
-      },
-      {
-        "month": "2025-01",
-        "value": 412756
-      },
-      {
-        "month": "2025-02",
-        "value": 414771
-      },
-      {
-        "month": "2025-03",
-        "value": 413286
-      },
-      {
-        "month": "2025-04",
-        "value": 413091
-      },
-      {
-        "month": "2025-05",
-        "value": 405297
-      },
-      {
-        "month": "2025-06",
-        "value": 406042
-      },
-      {
-        "month": "2025-07",
-        "value": 401573
-      },
-      {
-        "month": "2025-08",
-        "value": 401051
-      },
-      {
-        "month": "2025-09",
-        "value": 400875
-      },
-      {
-        "month": "2025-10",
-        "value": 401600
-      },
-      {
-        "month": "2025-11",
-        "value": 399717
-      },
-      {
-        "month": "2025-12",
-        "value": 398119
-      }
-    ],
-    "KY": [
-      {
-        "month": "2024-04",
-        "value": 1491306
-      },
-      {
-        "month": "2024-05",
-        "value": 1465902
-      },
-      {
-        "month": "2024-06",
-        "value": 1418243
-      },
-      {
-        "month": "2024-07",
-        "value": 1391092
-      },
-      {
-        "month": "2024-08",
-        "value": 1389220
-      },
-      {
-        "month": "2024-09",
-        "value": 1384792
-      },
-      {
-        "month": "2024-10",
-        "value": 1385144
-      },
-      {
-        "month": "2024-11",
-        "value": 1382398
-      },
-      {
-        "month": "2024-12",
-        "value": 1377527
-      },
-      {
-        "month": "2025-01",
-        "value": 1377997
-      },
-      {
-        "month": "2025-02",
-        "value": 1376274
-      },
-      {
-        "month": "2025-03",
-        "value": 1374261
-      },
-      {
-        "month": "2025-04",
-        "value": 1375008
-      },
-      {
-        "month": "2025-05",
-        "value": 1370622
-      },
-      {
-        "month": "2025-06",
-        "value": 1365046
-      },
-      {
-        "month": "2025-07",
-        "value": 1364688
-      },
-      {
-        "month": "2025-08",
-        "value": 1359398
-      },
-      {
-        "month": "2025-09",
-        "value": 1357976
-      },
-      {
-        "month": "2025-10",
-        "value": 1347898
-      },
-      {
-        "month": "2025-11",
-        "value": 1328792
-      },
-      {
-        "month": "2025-12",
-        "value": 1321415
-      }
-    ],
-    "LA": [
-      {
-        "month": "2024-04",
-        "value": 1625999
-      },
-      {
-        "month": "2024-05",
-        "value": 1587448
-      },
-      {
-        "month": "2024-06",
-        "value": 1549229
-      },
-      {
-        "month": "2024-07",
-        "value": 1523006
-      },
-      {
-        "month": "2024-08",
-        "value": 1526497
-      },
-      {
-        "month": "2024-09",
-        "value": 1524474
-      },
-      {
-        "month": "2024-10",
-        "value": 1511871
-      },
-      {
-        "month": "2024-11",
-        "value": 1509114
-      },
-      {
-        "month": "2024-12",
-        "value": 1525052
-      },
-      {
-        "month": "2025-01",
-        "value": 1514598
-      },
-      {
-        "month": "2025-02",
-        "value": 1517287
-      },
-      {
-        "month": "2025-03",
-        "value": 1510058
-      },
-      {
-        "month": "2025-04",
-        "value": 1496993
-      },
-      {
-        "month": "2025-05",
-        "value": 1485753
-      },
-      {
-        "month": "2025-06",
-        "value": 1470268
-      },
-      {
-        "month": "2025-07",
-        "value": 1453151
-      },
-      {
-        "month": "2025-08",
-        "value": 1444802
-      },
-      {
-        "month": "2025-09",
-        "value": 1440337
-      },
-      {
-        "month": "2025-10",
-        "value": 1421099
-      },
-      {
-        "month": "2025-11",
-        "value": 1404514
-      },
-      {
-        "month": "2025-12",
-        "value": 1394638
-      }
-    ],
-    "MA": [
-      {
-        "month": "2024-04",
-        "value": 1694438
-      },
-      {
-        "month": "2024-05",
-        "value": 1685071
-      },
-      {
-        "month": "2024-06",
-        "value": 1663316
-      },
-      {
-        "month": "2024-07",
-        "value": 1686910
-      },
-      {
-        "month": "2024-08",
-        "value": 1662492
-      },
-      {
-        "month": "2024-09",
-        "value": 1652621
-      },
-      {
-        "month": "2024-10",
-        "value": 1658082
-      },
-      {
-        "month": "2024-11",
-        "value": 1651962
-      },
-      {
-        "month": "2024-12",
-        "value": 1647585
-      },
-      {
-        "month": "2025-01",
-        "value": 1628951
-      },
-      {
-        "month": "2025-02",
-        "value": 1639015
-      },
-      {
-        "month": "2025-03",
-        "value": 1628063
-      },
-      {
-        "month": "2025-04",
-        "value": 1616929
-      },
-      {
-        "month": "2025-05",
-        "value": 1602272
-      },
-      {
-        "month": "2025-06",
-        "value": 1596316
-      },
-      {
-        "month": "2025-07",
-        "value": 1593923
-      },
-      {
-        "month": "2025-08",
-        "value": 1591961
-      },
-      {
-        "month": "2025-09",
-        "value": 1599046
-      },
-      {
-        "month": "2025-10",
-        "value": 1595952
-      },
-      {
-        "month": "2025-11",
-        "value": 1591611
-      },
-      {
-        "month": "2025-12",
-        "value": 1580723
-      }
-    ],
-    "MD": [
-      {
-        "month": "2024-04",
-        "value": 1610742
-      },
-      {
-        "month": "2024-05",
-        "value": 1607486
-      },
-      {
-        "month": "2024-06",
-        "value": 1591115
-      },
-      {
-        "month": "2024-07",
-        "value": 1568561
-      },
-      {
-        "month": "2024-08",
-        "value": 1552457
-      },
-      {
-        "month": "2024-09",
-        "value": 1540152
-      },
-      {
-        "month": "2024-10",
-        "value": 1525201
-      },
-      {
-        "month": "2024-11",
-        "value": 1511533
-      },
-      {
-        "month": "2024-12",
-        "value": 1476049
-      },
-      {
-        "month": "2025-01",
-        "value": 1463672
-      },
-      {
-        "month": "2025-02",
-        "value": 1448700
-      },
-      {
-        "month": "2025-03",
-        "value": 1441706
-      },
-      {
-        "month": "2025-04",
-        "value": 1436017
-      },
-      {
-        "month": "2025-05",
-        "value": 1427159
-      },
-      {
-        "month": "2025-06",
-        "value": 1425494
-      },
-      {
-        "month": "2025-07",
-        "value": 1415241
-      },
-      {
-        "month": "2025-08",
-        "value": 1413841
-      },
-      {
-        "month": "2025-09",
-        "value": 1411986
-      },
-      {
-        "month": "2025-10",
-        "value": 1404754
-      },
-      {
-        "month": "2025-11",
-        "value": 1399649
-      },
-      {
-        "month": "2025-12",
-        "value": 1397431
-      }
-    ],
-    "ME": [
-      {
-        "month": "2024-04",
-        "value": 367458
-      },
-      {
-        "month": "2024-05",
-        "value": 366428
-      },
-      {
-        "month": "2024-06",
-        "value": 365407
-      },
-      {
-        "month": "2024-07",
-        "value": 366751
-      },
-      {
-        "month": "2024-08",
-        "value": 367001
-      },
-      {
-        "month": "2024-09",
-        "value": 365224
-      },
-      {
-        "month": "2024-10",
-        "value": 350738
-      },
-      {
-        "month": "2024-11",
-        "value": 345224
-      },
-      {
-        "month": "2024-12",
-        "value": 343018
-      },
-      {
-        "month": "2025-01",
-        "value": 342837
-      },
-      {
-        "month": "2025-02",
-        "value": 342604
-      },
-      {
-        "month": "2025-03",
-        "value": 344034
-      },
-      {
-        "month": "2025-04",
-        "value": 343711
-      },
-      {
-        "month": "2025-05",
-        "value": 342828
-      },
-      {
-        "month": "2025-06",
-        "value": 341847
-      },
-      {
-        "month": "2025-07",
-        "value": 341323
-      },
-      {
-        "month": "2025-08",
-        "value": 341281
-      },
-      {
-        "month": "2025-09",
-        "value": 340411
-      },
-      {
-        "month": "2025-10",
-        "value": 339689
-      },
-      {
-        "month": "2025-11",
-        "value": 337898
-      },
-      {
-        "month": "2025-12",
-        "value": 337745
-      }
-    ],
-    "MI": [
-      {
-        "month": "2024-04",
-        "value": 2540906
-      },
-      {
-        "month": "2024-05",
-        "value": 2460925
-      },
-      {
-        "month": "2024-06",
-        "value": 2387100
-      },
-      {
-        "month": "2024-07",
-        "value": 2344131
-      },
-      {
-        "month": "2024-08",
-        "value": 2356461
-      },
-      {
-        "month": "2024-09",
-        "value": 2364457
-      },
-      {
-        "month": "2024-10",
-        "value": 2364114
-      },
-      {
-        "month": "2024-11",
-        "value": 2357921
-      },
-      {
-        "month": "2024-12",
-        "value": 2365011
-      },
-      {
-        "month": "2025-01",
-        "value": 2377422
-      },
-      {
-        "month": "2025-02",
-        "value": 2376206
-      },
-      {
-        "month": "2025-03",
-        "value": 2374908
-      },
-      {
-        "month": "2025-04",
-        "value": 2359222
-      },
-      {
-        "month": "2025-05",
-        "value": 2348322
-      },
-      {
-        "month": "2025-06",
-        "value": 2335526
-      },
-      {
-        "month": "2025-07",
-        "value": 2324469
-      },
-      {
-        "month": "2025-08",
-        "value": 2323530
-      },
-      {
-        "month": "2025-09",
-        "value": 2324379
-      },
-      {
-        "month": "2025-10",
-        "value": 2289229
-      },
-      {
-        "month": "2025-11",
-        "value": 2278751
-      },
-      {
-        "month": "2025-12",
-        "value": 2272434
-      }
-    ],
-    "MN": [
-      {
-        "month": "2024-04",
-        "value": 1184597
-      },
-      {
-        "month": "2024-05",
-        "value": 1177036
-      },
-      {
-        "month": "2024-06",
-        "value": 1163073
-      },
-      {
-        "month": "2024-07",
-        "value": 1172883
-      },
-      {
-        "month": "2024-08",
-        "value": 1172033
-      },
-      {
-        "month": "2024-09",
-        "value": 1172238
-      },
-      {
-        "month": "2024-10",
-        "value": 1167743
-      },
-      {
-        "month": "2024-11",
-        "value": 1157587
-      },
-      {
-        "month": "2024-12",
-        "value": 1151459
-      },
-      {
-        "month": "2025-01",
-        "value": 1155990
-      },
-      {
-        "month": "2025-02",
-        "value": 1154135
-      },
-      {
-        "month": "2025-03",
-        "value": 1153747
-      },
-      {
-        "month": "2025-04",
-        "value": 1153831
-      },
-      {
-        "month": "2025-05",
-        "value": 1151872
-      },
-      {
-        "month": "2025-06",
-        "value": 1150815
-      },
-      {
-        "month": "2025-07",
-        "value": 1159356
-      },
-      {
-        "month": "2025-08",
-        "value": 1159866
-      },
-      {
-        "month": "2025-09",
-        "value": 1162704
-      },
-      {
-        "month": "2025-10",
-        "value": 1161083
-      },
-      {
-        "month": "2025-11",
-        "value": 1152943
-      },
-      {
-        "month": "2025-12",
-        "value": 1147701
-      }
-    ],
-    "MO": [
-      {
-        "month": "2024-04",
-        "value": 1317102
-      },
-      {
-        "month": "2024-05",
-        "value": 1300518
-      },
-      {
-        "month": "2024-06",
-        "value": 1259237
-      },
-      {
-        "month": "2024-07",
-        "value": 1262279
-      },
-      {
-        "month": "2024-08",
-        "value": 1270265
-      },
-      {
-        "month": "2024-09",
-        "value": 1265215
-      },
-      {
-        "month": "2024-10",
-        "value": 1269477
-      },
-      {
-        "month": "2024-11",
-        "value": 1260869
-      },
-      {
-        "month": "2024-12",
-        "value": 1250104
-      },
-      {
-        "month": "2025-01",
-        "value": 1256230
-      },
-      {
-        "month": "2025-02",
-        "value": 1285127
-      },
-      {
-        "month": "2025-03",
-        "value": 1238114
-      },
-      {
-        "month": "2025-04",
-        "value": 1232554
-      },
-      {
-        "month": "2025-05",
-        "value": 1233082
-      },
-      {
-        "month": "2025-06",
-        "value": 1230024
-      },
-      {
-        "month": "2025-07",
-        "value": 1239110
-      },
-      {
-        "month": "2025-08",
-        "value": 1247135
-      },
-      {
-        "month": "2025-09",
-        "value": 1253105
-      },
-      {
-        "month": "2025-10",
-        "value": 1253398
-      },
-      {
-        "month": "2025-11",
-        "value": 1254276
-      },
-      {
-        "month": "2025-12",
-        "value": 1250365
-      }
-    ],
-    "MS": [
-      {
-        "month": "2024-04",
-        "value": 642716
-      },
-      {
-        "month": "2024-05",
-        "value": 625454
-      },
-      {
-        "month": "2024-06",
-        "value": 609875
-      },
-      {
-        "month": "2024-07",
-        "value": 597977
-      },
-      {
-        "month": "2024-08",
-        "value": 601843
-      },
-      {
-        "month": "2024-09",
-        "value": 601887
-      },
-      {
-        "month": "2024-10",
-        "value": 602825
-      },
-      {
-        "month": "2024-11",
-        "value": 600860
-      },
-      {
-        "month": "2024-12",
-        "value": 598789
-      },
-      {
-        "month": "2025-01",
-        "value": 600035
-      },
-      {
-        "month": "2025-02",
-        "value": 599348
-      },
-      {
-        "month": "2025-03",
-        "value": 597744
-      },
-      {
-        "month": "2025-04",
-        "value": 595500
-      },
-      {
-        "month": "2025-05",
-        "value": 593835
-      },
-      {
-        "month": "2025-06",
-        "value": 592690
-      },
-      {
-        "month": "2025-07",
-        "value": 592668
-      },
-      {
-        "month": "2025-08",
-        "value": 592293
-      },
-      {
-        "month": "2025-09",
-        "value": 591307
-      },
-      {
-        "month": "2025-10",
-        "value": 590816
-      },
-      {
-        "month": "2025-11",
-        "value": 588558
-      },
-      {
-        "month": "2025-12",
-        "value": 588268
-      }
-    ],
-    "MT": [
-      {
-        "month": "2024-04",
-        "value": 231418
-      },
-      {
-        "month": "2024-05",
-        "value": 230222
-      },
-      {
-        "month": "2024-06",
-        "value": 228012
-      },
-      {
-        "month": "2024-07",
-        "value": 224067
-      },
-      {
-        "month": "2024-08",
-        "value": 222073
-      },
-      {
-        "month": "2024-09",
-        "value": 225565
-      },
-      {
-        "month": "2024-10",
-        "value": 218858
-      },
-      {
-        "month": "2024-11",
-        "value": 216631
-      },
-      {
-        "month": "2024-12",
-        "value": 213317
-      },
-      {
-        "month": "2025-01",
-        "value": 210190
-      },
-      {
-        "month": "2025-02",
-        "value": 209559
-      },
-      {
-        "month": "2025-03",
-        "value": 210437
-      },
-      {
-        "month": "2025-04",
-        "value": 212308
-      },
-      {
-        "month": "2025-05",
-        "value": 214919
-      },
-      {
-        "month": "2025-06",
-        "value": 215922
-      },
-      {
-        "month": "2025-07",
-        "value": 213598
-      },
-      {
-        "month": "2025-08",
-        "value": 211487
-      },
-      {
-        "month": "2025-09",
-        "value": 211420
-      },
-      {
-        "month": "2025-10",
-        "value": 210942
-      },
-      {
-        "month": "2025-11",
-        "value": 210561
-      },
-      {
-        "month": "2025-12",
-        "value": 210444
-      }
-    ],
-    "NC": [
-      {
-        "month": "2024-04",
-        "value": 2731391
-      },
-      {
-        "month": "2024-05",
-        "value": 2739061
-      },
-      {
-        "month": "2024-06",
-        "value": 2718415
-      },
-      {
-        "month": "2024-07",
-        "value": 2731810
-      },
-      {
-        "month": "2024-08",
-        "value": 2746597
-      },
-      {
-        "month": "2024-09",
-        "value": 2761787
-      },
-      {
-        "month": "2024-10",
-        "value": 2776584
-      },
-      {
-        "month": "2024-11",
-        "value": 2795514
-      },
-      {
-        "month": "2024-12",
-        "value": 2815466
-      },
-      {
-        "month": "2025-01",
-        "value": 2843436
-      },
-      {
-        "month": "2025-02",
-        "value": 2850728
-      },
-      {
-        "month": "2025-03",
-        "value": 2853201
-      },
-      {
-        "month": "2025-04",
-        "value": 2864717
-      },
-      {
-        "month": "2025-05",
-        "value": 2869326
-      },
-      {
-        "month": "2025-06",
-        "value": 2872039
-      },
-      {
-        "month": "2025-07",
-        "value": 2873987
-      },
-      {
-        "month": "2025-08",
-        "value": 2869007
-      },
-      {
-        "month": "2025-09",
-        "value": 2868323
-      },
-      {
-        "month": "2025-10",
-        "value": 2865323
-      },
-      {
-        "month": "2025-11",
-        "value": 2858193
-      },
-      {
-        "month": "2025-12",
-        "value": 2860490
-      }
-    ],
-    "ND": [
-      {
-        "month": "2024-04",
-        "value": 104045
-      },
-      {
-        "month": "2024-05",
-        "value": 103011
-      },
-      {
-        "month": "2024-06",
-        "value": 102801
-      },
-      {
-        "month": "2024-07",
-        "value": 103337
-      },
-      {
-        "month": "2024-08",
-        "value": 104183
-      },
-      {
-        "month": "2024-09",
-        "value": 104380
-      },
-      {
-        "month": "2024-10",
-        "value": 104911
-      },
-      {
-        "month": "2024-11",
-        "value": 104897
-      },
-      {
-        "month": "2024-12",
-        "value": 105599
-      },
-      {
-        "month": "2025-01",
-        "value": 106817
-      },
-      {
-        "month": "2025-02",
-        "value": 105814
-      },
-      {
-        "month": "2025-03",
-        "value": 106172
-      },
-      {
-        "month": "2025-04",
-        "value": 105703
-      },
-      {
-        "month": "2025-05",
-        "value": 105669
-      },
-      {
-        "month": "2025-06",
-        "value": 105451
-      },
-      {
-        "month": "2025-07",
-        "value": 105453
-      },
-      {
-        "month": "2025-08",
-        "value": 105221
-      },
-      {
-        "month": "2025-09",
-        "value": 105205
-      },
-      {
-        "month": "2025-10",
-        "value": 105481
-      },
-      {
-        "month": "2025-11",
-        "value": 104148
-      },
-      {
-        "month": "2025-12",
-        "value": 103836
-      }
-    ],
-    "NE": [
-      {
-        "month": "2024-04",
-        "value": 352634
-      },
-      {
-        "month": "2024-05",
-        "value": 348927
-      },
-      {
-        "month": "2024-06",
-        "value": 345461
-      },
-      {
-        "month": "2024-07",
-        "value": 344920
-      },
-      {
-        "month": "2024-08",
-        "value": 345006
-      },
-      {
-        "month": "2024-09",
-        "value": 342546
-      },
-      {
-        "month": "2024-10",
-        "value": 341081
-      },
-      {
-        "month": "2024-11",
-        "value": 339545
-      },
-      {
-        "month": "2024-12",
-        "value": 339924
-      },
-      {
-        "month": "2025-01",
-        "value": 340521
-      },
-      {
-        "month": "2025-02",
-        "value": 341428
-      },
-      {
-        "month": "2025-03",
-        "value": 341370
-      },
-      {
-        "month": "2025-04",
-        "value": 340215
-      },
-      {
-        "month": "2025-05",
-        "value": 337915
-      },
-      {
-        "month": "2025-06",
-        "value": 336301
-      },
-      {
-        "month": "2025-07",
-        "value": 336229
-      },
-      {
-        "month": "2025-08",
-        "value": 335452
-      },
-      {
-        "month": "2025-09",
-        "value": 334401
-      },
-      {
-        "month": "2025-10",
-        "value": 333543
-      },
-      {
-        "month": "2025-11",
-        "value": 331167
-      },
-      {
-        "month": "2025-12",
-        "value": 330795
-      }
-    ],
-    "NH": [
-      {
-        "month": "2024-04",
-        "value": 184564
-      },
-      {
-        "month": "2024-05",
-        "value": 184296
-      },
-      {
-        "month": "2024-06",
-        "value": 183842
-      },
-      {
-        "month": "2024-07",
-        "value": 184257
-      },
-      {
-        "month": "2024-08",
-        "value": 183898
-      },
-      {
-        "month": "2024-09",
-        "value": 183254
-      },
-      {
-        "month": "2024-10",
-        "value": 183563
-      },
-      {
-        "month": "2024-11",
-        "value": 184431
-      },
-      {
-        "month": "2024-12",
-        "value": 186008
-      },
-      {
-        "month": "2025-01",
-        "value": 187085
-      },
-      {
-        "month": "2025-02",
-        "value": 186933
-      },
-      {
-        "month": "2025-03",
-        "value": 186379
-      },
-      {
-        "month": "2025-04",
-        "value": 186143
-      },
-      {
-        "month": "2025-05",
-        "value": 185365
-      },
-      {
-        "month": "2025-06",
-        "value": 184218
-      },
-      {
-        "month": "2025-07",
-        "value": 184143
-      },
-      {
-        "month": "2025-08",
-        "value": 181947
-      },
-      {
-        "month": "2025-09",
-        "value": 179721
-      },
-      {
-        "month": "2025-10",
-        "value": 178189
-      },
-      {
-        "month": "2025-11",
-        "value": 176148
-      },
-      {
-        "month": "2025-12",
-        "value": 174925
-      }
-    ],
-    "NJ": [
-      {
-        "month": "2024-04",
-        "value": 1892540
-      },
-      {
-        "month": "2024-05",
-        "value": 1875528
-      },
-      {
-        "month": "2024-06",
-        "value": 1815701
-      },
-      {
-        "month": "2024-07",
-        "value": 1760336
-      },
-      {
-        "month": "2024-08",
-        "value": 1752419
-      },
-      {
-        "month": "2024-09",
-        "value": 1741830
-      },
-      {
-        "month": "2024-10",
-        "value": 1753610
-      },
-      {
-        "month": "2024-11",
-        "value": 1758623
-      },
-      {
-        "month": "2024-12",
-        "value": 1756632
-      },
-      {
-        "month": "2025-01",
-        "value": 1768277
-      },
-      {
-        "month": "2025-02",
-        "value": 1767814
-      },
-      {
-        "month": "2025-03",
-        "value": 1772643
-      },
-      {
-        "month": "2025-04",
-        "value": 1790051
-      },
-      {
-        "month": "2025-05",
-        "value": 1789875
-      },
-      {
-        "month": "2025-06",
-        "value": 1764383
-      },
-      {
-        "month": "2025-07",
-        "value": 1750346
-      },
-      {
-        "month": "2025-08",
-        "value": 1749341
-      },
-      {
-        "month": "2025-09",
-        "value": 1741674
-      },
-      {
-        "month": "2025-10",
-        "value": 1745800
-      },
-      {
-        "month": "2025-11",
-        "value": 1749175
-      },
-      {
-        "month": "2025-12",
-        "value": 1741837
-      }
-    ],
-    "NM": [
-      {
-        "month": "2024-04",
-        "value": 784300
-      },
-      {
-        "month": "2024-05",
-        "value": 776681
-      },
-      {
-        "month": "2024-06",
-        "value": 768344
-      },
-      {
-        "month": "2024-07",
-        "value": 783431
-      },
-      {
-        "month": "2024-08",
-        "value": 782800
-      },
-      {
-        "month": "2024-09",
-        "value": 771226
-      },
-      {
-        "month": "2024-10",
-        "value": 764407
-      },
-      {
-        "month": "2024-11",
-        "value": 747470
-      },
-      {
-        "month": "2024-12",
-        "value": 734027
-      },
-      {
-        "month": "2025-01",
-        "value": 728982
-      },
-      {
-        "month": "2025-02",
-        "value": 723600
-      },
-      {
-        "month": "2025-03",
-        "value": 714262
-      },
-      {
-        "month": "2025-04",
-        "value": 710463
-      },
-      {
-        "month": "2025-05",
-        "value": 702063
-      },
-      {
-        "month": "2025-06",
-        "value": 697723
-      },
-      {
-        "month": "2025-07",
-        "value": 694763
-      },
-      {
-        "month": "2025-08",
-        "value": 690503
-      },
-      {
-        "month": "2025-09",
-        "value": 689106
-      },
-      {
-        "month": "2025-10",
-        "value": 687427
-      },
-      {
-        "month": "2025-11",
-        "value": 683227
-      },
-      {
-        "month": "2025-12",
-        "value": 682701
-      }
-    ],
-    "NV": [
-      {
-        "month": "2024-04",
-        "value": 811962
-      },
-      {
-        "month": "2024-05",
-        "value": 798692
-      },
-      {
-        "month": "2024-06",
-        "value": 788481
-      },
-      {
-        "month": "2024-07",
-        "value": 766157
-      },
-      {
-        "month": "2024-08",
-        "value": 760192
-      },
-      {
-        "month": "2024-09",
-        "value": 756073
-      },
-      {
-        "month": "2024-10",
-        "value": 760981
-      },
-      {
-        "month": "2024-11",
-        "value": 761636
-      },
-      {
-        "month": "2024-12",
-        "value": 765943
-      },
-      {
-        "month": "2025-01",
-        "value": 769660
-      },
-      {
-        "month": "2025-02",
-        "value": 772086
-      },
-      {
-        "month": "2025-03",
-        "value": 772211
-      },
-      {
-        "month": "2025-04",
-        "value": 770180
-      },
-      {
-        "month": "2025-05",
-        "value": 766543
-      },
-      {
-        "month": "2025-06",
-        "value": 755561
-      },
-      {
-        "month": "2025-07",
-        "value": 749193
-      },
-      {
-        "month": "2025-08",
-        "value": 742475
-      },
-      {
-        "month": "2025-09",
-        "value": 738352
-      },
-      {
-        "month": "2025-10",
-        "value": 742058
-      },
-      {
-        "month": "2025-11",
-        "value": 727457
-      },
-      {
-        "month": "2025-12",
-        "value": 726387
-      }
-    ],
-    "NY": [
-      {
-        "month": "2024-04",
-        "value": 6873076
-      },
-      {
-        "month": "2024-05",
-        "value": 6788834
-      },
-      {
-        "month": "2024-06",
-        "value": 6693044
-      },
-      {
-        "month": "2024-07",
-        "value": 6682313
-      },
-      {
-        "month": "2024-08",
-        "value": 6665322
-      },
-      {
-        "month": "2024-09",
-        "value": 6657082
-      },
-      {
-        "month": "2024-10",
-        "value": 6652419
-      },
-      {
-        "month": "2024-11",
-        "value": 6611239
-      },
-      {
-        "month": "2024-12",
-        "value": 6622115
-      },
-      {
-        "month": "2025-01",
-        "value": 6592478
-      },
-      {
-        "month": "2025-02",
-        "value": 6569883
-      },
-      {
-        "month": "2025-03",
-        "value": 6585835
-      },
-      {
-        "month": "2025-04",
-        "value": 6588094
-      },
-      {
-        "month": "2025-05",
-        "value": 6585483
-      },
-      {
-        "month": "2025-06",
-        "value": 6566498
-      },
-      {
-        "month": "2025-07",
-        "value": 6551887
-      },
-      {
-        "month": "2025-08",
-        "value": 6522114
-      },
-      {
-        "month": "2025-09",
-        "value": 6516933
-      },
-      {
-        "month": "2025-10",
-        "value": 6504286
-      },
-      {
-        "month": "2025-11",
-        "value": 6537429
-      },
-      {
-        "month": "2025-12",
-        "value": 6515805
-      }
-    ],
-    "OH": [
-      {
-        "month": "2024-04",
-        "value": 2942399
-      },
-      {
-        "month": "2024-05",
-        "value": 2915347
-      },
-      {
-        "month": "2024-06",
-        "value": 2895711
-      },
-      {
-        "month": "2024-07",
-        "value": 2883680
-      },
-      {
-        "month": "2024-08",
-        "value": 2877085
-      },
-      {
-        "month": "2024-09",
-        "value": 2871534
-      },
-      {
-        "month": "2024-10",
-        "value": 2875313
-      },
-      {
-        "month": "2024-11",
-        "value": 2846555
-      },
-      {
-        "month": "2024-12",
-        "value": 2838003
-      },
-      {
-        "month": "2025-01",
-        "value": 2822877
-      },
-      {
-        "month": "2025-02",
-        "value": 2818209
-      },
-      {
-        "month": "2025-03",
-        "value": 2813897
-      },
-      {
-        "month": "2025-04",
-        "value": 2802277
-      },
-      {
-        "month": "2025-05",
-        "value": 2797622
-      },
-      {
-        "month": "2025-06",
-        "value": 2790508
-      },
-      {
-        "month": "2025-07",
-        "value": 2777854
-      },
-      {
-        "month": "2025-08",
-        "value": 2781898
-      },
-      {
-        "month": "2025-09",
-        "value": 2775847
-      },
-      {
-        "month": "2025-10",
-        "value": 2768467
-      },
-      {
-        "month": "2025-11",
-        "value": 2751300
-      },
-      {
-        "month": "2025-12",
-        "value": 2729099
-      }
-    ],
-    "OK": [
-      {
-        "month": "2024-04",
-        "value": 984417
-      },
-      {
-        "month": "2024-05",
-        "value": 991317
-      },
-      {
-        "month": "2024-06",
-        "value": 989605
-      },
-      {
-        "month": "2024-07",
-        "value": 987674
-      },
-      {
-        "month": "2024-08",
-        "value": 987423
-      },
-      {
-        "month": "2024-09",
-        "value": 987371
-      },
-      {
-        "month": "2024-10",
-        "value": 994551
-      },
-      {
-        "month": "2024-11",
-        "value": 989193
-      },
-      {
-        "month": "2024-12",
-        "value": 988875
-      },
-      {
-        "month": "2025-01",
-        "value": 993379
-      },
-      {
-        "month": "2025-02",
-        "value": 978307
-      },
-      {
-        "month": "2025-03",
-        "value": 979463
-      },
-      {
-        "month": "2025-04",
-        "value": 993802
-      },
-      {
-        "month": "2025-05",
-        "value": 1010069
-      },
-      {
-        "month": "2025-06",
-        "value": 1008700
-      },
-      {
-        "month": "2025-07",
-        "value": 1002153
-      },
-      {
-        "month": "2025-08",
-        "value": 992278
-      },
-      {
-        "month": "2025-09",
-        "value": 989984
-      },
-      {
-        "month": "2025-10",
-        "value": 989060
-      },
-      {
-        "month": "2025-11",
-        "value": 987037
-      },
-      {
-        "month": "2025-12",
-        "value": 968050
-      }
-    ],
     "OR": [
       {
         "month": "2024-04",
@@ -4806,7 +592,7 @@
       },
       {
         "month": "2025-10",
-        "value": 1303752
+        "value": 1308135
       },
       {
         "month": "2025-11",
@@ -4815,6 +601,10 @@
       {
         "month": "2025-12",
         "value": 1303114
+      },
+      {
+        "month": "2026-01",
+        "value": 1297017
       }
     ],
     "PA": [
@@ -4901,10 +691,4424 @@
       {
         "month": "2025-12",
         "value": 2990577
+      },
+      {
+        "month": "2026-01",
+        "value": 2984740
+      }
+    ],
+    "RI": [
+      {
+        "month": "2024-04",
+        "value": 329405
+      },
+      {
+        "month": "2024-05",
+        "value": 320988
+      },
+      {
+        "month": "2024-06",
+        "value": 316704
+      },
+      {
+        "month": "2024-07",
+        "value": 315965
+      },
+      {
+        "month": "2024-08",
+        "value": 318221
+      },
+      {
+        "month": "2024-09",
+        "value": 316940
+      },
+      {
+        "month": "2024-10",
+        "value": 306344
+      },
+      {
+        "month": "2024-11",
+        "value": 306161
+      },
+      {
+        "month": "2024-12",
+        "value": 0
+      },
+      {
+        "month": "2025-01",
+        "value": 0
+      },
+      {
+        "month": "2025-02",
+        "value": 316553
+      },
+      {
+        "month": "2025-03",
+        "value": 317107
+      },
+      {
+        "month": "2025-04",
+        "value": 318335
+      },
+      {
+        "month": "2025-05",
+        "value": 318036
+      },
+      {
+        "month": "2025-06",
+        "value": 313519
+      },
+      {
+        "month": "2025-07",
+        "value": 306730
+      },
+      {
+        "month": "2025-08",
+        "value": 304696
+      },
+      {
+        "month": "2025-09",
+        "value": 303351
+      },
+      {
+        "month": "2025-10",
+        "value": 303480
+      },
+      {
+        "month": "2025-11",
+        "value": 297026
+      },
+      {
+        "month": "2025-12",
+        "value": 297943
+      },
+      {
+        "month": "2026-01",
+        "value": 299004
+      }
+    ],
+    "SC": [
+      {
+        "month": "2024-04",
+        "value": 1141154
+      },
+      {
+        "month": "2024-05",
+        "value": 1115174
+      },
+      {
+        "month": "2024-06",
+        "value": 1086586
+      },
+      {
+        "month": "2024-07",
+        "value": 1053713
+      },
+      {
+        "month": "2024-08",
+        "value": 1035647
+      },
+      {
+        "month": "2024-09",
+        "value": 1038756
+      },
+      {
+        "month": "2024-10",
+        "value": 1037498
+      },
+      {
+        "month": "2024-11",
+        "value": 1036822
+      },
+      {
+        "month": "2024-12",
+        "value": 1034836
+      },
+      {
+        "month": "2025-01",
+        "value": 1034214
+      },
+      {
+        "month": "2025-02",
+        "value": 1036771
+      },
+      {
+        "month": "2025-03",
+        "value": 1036888
+      },
+      {
+        "month": "2025-04",
+        "value": 1037023
+      },
+      {
+        "month": "2025-05",
+        "value": 1020041
+      },
+      {
+        "month": "2025-06",
+        "value": 1013694
+      },
+      {
+        "month": "2025-07",
+        "value": 1013106
+      },
+      {
+        "month": "2025-08",
+        "value": 1008019
+      },
+      {
+        "month": "2025-09",
+        "value": 1000546
+      },
+      {
+        "month": "2025-10",
+        "value": 994159
+      },
+      {
+        "month": "2025-11",
+        "value": 987939
+      },
+      {
+        "month": "2025-12",
+        "value": 977554
+      },
+      {
+        "month": "2026-01",
+        "value": 973021
+      }
+    ],
+    "SD": [
+      {
+        "month": "2024-04",
+        "value": 128701
+      },
+      {
+        "month": "2024-05",
+        "value": 130827
+      },
+      {
+        "month": "2024-06",
+        "value": 133438
+      },
+      {
+        "month": "2024-07",
+        "value": 135981
+      },
+      {
+        "month": "2024-08",
+        "value": 138437
+      },
+      {
+        "month": "2024-09",
+        "value": 140438
+      },
+      {
+        "month": "2024-10",
+        "value": 142007
+      },
+      {
+        "month": "2024-11",
+        "value": 143371
+      },
+      {
+        "month": "2024-12",
+        "value": 143339
+      },
+      {
+        "month": "2025-01",
+        "value": 144398
+      },
+      {
+        "month": "2025-02",
+        "value": 145286
+      },
+      {
+        "month": "2025-03",
+        "value": 144264
+      },
+      {
+        "month": "2025-04",
+        "value": 142487
+      },
+      {
+        "month": "2025-05",
+        "value": 140819
+      },
+      {
+        "month": "2025-06",
+        "value": 139653
+      },
+      {
+        "month": "2025-07",
+        "value": 139110
+      },
+      {
+        "month": "2025-08",
+        "value": 136904
+      },
+      {
+        "month": "2025-09",
+        "value": 136318
+      },
+      {
+        "month": "2025-10",
+        "value": 136919
+      },
+      {
+        "month": "2025-11",
+        "value": 136379
+      },
+      {
+        "month": "2025-12",
+        "value": 136509
+      },
+      {
+        "month": "2026-01",
+        "value": 136524
+      }
+    ],
+    "TN": [
+      {
+        "month": "2024-04",
+        "value": 1488857
+      },
+      {
+        "month": "2024-05",
+        "value": 1442757
+      },
+      {
+        "month": "2024-06",
+        "value": 1441839
+      },
+      {
+        "month": "2024-07",
+        "value": 1447311
+      },
+      {
+        "month": "2024-08",
+        "value": 1442392
+      },
+      {
+        "month": "2024-09",
+        "value": 1439827
+      },
+      {
+        "month": "2024-10",
+        "value": 1436211
+      },
+      {
+        "month": "2024-11",
+        "value": 1436312
+      },
+      {
+        "month": "2024-12",
+        "value": 1436955
+      },
+      {
+        "month": "2025-01",
+        "value": 1433094
+      },
+      {
+        "month": "2025-02",
+        "value": 1433222
+      },
+      {
+        "month": "2025-03",
+        "value": 1437344
+      },
+      {
+        "month": "2025-04",
+        "value": 1435467
+      },
+      {
+        "month": "2025-05",
+        "value": 1433398
+      },
+      {
+        "month": "2025-06",
+        "value": 1430912
+      },
+      {
+        "month": "2025-07",
+        "value": 1432503
+      },
+      {
+        "month": "2025-08",
+        "value": 1428794
+      },
+      {
+        "month": "2025-09",
+        "value": 1427353
+      },
+      {
+        "month": "2025-10",
+        "value": 1419653
+      },
+      {
+        "month": "2025-11",
+        "value": 1410016
+      },
+      {
+        "month": "2025-12",
+        "value": 1403189
+      },
+      {
+        "month": "2026-01",
+        "value": 1402697
+      }
+    ],
+    "TX": [
+      {
+        "month": "2024-04",
+        "value": 4373607
+      },
+      {
+        "month": "2024-05",
+        "value": 4344285
+      },
+      {
+        "month": "2024-06",
+        "value": 4300313
+      },
+      {
+        "month": "2024-07",
+        "value": 4305215
+      },
+      {
+        "month": "2024-08",
+        "value": 4311942
+      },
+      {
+        "month": "2024-09",
+        "value": 4293010
+      },
+      {
+        "month": "2024-10",
+        "value": 4245262
+      },
+      {
+        "month": "2024-11",
+        "value": 4180609
+      },
+      {
+        "month": "2024-12",
+        "value": 4175309
+      },
+      {
+        "month": "2025-01",
+        "value": 4161960
+      },
+      {
+        "month": "2025-02",
+        "value": 4155776
+      },
+      {
+        "month": "2025-03",
+        "value": 4164694
+      },
+      {
+        "month": "2025-04",
+        "value": 4179892
+      },
+      {
+        "month": "2025-05",
+        "value": 4173887
+      },
+      {
+        "month": "2025-06",
+        "value": 4162177
+      },
+      {
+        "month": "2025-07",
+        "value": 4169127
+      },
+      {
+        "month": "2025-08",
+        "value": 4161101
+      },
+      {
+        "month": "2025-09",
+        "value": 4174990
+      },
+      {
+        "month": "2025-10",
+        "value": 4148608
+      },
+      {
+        "month": "2025-11",
+        "value": 4096954
+      },
+      {
+        "month": "2025-12",
+        "value": 4083939
+      },
+      {
+        "month": "2026-01",
+        "value": 4032864
+      }
+    ],
+    "UT": [
+      {
+        "month": "2024-04",
+        "value": 333720
+      },
+      {
+        "month": "2024-05",
+        "value": 334872
+      },
+      {
+        "month": "2024-06",
+        "value": 335656
+      },
+      {
+        "month": "2024-07",
+        "value": 335097
+      },
+      {
+        "month": "2024-08",
+        "value": 336810
+      },
+      {
+        "month": "2024-09",
+        "value": 338122
+      },
+      {
+        "month": "2024-10",
+        "value": 339379
+      },
+      {
+        "month": "2024-11",
+        "value": 338368
+      },
+      {
+        "month": "2024-12",
+        "value": 337075
+      },
+      {
+        "month": "2025-01",
+        "value": 336593
+      },
+      {
+        "month": "2025-02",
+        "value": 338649
+      },
+      {
+        "month": "2025-03",
+        "value": 340003
+      },
+      {
+        "month": "2025-04",
+        "value": 337852
+      },
+      {
+        "month": "2025-05",
+        "value": 337001
+      },
+      {
+        "month": "2025-06",
+        "value": 334652
+      },
+      {
+        "month": "2025-07",
+        "value": 334589
+      },
+      {
+        "month": "2025-08",
+        "value": 333169
+      },
+      {
+        "month": "2025-09",
+        "value": 332266
+      },
+      {
+        "month": "2025-10",
+        "value": 332621
+      },
+      {
+        "month": "2025-11",
+        "value": 328968
+      },
+      {
+        "month": "2025-12",
+        "value": 326193
+      },
+      {
+        "month": "2026-01",
+        "value": 326004
+      }
+    ],
+    "VA": [
+      {
+        "month": "2024-04",
+        "value": 1872300
+      },
+      {
+        "month": "2024-05",
+        "value": 1845822
+      },
+      {
+        "month": "2024-06",
+        "value": 1831551
+      },
+      {
+        "month": "2024-07",
+        "value": 1826149
+      },
+      {
+        "month": "2024-08",
+        "value": 1824238
+      },
+      {
+        "month": "2024-09",
+        "value": 1817655
+      },
+      {
+        "month": "2024-10",
+        "value": 1809526
+      },
+      {
+        "month": "2024-11",
+        "value": 1802198
+      },
+      {
+        "month": "2024-12",
+        "value": 1795156
+      },
+      {
+        "month": "2025-01",
+        "value": 1794397
+      },
+      {
+        "month": "2025-02",
+        "value": 1785501
+      },
+      {
+        "month": "2025-03",
+        "value": 1779068
+      },
+      {
+        "month": "2025-04",
+        "value": 1767420
+      },
+      {
+        "month": "2025-05",
+        "value": 1741108
+      },
+      {
+        "month": "2025-06",
+        "value": 1722527
+      },
+      {
+        "month": "2025-07",
+        "value": 1710002
+      },
+      {
+        "month": "2025-08",
+        "value": 1698727
+      },
+      {
+        "month": "2025-09",
+        "value": 1692681
+      },
+      {
+        "month": "2025-10",
+        "value": 1686896
+      },
+      {
+        "month": "2025-11",
+        "value": 1684089
+      },
+      {
+        "month": "2025-12",
+        "value": 1676475
+      },
+      {
+        "month": "2026-01",
+        "value": 1672169
+      }
+    ],
+    "VT": [
+      {
+        "month": "2024-04",
+        "value": 163601
+      },
+      {
+        "month": "2024-05",
+        "value": 161854
+      },
+      {
+        "month": "2024-06",
+        "value": 159459
+      },
+      {
+        "month": "2024-07",
+        "value": 159484
+      },
+      {
+        "month": "2024-08",
+        "value": 159353
+      },
+      {
+        "month": "2024-09",
+        "value": 157548
+      },
+      {
+        "month": "2024-10",
+        "value": 157471
+      },
+      {
+        "month": "2024-11",
+        "value": 156412
+      },
+      {
+        "month": "2024-12",
+        "value": 156970
+      },
+      {
+        "month": "2025-01",
+        "value": 158028
+      },
+      {
+        "month": "2025-02",
+        "value": 157354
+      },
+      {
+        "month": "2025-03",
+        "value": 156750
+      },
+      {
+        "month": "2025-04",
+        "value": 156642
+      },
+      {
+        "month": "2025-05",
+        "value": 155658
+      },
+      {
+        "month": "2025-06",
+        "value": 154780
+      },
+      {
+        "month": "2025-07",
+        "value": 154354
+      },
+      {
+        "month": "2025-08",
+        "value": 153909
+      },
+      {
+        "month": "2025-09",
+        "value": 153259
+      },
+      {
+        "month": "2025-10",
+        "value": 152275
+      },
+      {
+        "month": "2025-11",
+        "value": 151201
+      },
+      {
+        "month": "2025-12",
+        "value": 150683
+      },
+      {
+        "month": "2026-01",
+        "value": 150145
+      }
+    ],
+    "WA": [
+      {
+        "month": "2024-04",
+        "value": 1852472
+      },
+      {
+        "month": "2024-05",
+        "value": 1851703
+      },
+      {
+        "month": "2024-06",
+        "value": 1838636
+      },
+      {
+        "month": "2024-07",
+        "value": 1836318
+      },
+      {
+        "month": "2024-08",
+        "value": 1833351
+      },
+      {
+        "month": "2024-09",
+        "value": 1830147
+      },
+      {
+        "month": "2024-10",
+        "value": 1837170
+      },
+      {
+        "month": "2024-11",
+        "value": 1835448
+      },
+      {
+        "month": "2024-12",
+        "value": 1836008
+      },
+      {
+        "month": "2025-01",
+        "value": 1833207
+      },
+      {
+        "month": "2025-02",
+        "value": 1823800
+      },
+      {
+        "month": "2025-03",
+        "value": 1820238
+      },
+      {
+        "month": "2025-04",
+        "value": 1816490
+      },
+      {
+        "month": "2025-05",
+        "value": 1802312
+      },
+      {
+        "month": "2025-06",
+        "value": 1790978
+      },
+      {
+        "month": "2025-07",
+        "value": 1792188
+      },
+      {
+        "month": "2025-08",
+        "value": 1787085
+      },
+      {
+        "month": "2025-09",
+        "value": 1788029
+      },
+      {
+        "month": "2025-10",
+        "value": 1787864
+      },
+      {
+        "month": "2025-11",
+        "value": 1780702
+      },
+      {
+        "month": "2025-12",
+        "value": 1785532
+      },
+      {
+        "month": "2026-01",
+        "value": 1787085
+      }
+    ],
+    "WI": [
+      {
+        "month": "2024-04",
+        "value": 1241679
+      },
+      {
+        "month": "2024-05",
+        "value": 1222976
+      },
+      {
+        "month": "2024-06",
+        "value": 1205213
+      },
+      {
+        "month": "2024-07",
+        "value": 1194063
+      },
+      {
+        "month": "2024-08",
+        "value": 1193102
+      },
+      {
+        "month": "2024-09",
+        "value": 1189425
+      },
+      {
+        "month": "2024-10",
+        "value": 1189424
+      },
+      {
+        "month": "2024-11",
+        "value": 1188074
+      },
+      {
+        "month": "2024-12",
+        "value": 1188337
+      },
+      {
+        "month": "2025-01",
+        "value": 1186489
+      },
+      {
+        "month": "2025-02",
+        "value": 1183420
+      },
+      {
+        "month": "2025-03",
+        "value": 1167708
+      },
+      {
+        "month": "2025-04",
+        "value": 1149804
+      },
+      {
+        "month": "2025-05",
+        "value": 1136031
+      },
+      {
+        "month": "2025-06",
+        "value": 1129199
+      },
+      {
+        "month": "2025-07",
+        "value": 1125941
+      },
+      {
+        "month": "2025-08",
+        "value": 1123739
+      },
+      {
+        "month": "2025-09",
+        "value": 1124947
+      },
+      {
+        "month": "2025-10",
+        "value": 1124746
+      },
+      {
+        "month": "2025-11",
+        "value": 1120922
+      },
+      {
+        "month": "2025-12",
+        "value": 1121592
+      },
+      {
+        "month": "2026-01",
+        "value": 1119628
+      }
+    ],
+    "WV": [
+      {
+        "month": "2024-04",
+        "value": 515813
+      },
+      {
+        "month": "2024-05",
+        "value": 514248
+      },
+      {
+        "month": "2024-06",
+        "value": 513112
+      },
+      {
+        "month": "2024-07",
+        "value": 513609
+      },
+      {
+        "month": "2024-08",
+        "value": 513741
+      },
+      {
+        "month": "2024-09",
+        "value": 512543
+      },
+      {
+        "month": "2024-10",
+        "value": 510971
+      },
+      {
+        "month": "2024-11",
+        "value": 506861
+      },
+      {
+        "month": "2024-12",
+        "value": 505131
+      },
+      {
+        "month": "2025-01",
+        "value": 508322
+      },
+      {
+        "month": "2025-02",
+        "value": 508225
+      },
+      {
+        "month": "2025-03",
+        "value": 505266
+      },
+      {
+        "month": "2025-04",
+        "value": 503701
+      },
+      {
+        "month": "2025-05",
+        "value": 503031
+      },
+      {
+        "month": "2025-06",
+        "value": 501577
+      },
+      {
+        "month": "2025-07",
+        "value": 501077
+      },
+      {
+        "month": "2025-08",
+        "value": 498894
+      },
+      {
+        "month": "2025-09",
+        "value": 498188
+      },
+      {
+        "month": "2025-10",
+        "value": 497764
+      },
+      {
+        "month": "2025-11",
+        "value": 491398
+      },
+      {
+        "month": "2025-12",
+        "value": 490156
+      },
+      {
+        "month": "2026-01",
+        "value": 488333
+      }
+    ],
+    "WY": [
+      {
+        "month": "2024-04",
+        "value": 66431
+      },
+      {
+        "month": "2024-05",
+        "value": 66550
+      },
+      {
+        "month": "2024-06",
+        "value": 66324
+      },
+      {
+        "month": "2024-07",
+        "value": 65619
+      },
+      {
+        "month": "2024-08",
+        "value": 64672
+      },
+      {
+        "month": "2024-09",
+        "value": 63916
+      },
+      {
+        "month": "2024-10",
+        "value": 63292
+      },
+      {
+        "month": "2024-11",
+        "value": 62877
+      },
+      {
+        "month": "2024-12",
+        "value": 63214
+      },
+      {
+        "month": "2025-01",
+        "value": 62693
+      },
+      {
+        "month": "2025-02",
+        "value": 62570
+      },
+      {
+        "month": "2025-03",
+        "value": 62334
+      },
+      {
+        "month": "2025-04",
+        "value": 62182
+      },
+      {
+        "month": "2025-05",
+        "value": 61694
+      },
+      {
+        "month": "2025-06",
+        "value": 61683
+      },
+      {
+        "month": "2025-07",
+        "value": 61342
+      },
+      {
+        "month": "2025-08",
+        "value": 60814
+      },
+      {
+        "month": "2025-09",
+        "value": 59571
+      },
+      {
+        "month": "2025-10",
+        "value": 59714
+      },
+      {
+        "month": "2025-11",
+        "value": 58711
+      },
+      {
+        "month": "2025-12",
+        "value": 59286
+      },
+      {
+        "month": "2026-01",
+        "value": 59735
+      }
+    ],
+    "AK": [
+      {
+        "month": "2024-04",
+        "value": 248307
+      },
+      {
+        "month": "2024-05",
+        "value": 249770
+      },
+      {
+        "month": "2024-06",
+        "value": 248401
+      },
+      {
+        "month": "2024-07",
+        "value": 250740
+      },
+      {
+        "month": "2024-08",
+        "value": 252398
+      },
+      {
+        "month": "2024-09",
+        "value": 251174
+      },
+      {
+        "month": "2024-10",
+        "value": 250131
+      },
+      {
+        "month": "2024-11",
+        "value": 249774
+      },
+      {
+        "month": "2024-12",
+        "value": 246366
+      },
+      {
+        "month": "2025-01",
+        "value": 244438
+      },
+      {
+        "month": "2025-02",
+        "value": 240405
+      },
+      {
+        "month": "2025-03",
+        "value": 235835
+      },
+      {
+        "month": "2025-04",
+        "value": 231077
+      },
+      {
+        "month": "2025-05",
+        "value": 223020
+      },
+      {
+        "month": "2025-06",
+        "value": 224980
+      },
+      {
+        "month": "2025-07",
+        "value": 208266
+      },
+      {
+        "month": "2025-08",
+        "value": 205737
+      },
+      {
+        "month": "2025-09",
+        "value": 214400
+      },
+      {
+        "month": "2025-10",
+        "value": 211854
+      },
+      {
+        "month": "2025-11",
+        "value": 207807
+      },
+      {
+        "month": "2025-12",
+        "value": 210475
+      },
+      {
+        "month": "2026-01",
+        "value": 210172
+      }
+    ],
+    "AL": [
+      {
+        "month": "2024-04",
+        "value": 1015099
+      },
+      {
+        "month": "2024-05",
+        "value": 988783
+      },
+      {
+        "month": "2024-06",
+        "value": 965423
+      },
+      {
+        "month": "2024-07",
+        "value": 966928
+      },
+      {
+        "month": "2024-08",
+        "value": 951159
+      },
+      {
+        "month": "2024-09",
+        "value": 953367
+      },
+      {
+        "month": "2024-10",
+        "value": 952073
+      },
+      {
+        "month": "2024-11",
+        "value": 953706
+      },
+      {
+        "month": "2024-12",
+        "value": 948093
+      },
+      {
+        "month": "2025-01",
+        "value": 945069
+      },
+      {
+        "month": "2025-02",
+        "value": 946644
+      },
+      {
+        "month": "2025-03",
+        "value": 944327
+      },
+      {
+        "month": "2025-04",
+        "value": 953178
+      },
+      {
+        "month": "2025-05",
+        "value": 938679
+      },
+      {
+        "month": "2025-06",
+        "value": 937844
+      },
+      {
+        "month": "2025-07",
+        "value": 936239
+      },
+      {
+        "month": "2025-08",
+        "value": 938822
+      },
+      {
+        "month": "2025-09",
+        "value": 937597
+      },
+      {
+        "month": "2025-10",
+        "value": 940264
+      },
+      {
+        "month": "2025-11",
+        "value": 938982
+      },
+      {
+        "month": "2025-12",
+        "value": 939065
+      },
+      {
+        "month": "2026-01",
+        "value": 935658
+      }
+    ],
+    "AR": [
+      {
+        "month": "2024-04",
+        "value": 822434
+      },
+      {
+        "month": "2024-05",
+        "value": 827617
+      },
+      {
+        "month": "2024-06",
+        "value": 825119
+      },
+      {
+        "month": "2024-07",
+        "value": 821866
+      },
+      {
+        "month": "2024-08",
+        "value": 825834
+      },
+      {
+        "month": "2024-09",
+        "value": 820338
+      },
+      {
+        "month": "2024-10",
+        "value": 821017
+      },
+      {
+        "month": "2024-11",
+        "value": 817144
+      },
+      {
+        "month": "2024-12",
+        "value": 815047
+      },
+      {
+        "month": "2025-01",
+        "value": 816385
+      },
+      {
+        "month": "2025-02",
+        "value": 822228
+      },
+      {
+        "month": "2025-03",
+        "value": 824245
+      },
+      {
+        "month": "2025-04",
+        "value": 820916
+      },
+      {
+        "month": "2025-05",
+        "value": 816798
+      },
+      {
+        "month": "2025-06",
+        "value": 816018
+      },
+      {
+        "month": "2025-07",
+        "value": 814615
+      },
+      {
+        "month": "2025-08",
+        "value": 810357
+      },
+      {
+        "month": "2025-09",
+        "value": 808278
+      },
+      {
+        "month": "2025-10",
+        "value": 808325
+      },
+      {
+        "month": "2025-11",
+        "value": 801189
+      },
+      {
+        "month": "2025-12",
+        "value": 801024
+      },
+      {
+        "month": "2026-01",
+        "value": 801620
+      }
+    ],
+    "AZ": [
+      {
+        "month": "2024-04",
+        "value": 2032704
+      },
+      {
+        "month": "2024-05",
+        "value": 2025230
+      },
+      {
+        "month": "2024-06",
+        "value": 2018755
+      },
+      {
+        "month": "2024-07",
+        "value": 2004314
+      },
+      {
+        "month": "2024-08",
+        "value": 1994710
+      },
+      {
+        "month": "2024-09",
+        "value": 1975515
+      },
+      {
+        "month": "2024-10",
+        "value": 1963200
+      },
+      {
+        "month": "2024-11",
+        "value": 1934256
+      },
+      {
+        "month": "2024-12",
+        "value": 1899615
+      },
+      {
+        "month": "2025-01",
+        "value": 1872834
+      },
+      {
+        "month": "2025-02",
+        "value": 1859290
+      },
+      {
+        "month": "2025-03",
+        "value": 1849039
+      },
+      {
+        "month": "2025-04",
+        "value": 1830028
+      },
+      {
+        "month": "2025-05",
+        "value": 1818912
+      },
+      {
+        "month": "2025-06",
+        "value": 1793424
+      },
+      {
+        "month": "2025-07",
+        "value": 1788695
+      },
+      {
+        "month": "2025-08",
+        "value": 1761638
+      },
+      {
+        "month": "2025-09",
+        "value": 1744625
+      },
+      {
+        "month": "2025-10",
+        "value": 1720153
+      },
+      {
+        "month": "2025-11",
+        "value": 1693731
+      },
+      {
+        "month": "2025-12",
+        "value": 1678092
+      },
+      {
+        "month": "2026-01",
+        "value": 1662690
+      }
+    ],
+    "CA": [
+      {
+        "month": "2024-04",
+        "value": 13617100
+      },
+      {
+        "month": "2024-05",
+        "value": 13541144
+      },
+      {
+        "month": "2024-06",
+        "value": 13484884
+      },
+      {
+        "month": "2024-07",
+        "value": 13442757
+      },
+      {
+        "month": "2024-08",
+        "value": 13431844
+      },
+      {
+        "month": "2024-09",
+        "value": 13450495
+      },
+      {
+        "month": "2024-10",
+        "value": 13431928
+      },
+      {
+        "month": "2024-11",
+        "value": 13407935
+      },
+      {
+        "month": "2024-12",
+        "value": 13399885
+      },
+      {
+        "month": "2025-01",
+        "value": 13382585
+      },
+      {
+        "month": "2025-02",
+        "value": 13362845
+      },
+      {
+        "month": "2025-03",
+        "value": 13392566
+      },
+      {
+        "month": "2025-04",
+        "value": 13334947
+      },
+      {
+        "month": "2025-05",
+        "value": 13305471
+      },
+      {
+        "month": "2025-06",
+        "value": 13310060
+      },
+      {
+        "month": "2025-07",
+        "value": 13297637
+      },
+      {
+        "month": "2025-08",
+        "value": 13226087
+      },
+      {
+        "month": "2025-09",
+        "value": 13127822
+      },
+      {
+        "month": "2025-10",
+        "value": 13065328
+      },
+      {
+        "month": "2025-11",
+        "value": 12707174
+      },
+      {
+        "month": "2025-12",
+        "value": 12649707
+      },
+      {
+        "month": "2026-01",
+        "value": 12555434
+      }
+    ],
+    "CO": [
+      {
+        "month": "2024-04",
+        "value": 1174868
+      },
+      {
+        "month": "2024-05",
+        "value": 1146718
+      },
+      {
+        "month": "2024-06",
+        "value": 1147223
+      },
+      {
+        "month": "2024-07",
+        "value": 1160609
+      },
+      {
+        "month": "2024-08",
+        "value": 1172334
+      },
+      {
+        "month": "2024-09",
+        "value": 1174588
+      },
+      {
+        "month": "2024-10",
+        "value": 1185011
+      },
+      {
+        "month": "2024-11",
+        "value": 1194765
+      },
+      {
+        "month": "2024-12",
+        "value": 1194852
+      },
+      {
+        "month": "2025-01",
+        "value": 1208864
+      },
+      {
+        "month": "2025-02",
+        "value": 1190587
+      },
+      {
+        "month": "2025-03",
+        "value": 1191549
+      },
+      {
+        "month": "2025-04",
+        "value": 1196520
+      },
+      {
+        "month": "2025-05",
+        "value": 1191958
+      },
+      {
+        "month": "2025-06",
+        "value": 1193176
+      },
+      {
+        "month": "2025-07",
+        "value": 1194665
+      },
+      {
+        "month": "2025-08",
+        "value": 1196877
+      },
+      {
+        "month": "2025-09",
+        "value": 1197220
+      },
+      {
+        "month": "2025-10",
+        "value": 1191047
+      },
+      {
+        "month": "2025-11",
+        "value": 1173577
+      },
+      {
+        "month": "2025-12",
+        "value": 1184326
+      },
+      {
+        "month": "2026-01",
+        "value": 1188887
+      }
+    ],
+    "CT": [
+      {
+        "month": "2024-04",
+        "value": 951387
+      },
+      {
+        "month": "2024-05",
+        "value": 945931
+      },
+      {
+        "month": "2024-06",
+        "value": 941142
+      },
+      {
+        "month": "2024-07",
+        "value": 940531
+      },
+      {
+        "month": "2024-08",
+        "value": 938762
+      },
+      {
+        "month": "2024-09",
+        "value": 936547
+      },
+      {
+        "month": "2024-10",
+        "value": 932771
+      },
+      {
+        "month": "2024-11",
+        "value": 928454
+      },
+      {
+        "month": "2024-12",
+        "value": 927701
+      },
+      {
+        "month": "2025-01",
+        "value": 928986
+      },
+      {
+        "month": "2025-02",
+        "value": 928254
+      },
+      {
+        "month": "2025-03",
+        "value": 926905
+      },
+      {
+        "month": "2025-04",
+        "value": 918951
+      },
+      {
+        "month": "2025-05",
+        "value": 917261
+      },
+      {
+        "month": "2025-06",
+        "value": 915068
+      },
+      {
+        "month": "2025-07",
+        "value": 914739
+      },
+      {
+        "month": "2025-08",
+        "value": 913826
+      },
+      {
+        "month": "2025-09",
+        "value": 913408
+      },
+      {
+        "month": "2025-10",
+        "value": 911816
+      },
+      {
+        "month": "2025-11",
+        "value": 905929
+      },
+      {
+        "month": "2025-12",
+        "value": 905885
+      },
+      {
+        "month": "2026-01",
+        "value": 905638
+      }
+    ],
+    "DC": [
+      {
+        "month": "2024-04",
+        "value": 264332
+      },
+      {
+        "month": "2024-05",
+        "value": 263400
+      },
+      {
+        "month": "2024-06",
+        "value": 260218
+      },
+      {
+        "month": "2024-07",
+        "value": 260958
+      },
+      {
+        "month": "2024-08",
+        "value": 256426
+      },
+      {
+        "month": "2024-09",
+        "value": 257197
+      },
+      {
+        "month": "2024-10",
+        "value": 255313
+      },
+      {
+        "month": "2024-11",
+        "value": 256206
+      },
+      {
+        "month": "2024-12",
+        "value": 257408
+      },
+      {
+        "month": "2025-01",
+        "value": 257333
+      },
+      {
+        "month": "2025-02",
+        "value": 258221
+      },
+      {
+        "month": "2025-03",
+        "value": 259493
+      },
+      {
+        "month": "2025-04",
+        "value": 259116
+      },
+      {
+        "month": "2025-05",
+        "value": 258770
+      },
+      {
+        "month": "2025-06",
+        "value": 257586
+      },
+      {
+        "month": "2025-07",
+        "value": 257763
+      },
+      {
+        "month": "2025-08",
+        "value": 256737
+      },
+      {
+        "month": "2025-09",
+        "value": 258470
+      },
+      {
+        "month": "2025-10",
+        "value": 257703
+      },
+      {
+        "month": "2025-11",
+        "value": 256709
+      },
+      {
+        "month": "2025-12",
+        "value": 256933
+      },
+      {
+        "month": "2026-01",
+        "value": 237274
+      }
+    ],
+    "DE": [
+      {
+        "month": "2024-04",
+        "value": 270248
+      },
+      {
+        "month": "2024-05",
+        "value": 265507
+      },
+      {
+        "month": "2024-06",
+        "value": 252239
+      },
+      {
+        "month": "2024-07",
+        "value": 250910
+      },
+      {
+        "month": "2024-08",
+        "value": 251307
+      },
+      {
+        "month": "2024-09",
+        "value": 251745
+      },
+      {
+        "month": "2024-10",
+        "value": 250651
+      },
+      {
+        "month": "2024-11",
+        "value": 249009
+      },
+      {
+        "month": "2024-12",
+        "value": 249368
+      },
+      {
+        "month": "2025-01",
+        "value": 247850
+      },
+      {
+        "month": "2025-02",
+        "value": 247850
+      },
+      {
+        "month": "2025-03",
+        "value": 247380
+      },
+      {
+        "month": "2025-04",
+        "value": 246306
+      },
+      {
+        "month": "2025-05",
+        "value": 245472
+      },
+      {
+        "month": "2025-06",
+        "value": 244962
+      },
+      {
+        "month": "2025-07",
+        "value": 244501
+      },
+      {
+        "month": "2025-08",
+        "value": 244057
+      },
+      {
+        "month": "2025-09",
+        "value": 243805
+      },
+      {
+        "month": "2025-10",
+        "value": 242745
+      },
+      {
+        "month": "2025-11",
+        "value": 241168
+      },
+      {
+        "month": "2025-12",
+        "value": 240456
+      },
+      {
+        "month": "2026-01",
+        "value": 239213
+      }
+    ],
+    "FL": [
+      {
+        "month": "2024-04",
+        "value": 3901821
+      },
+      {
+        "month": "2024-05",
+        "value": 3867608
+      },
+      {
+        "month": "2024-06",
+        "value": 3796115
+      },
+      {
+        "month": "2024-07",
+        "value": 3796877
+      },
+      {
+        "month": "2024-08",
+        "value": 3808822
+      },
+      {
+        "month": "2024-09",
+        "value": 3797328
+      },
+      {
+        "month": "2024-10",
+        "value": 3765231
+      },
+      {
+        "month": "2024-11",
+        "value": 3788467
+      },
+      {
+        "month": "2024-12",
+        "value": 3740669
+      },
+      {
+        "month": "2025-01",
+        "value": 3739787
+      },
+      {
+        "month": "2025-02",
+        "value": 3737528
+      },
+      {
+        "month": "2025-03",
+        "value": 3735641
+      },
+      {
+        "month": "2025-04",
+        "value": 3715495
+      },
+      {
+        "month": "2025-05",
+        "value": 3699610
+      },
+      {
+        "month": "2025-06",
+        "value": 3695066
+      },
+      {
+        "month": "2025-07",
+        "value": 3671259
+      },
+      {
+        "month": "2025-08",
+        "value": 3674391
+      },
+      {
+        "month": "2025-09",
+        "value": 3639607
+      },
+      {
+        "month": "2025-10",
+        "value": 3648091
+      },
+      {
+        "month": "2025-11",
+        "value": 3611012
+      },
+      {
+        "month": "2025-12",
+        "value": 3592110
+      },
+      {
+        "month": "2026-01",
+        "value": 3588652
+      }
+    ],
+    "GA": [
+      {
+        "month": "2024-04",
+        "value": 1997710
+      },
+      {
+        "month": "2024-05",
+        "value": 1980502
+      },
+      {
+        "month": "2024-06",
+        "value": 1986748
+      },
+      {
+        "month": "2024-07",
+        "value": 1986892
+      },
+      {
+        "month": "2024-08",
+        "value": 1985264
+      },
+      {
+        "month": "2024-09",
+        "value": 1970555
+      },
+      {
+        "month": "2024-10",
+        "value": 1978819
+      },
+      {
+        "month": "2024-11",
+        "value": 1934895
+      },
+      {
+        "month": "2024-12",
+        "value": 1930006
+      },
+      {
+        "month": "2025-01",
+        "value": 1921568
+      },
+      {
+        "month": "2025-02",
+        "value": 1915897
+      },
+      {
+        "month": "2025-03",
+        "value": 1911901
+      },
+      {
+        "month": "2025-04",
+        "value": 1903058
+      },
+      {
+        "month": "2025-05",
+        "value": 1897250
+      },
+      {
+        "month": "2025-06",
+        "value": 1895148
+      },
+      {
+        "month": "2025-07",
+        "value": 1893400
+      },
+      {
+        "month": "2025-08",
+        "value": 1875761
+      },
+      {
+        "month": "2025-09",
+        "value": 1877263
+      },
+      {
+        "month": "2025-10",
+        "value": 1872027
+      },
+      {
+        "month": "2025-11",
+        "value": 1861874
+      },
+      {
+        "month": "2025-12",
+        "value": 1855242
+      },
+      {
+        "month": "2026-01",
+        "value": 1851524
+      }
+    ],
+    "HI": [
+      {
+        "month": "2024-04",
+        "value": 443802
+      },
+      {
+        "month": "2024-05",
+        "value": 429832
+      },
+      {
+        "month": "2024-06",
+        "value": 419168
+      },
+      {
+        "month": "2024-07",
+        "value": 407427
+      },
+      {
+        "month": "2024-08",
+        "value": 402418
+      },
+      {
+        "month": "2024-09",
+        "value": 402926
+      },
+      {
+        "month": "2024-10",
+        "value": 402818
+      },
+      {
+        "month": "2024-11",
+        "value": 403126
+      },
+      {
+        "month": "2024-12",
+        "value": 398380
+      },
+      {
+        "month": "2025-01",
+        "value": 404446
+      },
+      {
+        "month": "2025-02",
+        "value": 403358
+      },
+      {
+        "month": "2025-03",
+        "value": 401395
+      },
+      {
+        "month": "2025-04",
+        "value": 399328
+      },
+      {
+        "month": "2025-05",
+        "value": 395749
+      },
+      {
+        "month": "2025-06",
+        "value": 393950
+      },
+      {
+        "month": "2025-07",
+        "value": 392838
+      },
+      {
+        "month": "2025-08",
+        "value": 391572
+      },
+      {
+        "month": "2025-09",
+        "value": 390181
+      },
+      {
+        "month": "2025-10",
+        "value": 389941
+      },
+      {
+        "month": "2025-11",
+        "value": 388979
+      },
+      {
+        "month": "2025-12",
+        "value": 388083
+      },
+      {
+        "month": "2026-01",
+        "value": 387938
+      }
+    ],
+    "IA": [
+      {
+        "month": "2024-04",
+        "value": 678107
+      },
+      {
+        "month": "2024-05",
+        "value": 678085
+      },
+      {
+        "month": "2024-06",
+        "value": 677654
+      },
+      {
+        "month": "2024-07",
+        "value": 675902
+      },
+      {
+        "month": "2024-08",
+        "value": 673288
+      },
+      {
+        "month": "2024-09",
+        "value": 673665
+      },
+      {
+        "month": "2024-10",
+        "value": 674985
+      },
+      {
+        "month": "2024-11",
+        "value": 674941
+      },
+      {
+        "month": "2024-12",
+        "value": 675663
+      },
+      {
+        "month": "2025-01",
+        "value": 673986
+      },
+      {
+        "month": "2025-02",
+        "value": 674339
+      },
+      {
+        "month": "2025-03",
+        "value": 669848
+      },
+      {
+        "month": "2025-04",
+        "value": 669456
+      },
+      {
+        "month": "2025-05",
+        "value": 667082
+      },
+      {
+        "month": "2025-06",
+        "value": 667468
+      },
+      {
+        "month": "2025-07",
+        "value": 664883
+      },
+      {
+        "month": "2025-08",
+        "value": 666186
+      },
+      {
+        "month": "2025-09",
+        "value": 666889
+      },
+      {
+        "month": "2025-10",
+        "value": 666800
+      },
+      {
+        "month": "2025-11",
+        "value": 664809
+      },
+      {
+        "month": "2025-12",
+        "value": 665421
+      },
+      {
+        "month": "2026-01",
+        "value": 664765
+      }
+    ],
+    "ID": [
+      {
+        "month": "2024-04",
+        "value": 330776
+      },
+      {
+        "month": "2024-05",
+        "value": 328384
+      },
+      {
+        "month": "2024-06",
+        "value": 322353
+      },
+      {
+        "month": "2024-07",
+        "value": 318274
+      },
+      {
+        "month": "2024-08",
+        "value": 314459
+      },
+      {
+        "month": "2024-09",
+        "value": 313272
+      },
+      {
+        "month": "2024-10",
+        "value": 314819
+      },
+      {
+        "month": "2024-11",
+        "value": 315309
+      },
+      {
+        "month": "2024-12",
+        "value": 317359
+      },
+      {
+        "month": "2025-01",
+        "value": 318132
+      },
+      {
+        "month": "2025-02",
+        "value": 317072
+      },
+      {
+        "month": "2025-03",
+        "value": 317948
+      },
+      {
+        "month": "2025-04",
+        "value": 318432
+      },
+      {
+        "month": "2025-05",
+        "value": 316465
+      },
+      {
+        "month": "2025-06",
+        "value": 314833
+      },
+      {
+        "month": "2025-07",
+        "value": 314187
+      },
+      {
+        "month": "2025-08",
+        "value": 312098
+      },
+      {
+        "month": "2025-09",
+        "value": 312698
+      },
+      {
+        "month": "2025-10",
+        "value": 312807
+      },
+      {
+        "month": "2025-11",
+        "value": 310481
+      },
+      {
+        "month": "2025-12",
+        "value": 311257
+      },
+      {
+        "month": "2026-01",
+        "value": 310464
+      }
+    ],
+    "IL": [
+      {
+        "month": "2024-04",
+        "value": 3438447
+      },
+      {
+        "month": "2024-05",
+        "value": 3379793
+      },
+      {
+        "month": "2024-06",
+        "value": 3312187
+      },
+      {
+        "month": "2024-07",
+        "value": 3263255
+      },
+      {
+        "month": "2024-08",
+        "value": 3256089
+      },
+      {
+        "month": "2024-09",
+        "value": 3248845
+      },
+      {
+        "month": "2024-10",
+        "value": 3243413
+      },
+      {
+        "month": "2024-11",
+        "value": 3223840
+      },
+      {
+        "month": "2024-12",
+        "value": 3208484
+      },
+      {
+        "month": "2025-01",
+        "value": 3191264
+      },
+      {
+        "month": "2025-02",
+        "value": 3168689
+      },
+      {
+        "month": "2025-03",
+        "value": 3166322
+      },
+      {
+        "month": "2025-04",
+        "value": 3146295
+      },
+      {
+        "month": "2025-05",
+        "value": 3125044
+      },
+      {
+        "month": "2025-06",
+        "value": 3104051
+      },
+      {
+        "month": "2025-07",
+        "value": 3092838
+      },
+      {
+        "month": "2025-08",
+        "value": 3083535
+      },
+      {
+        "month": "2025-09",
+        "value": 3067497
+      },
+      {
+        "month": "2025-10",
+        "value": 3041306
+      },
+      {
+        "month": "2025-11",
+        "value": 3018004
+      },
+      {
+        "month": "2025-12",
+        "value": 3000140
+      },
+      {
+        "month": "2026-01",
+        "value": 2992984
+      }
+    ],
+    "IN": [
+      {
+        "month": "2024-04",
+        "value": 1803730
+      },
+      {
+        "month": "2024-05",
+        "value": 1788233
+      },
+      {
+        "month": "2024-06",
+        "value": 1809046
+      },
+      {
+        "month": "2024-07",
+        "value": 1774156
+      },
+      {
+        "month": "2024-08",
+        "value": 1771698
+      },
+      {
+        "month": "2024-09",
+        "value": 1775635
+      },
+      {
+        "month": "2024-10",
+        "value": 1804429
+      },
+      {
+        "month": "2024-11",
+        "value": 1768456
+      },
+      {
+        "month": "2024-12",
+        "value": 1765563
+      },
+      {
+        "month": "2025-01",
+        "value": 1760469
+      },
+      {
+        "month": "2025-02",
+        "value": 1767758
+      },
+      {
+        "month": "2025-03",
+        "value": 1763215
+      },
+      {
+        "month": "2025-04",
+        "value": 1752357
+      },
+      {
+        "month": "2025-05",
+        "value": 1744789
+      },
+      {
+        "month": "2025-06",
+        "value": 1666284
+      },
+      {
+        "month": "2025-07",
+        "value": 1667236
+      },
+      {
+        "month": "2025-08",
+        "value": 1640743
+      },
+      {
+        "month": "2025-09",
+        "value": 1586568
+      },
+      {
+        "month": "2025-10",
+        "value": 1598204
+      },
+      {
+        "month": "2025-11",
+        "value": 1541074
+      },
+      {
+        "month": "2025-12",
+        "value": 1511819
+      },
+      {
+        "month": "2026-01",
+        "value": 1457607
+      }
+    ],
+    "KS": [
+      {
+        "month": "2024-04",
+        "value": 427581
+      },
+      {
+        "month": "2024-05",
+        "value": 418808
+      },
+      {
+        "month": "2024-06",
+        "value": 408480
+      },
+      {
+        "month": "2024-07",
+        "value": 407215
+      },
+      {
+        "month": "2024-08",
+        "value": 408930
+      },
+      {
+        "month": "2024-09",
+        "value": 409053
+      },
+      {
+        "month": "2024-10",
+        "value": 411381
+      },
+      {
+        "month": "2024-11",
+        "value": 412106
+      },
+      {
+        "month": "2024-12",
+        "value": 413111
+      },
+      {
+        "month": "2025-01",
+        "value": 412756
+      },
+      {
+        "month": "2025-02",
+        "value": 414771
+      },
+      {
+        "month": "2025-03",
+        "value": 413286
+      },
+      {
+        "month": "2025-04",
+        "value": 413091
+      },
+      {
+        "month": "2025-05",
+        "value": 405297
+      },
+      {
+        "month": "2025-06",
+        "value": 406042
+      },
+      {
+        "month": "2025-07",
+        "value": 401573
+      },
+      {
+        "month": "2025-08",
+        "value": 401051
+      },
+      {
+        "month": "2025-09",
+        "value": 400875
+      },
+      {
+        "month": "2025-10",
+        "value": 401600
+      },
+      {
+        "month": "2025-11",
+        "value": 399717
+      },
+      {
+        "month": "2025-12",
+        "value": 398119
+      },
+      {
+        "month": "2026-01",
+        "value": 399284
+      }
+    ],
+    "KY": [
+      {
+        "month": "2024-04",
+        "value": 1491306
+      },
+      {
+        "month": "2024-05",
+        "value": 1465902
+      },
+      {
+        "month": "2024-06",
+        "value": 1418243
+      },
+      {
+        "month": "2024-07",
+        "value": 1391092
+      },
+      {
+        "month": "2024-08",
+        "value": 1389220
+      },
+      {
+        "month": "2024-09",
+        "value": 1384792
+      },
+      {
+        "month": "2024-10",
+        "value": 1385144
+      },
+      {
+        "month": "2024-11",
+        "value": 1382398
+      },
+      {
+        "month": "2024-12",
+        "value": 1377527
+      },
+      {
+        "month": "2025-01",
+        "value": 1377997
+      },
+      {
+        "month": "2025-02",
+        "value": 1376274
+      },
+      {
+        "month": "2025-03",
+        "value": 1374261
+      },
+      {
+        "month": "2025-04",
+        "value": 1375008
+      },
+      {
+        "month": "2025-05",
+        "value": 1370622
+      },
+      {
+        "month": "2025-06",
+        "value": 1365046
+      },
+      {
+        "month": "2025-07",
+        "value": 1364688
+      },
+      {
+        "month": "2025-08",
+        "value": 1359398
+      },
+      {
+        "month": "2025-09",
+        "value": 1357976
+      },
+      {
+        "month": "2025-10",
+        "value": 1347898
+      },
+      {
+        "month": "2025-11",
+        "value": 1328792
+      },
+      {
+        "month": "2025-12",
+        "value": 1321415
+      },
+      {
+        "month": "2026-01",
+        "value": 1319061
+      }
+    ],
+    "LA": [
+      {
+        "month": "2024-04",
+        "value": 1625999
+      },
+      {
+        "month": "2024-05",
+        "value": 1587448
+      },
+      {
+        "month": "2024-06",
+        "value": 1549229
+      },
+      {
+        "month": "2024-07",
+        "value": 1523006
+      },
+      {
+        "month": "2024-08",
+        "value": 1526497
+      },
+      {
+        "month": "2024-09",
+        "value": 1524474
+      },
+      {
+        "month": "2024-10",
+        "value": 1511871
+      },
+      {
+        "month": "2024-11",
+        "value": 1509114
+      },
+      {
+        "month": "2024-12",
+        "value": 1525052
+      },
+      {
+        "month": "2025-01",
+        "value": 1514598
+      },
+      {
+        "month": "2025-02",
+        "value": 1517287
+      },
+      {
+        "month": "2025-03",
+        "value": 1510058
+      },
+      {
+        "month": "2025-04",
+        "value": 1496993
+      },
+      {
+        "month": "2025-05",
+        "value": 1485753
+      },
+      {
+        "month": "2025-06",
+        "value": 1470268
+      },
+      {
+        "month": "2025-07",
+        "value": 1453151
+      },
+      {
+        "month": "2025-08",
+        "value": 1444802
+      },
+      {
+        "month": "2025-09",
+        "value": 1440337
+      },
+      {
+        "month": "2025-10",
+        "value": 1421099
+      },
+      {
+        "month": "2025-11",
+        "value": 1404514
+      },
+      {
+        "month": "2025-12",
+        "value": 1394638
+      },
+      {
+        "month": "2026-01",
+        "value": 1385567
+      }
+    ],
+    "MA": [
+      {
+        "month": "2024-04",
+        "value": 1694438
+      },
+      {
+        "month": "2024-05",
+        "value": 1685071
+      },
+      {
+        "month": "2024-06",
+        "value": 1663316
+      },
+      {
+        "month": "2024-07",
+        "value": 1686910
+      },
+      {
+        "month": "2024-08",
+        "value": 1662492
+      },
+      {
+        "month": "2024-09",
+        "value": 1652621
+      },
+      {
+        "month": "2024-10",
+        "value": 1658082
+      },
+      {
+        "month": "2024-11",
+        "value": 1651962
+      },
+      {
+        "month": "2024-12",
+        "value": 1647585
+      },
+      {
+        "month": "2025-01",
+        "value": 1628951
+      },
+      {
+        "month": "2025-02",
+        "value": 1639015
+      },
+      {
+        "month": "2025-03",
+        "value": 1628063
+      },
+      {
+        "month": "2025-04",
+        "value": 1616929
+      },
+      {
+        "month": "2025-05",
+        "value": 1602272
+      },
+      {
+        "month": "2025-06",
+        "value": 1596316
+      },
+      {
+        "month": "2025-07",
+        "value": 1593923
+      },
+      {
+        "month": "2025-08",
+        "value": 1591961
+      },
+      {
+        "month": "2025-09",
+        "value": 1599046
+      },
+      {
+        "month": "2025-10",
+        "value": 1595952
+      },
+      {
+        "month": "2025-11",
+        "value": 1591611
+      },
+      {
+        "month": "2025-12",
+        "value": 1580723
+      },
+      {
+        "month": "2026-01",
+        "value": 1574688
+      }
+    ],
+    "MD": [
+      {
+        "month": "2024-04",
+        "value": 1610742
+      },
+      {
+        "month": "2024-05",
+        "value": 1607486
+      },
+      {
+        "month": "2024-06",
+        "value": 1591115
+      },
+      {
+        "month": "2024-07",
+        "value": 1568561
+      },
+      {
+        "month": "2024-08",
+        "value": 1552457
+      },
+      {
+        "month": "2024-09",
+        "value": 1540152
+      },
+      {
+        "month": "2024-10",
+        "value": 1525201
+      },
+      {
+        "month": "2024-11",
+        "value": 1511533
+      },
+      {
+        "month": "2024-12",
+        "value": 1476049
+      },
+      {
+        "month": "2025-01",
+        "value": 1463672
+      },
+      {
+        "month": "2025-02",
+        "value": 1448700
+      },
+      {
+        "month": "2025-03",
+        "value": 1441706
+      },
+      {
+        "month": "2025-04",
+        "value": 1436017
+      },
+      {
+        "month": "2025-05",
+        "value": 1427159
+      },
+      {
+        "month": "2025-06",
+        "value": 1425494
+      },
+      {
+        "month": "2025-07",
+        "value": 1415241
+      },
+      {
+        "month": "2025-08",
+        "value": 1413841
+      },
+      {
+        "month": "2025-09",
+        "value": 1411986
+      },
+      {
+        "month": "2025-10",
+        "value": 1404754
+      },
+      {
+        "month": "2025-11",
+        "value": 1399649
+      },
+      {
+        "month": "2025-12",
+        "value": 1397431
+      },
+      {
+        "month": "2026-01",
+        "value": 1393673
+      }
+    ],
+    "ME": [
+      {
+        "month": "2024-04",
+        "value": 367458
+      },
+      {
+        "month": "2024-05",
+        "value": 366428
+      },
+      {
+        "month": "2024-06",
+        "value": 365407
+      },
+      {
+        "month": "2024-07",
+        "value": 366751
+      },
+      {
+        "month": "2024-08",
+        "value": 367001
+      },
+      {
+        "month": "2024-09",
+        "value": 365224
+      },
+      {
+        "month": "2024-10",
+        "value": 350738
+      },
+      {
+        "month": "2024-11",
+        "value": 345224
+      },
+      {
+        "month": "2024-12",
+        "value": 343018
+      },
+      {
+        "month": "2025-01",
+        "value": 342837
+      },
+      {
+        "month": "2025-02",
+        "value": 342604
+      },
+      {
+        "month": "2025-03",
+        "value": 344034
+      },
+      {
+        "month": "2025-04",
+        "value": 343711
+      },
+      {
+        "month": "2025-05",
+        "value": 342828
+      },
+      {
+        "month": "2025-06",
+        "value": 341847
+      },
+      {
+        "month": "2025-07",
+        "value": 341323
+      },
+      {
+        "month": "2025-08",
+        "value": 341281
+      },
+      {
+        "month": "2025-09",
+        "value": 340411
+      },
+      {
+        "month": "2025-10",
+        "value": 339689
+      },
+      {
+        "month": "2025-11",
+        "value": 337898
+      },
+      {
+        "month": "2025-12",
+        "value": 337745
+      },
+      {
+        "month": "2026-01",
+        "value": 335183
+      }
+    ],
+    "MI": [
+      {
+        "month": "2024-04",
+        "value": 2540906
+      },
+      {
+        "month": "2024-05",
+        "value": 2460925
+      },
+      {
+        "month": "2024-06",
+        "value": 2387100
+      },
+      {
+        "month": "2024-07",
+        "value": 2344131
+      },
+      {
+        "month": "2024-08",
+        "value": 2356461
+      },
+      {
+        "month": "2024-09",
+        "value": 2364457
+      },
+      {
+        "month": "2024-10",
+        "value": 2364114
+      },
+      {
+        "month": "2024-11",
+        "value": 2357921
+      },
+      {
+        "month": "2024-12",
+        "value": 2365011
+      },
+      {
+        "month": "2025-01",
+        "value": 2377422
+      },
+      {
+        "month": "2025-02",
+        "value": 2376206
+      },
+      {
+        "month": "2025-03",
+        "value": 2374908
+      },
+      {
+        "month": "2025-04",
+        "value": 2359222
+      },
+      {
+        "month": "2025-05",
+        "value": 2348322
+      },
+      {
+        "month": "2025-06",
+        "value": 2335526
+      },
+      {
+        "month": "2025-07",
+        "value": 2324469
+      },
+      {
+        "month": "2025-08",
+        "value": 2323530
+      },
+      {
+        "month": "2025-09",
+        "value": 2324379
+      },
+      {
+        "month": "2025-10",
+        "value": 2289229
+      },
+      {
+        "month": "2025-11",
+        "value": 2278751
+      },
+      {
+        "month": "2025-12",
+        "value": 2272434
+      },
+      {
+        "month": "2026-01",
+        "value": 2196941
+      }
+    ],
+    "MN": [
+      {
+        "month": "2024-04",
+        "value": 1184597
+      },
+      {
+        "month": "2024-05",
+        "value": 1177036
+      },
+      {
+        "month": "2024-06",
+        "value": 1163073
+      },
+      {
+        "month": "2024-07",
+        "value": 1172883
+      },
+      {
+        "month": "2024-08",
+        "value": 1172033
+      },
+      {
+        "month": "2024-09",
+        "value": 1172238
+      },
+      {
+        "month": "2024-10",
+        "value": 1167743
+      },
+      {
+        "month": "2024-11",
+        "value": 1157587
+      },
+      {
+        "month": "2024-12",
+        "value": 1151459
+      },
+      {
+        "month": "2025-01",
+        "value": 1155990
+      },
+      {
+        "month": "2025-02",
+        "value": 1154135
+      },
+      {
+        "month": "2025-03",
+        "value": 1153747
+      },
+      {
+        "month": "2025-04",
+        "value": 1153831
+      },
+      {
+        "month": "2025-05",
+        "value": 1151872
+      },
+      {
+        "month": "2025-06",
+        "value": 1150815
+      },
+      {
+        "month": "2025-07",
+        "value": 1159356
+      },
+      {
+        "month": "2025-08",
+        "value": 1159866
+      },
+      {
+        "month": "2025-09",
+        "value": 1162704
+      },
+      {
+        "month": "2025-10",
+        "value": 1161083
+      },
+      {
+        "month": "2025-11",
+        "value": 1152943
+      },
+      {
+        "month": "2025-12",
+        "value": 1147701
+      },
+      {
+        "month": "2026-01",
+        "value": 1139499
+      }
+    ],
+    "MO": [
+      {
+        "month": "2024-04",
+        "value": 1317102
+      },
+      {
+        "month": "2024-05",
+        "value": 1300518
+      },
+      {
+        "month": "2024-06",
+        "value": 1259237
+      },
+      {
+        "month": "2024-07",
+        "value": 1262279
+      },
+      {
+        "month": "2024-08",
+        "value": 1270265
+      },
+      {
+        "month": "2024-09",
+        "value": 1265215
+      },
+      {
+        "month": "2024-10",
+        "value": 1269477
+      },
+      {
+        "month": "2024-11",
+        "value": 1260869
+      },
+      {
+        "month": "2024-12",
+        "value": 1250104
+      },
+      {
+        "month": "2025-01",
+        "value": 1256230
+      },
+      {
+        "month": "2025-02",
+        "value": 1285127
+      },
+      {
+        "month": "2025-03",
+        "value": 1238114
+      },
+      {
+        "month": "2025-04",
+        "value": 1232554
+      },
+      {
+        "month": "2025-05",
+        "value": 1233082
+      },
+      {
+        "month": "2025-06",
+        "value": 1230024
+      },
+      {
+        "month": "2025-07",
+        "value": 1239110
+      },
+      {
+        "month": "2025-08",
+        "value": 1247135
+      },
+      {
+        "month": "2025-09",
+        "value": 1253105
+      },
+      {
+        "month": "2025-10",
+        "value": 1253398
+      },
+      {
+        "month": "2025-11",
+        "value": 1254276
+      },
+      {
+        "month": "2025-12",
+        "value": 1250365
+      },
+      {
+        "month": "2026-01",
+        "value": 1249056
+      }
+    ],
+    "MS": [
+      {
+        "month": "2024-04",
+        "value": 642716
+      },
+      {
+        "month": "2024-05",
+        "value": 625454
+      },
+      {
+        "month": "2024-06",
+        "value": 609875
+      },
+      {
+        "month": "2024-07",
+        "value": 597977
+      },
+      {
+        "month": "2024-08",
+        "value": 601843
+      },
+      {
+        "month": "2024-09",
+        "value": 601887
+      },
+      {
+        "month": "2024-10",
+        "value": 602825
+      },
+      {
+        "month": "2024-11",
+        "value": 600860
+      },
+      {
+        "month": "2024-12",
+        "value": 598789
+      },
+      {
+        "month": "2025-01",
+        "value": 600035
+      },
+      {
+        "month": "2025-02",
+        "value": 599348
+      },
+      {
+        "month": "2025-03",
+        "value": 597744
+      },
+      {
+        "month": "2025-04",
+        "value": 595500
+      },
+      {
+        "month": "2025-05",
+        "value": 593835
+      },
+      {
+        "month": "2025-06",
+        "value": 592690
+      },
+      {
+        "month": "2025-07",
+        "value": 592668
+      },
+      {
+        "month": "2025-08",
+        "value": 592293
+      },
+      {
+        "month": "2025-09",
+        "value": 591307
+      },
+      {
+        "month": "2025-10",
+        "value": 590816
+      },
+      {
+        "month": "2025-11",
+        "value": 588558
+      },
+      {
+        "month": "2025-12",
+        "value": 588268
+      },
+      {
+        "month": "2026-01",
+        "value": 588020
+      }
+    ],
+    "MT": [
+      {
+        "month": "2024-04",
+        "value": 231418
+      },
+      {
+        "month": "2024-05",
+        "value": 230222
+      },
+      {
+        "month": "2024-06",
+        "value": 228012
+      },
+      {
+        "month": "2024-07",
+        "value": 224067
+      },
+      {
+        "month": "2024-08",
+        "value": 222073
+      },
+      {
+        "month": "2024-09",
+        "value": 225565
+      },
+      {
+        "month": "2024-10",
+        "value": 218858
+      },
+      {
+        "month": "2024-11",
+        "value": 216631
+      },
+      {
+        "month": "2024-12",
+        "value": 213317
+      },
+      {
+        "month": "2025-01",
+        "value": 210190
+      },
+      {
+        "month": "2025-02",
+        "value": 209559
+      },
+      {
+        "month": "2025-03",
+        "value": 210437
+      },
+      {
+        "month": "2025-04",
+        "value": 212308
+      },
+      {
+        "month": "2025-05",
+        "value": 214919
+      },
+      {
+        "month": "2025-06",
+        "value": 215922
+      },
+      {
+        "month": "2025-07",
+        "value": 213598
+      },
+      {
+        "month": "2025-08",
+        "value": 211487
+      },
+      {
+        "month": "2025-09",
+        "value": 211420
+      },
+      {
+        "month": "2025-10",
+        "value": 210942
+      },
+      {
+        "month": "2025-11",
+        "value": 210561
+      },
+      {
+        "month": "2025-12",
+        "value": 210444
+      },
+      {
+        "month": "2026-01",
+        "value": 209556
+      }
+    ],
+    "NC": [
+      {
+        "month": "2024-04",
+        "value": 2731391
+      },
+      {
+        "month": "2024-05",
+        "value": 2739061
+      },
+      {
+        "month": "2024-06",
+        "value": 2718415
+      },
+      {
+        "month": "2024-07",
+        "value": 2731810
+      },
+      {
+        "month": "2024-08",
+        "value": 2746597
+      },
+      {
+        "month": "2024-09",
+        "value": 2761787
+      },
+      {
+        "month": "2024-10",
+        "value": 2776584
+      },
+      {
+        "month": "2024-11",
+        "value": 2795514
+      },
+      {
+        "month": "2024-12",
+        "value": 2815466
+      },
+      {
+        "month": "2025-01",
+        "value": 2843436
+      },
+      {
+        "month": "2025-02",
+        "value": 2850728
+      },
+      {
+        "month": "2025-03",
+        "value": 2853201
+      },
+      {
+        "month": "2025-04",
+        "value": 2864717
+      },
+      {
+        "month": "2025-05",
+        "value": 2869326
+      },
+      {
+        "month": "2025-06",
+        "value": 2872039
+      },
+      {
+        "month": "2025-07",
+        "value": 2873987
+      },
+      {
+        "month": "2025-08",
+        "value": 2869007
+      },
+      {
+        "month": "2025-09",
+        "value": 2868323
+      },
+      {
+        "month": "2025-10",
+        "value": 2865323
+      },
+      {
+        "month": "2025-11",
+        "value": 2858193
+      },
+      {
+        "month": "2025-12",
+        "value": 2860490
+      },
+      {
+        "month": "2026-01",
+        "value": 2857213
+      }
+    ],
+    "ND": [
+      {
+        "month": "2024-04",
+        "value": 104045
+      },
+      {
+        "month": "2024-05",
+        "value": 103011
+      },
+      {
+        "month": "2024-06",
+        "value": 102801
+      },
+      {
+        "month": "2024-07",
+        "value": 103337
+      },
+      {
+        "month": "2024-08",
+        "value": 104183
+      },
+      {
+        "month": "2024-09",
+        "value": 104380
+      },
+      {
+        "month": "2024-10",
+        "value": 104911
+      },
+      {
+        "month": "2024-11",
+        "value": 104897
+      },
+      {
+        "month": "2024-12",
+        "value": 105599
+      },
+      {
+        "month": "2025-01",
+        "value": 106817
+      },
+      {
+        "month": "2025-02",
+        "value": 105814
+      },
+      {
+        "month": "2025-03",
+        "value": 106172
+      },
+      {
+        "month": "2025-04",
+        "value": 105703
+      },
+      {
+        "month": "2025-05",
+        "value": 105669
+      },
+      {
+        "month": "2025-06",
+        "value": 105451
+      },
+      {
+        "month": "2025-07",
+        "value": 105453
+      },
+      {
+        "month": "2025-08",
+        "value": 105221
+      },
+      {
+        "month": "2025-09",
+        "value": 105205
+      },
+      {
+        "month": "2025-10",
+        "value": 105481
+      },
+      {
+        "month": "2025-11",
+        "value": 104148
+      },
+      {
+        "month": "2025-12",
+        "value": 103836
+      },
+      {
+        "month": "2026-01",
+        "value": 103684
+      }
+    ],
+    "NE": [
+      {
+        "month": "2024-04",
+        "value": 352634
+      },
+      {
+        "month": "2024-05",
+        "value": 348927
+      },
+      {
+        "month": "2024-06",
+        "value": 345461
+      },
+      {
+        "month": "2024-07",
+        "value": 344920
+      },
+      {
+        "month": "2024-08",
+        "value": 345006
+      },
+      {
+        "month": "2024-09",
+        "value": 342546
+      },
+      {
+        "month": "2024-10",
+        "value": 341081
+      },
+      {
+        "month": "2024-11",
+        "value": 339545
+      },
+      {
+        "month": "2024-12",
+        "value": 339924
+      },
+      {
+        "month": "2025-01",
+        "value": 340521
+      },
+      {
+        "month": "2025-02",
+        "value": 341428
+      },
+      {
+        "month": "2025-03",
+        "value": 341370
+      },
+      {
+        "month": "2025-04",
+        "value": 340215
+      },
+      {
+        "month": "2025-05",
+        "value": 337915
+      },
+      {
+        "month": "2025-06",
+        "value": 336301
+      },
+      {
+        "month": "2025-07",
+        "value": 336229
+      },
+      {
+        "month": "2025-08",
+        "value": 335452
+      },
+      {
+        "month": "2025-09",
+        "value": 334401
+      },
+      {
+        "month": "2025-10",
+        "value": 333543
+      },
+      {
+        "month": "2025-11",
+        "value": 331167
+      },
+      {
+        "month": "2025-12",
+        "value": 330795
+      },
+      {
+        "month": "2026-01",
+        "value": 332216
+      }
+    ],
+    "NH": [
+      {
+        "month": "2024-04",
+        "value": 184564
+      },
+      {
+        "month": "2024-05",
+        "value": 184296
+      },
+      {
+        "month": "2024-06",
+        "value": 183842
+      },
+      {
+        "month": "2024-07",
+        "value": 184257
+      },
+      {
+        "month": "2024-08",
+        "value": 183898
+      },
+      {
+        "month": "2024-09",
+        "value": 183254
+      },
+      {
+        "month": "2024-10",
+        "value": 183563
+      },
+      {
+        "month": "2024-11",
+        "value": 184431
+      },
+      {
+        "month": "2024-12",
+        "value": 186008
+      },
+      {
+        "month": "2025-01",
+        "value": 187085
+      },
+      {
+        "month": "2025-02",
+        "value": 186933
+      },
+      {
+        "month": "2025-03",
+        "value": 186379
+      },
+      {
+        "month": "2025-04",
+        "value": 186143
+      },
+      {
+        "month": "2025-05",
+        "value": 185365
+      },
+      {
+        "month": "2025-06",
+        "value": 184218
+      },
+      {
+        "month": "2025-07",
+        "value": 184143
+      },
+      {
+        "month": "2025-08",
+        "value": 181947
+      },
+      {
+        "month": "2025-09",
+        "value": 179721
+      },
+      {
+        "month": "2025-10",
+        "value": 178189
+      },
+      {
+        "month": "2025-11",
+        "value": 176148
+      },
+      {
+        "month": "2025-12",
+        "value": 174925
+      },
+      {
+        "month": "2026-01",
+        "value": 173151
+      }
+    ],
+    "NJ": [
+      {
+        "month": "2024-04",
+        "value": 1892540
+      },
+      {
+        "month": "2024-05",
+        "value": 1875528
+      },
+      {
+        "month": "2024-06",
+        "value": 1815701
+      },
+      {
+        "month": "2024-07",
+        "value": 1760336
+      },
+      {
+        "month": "2024-08",
+        "value": 1752419
+      },
+      {
+        "month": "2024-09",
+        "value": 1741830
+      },
+      {
+        "month": "2024-10",
+        "value": 1753610
+      },
+      {
+        "month": "2024-11",
+        "value": 1758623
+      },
+      {
+        "month": "2024-12",
+        "value": 1756632
+      },
+      {
+        "month": "2025-01",
+        "value": 1768277
+      },
+      {
+        "month": "2025-02",
+        "value": 1767814
+      },
+      {
+        "month": "2025-03",
+        "value": 1772643
+      },
+      {
+        "month": "2025-04",
+        "value": 1790051
+      },
+      {
+        "month": "2025-05",
+        "value": 1789875
+      },
+      {
+        "month": "2025-06",
+        "value": 1764383
+      },
+      {
+        "month": "2025-07",
+        "value": 1750346
+      },
+      {
+        "month": "2025-08",
+        "value": 1749341
+      },
+      {
+        "month": "2025-09",
+        "value": 1741674
+      },
+      {
+        "month": "2025-10",
+        "value": 1745800
+      },
+      {
+        "month": "2025-11",
+        "value": 1749175
+      },
+      {
+        "month": "2025-12",
+        "value": 1741837
+      },
+      {
+        "month": "2026-01",
+        "value": 1735024
+      }
+    ],
+    "NM": [
+      {
+        "month": "2024-04",
+        "value": 784300
+      },
+      {
+        "month": "2024-05",
+        "value": 776681
+      },
+      {
+        "month": "2024-06",
+        "value": 768344
+      },
+      {
+        "month": "2024-07",
+        "value": 783431
+      },
+      {
+        "month": "2024-08",
+        "value": 782800
+      },
+      {
+        "month": "2024-09",
+        "value": 771226
+      },
+      {
+        "month": "2024-10",
+        "value": 764407
+      },
+      {
+        "month": "2024-11",
+        "value": 747470
+      },
+      {
+        "month": "2024-12",
+        "value": 734027
+      },
+      {
+        "month": "2025-01",
+        "value": 728982
+      },
+      {
+        "month": "2025-02",
+        "value": 723600
+      },
+      {
+        "month": "2025-03",
+        "value": 714262
+      },
+      {
+        "month": "2025-04",
+        "value": 710463
+      },
+      {
+        "month": "2025-05",
+        "value": 702063
+      },
+      {
+        "month": "2025-06",
+        "value": 697723
+      },
+      {
+        "month": "2025-07",
+        "value": 694763
+      },
+      {
+        "month": "2025-08",
+        "value": 690503
+      },
+      {
+        "month": "2025-09",
+        "value": 689106
+      },
+      {
+        "month": "2025-10",
+        "value": 687427
+      },
+      {
+        "month": "2025-11",
+        "value": 683227
+      },
+      {
+        "month": "2025-12",
+        "value": 682701
+      },
+      {
+        "month": "2026-01",
+        "value": 681756
+      }
+    ],
+    "NV": [
+      {
+        "month": "2024-04",
+        "value": 811962
+      },
+      {
+        "month": "2024-05",
+        "value": 798692
+      },
+      {
+        "month": "2024-06",
+        "value": 788481
+      },
+      {
+        "month": "2024-07",
+        "value": 766157
+      },
+      {
+        "month": "2024-08",
+        "value": 760192
+      },
+      {
+        "month": "2024-09",
+        "value": 756073
+      },
+      {
+        "month": "2024-10",
+        "value": 760981
+      },
+      {
+        "month": "2024-11",
+        "value": 761636
+      },
+      {
+        "month": "2024-12",
+        "value": 765943
+      },
+      {
+        "month": "2025-01",
+        "value": 769660
+      },
+      {
+        "month": "2025-02",
+        "value": 772086
+      },
+      {
+        "month": "2025-03",
+        "value": 772211
+      },
+      {
+        "month": "2025-04",
+        "value": 770180
+      },
+      {
+        "month": "2025-05",
+        "value": 766543
+      },
+      {
+        "month": "2025-06",
+        "value": 755561
+      },
+      {
+        "month": "2025-07",
+        "value": 749193
+      },
+      {
+        "month": "2025-08",
+        "value": 742475
+      },
+      {
+        "month": "2025-09",
+        "value": 738352
+      },
+      {
+        "month": "2025-10",
+        "value": 742058
+      },
+      {
+        "month": "2025-11",
+        "value": 727457
+      },
+      {
+        "month": "2025-12",
+        "value": 726387
+      },
+      {
+        "month": "2026-01",
+        "value": 728133
+      }
+    ],
+    "NY": [
+      {
+        "month": "2024-04",
+        "value": 6873076
+      },
+      {
+        "month": "2024-05",
+        "value": 6788834
+      },
+      {
+        "month": "2024-06",
+        "value": 6693044
+      },
+      {
+        "month": "2024-07",
+        "value": 6682313
+      },
+      {
+        "month": "2024-08",
+        "value": 6665322
+      },
+      {
+        "month": "2024-09",
+        "value": 6657082
+      },
+      {
+        "month": "2024-10",
+        "value": 6652419
+      },
+      {
+        "month": "2024-11",
+        "value": 6611239
+      },
+      {
+        "month": "2024-12",
+        "value": 6622115
+      },
+      {
+        "month": "2025-01",
+        "value": 6592478
+      },
+      {
+        "month": "2025-02",
+        "value": 6569883
+      },
+      {
+        "month": "2025-03",
+        "value": 6585835
+      },
+      {
+        "month": "2025-04",
+        "value": 6588094
+      },
+      {
+        "month": "2025-05",
+        "value": 6585483
+      },
+      {
+        "month": "2025-06",
+        "value": 6566498
+      },
+      {
+        "month": "2025-07",
+        "value": 6551887
+      },
+      {
+        "month": "2025-08",
+        "value": 6522114
+      },
+      {
+        "month": "2025-09",
+        "value": 6516933
+      },
+      {
+        "month": "2025-10",
+        "value": 6504286
+      },
+      {
+        "month": "2025-11",
+        "value": 6537429
+      },
+      {
+        "month": "2025-12",
+        "value": 6515805
+      },
+      {
+        "month": "2026-01",
+        "value": 6476902
+      }
+    ],
+    "OH": [
+      {
+        "month": "2024-04",
+        "value": 2942399
+      },
+      {
+        "month": "2024-05",
+        "value": 2915347
+      },
+      {
+        "month": "2024-06",
+        "value": 2895711
+      },
+      {
+        "month": "2024-07",
+        "value": 2883680
+      },
+      {
+        "month": "2024-08",
+        "value": 2877085
+      },
+      {
+        "month": "2024-09",
+        "value": 2871534
+      },
+      {
+        "month": "2024-10",
+        "value": 2875313
+      },
+      {
+        "month": "2024-11",
+        "value": 2846555
+      },
+      {
+        "month": "2024-12",
+        "value": 2838003
+      },
+      {
+        "month": "2025-01",
+        "value": 2822877
+      },
+      {
+        "month": "2025-02",
+        "value": 2818209
+      },
+      {
+        "month": "2025-03",
+        "value": 2813897
+      },
+      {
+        "month": "2025-04",
+        "value": 2802277
+      },
+      {
+        "month": "2025-05",
+        "value": 2797622
+      },
+      {
+        "month": "2025-06",
+        "value": 2790508
+      },
+      {
+        "month": "2025-07",
+        "value": 2777854
+      },
+      {
+        "month": "2025-08",
+        "value": 2781898
+      },
+      {
+        "month": "2025-09",
+        "value": 2775847
+      },
+      {
+        "month": "2025-10",
+        "value": 2768467
+      },
+      {
+        "month": "2025-11",
+        "value": 2751300
+      },
+      {
+        "month": "2025-12",
+        "value": 2729099
+      },
+      {
+        "month": "2026-01",
+        "value": 2698937
+      }
+    ],
+    "OK": [
+      {
+        "month": "2024-04",
+        "value": 984417
+      },
+      {
+        "month": "2024-05",
+        "value": 991317
+      },
+      {
+        "month": "2024-06",
+        "value": 989605
+      },
+      {
+        "month": "2024-07",
+        "value": 987674
+      },
+      {
+        "month": "2024-08",
+        "value": 987423
+      },
+      {
+        "month": "2024-09",
+        "value": 987371
+      },
+      {
+        "month": "2024-10",
+        "value": 994551
+      },
+      {
+        "month": "2024-11",
+        "value": 989193
+      },
+      {
+        "month": "2024-12",
+        "value": 988875
+      },
+      {
+        "month": "2025-01",
+        "value": 993379
+      },
+      {
+        "month": "2025-02",
+        "value": 978307
+      },
+      {
+        "month": "2025-03",
+        "value": 979463
+      },
+      {
+        "month": "2025-04",
+        "value": 993802
+      },
+      {
+        "month": "2025-05",
+        "value": 1010069
+      },
+      {
+        "month": "2025-06",
+        "value": 1008700
+      },
+      {
+        "month": "2025-07",
+        "value": 1002153
+      },
+      {
+        "month": "2025-08",
+        "value": 992278
+      },
+      {
+        "month": "2025-09",
+        "value": 989984
+      },
+      {
+        "month": "2025-10",
+        "value": 989060
+      },
+      {
+        "month": "2025-11",
+        "value": 987037
+      },
+      {
+        "month": "2025-12",
+        "value": 968050
+      },
+      {
+        "month": "2026-01",
+        "value": 966557
       }
     ]
   },
-  "updated": "2026-04-24T07:54:46.868694",
+  "updated": "2026-04-25T07:07:48.440275",
   "source": "data.medicaid.gov",
-  "record_count": 2091
+  "record_count": 2193
 }
