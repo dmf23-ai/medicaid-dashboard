@@ -1,23 +1,23 @@
 {
-  "executiveSummary": "## Executive Summary: State Medicaid Program Analysis\n\nNational Medicaid enrollment reached 75.3 million beneficiaries as of January 2026, with most major states experiencing enrollment declines following the end of pandemic-era continuous coverage protections. The most significant decreases occurred in Michigan (-7.6%) and California and Illinois (both -6.2%), while North Carolina bucked the trend with modest growth (+0.5%). National Medicaid expenditures totaled $215.9 billion in fiscal year 2024, with per-enrollee costs averaging $2,869 but varying dramatically across states\u2014from Florida's $2,031 per enrollee to Pennsylvania's $4,377. This variation reflects differences in benefit packages, provider payment rates, population health needs, and administrative efficiency across state programs.\n\nTexas performance presents a mixed picture relative to peer states. With 4.0 million enrollees, Texas experienced a moderate 3.1% enrollment decline, similar to Pennsylvania's decrease and better than most large states. However, Texas significantly underperforms on quality measures, scoring 62 out of 100 and ranking 30th nationally\u2014well below the national average of 65.6 and substantially behind top-performing states like Massachusetts (81) and Minnesota (80). Texas does excel in managed care penetration at 93.3%, covering 3.9 million beneficiaries and exceeding the national average of 83.2%. The state's per-enrollee spending of $2,988 falls close to the national average, suggesting reasonable cost control despite quality challenges.\n\nLeadership should prioritize quality improvement initiatives given Texas's below-average performance in this critical area, particularly when compared to states with similar enrollment and spending patterns. The high managed care penetration rate provides a strong foundation for implementing targeted quality interventions through existing contractor relationships. Additionally, monitoring upcoming federal regulatory changes around interoperability standards and prior authorization processes will be essential for maintaining program compliance and operational efficiency.",
-  "texasSpotlight": "## Texas Medicaid Program Analysis\n\nTexas operates the nation's third-largest Medicaid program with 4.03 million enrollees, representing a substantial but concerning trajectory. The state's -3.1% year-over-year enrollment decline mirrors the national trend but falls between the moderate decreases seen in peer states like Pennsylvania (-3.1%) and the steeper drops in Illinois (-6.2%) and Michigan (-7.6%). However, North Carolina's +0.5% growth demonstrates that enrollment stabilization is achievable among large Southern states. At $2,988 per enrollee, Texas spends 4% above the national average of $2,869 but maintains efficiency compared to expansion states like Pennsylvania ($4,377) and Ohio ($3,561), while spending significantly more than fellow non-expansion state Florida ($2,031). The state's robust managed care penetration of 93.3% substantially exceeds the national average of 83.2%, indicating strong administrative infrastructure and cost containment mechanisms.\n\n**Key challenges emerge in quality performance, where Texas scores 62/100, ranking 30th nationally and trailing peer states.** While this \"moderate\" tier performance exceeds bottom-tier Southern states like South Carolina (53) and Alabama (52), it falls short of what's achievable for a state with Texas's resources and managed care sophistication. The quality gap represents the program's most critical vulnerability, particularly as federal oversight intensifies around outcome-based metrics. Areas to monitor include whether the current enrollment decline stabilizes as post-pandemic unwinding concludes, how effectively the state leverages its high managed care penetration to drive quality improvements, and potential federal regulatory changes around interoperability and prior authorization that could impact the state's administrative approach. Texas's $12.0 billion program scale provides leverage for innovation, but converting that capacity into measurably better health outcomes remains the defining challenge ahead.",
+  "executiveSummary": "## Executive Summary: Medicaid Program Performance Analysis\n\n**Enrollment and Spending Trends**\n\nNational Medicaid enrollment reached 75.3 million beneficiaries as of January 2026, with most major states experiencing enrollment declines following the end of pandemic-era continuous enrollment provisions. California and Illinois saw the steepest decreases at -6.2% year-over-year, while Michigan declined -7.6%. Texas, with 4.0 million enrollees, experienced a moderate -3.1% decline, outperforming California and Illinois but trailing North Carolina, which posted the only growth at +0.5% among major states. National per-enrollee spending averaged $2,869 in fiscal year 2024, with significant state variation ranging from Florida's efficient $2,031 per enrollee to Pennsylvania's $4,377. Texas spent $2,988 per enrollee, positioning the state slightly above the national average but well below high-cost states like Pennsylvania ($4,377), Massachusetts ($4,201), and Ohio ($3,561).\n\n**Quality Performance and State Comparisons**\n\nQuality measure performance reveals substantial geographic disparities, with the national average at 65.6 out of 100 points. New England and Western states dominate high performance, led by Massachusetts (81), Minnesota (80), and Vermont (79), while Southern states consistently underperform, with Mississippi (48), Oklahoma (51), and Alabama (52) ranking lowest. Texas scored 62 points, ranking 30th nationally in the \"moderate\" performance tier\u2014trailing peer states like North Carolina but outperforming several Southern neighbors. Notably, Texas maintains high managed care penetration at 93.3%, covering 3.9 million enrollees and exceeding the national average of 83.2%, suggesting strong infrastructure for coordinated care delivery. Recent federal regulatory activity indicates heightened focus on interoperability standards and prior authorization processes, while ongoing OIG oversight emphasizes the need for continued attention to program integrity across all state programs.",
+  "texasSpotlight": "## Texas Medicaid Program Analysis\n\nTexas operates the nation's third-largest Medicaid program with 4.03 million enrollees, trailing only California and New York. Despite its substantial size, Texas demonstrates relatively efficient cost management with per-enrollee expenditures of $2,988\u20144.2% higher than the national average of $2,869 but significantly lower than expansion states like Pennsylvania ($4,377) and Ohio ($3,561). The state's -3.1% year-over-year enrollment decline aligns closely with the national trend as states unwind pandemic-era continuous coverage policies, performing better than large peers like Illinois (-6.2%) and Michigan (-7.6%). Texas has embraced managed care more extensively than most states, with 93.3% penetration compared to the national average of 83.2%, suggesting a strong commitment to coordinated care delivery models that can drive both cost efficiency and care coordination.\n\nHowever, Texas faces significant quality challenges that demand attention. The state's quality score of 62/100 ranks 30th nationally and falls into the \"moderate\" performance tier\u2014a concerning position given its substantial resources and infrastructure. While Texas outperforms deep-south non-expansion peers like Alabama (52) and Mississippi (48), it lags behind expansion states and even some southern states like North Carolina, which achieved modest enrollment growth (+0.5%) and lower per-enrollee costs ($2,616). The combination of non-expansion status limiting coverage for low-income adults, coupled with middling quality performance, suggests Texas may be missing opportunities to leverage its scale and managed care infrastructure for better outcomes. Key areas to monitor include whether the state can translate its high managed care penetration into measurable quality improvements and how effectively it manages the ongoing enrollment transitions while maintaining access for its most vulnerable populations.",
   "alerts": [
     {
       "title": "Pennsylvania Per-Enrollee Spending 53% Above National Average",
-      "severity": "warning",
-      "description": "Pennsylvania's per-enrollee spending of $4,377 significantly exceeds the national average of $2,869, indicating potential cost inefficiencies.",
+      "severity": "critical",
+      "description": "Pennsylvania's per-enrollee spending of $4,377 is significantly higher than the national average of $2,869, indicating potential cost control issues.",
       "states": [
         "PA"
       ],
       "sourceLabel": "CMS Expenditure Data",
-      "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
-      "timestamp": "2026-04-26T07:23:56.168350",
+      "sourceUrl": "https://data.medicaid.gov/dataset/expenditures",
+      "timestamp": "2026-04-27T08:14:56.823965",
       "category": "ai_detected"
     },
     {
-      "title": "Five States Show Critically Low Quality Scores",
+      "title": "Five States Show Critically Low Quality Performance",
       "severity": "critical",
-      "description": "Arkansas, South Carolina, Alabama, Oklahoma, and Mississippi all scored below 55 on quality measures, well below the national average of 65.6.",
+      "description": "Arkansas, South Carolina, Alabama, Oklahoma, and Mississippi all scored below 55 on quality measures, well under the national average of 65.6.",
       "states": [
         "AR",
         "SC",
@@ -26,45 +26,65 @@
         "MS"
       ],
       "sourceLabel": "CMS Quality Measures",
-      "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
-      "timestamp": "2026-04-26T07:23:56.168350",
+      "sourceUrl": "https://data.medicaid.gov/dataset/quality-measures",
+      "timestamp": "2026-04-27T08:14:56.823965",
       "category": "ai_detected"
     },
     {
-      "title": "Florida Shows High Efficiency with Low Per-Enrollee Costs",
-      "severity": "info",
-      "description": "Florida maintains relatively low per-enrollee spending at $2,031 (29% below national average) while serving 3.6 million enrollees.",
-      "states": [
-        "FL"
-      ],
-      "sourceLabel": "CMS Expenditure Data",
-      "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
-      "timestamp": "2026-04-26T07:23:56.168350",
-      "category": "ai_detected"
-    },
-    {
-      "title": "Massachusetts Combines High Spending with Top Quality Score",
-      "severity": "info",
-      "description": "Massachusetts leads in quality (score: 81) but has the highest per-enrollee spending at $4,201, suggesting premium care delivery model.",
+      "title": "Massachusetts Combines High Quality with High Spending",
+      "severity": "warning",
+      "description": "Massachusetts ranks in top 5 for quality (81/100) but also has high per-enrollee costs at $4,201, suggesting premium care at premium prices.",
       "states": [
         "MA"
       ],
       "sourceLabel": "CMS Quality and Expenditure Data",
-      "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
-      "timestamp": "2026-04-26T07:23:56.168350",
+      "sourceUrl": "https://data.medicaid.gov/dataset/quality-measures",
+      "timestamp": "2026-04-27T08:14:56.823965",
+      "category": "ai_detected"
+    },
+    {
+      "title": "Florida Shows Unusually Low Per-Enrollee Spending",
+      "severity": "warning",
+      "description": "Florida's per-enrollee spending of $2,031 is 29% below the national average, which may indicate underfunding or efficient care delivery.",
+      "states": [
+        "FL"
+      ],
+      "sourceLabel": "CMS Expenditure Data",
+      "sourceUrl": "https://data.medicaid.gov/dataset/expenditures",
+      "timestamp": "2026-04-27T08:14:56.823965",
+      "category": "ai_detected"
+    },
+    {
+      "title": "No States Show Enrollment Growth Above 1%",
+      "severity": "info",
+      "description": "All major states except North Carolina show enrollment declines, with only NC showing modest growth of 0.5% year-over-year.",
+      "states": [
+        "CA",
+        "NY",
+        "TX",
+        "FL",
+        "IL",
+        "PA",
+        "OH",
+        "MI",
+        "GA"
+      ],
+      "sourceLabel": "CMS Enrollment Data",
+      "sourceUrl": "https://data.medicaid.gov/dataset/enrollment",
+      "timestamp": "2026-04-27T08:14:56.823965",
       "category": "ai_detected"
     }
   ],
   "executiveInsights": [
     {
       "rank": 1,
-      "title": "Texas Quality Score Below National Average - Improvement Opportunity",
-      "summary": "Texas ranks #30 of 50 states with a quality score of 62/100, below the national average of 65.6. This places Texas in the moderate tier, significantly behind top performers like MA (81) and MN (80).",
-      "whyItMatters": "Quality performance directly impacts contract renewals and CMS oversight. With 4M+ enrollees, even small improvements could generate substantial value and strengthen Accenture's position.",
+      "title": "Texas quality score ranks #30/50, below national average",
+      "summary": "Texas scored 62/100 on quality measures, ranking 30th nationally and falling below the national average of 65.6. This places Texas in the 'moderate' tier, well below high-performing states like MA (81) and MN (80).",
+      "whyItMatters": "Quality performance directly impacts contract renewals and CMS oversight intensity. Poor quality scores can trigger federal intervention and affect Accenture's deliverables.",
       "confidence": "high",
       "category": "quality",
       "impactLevel": "critical",
-      "actionPrompt": "Flag quality improvement initiatives to HHSC leadership and prioritize quality measure enhancement workstreams",
+      "actionPrompt": "Flag quality improvement initiatives to HHSC leadership immediately",
       "relatedStates": [
         "TX",
         "MA",
@@ -73,162 +93,173 @@
       "source": "curated_cms_2024",
       "sourceUrl": "",
       "id": "insight-1",
-      "timestamp": "2026-04-26T07:23:56.168350"
+      "timestamp": "2026-04-27T08:14:56.823965"
     },
     {
       "rank": 2,
-      "title": "Texas Per-Enrollee Spending 4% Above National Average",
-      "summary": "Texas spends $2,988 per enrollee compared to the national average of $2,869, representing a $119 premium per member. With 4.03M enrollees, this translates to approximately $480M in excess spending annually.",
-      "whyItMatters": "Cost efficiency is a key performance indicator for Medicaid programs. This variance suggests potential optimization opportunities that could deliver significant savings to justify Accenture's contract value.",
+      "title": "Texas per-enrollee costs $119 above national average at $2,988",
+      "summary": "Texas spends $2,988 per Medicaid enrollee compared to the national average of $2,869, representing a 4.2% premium. With 4M+ enrollees, this translates to roughly $480M in excess annual spending.",
+      "whyItMatters": "Higher per-enrollee costs suggest potential inefficiencies that Accenture could address through cost management initiatives, creating clear value propositions for expanded services.",
       "confidence": "high",
       "category": "financial",
       "impactLevel": "high",
-      "actionPrompt": "Review cost management strategies and benchmark against more efficient states like FL ($2,031/enrollee)",
+      "actionPrompt": "Review cost optimization opportunities with HHSC finance team",
       "relatedStates": [
-        "TX",
-        "FL"
+        "TX"
       ],
-      "source": "Expenditures dataset",
+      "source": "EXPENDITURES",
       "sourceUrl": "",
       "id": "insight-2",
-      "timestamp": "2026-04-26T07:23:56.168350"
+      "timestamp": "2026-04-27T08:14:56.823965"
     },
     {
       "rank": 3,
-      "title": "Texas Enrollment Declining 3.1% YoY - 125K Member Drop",
-      "summary": "Texas Medicaid enrollment decreased 3.1% year-over-year, representing approximately 125,000 fewer enrollees. This decline is consistent with national unwinding trends but impacts program scale and revenue.",
-      "whyItMatters": "Enrollment changes affect contract economics and operational planning. The decline may signal need for retention strategies or system adjustments to handle continued unwinding efficiently.",
-      "confidence": "high",
-      "category": "operational",
+      "title": "New federal interoperability and prior auth rules issued April 2026",
+      "summary": "CMS published new Medicare and Medicaid interoperability standards and prior authorization requirements in the Federal Register on April 14, 2026.",
+      "whyItMatters": "These regulatory changes will require system updates and compliance work that Accenture can support, representing potential contract expansions or modifications.",
+      "confidence": "medium",
+      "category": "regulatory",
       "impactLevel": "high",
-      "actionPrompt": "Review enrollment forecasting models and discuss unwinding support strategies with HHSC",
+      "actionPrompt": "Review new interoperability requirements impact on current deliverables",
       "relatedStates": [
         "TX"
       ],
-      "source": "Enrollment dataset",
-      "sourceUrl": "",
+      "source": "EXTERNAL SIGNALS",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/14/2026-07205/medicare-and-medicaid-programs-patient-protection-and-affordable-care-act-interoperability-standards",
       "id": "insight-3",
-      "timestamp": "2026-04-26T07:23:56.168350"
+      "timestamp": "2026-04-27T08:14:56.823965"
     },
     {
       "rank": 4,
-      "title": "Texas Managed Care Penetration 10 Points Above National Average",
-      "summary": "Texas achieves 93.3% managed care penetration versus 83.2% nationally, with 3.86M MC enrollees. This represents strong managed care adoption and operational efficiency.",
-      "whyItMatters": "High managed care penetration indicates successful program implementation and positions Texas as a model for other states. This strength can be leveraged in future contract discussions and expansions.",
+      "title": "Texas enrollment declined 3.1% YoY to 4.03M members",
+      "summary": "Texas Medicaid enrollment dropped from approximately 4.16M to 4.03M enrollees, a 3.1% year-over-year decline that aligns with national unwinding trends.",
+      "whyItMatters": "Enrollment declines may reduce contract values and change operational requirements, requiring Accenture to adjust staffing and deliverable scopes accordingly.",
       "confidence": "high",
       "category": "operational",
       "impactLevel": "moderate",
-      "actionPrompt": "Document managed care success metrics as proof points for contract value and expansion opportunities",
+      "actionPrompt": "Flag enrollment impact on contract scope to program management",
       "relatedStates": [
         "TX"
       ],
-      "source": "Managed Care dataset",
-      "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
+      "source": "ENROLLMENT",
+      "sourceUrl": "",
       "id": "insight-4",
-      "timestamp": "2026-04-26T07:23:56.168350"
+      "timestamp": "2026-04-27T08:14:56.823965"
     },
     {
       "rank": 5,
-      "title": "New Federal Interoperability Requirements Emerging",
-      "summary": "Federal Register shows new Medicare and Medicaid interoperability standards and prior authorization requirements being proposed for 2026. These regulatory changes will impact system requirements and compliance.",
-      "whyItMatters": "Upcoming regulatory changes create opportunities for additional scope and demonstrate Accenture's value in navigating complex compliance requirements for HHSC.",
-      "confidence": "medium",
-      "category": "regulatory",
+      "title": "Texas managed care penetration 93.3% exceeds national average of 83.2%",
+      "summary": "Texas has 93.3% managed care penetration with 3.86M MC enrollees, significantly above the national average of 83.2%. This represents one of the highest MC adoption rates nationally.",
+      "whyItMatters": "High managed care penetration indicates sophisticated program administration needs that align with Accenture's capabilities, supporting arguments for expanded technical services.",
+      "confidence": "high",
+      "category": "operational",
       "impactLevel": "moderate",
-      "actionPrompt": "Review Federal Register interoperability requirements and assess impact on current Texas systems",
+      "actionPrompt": "Review managed care optimization opportunities with HHSC",
       "relatedStates": [
         "TX"
       ],
-      "source": "External Signals - Federal Register",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/14/2026-07205/medicare-and-medicaid-programs-patient-protection-and-affordable-care-act-interoperability-standards",
+      "source": "MANAGED CARE",
+      "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
       "id": "insight-5",
-      "timestamp": "2026-04-26T07:23:56.168350"
+      "timestamp": "2026-04-27T08:14:56.823965"
     }
   ],
   "riskOpportunity": [
     {
-      "label": "Managed care recompete",
-      "description": "Texas's 93.3% managed care penetration creates vulnerability if major MCO contracts are recompeted and Accenture loses positioning.",
-      "risk": 75,
+      "label": "Texas Managed Care Recompete",
+      "description": "Texas's 93.3% managed care penetration creates major procurement opportunities as contracts come up for renewal.",
+      "risk": 25,
       "opportunity": 85,
       "impact": 90,
-      "trend": "stable",
+      "trend": "improving",
       "category": "procurement",
-      "recommendedAction": "Monitor HHSC procurement portal and build relationships with emerging MCO vendors.",
+      "recommendedAction": "Monitor HHSC procurement portal and position for managed care organization technology and operations support opportunities.",
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "id": "ro-1"
     },
     {
-      "label": "Quality measure gap",
-      "description": "Texas ranks #30 nationally with 62/100 quality score, creating pressure for performance improvement initiatives.",
-      "risk": 45,
-      "opportunity": 70,
-      "impact": 75,
-      "trend": "deteriorating",
+      "label": "Quality Measure Gap",
+      "description": "Texas ranks #30 nationally with a 62/100 quality score, indicating significant improvement needs.",
+      "risk": 40,
+      "opportunity": 75,
+      "impact": 70,
+      "trend": "stable",
       "category": "quality",
-      "recommendedAction": "Develop quality improvement consulting offerings targeting Texas's specific performance gaps.",
+      "recommendedAction": "Develop quality improvement solutions targeting Texas's specific performance gaps to reach top-tier status.",
       "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
       "id": "ro-2"
     },
     {
-      "label": "Enrollment decline recovery",
-      "description": "Texas's -3.1% YoY enrollment decline presents opportunity for growth strategy and system optimization work.",
-      "risk": 30,
-      "opportunity": 60,
-      "impact": 65,
-      "trend": "improving",
+      "label": "Enrollment Decline Impact",
+      "description": "Texas Medicaid enrollment dropped 3.1% YoY, potentially reducing program scope and budgets.",
+      "risk": 65,
+      "opportunity": 30,
+      "impact": 60,
+      "trend": "deteriorating",
       "category": "operations",
-      "recommendedAction": "Position analytics and enrollment optimization services to help reverse declining membership trends.",
+      "recommendedAction": "Pivot service offerings toward efficiency and cost optimization to align with shrinking enrollment base.",
       "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
       "id": "ro-3"
     },
     {
-      "label": "Federal interoperability mandate",
-      "description": "New CMS interoperability and prior authorization standards require significant system updates across Texas Medicaid infrastructure.",
-      "risk": 25,
+      "label": "Federal Interoperability Mandate",
+      "description": "New CMS interoperability and prior authorization standards create compliance requirements for state systems.",
+      "risk": 45,
       "opportunity": 80,
-      "impact": 85,
+      "impact": 75,
       "trend": "improving",
       "category": "policy",
-      "recommendedAction": "Develop comprehensive interoperability implementation roadmap for HHSC and MCO partners.",
+      "recommendedAction": "Build specialized interoperability consulting practice to help Texas HHSC meet federal compliance deadlines.",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/04/14/2026-07205/medicare-and-medicaid-programs-patient-protection-and-affordable-care-act-interoperability-standards",
       "id": "ro-4"
     },
     {
-      "label": "OIG oversight intensification",
-      "description": "Active HHS OIG Medicaid oversight creates compliance risk but also demand for audit preparation and remediation services.",
-      "risk": 65,
-      "opportunity": 45,
-      "impact": 70,
-      "trend": "deteriorating",
-      "category": "quality",
-      "recommendedAction": "Strengthen compliance consulting capabilities and proactive audit preparation services.",
+      "label": "HHS OIG Oversight Risk",
+      "description": "Active OIG oversight creates audit and compliance risks for current and future Texas Medicaid operations.",
+      "risk": 70,
+      "opportunity": 40,
+      "impact": 80,
+      "trend": "stable",
+      "category": "operations",
+      "recommendedAction": "Strengthen compliance monitoring and documentation practices across all Texas HHSC engagements.",
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "id": "ro-5"
     },
     {
-      "label": "Cost efficiency pressure",
-      "description": "Texas's $2,988 per-enrollee spend below national average of $2,869 suggests budget constraints limiting program expansion.",
-      "risk": 55,
-      "opportunity": 35,
-      "impact": 60,
+      "label": "Per-Enrollee Cost Efficiency",
+      "description": "Texas's $2,988 per-enrollee cost sits above efficient states like Florida ($2,031), creating optimization pressure.",
+      "risk": 35,
+      "opportunity": 65,
+      "impact": 55,
       "trend": "stable",
       "category": "operations",
-      "recommendedAction": "Focus on cost optimization and efficiency solutions rather than expansion-based growth strategies.",
+      "recommendedAction": "Develop cost reduction strategies benchmarked against high-performing, low-cost states.",
       "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
       "id": "ro-6"
     },
     {
-      "label": "Competitive procurement shift",
-      "description": "Texas ESBD portal indicates increased procurement transparency potentially benefiting smaller competitors over established vendors.",
-      "risk": 70,
-      "opportunity": 25,
-      "impact": 55,
-      "trend": "deteriorating",
+      "label": "Multi-State Competitive Expansion",
+      "description": "Success in Texas positions Accenture for similar opportunities in other large Medicaid states facing similar challenges.",
+      "risk": 20,
+      "opportunity": 90,
+      "impact": 85,
+      "trend": "improving",
       "category": "competitive",
-      "recommendedAction": "Enhance competitive intelligence and develop partnership strategies with emerging vendors.",
-      "sourceUrl": "https://www.txsmartbuy.gov/esbd",
+      "recommendedAction": "Develop replicable service offerings that can scale to other large states with similar managed care penetration.",
+      "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "id": "ro-7"
+    },
+    {
+      "label": "CMS Data Collection Changes",
+      "description": "Proposed changes to CMS information collection activities may alter reporting requirements and system needs.",
+      "risk": 55,
+      "opportunity": 50,
+      "impact": 45,
+      "trend": "deteriorating",
+      "category": "policy",
+      "recommendedAction": "Monitor proposed rule changes and prepare system modification capabilities for new reporting requirements.",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/22/2026-07803/medicaid-and-childrens-health-insurance-program-chip-generic-information-collection-activities",
+      "id": "ro-8"
     }
   ],
   "pulseMetrics": [
@@ -237,15 +268,15 @@
       "value": "4.03M",
       "delta": "-3.1% YoY",
       "deltaDirection": "down",
-      "tooltip": "Texas Medicaid enrollment decreased 3.1% year-over-year to 4.03 million enrollees.",
+      "tooltip": "Texas has 4,032,864 Medicaid enrollees as of January 2026.",
       "sourceUrl": "\u2014"
     },
     {
-      "label": "12-Mo Enrollment Delta",
+      "label": "Enrollment Change",
       "value": "-3.1%",
-      "delta": "\u2014",
+      "delta": "YoY",
       "deltaDirection": "down",
-      "tooltip": "Texas Medicaid enrollment declined 3.1% compared to the prior year period.",
+      "tooltip": "Texas Medicaid enrollment declined 3.1% year-over-year.",
       "sourceUrl": "\u2014"
     },
     {
@@ -253,7 +284,7 @@
       "value": "$2,988",
       "delta": "\u2014",
       "deltaDirection": "neutral",
-      "tooltip": "Texas spent $2,988 per Medicaid enrollee in fiscal year 2024.",
+      "tooltip": "Texas spends $2,988 per Medicaid enrollee annually in fiscal year 2024.",
       "sourceUrl": "\u2014"
     },
     {
@@ -261,31 +292,31 @@
       "value": "93.3%",
       "delta": "\u2014",
       "deltaDirection": "up",
-      "tooltip": "93.3% of Texas Medicaid enrollees receive care through managed care plans.",
+      "tooltip": "Texas has 93.3% managed care penetration with 3,863,808 managed care enrollees.",
       "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369"
     },
     {
       "label": "Quality Score",
       "value": "62/100",
-      "delta": "\u2014",
-      "deltaDirection": "down",
-      "tooltip": "Texas ranks #30 of 50 states with a moderate quality score of 62 out of 100.",
-      "sourceUrl": "curated_cms_2024"
+      "delta": "Rank #30",
+      "deltaDirection": "neutral",
+      "tooltip": "Texas scored 62 out of 100 on quality measures, ranking 30th of 50 states.",
+      "sourceUrl": "\u2014"
     },
     {
       "label": "Active Procurement Items",
       "value": "2",
       "delta": "\u2014",
       "deltaDirection": "neutral",
-      "tooltip": "Two active procurement portals are being monitored for Texas Medicaid opportunities.",
+      "tooltip": "Two Texas procurement portals are actively monitoring opportunities.",
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs"
     },
     {
       "label": "OIG/Regulatory Signals",
-      "value": "6",
+      "value": "5",
       "delta": "\u2014",
       "deltaDirection": "neutral",
-      "tooltip": "Six OIG oversight items and federal regulatory signals are currently being tracked.",
+      "tooltip": "Five active regulatory and oversight items are currently in progress.",
       "sourceUrl": "https://oig.hhs.gov/reports/"
     },
     {
@@ -293,11 +324,11 @@
       "value": "\u2014",
       "delta": "\u2014",
       "deltaDirection": "neutral",
-      "tooltip": "No specific milestone dates are available in the current data set.",
+      "tooltip": "No specific milestone date is available in the current data.",
       "sourceUrl": "\u2014"
     }
   ],
-  "updated": "2026-04-26T07:23:56.168350",
+  "updated": "2026-04-27T08:14:56.823965",
   "source": "claude_api",
   "model": "claude-sonnet-4-20250514"
 }
