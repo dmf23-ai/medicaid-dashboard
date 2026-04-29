@@ -1,16 +1,6 @@
 {
   "signals": [
     {
-      "id": "fr-2026-08190",
-      "title": "Medicaid Program; 2028 Medicaid Home and Community-Based Services Quality Measure Set",
-      "summary": "The Home and Community-Based Services (HCBS) Quality Measure Set is a set of nationally standardized quality measures for Medicaid- funded HCBS that is intended to promote more common and consistent use within and across States of nationally standardized quality measures in HCBS \u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/28/2026-08190/medicaid-program-2028-medicaid-home-and-community-based-services-quality-measure-set",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-04-28"
-    },
-    {
       "id": "hhsc-opportunities",
       "title": "Texas HHSC Procurement Opportunities portal",
       "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
@@ -18,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-04-28",
+      "timestamp": "2026-04-29",
       "affectedStates": [
         "TX"
       ]
@@ -31,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-04-28"
+      "timestamp": "2026-04-29"
     },
     {
       "id": "oig-workplan",
@@ -41,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-04-28"
+      "timestamp": "2026-04-29"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -51,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-04-28",
+      "timestamp": "2026-04-29",
       "affectedStates": [
         "TX"
       ]
@@ -64,10 +54,20 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-04-28",
+      "timestamp": "2026-04-29",
       "affectedStates": [
         "OH"
       ]
+    },
+    {
+      "id": "fr-2026-08190",
+      "title": "Medicaid Program; 2028 Medicaid Home and Community-Based Services Quality Measure Set",
+      "summary": "The Home and Community-Based Services (HCBS) Quality Measure Set is a set of nationally standardized quality measures for Medicaid- funded HCBS that is intended to promote more common and consistent use within and across States of nationally standardized quality measures in HCBS \u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/28/2026-08190/medicaid-program-2028-medicaid-home-and-community-based-services-quality-measure-set",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-04-28"
     },
     {
       "id": "fr-2026-07803",
@@ -103,9 +103,9 @@
   "national": {
     "totalSignals": 9,
     "byCategory": {
-      "regulatory": 4,
       "procurement": 3,
-      "oig": 2
+      "oig": 2,
+      "regulatory": 4
     },
     "byRelevance": {
       "high": 5,
@@ -114,6 +114,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-04-28T08:15:33.458114",
+  "updated": "2026-04-29T08:08:19.655814",
   "source": "aggregated"
 }
