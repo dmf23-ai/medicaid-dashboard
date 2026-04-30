@@ -8,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-04-29",
+      "timestamp": "2026-04-30",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-04-29"
+      "timestamp": "2026-04-30"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-04-29"
+      "timestamp": "2026-04-30"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-04-29",
+      "timestamp": "2026-04-30",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +54,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-04-29",
+      "timestamp": "2026-04-30",
       "affectedStates": [
         "OH"
       ]
@@ -88,32 +88,22 @@
       "category": "regulatory",
       "relevance": "high",
       "timestamp": "2026-04-14"
-    },
-    {
-      "id": "fr-2026-06861",
-      "title": "Medicare and Medicaid Programs: Application From DNV Healthcare USA Inc. for Continued CMS-Approval of Its Hospital Accreditation Program",
-      "summary": "This notice acknowledges the receipt of an application from DNV Healthcare USA Inc. (DNV) for continued recognition as a national accrediting organization for its hospital accreditation program to participate in the Medicare or Medicaid programs.",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/09/2026-06861/medicare-and-medicaid-programs-application-from-dnv-healthcare-usa-inc-for-continued-cms-approval-of",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-04-09"
     }
   ],
   "national": {
-    "totalSignals": 9,
+    "totalSignals": 8,
     "byCategory": {
       "procurement": 3,
       "oig": 2,
-      "regulatory": 4
+      "regulatory": 3
     },
     "byRelevance": {
-      "high": 5,
+      "high": 4,
       "medium": 3,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-04-29T08:08:19.655814",
+  "updated": "2026-04-30T08:12:25.608956",
   "source": "aggregated"
 }
