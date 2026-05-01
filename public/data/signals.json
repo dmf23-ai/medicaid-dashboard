@@ -1,6 +1,26 @@
 {
   "signals": [
     {
+      "id": "fr-2026-08513",
+      "title": "Medicare Program; Meeting Announcement for the Public and the Medicare Advisory Panel on Clinical Diagnostic Laboratory Tests-September 2026",
+      "summary": "This notice announces meeting dates for a Clinical Laboratory Fee Schedule (CLFS) public meeting that includes the Medicare Advisory Panel on Clinical Diagnostic Laboratory Tests (the Panel) on Tuesday, September 15, 2026 and Wednesday, September 16, 2026. The purpose of the Pane\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/05/01/2026-08513/medicare-program-meeting-announcement-for-the-public-and-the-medicare-advisory-panel-on-clinical",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-05-01"
+    },
+    {
+      "id": "fr-2026-08512",
+      "title": "Medicare Program: Rechartering, Membership, and Meeting Announcement for the Medicare Advisory Panel on Clinical Diagnostic Laboratory Tests",
+      "summary": "This notice announces the rechartering of the Medicare Advisory Panel on Clinical Diagnostic Laboratory Tests (the Panel), appointment of five new members to the Panel, and the next public meeting dates for the Panel on Tuesday, July 14, 2026, and Wednesday, July 15, 2026. The pu\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/05/01/2026-08512/medicare-program-rechartering-membership-and-meeting-announcement-for-the-medicare-advisory-panel-on",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-05-01"
+    },
+    {
       "id": "hhsc-opportunities",
       "title": "Texas HHSC Procurement Opportunities portal",
       "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
@@ -8,7 +28,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-04-30",
+      "timestamp": "2026-05-01",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +41,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-04-30"
+      "timestamp": "2026-05-01"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +51,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-04-30"
+      "timestamp": "2026-05-01"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +61,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-04-30",
+      "timestamp": "2026-05-01",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +74,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-04-30",
+      "timestamp": "2026-05-01",
       "affectedStates": [
         "OH"
       ]
@@ -78,32 +98,22 @@
       "category": "regulatory",
       "relevance": "high",
       "timestamp": "2026-04-22"
-    },
-    {
-      "id": "fr-2026-07205",
-      "title": "Medicare and Medicaid Programs; Patient Protection and Affordable Care Act; Interoperability Standards and Prior Authorization for Drugs for Medicare Advantage Organizations, Medicaid Managed Care Pla",
-      "summary": "These proposals are intended to improve the electronic exchange of health care data and streamline processes related to prior authorization by increasing the interoperability of systems used across the health care industry. We are proposing new requirements for Medicare Advantage\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/04/14/2026-07205/medicare-and-medicaid-programs-patient-protection-and-affordable-care-act-interoperability-standards",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-04-14"
     }
   ],
   "national": {
-    "totalSignals": 8,
+    "totalSignals": 9,
     "byCategory": {
+      "regulatory": 4,
       "procurement": 3,
-      "oig": 2,
-      "regulatory": 3
+      "oig": 2
     },
     "byRelevance": {
-      "high": 4,
+      "high": 5,
       "medium": 3,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-04-30T08:12:25.608956",
+  "updated": "2026-05-01T08:06:34.827175",
   "source": "aggregated"
 }
