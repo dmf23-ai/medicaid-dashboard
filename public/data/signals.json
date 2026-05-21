@@ -1,16 +1,6 @@
 {
   "signals": [
     {
-      "id": "fr-2026-10097",
-      "title": "Medicaid and Children's Health Insurance Program (CHIP) Generic Information Collection Activities: Proposed Collection; Comment Request",
-      "summary": "On May 28, 2010, the Office of Management and Budget (OMB) issued Paperwork Reduction Act (PRA) guidance related to the \"generic\" clearance process. Generally, this is an expedited process by which agencies may obtain OMB's approval of collection of information requests that are \u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/05/20/2026-10097/medicaid-and-childrens-health-insurance-program-chip-generic-information-collection-activities",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-05-20"
-    },
-    {
       "id": "hhsc-opportunities",
       "title": "Texas HHSC Procurement Opportunities portal",
       "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
@@ -18,20 +8,10 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-05-20",
+      "timestamp": "2026-05-21",
       "affectedStates": [
         "TX"
       ]
-    },
-    {
-      "id": "fr-2026-10050",
-      "title": "Patient Protection and Affordable Care Act, HHS Notice of Benefit and Payment Parameters for 2027; and Basic Health Program",
-      "summary": "This final rule contains provisions to improve implementation of the Patient Protection and Affordable Care Act, including payment parameters and provisions related to the HHS-operated risk adjustment and risk adjustment data validation (HHS-RADV) programs, as well as 2027 user f\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/05/20/2026-10050/patient-protection-and-affordable-care-act-hhs-notice-of-benefit-and-payment-parameters-for-2027-and",
-      "category": "regulatory",
-      "relevance": "medium",
-      "timestamp": "2026-05-20"
     },
     {
       "id": "oig-portfolio-medicaid",
@@ -41,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-05-20"
+      "timestamp": "2026-05-21"
     },
     {
       "id": "oig-workplan",
@@ -51,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-05-20"
+      "timestamp": "2026-05-21"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -61,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-05-20",
+      "timestamp": "2026-05-21",
       "affectedStates": [
         "TX"
       ]
@@ -74,10 +54,30 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-05-20",
+      "timestamp": "2026-05-21",
       "affectedStates": [
         "OH"
       ]
+    },
+    {
+      "id": "fr-2026-10097",
+      "title": "Medicaid and Children's Health Insurance Program (CHIP) Generic Information Collection Activities: Proposed Collection; Comment Request",
+      "summary": "On May 28, 2010, the Office of Management and Budget (OMB) issued Paperwork Reduction Act (PRA) guidance related to the \"generic\" clearance process. Generally, this is an expedited process by which agencies may obtain OMB's approval of collection of information requests that are \u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/05/20/2026-10097/medicaid-and-childrens-health-insurance-program-chip-generic-information-collection-activities",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-05-20"
+    },
+    {
+      "id": "fr-2026-10050",
+      "title": "Patient Protection and Affordable Care Act, HHS Notice of Benefit and Payment Parameters for 2027; and Basic Health Program",
+      "summary": "This final rule contains provisions to improve implementation of the Patient Protection and Affordable Care Act, including payment parameters and provisions related to the HHS-operated risk adjustment and risk adjustment data validation (HHS-RADV) programs, as well as 2027 user f\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/05/20/2026-10050/patient-protection-and-affordable-care-act-hhs-notice-of-benefit-and-payment-parameters-for-2027-and",
+      "category": "regulatory",
+      "relevance": "medium",
+      "timestamp": "2026-05-20"
     },
     {
       "id": "fr-2026-09718",
@@ -143,9 +143,9 @@
   "national": {
     "totalSignals": 13,
     "byCategory": {
-      "regulatory": 8,
       "procurement": 3,
-      "oig": 2
+      "oig": 2,
+      "regulatory": 8
     },
     "byRelevance": {
       "high": 8,
@@ -154,6 +154,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-05-20T08:58:57.087951",
+  "updated": "2026-05-21T09:31:20.506641",
   "source": "aggregated"
 }
