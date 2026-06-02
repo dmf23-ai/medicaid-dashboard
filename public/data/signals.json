@@ -8,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-06-01",
+      "timestamp": "2026-06-02",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-06-01"
+      "timestamp": "2026-06-02"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-06-01"
+      "timestamp": "2026-06-02"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-06-01",
+      "timestamp": "2026-06-02",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +54,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-06-01",
+      "timestamp": "2026-06-02",
       "affectedStates": [
         "OH"
       ]
@@ -138,32 +138,22 @@
       "category": "regulatory",
       "relevance": "high",
       "timestamp": "2026-05-01"
-    },
-    {
-      "id": "fr-2026-08512",
-      "title": "Medicare Program: Rechartering, Membership, and Meeting Announcement for the Medicare Advisory Panel on Clinical Diagnostic Laboratory Tests",
-      "summary": "This notice announces the rechartering of the Medicare Advisory Panel on Clinical Diagnostic Laboratory Tests (the Panel), appointment of five new members to the Panel, and the next public meeting dates for the Panel on Tuesday, July 14, 2026, and Wednesday, July 15, 2026. The pu\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/05/01/2026-08512/medicare-program-rechartering-membership-and-meeting-announcement-for-the-medicare-advisory-panel-on",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-05-01"
     }
   ],
   "national": {
-    "totalSignals": 14,
+    "totalSignals": 13,
     "byCategory": {
       "procurement": 3,
       "oig": 2,
-      "regulatory": 9
+      "regulatory": 8
     },
     "byRelevance": {
-      "high": 9,
+      "high": 8,
       "medium": 4,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-06-01T11:22:32.520421",
+  "updated": "2026-06-02T10:13:27.764454",
   "source": "aggregated"
 }
