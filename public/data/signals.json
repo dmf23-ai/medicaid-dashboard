@@ -1,16 +1,6 @@
 {
   "signals": [
     {
-      "id": "fr-2026-11094",
-      "title": "Medicaid Program; Community Engagement Requirement for Certain Individuals",
-      "summary": "This interim final rule with comment period (IFC) interprets and implements the community engagement requirement in Medicaid under section 1902(xx) of the Social Security Act. States are required to implement the new requirement no later than January 1, 2027. This IFC specifies t\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/06/03/2026-11094/medicaid-program-community-engagement-requirement-for-certain-individuals",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-06-03"
-    },
-    {
       "id": "hhsc-opportunities",
       "title": "Texas HHSC Procurement Opportunities portal",
       "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
@@ -18,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-06-03",
+      "timestamp": "2026-06-04",
       "affectedStates": [
         "TX"
       ]
@@ -31,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-06-03"
+      "timestamp": "2026-06-04"
     },
     {
       "id": "oig-workplan",
@@ -41,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-06-03"
+      "timestamp": "2026-06-04"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -51,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-06-03",
+      "timestamp": "2026-06-04",
       "affectedStates": [
         "TX"
       ]
@@ -64,10 +54,20 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-06-03",
+      "timestamp": "2026-06-04",
       "affectedStates": [
         "OH"
       ]
+    },
+    {
+      "id": "fr-2026-11094",
+      "title": "Medicaid Program; Community Engagement Requirement for Certain Individuals",
+      "summary": "This interim final rule with comment period (IFC) interprets and implements the community engagement requirement in Medicaid under section 1902(xx) of the Social Security Act. States are required to implement the new requirement no later than January 1, 2027. This IFC specifies t\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/06/03/2026-11094/medicaid-program-community-engagement-requirement-for-certain-individuals",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-06-03"
     },
     {
       "id": "fr-2026-10292",
@@ -143,9 +143,9 @@
   "national": {
     "totalSignals": 13,
     "byCategory": {
-      "regulatory": 8,
       "procurement": 3,
-      "oig": 2
+      "oig": 2,
+      "regulatory": 8
     },
     "byRelevance": {
       "high": 8,
@@ -154,6 +154,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-06-03T10:49:17.308882",
+  "updated": "2026-06-04T09:49:16.210642",
   "source": "aggregated"
 }
