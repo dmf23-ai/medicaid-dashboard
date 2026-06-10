@@ -8,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-06-09",
+      "timestamp": "2026-06-10",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-06-09"
+      "timestamp": "2026-06-10"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-06-09"
+      "timestamp": "2026-06-10"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-06-09",
+      "timestamp": "2026-06-10",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +54,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-06-09",
+      "timestamp": "2026-06-10",
       "affectedStates": [
         "OH"
       ]
@@ -128,32 +128,22 @@
       "category": "regulatory",
       "relevance": "high",
       "timestamp": "2026-05-14"
-    },
-    {
-      "id": "fr-2026-09329",
-      "title": "Medicaid and Children's Health Insurance Program (CHIP) Generic Information Collection Activities: Proposed Collection; Reopening of Comment Period",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) is reopening the comment period for a limited time for a collection of information notice that published in the Federal Register on April 22, 2026. The notice is entitled \"Medicaid and Children's Health Insurance Program (CHIP) G\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/05/12/2026-09329/medicaid-and-childrens-health-insurance-program-chip-generic-information-collection-activities",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-05-12"
     }
   ],
   "national": {
-    "totalSignals": 13,
+    "totalSignals": 12,
     "byCategory": {
       "procurement": 3,
       "oig": 2,
-      "regulatory": 8
+      "regulatory": 7
     },
     "byRelevance": {
-      "high": 8,
+      "high": 7,
       "medium": 4,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-06-09T09:32:26.230480",
+  "updated": "2026-06-10T09:48:47.750368",
   "source": "aggregated"
 }
