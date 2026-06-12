@@ -1,16 +1,6 @@
 {
   "signals": [
     {
-      "id": "fr-2026-11743",
-      "title": "Statement of Organization, Functions, and Delegations of Authority",
-      "summary": "The Centers for Medicare and Medicaid Services (CMS), Office of Health Technology and Products (OHTP), has been established. This new organizational component will provide enterprise leadership and oversight for CMS healthcare technology modernization, digital products, and trans\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/06/11/2026-11743/statement-of-organization-functions-and-delegations-of-authority",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-06-11"
-    },
-    {
       "id": "hhsc-opportunities",
       "title": "Texas HHSC Procurement Opportunities portal",
       "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
@@ -18,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-06-11",
+      "timestamp": "2026-06-12",
       "affectedStates": [
         "TX"
       ]
@@ -31,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-06-11"
+      "timestamp": "2026-06-12"
     },
     {
       "id": "oig-workplan",
@@ -41,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-06-11"
+      "timestamp": "2026-06-12"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -51,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-06-11",
+      "timestamp": "2026-06-12",
       "affectedStates": [
         "TX"
       ]
@@ -64,10 +54,20 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-06-11",
+      "timestamp": "2026-06-12",
       "affectedStates": [
         "OH"
       ]
+    },
+    {
+      "id": "fr-2026-11743",
+      "title": "Statement of Organization, Functions, and Delegations of Authority",
+      "summary": "The Centers for Medicare and Medicaid Services (CMS), Office of Health Technology and Products (OHTP), has been established. This new organizational component will provide enterprise leadership and oversight for CMS healthcare technology modernization, digital products, and trans\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/06/11/2026-11743/statement-of-organization-functions-and-delegations-of-authority",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-06-11"
     },
     {
       "id": "fr-2026-11094",
@@ -143,9 +143,9 @@
   "national": {
     "totalSignals": 13,
     "byCategory": {
-      "regulatory": 8,
       "procurement": 3,
-      "oig": 2
+      "oig": 2,
+      "regulatory": 8
     },
     "byRelevance": {
       "high": 8,
@@ -154,6 +154,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-06-11T10:14:54.609062",
+  "updated": "2026-06-12T10:02:18.414396",
   "source": "aggregated"
 }
