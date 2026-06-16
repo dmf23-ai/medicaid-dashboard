@@ -8,10 +8,20 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-06-15",
+      "timestamp": "2026-06-16",
       "affectedStates": [
         "TX"
       ]
+    },
+    {
+      "id": "fr-2026-12069",
+      "title": "Medicare Program; Strengthening Oversight of Accrediting Organizations (AOs) and Preventing AO Conflicts of Interest, and Related Provisions",
+      "summary": "This final rule with comment period sets forth provisions to strengthen the oversight of Medicare national accrediting organizations by addressing conflicts of interest, establishing consistent standards, processes, and definitions, and updating the validation and performance sta\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/06/16/2026-12069/medicare-program-strengthening-oversight-of-accrediting-organizations-aos-and-preventing-ao",
+      "category": "regulatory",
+      "relevance": "medium",
+      "timestamp": "2026-06-16"
     },
     {
       "id": "oig-portfolio-medicaid",
@@ -21,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-06-15"
+      "timestamp": "2026-06-16"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +41,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-06-15"
+      "timestamp": "2026-06-16"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +51,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-06-15",
+      "timestamp": "2026-06-16",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +64,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-06-15",
+      "timestamp": "2026-06-16",
       "affectedStates": [
         "OH"
       ]
@@ -118,42 +128,22 @@
       "category": "regulatory",
       "relevance": "high",
       "timestamp": "2026-05-15"
-    },
-    {
-      "id": "fr-2026-09717",
-      "title": "Medicare, Medicaid, and Children's Health Insurance Programs: Announcement of Nationwide Temporary Moratoria on Enrollment of Home Health Agencies (HHAs)",
-      "summary": "This notice announces the imposition of a 6-month nationwide moratorium on the Medicare enrollment of home health agencies (HHAs).",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/05/15/2026-09717/medicare-medicaid-and-childrens-health-insurance-programs-announcement-of-nationwide-temporary",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-05-15"
-    },
-    {
-      "id": "fr-2026-09630",
-      "title": "Medicare and Medicaid Programs; Quarterly Listing of Program Issuances-January through March 2026",
-      "summary": "This quarterly notice lists Centers for Medicare & Medicaid Services (CMS) manual instructions, substantive and interpretive regulations, and other Federal Register notices that were published in the 3-month period, relating to the Medicare and Medicaid programs and other program\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/05/14/2026-09630/medicare-and-medicaid-programs-quarterly-listing-of-program-issuances-january-through-march-2026",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-05-14"
     }
   ],
   "national": {
-    "totalSignals": 13,
+    "totalSignals": 12,
     "byCategory": {
       "procurement": 3,
-      "oig": 2,
-      "regulatory": 8
+      "regulatory": 7,
+      "oig": 2
     },
     "byRelevance": {
-      "high": 8,
-      "medium": 4,
+      "high": 6,
+      "medium": 5,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-06-15T11:53:51.017985",
+  "updated": "2026-06-16T11:01:41.406999",
   "source": "aggregated"
 }
