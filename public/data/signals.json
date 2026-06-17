@@ -8,20 +8,10 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-06-16",
+      "timestamp": "2026-06-17",
       "affectedStates": [
         "TX"
       ]
-    },
-    {
-      "id": "fr-2026-12069",
-      "title": "Medicare Program; Strengthening Oversight of Accrediting Organizations (AOs) and Preventing AO Conflicts of Interest, and Related Provisions",
-      "summary": "This final rule with comment period sets forth provisions to strengthen the oversight of Medicare national accrediting organizations by addressing conflicts of interest, establishing consistent standards, processes, and definitions, and updating the validation and performance sta\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/06/16/2026-12069/medicare-program-strengthening-oversight-of-accrediting-organizations-aos-and-preventing-ao",
-      "category": "regulatory",
-      "relevance": "medium",
-      "timestamp": "2026-06-16"
     },
     {
       "id": "oig-portfolio-medicaid",
@@ -31,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-06-16"
+      "timestamp": "2026-06-17"
     },
     {
       "id": "oig-workplan",
@@ -41,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-06-16"
+      "timestamp": "2026-06-17"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -51,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-06-16",
+      "timestamp": "2026-06-17",
       "affectedStates": [
         "TX"
       ]
@@ -64,10 +54,20 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-06-16",
+      "timestamp": "2026-06-17",
       "affectedStates": [
         "OH"
       ]
+    },
+    {
+      "id": "fr-2026-12069",
+      "title": "Medicare Program; Strengthening Oversight of Accrediting Organizations (AOs) and Preventing AO Conflicts of Interest, and Related Provisions",
+      "summary": "This final rule with comment period sets forth provisions to strengthen the oversight of Medicare national accrediting organizations by addressing conflicts of interest, establishing consistent standards, processes, and definitions, and updating the validation and performance sta\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/06/16/2026-12069/medicare-program-strengthening-oversight-of-accrediting-organizations-aos-and-preventing-ao",
+      "category": "regulatory",
+      "relevance": "medium",
+      "timestamp": "2026-06-16"
     },
     {
       "id": "fr-2026-11743",
@@ -134,8 +134,8 @@
     "totalSignals": 12,
     "byCategory": {
       "procurement": 3,
-      "regulatory": 7,
-      "oig": 2
+      "oig": 2,
+      "regulatory": 7
     },
     "byRelevance": {
       "high": 6,
@@ -144,6 +144,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-06-16T11:01:41.406999",
+  "updated": "2026-06-17T10:45:46.146206",
   "source": "aggregated"
 }
