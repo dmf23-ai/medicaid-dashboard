@@ -8,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-06-17",
+      "timestamp": "2026-06-18",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-06-17"
+      "timestamp": "2026-06-18"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-06-17"
+      "timestamp": "2026-06-18"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-06-17",
+      "timestamp": "2026-06-18",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +54,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-06-17",
+      "timestamp": "2026-06-18",
       "affectedStates": [
         "OH"
       ]
@@ -118,32 +118,22 @@
       "category": "regulatory",
       "relevance": "medium",
       "timestamp": "2026-05-20"
-    },
-    {
-      "id": "fr-2026-09718",
-      "title": "Medicare, Medicaid, and Children's Health Insurance Programs: Announcement of Nationwide Temporary Moratorium on Enrollment of Hospices",
-      "summary": "This notice announces the imposition of a 6-month nationwide moratorium on the Medicare enrollment of hospices.",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/05/15/2026-09718/medicare-medicaid-and-childrens-health-insurance-programs-announcement-of-nationwide-temporary",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-05-15"
     }
   ],
   "national": {
-    "totalSignals": 12,
+    "totalSignals": 11,
     "byCategory": {
       "procurement": 3,
       "oig": 2,
-      "regulatory": 7
+      "regulatory": 6
     },
     "byRelevance": {
-      "high": 6,
+      "high": 5,
       "medium": 5,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-06-17T10:45:46.146206",
+  "updated": "2026-06-18T10:13:43.878417",
   "source": "aggregated"
 }
