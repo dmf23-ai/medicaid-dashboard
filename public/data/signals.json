@@ -1,16 +1,6 @@
 {
   "signals": [
     {
-      "id": "fr-2026-13099",
-      "title": "Privacy Act of 1974; Matching Program",
-      "summary": "In accordance with the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS) is providing notice of the re-establishment of a matching program between CMS and the Peace Corps for \"Verification of Eligibi\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/06/30/2026-13099/privacy-act-of-1974-matching-program",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-06-30"
-    },
-    {
       "id": "hhsc-opportunities",
       "title": "Texas HHSC Procurement Opportunities portal",
       "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
@@ -18,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-06-30",
+      "timestamp": "2026-07-01",
       "affectedStates": [
         "TX"
       ]
@@ -31,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-06-30"
+      "timestamp": "2026-07-01"
     },
     {
       "id": "oig-workplan",
@@ -41,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-06-30"
+      "timestamp": "2026-07-01"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -51,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-06-30",
+      "timestamp": "2026-07-01",
       "affectedStates": [
         "TX"
       ]
@@ -64,10 +54,20 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-06-30",
+      "timestamp": "2026-07-01",
       "affectedStates": [
         "OH"
       ]
+    },
+    {
+      "id": "fr-2026-13099",
+      "title": "Privacy Act of 1974; Matching Program",
+      "summary": "In accordance with the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS) is providing notice of the re-establishment of a matching program between CMS and the Peace Corps for \"Verification of Eligibi\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/06/30/2026-13099/privacy-act-of-1974-matching-program",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-06-30"
     },
     {
       "id": "fr-C1-2026-11094",
@@ -113,9 +113,9 @@
   "national": {
     "totalSignals": 10,
     "byCategory": {
-      "regulatory": 5,
       "procurement": 3,
-      "oig": 2
+      "oig": 2,
+      "regulatory": 5
     },
     "byRelevance": {
       "high": 5,
@@ -124,6 +124,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-06-30T09:24:24.696744",
+  "updated": "2026-07-01T09:36:56.199922",
   "source": "aggregated"
 }
