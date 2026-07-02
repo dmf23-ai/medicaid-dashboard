@@ -8,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-07-01",
+      "timestamp": "2026-07-02",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-01"
+      "timestamp": "2026-07-02"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-01"
+      "timestamp": "2026-07-02"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-07-01",
+      "timestamp": "2026-07-02",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +54,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-07-01",
+      "timestamp": "2026-07-02",
       "affectedStates": [
         "OH"
       ]
@@ -98,32 +98,22 @@
       "category": "regulatory",
       "relevance": "high",
       "timestamp": "2026-06-11"
-    },
-    {
-      "id": "fr-2026-10292",
-      "title": "Medicaid Program; Medicaid Managed Care State Directed Payments and Medicaid Fee-for-Service Targeted Medicaid Practitioner Payments",
-      "summary": "This proposed rule describes alternatives to modify the limit on the total payment rate and other requirements for State directed payments in Medicaid managed care. We propose these changes based on our authority to interpret and implement section 1902(a)(4) of the Social Securit\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/05/22/2026-10292/medicaid-program-medicaid-managed-care-state-directed-payments-and-medicaid-fee-for-service-targeted",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-05-22"
     }
   ],
   "national": {
-    "totalSignals": 10,
+    "totalSignals": 9,
     "byCategory": {
       "procurement": 3,
       "oig": 2,
-      "regulatory": 5
+      "regulatory": 4
     },
     "byRelevance": {
-      "high": 5,
+      "high": 4,
       "medium": 4,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-07-01T09:36:56.199922",
+  "updated": "2026-07-02T08:47:47.609503",
   "source": "aggregated"
 }

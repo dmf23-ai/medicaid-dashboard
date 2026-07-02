@@ -10,7 +10,7 @@
         "CA"
       ],
       "category": "enrollment",
-      "timestamp": "2026-07-01T09:36:57.895688",
+      "timestamp": "2026-07-02T08:47:48.921171",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -22,7 +22,7 @@
         "AZ"
       ],
       "category": "enrollment",
-      "timestamp": "2026-07-01T09:36:57.895688",
+      "timestamp": "2026-07-02T08:47:48.921171",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -34,7 +34,7 @@
         "IN"
       ],
       "category": "enrollment",
-      "timestamp": "2026-07-01T09:36:57.895688",
+      "timestamp": "2026-07-02T08:47:48.921171",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -46,7 +46,7 @@
         "AK"
       ],
       "category": "enrollment",
-      "timestamp": "2026-07-01T09:36:57.895688",
+      "timestamp": "2026-07-02T08:47:48.921171",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -58,7 +58,7 @@
         "FL"
       ],
       "category": "quality",
-      "timestamp": "2026-07-01T09:36:57.895688",
+      "timestamp": "2026-07-02T08:47:48.921171",
       "sourceLabel": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures"
     }
@@ -79,7 +79,7 @@
       ],
       "source": "CMS Monthly Medicaid & CHIP Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360",
-      "timestamp": "2026-07-01T09:36:57.895688"
+      "timestamp": "2026-07-02T08:47:48.921171"
     },
     {
       "id": "insight-tx-quality",
@@ -96,7 +96,7 @@
       ],
       "source": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures",
-      "timestamp": "2026-07-01T09:36:57.895688"
+      "timestamp": "2026-07-02T08:47:48.921171"
     },
     {
       "id": "insight-tx-managedcare",
@@ -113,7 +113,7 @@
       ],
       "source": "CMS Managed Care Enrollment Summary",
       "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
-      "timestamp": "2026-07-01T09:36:57.895688"
+      "timestamp": "2026-07-02T08:47:48.921171"
     },
     {
       "id": "insight-regulatory",
@@ -128,7 +128,7 @@
       "relatedStates": [],
       "source": "Federal Register (CMS)",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/06/30/2026-13099/privacy-act-of-1974-matching-program",
-      "timestamp": "2026-07-01T09:36:57.895688"
+      "timestamp": "2026-07-02T08:47:48.921171"
     },
     {
       "id": "insight-procurement",
@@ -145,7 +145,7 @@
       ],
       "source": "Texas HHSC (Procurement)",
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
-      "timestamp": "2026-07-01T09:36:57.895688"
+      "timestamp": "2026-07-02T08:47:48.921171"
     }
   ],
   "riskOpportunity": [
@@ -200,11 +200,11 @@
     {
       "id": "ro-federal-rules",
       "label": "Federal Rule Pipeline",
-      "description": "5 active CMS Medicaid regulatory items in Federal Register.",
+      "description": "4 active CMS Medicaid regulatory items in Federal Register.",
       "risk": 60,
       "opportunity": 55,
       "impact": 60,
-      "trend": "deteriorating",
+      "trend": "stable",
       "category": "policy",
       "recommendedAction": "Brief HHSC on rule timeline implications",
       "sourceUrl": "https://www.federalregister.gov/"
@@ -297,7 +297,7 @@
     },
     {
       "label": "OIG/Reg Signals",
-      "value": "7 open",
+      "value": "6 open",
       "delta": null,
       "deltaDirection": "neutral",
       "tooltip": "Combined count of recent OIG and Federal Register signals.",
@@ -312,7 +312,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/"
     }
   ],
-  "updated": "2026-07-01T09:36:57.895688",
+  "updated": "2026-07-02T08:47:48.921171",
   "source": "template",
   "model": null
 }
