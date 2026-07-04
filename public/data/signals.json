@@ -1,6 +1,26 @@
 {
   "signals": [
     {
+      "id": "fr-2026-13572",
+      "title": "Privacy Act of 1974; Matching Program",
+      "summary": "In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS) is providing notice of a new matching program between CMS and the Department of Veterans Affairs (VA), \"\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/06/2026-13572/privacy-act-of-1974-matching-program",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-07-06"
+    },
+    {
+      "id": "fr-2026-13602",
+      "title": "Calendar Year 2027 Home Health Prospective Payment System (HH PPS) Rate Update; Requirements for the HH Quality Reporting Program and the Expanded HH Value-Based Purchasing Model; Medicare Provider En",
+      "summary": "This proposed rule would set forth routine updates to the Medicare home health payment rates in accordance with existing statutory and regulatory requirements. In addition, this proposed rule discusses the behavior adjustment and proposes a temporary behavior adjustment and propo\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/06/2026-13602/calendar-year-2027-home-health-prospective-payment-system-hh-pps-rate-update-requirements-for-the-hh",
+      "category": "regulatory",
+      "relevance": "medium",
+      "timestamp": "2026-07-06"
+    },
+    {
       "id": "hhsc-opportunities",
       "title": "Texas HHSC Procurement Opportunities portal",
       "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
@@ -8,7 +28,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-07-03",
+      "timestamp": "2026-07-04",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +41,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-03"
+      "timestamp": "2026-07-04"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +51,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-03"
+      "timestamp": "2026-07-04"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +61,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-07-03",
+      "timestamp": "2026-07-04",
       "affectedStates": [
         "TX"
       ]
@@ -54,20 +74,10 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-07-03",
+      "timestamp": "2026-07-04",
       "affectedStates": [
         "OH"
       ]
-    },
-    {
-      "id": "fr-2026-13099",
-      "title": "Privacy Act of 1974; Matching Program",
-      "summary": "In accordance with the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS) is providing notice of the re-establishment of a matching program between CMS and the Peace Corps for \"Verification of Eligibi\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/06/30/2026-13099/privacy-act-of-1974-matching-program",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-06-30"
     },
     {
       "id": "fr-C1-2026-11094",
@@ -101,19 +111,19 @@
     }
   ],
   "national": {
-    "totalSignals": 9,
+    "totalSignals": 10,
     "byCategory": {
+      "regulatory": 5,
       "procurement": 3,
-      "oig": 2,
-      "regulatory": 4
+      "oig": 2
     },
     "byRelevance": {
       "high": 4,
-      "medium": 4,
+      "medium": 5,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-07-03T08:54:54.632835",
+  "updated": "2026-07-04T08:29:26.488539",
   "source": "aggregated"
 }
