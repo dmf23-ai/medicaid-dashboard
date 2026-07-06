@@ -11,6 +11,19 @@
       "timestamp": "2026-07-06"
     },
     {
+      "id": "hhsc-opportunities",
+      "title": "Texas HHSC Procurement Opportunities portal",
+      "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
+      "source": "Texas HHSC (Procurement)",
+      "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
+      "category": "procurement",
+      "relevance": "high",
+      "timestamp": "2026-07-06",
+      "affectedStates": [
+        "TX"
+      ]
+    },
+    {
       "id": "fr-2026-13602",
       "title": "Calendar Year 2027 Home Health Prospective Payment System (HH PPS) Rate Update; Requirements for the HH Quality Reporting Program and the Expanded HH Value-Based Purchasing Model; Medicare Provider En",
       "summary": "This proposed rule would set forth routine updates to the Medicare home health payment rates in accordance with existing statutory and regulatory requirements. In addition, this proposed rule discusses the behavior adjustment and proposes a temporary behavior adjustment and propo\u2026",
@@ -21,19 +34,6 @@
       "timestamp": "2026-07-06"
     },
     {
-      "id": "hhsc-opportunities",
-      "title": "Texas HHSC Procurement Opportunities portal",
-      "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
-      "source": "Texas HHSC (Procurement)",
-      "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
-      "category": "procurement",
-      "relevance": "high",
-      "timestamp": "2026-07-05",
-      "affectedStates": [
-        "TX"
-      ]
-    },
-    {
       "id": "oig-portfolio-medicaid",
       "title": "HHS OIG Medicaid Portfolio \u2014 active oversight docket",
       "summary": "Browse current HHS OIG Medicaid audits, evaluations, and advisories. Scraper fell back; visit directly for the latest items.",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-05"
+      "timestamp": "2026-07-06"
     },
     {
       "id": "oig-workplan",
@@ -51,7 +51,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-05"
+      "timestamp": "2026-07-06"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -61,7 +61,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-07-05",
+      "timestamp": "2026-07-06",
       "affectedStates": [
         "TX"
       ]
@@ -74,7 +74,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-07-05",
+      "timestamp": "2026-07-06",
       "affectedStates": [
         "OH"
       ]
@@ -124,6 +124,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-07-05T08:45:44.568584",
+  "updated": "2026-07-06T10:06:25.951621",
   "source": "aggregated"
 }
