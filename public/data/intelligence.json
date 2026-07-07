@@ -10,7 +10,7 @@
         "CA"
       ],
       "category": "enrollment",
-      "timestamp": "2026-07-06T10:06:27.023209",
+      "timestamp": "2026-07-07T09:32:08.754613",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -22,7 +22,7 @@
         "AZ"
       ],
       "category": "enrollment",
-      "timestamp": "2026-07-06T10:06:27.023209",
+      "timestamp": "2026-07-07T09:32:08.754613",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -34,7 +34,7 @@
         "IN"
       ],
       "category": "enrollment",
-      "timestamp": "2026-07-06T10:06:27.023209",
+      "timestamp": "2026-07-07T09:32:08.754613",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -46,7 +46,7 @@
         "AK"
       ],
       "category": "enrollment",
-      "timestamp": "2026-07-06T10:06:27.023209",
+      "timestamp": "2026-07-07T09:32:08.754613",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -58,7 +58,7 @@
         "FL"
       ],
       "category": "quality",
-      "timestamp": "2026-07-06T10:06:27.023209",
+      "timestamp": "2026-07-07T09:32:08.754613",
       "sourceLabel": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures"
     }
@@ -79,7 +79,7 @@
       ],
       "source": "CMS Monthly Medicaid & CHIP Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360",
-      "timestamp": "2026-07-06T10:06:27.023209"
+      "timestamp": "2026-07-07T09:32:08.754613"
     },
     {
       "id": "insight-tx-quality",
@@ -96,7 +96,7 @@
       ],
       "source": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures",
-      "timestamp": "2026-07-06T10:06:27.023209"
+      "timestamp": "2026-07-07T09:32:08.754613"
     },
     {
       "id": "insight-tx-managedcare",
@@ -113,13 +113,13 @@
       ],
       "source": "CMS Managed Care Enrollment Summary",
       "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
-      "timestamp": "2026-07-06T10:06:27.023209"
+      "timestamp": "2026-07-07T09:32:08.754613"
     },
     {
       "id": "insight-regulatory",
       "rank": 4,
       "title": "Privacy Act of 1974; Matching Program",
-      "summary": "In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS) is providing notice of a new matching program between CMS and the Department of Veterans Affairs (VA), \"\u2026",
+      "summary": "In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS) is providing notice of a re-established matching program between CMS and the Department of Veterans Affa\u2026",
       "whyItMatters": "Federal Register rules often carry state implementation deadlines; catching them early avoids downstream compliance scrambles.",
       "confidence": "high",
       "category": "regulatory",
@@ -127,8 +127,8 @@
       "actionPrompt": "Assess TX implementation implications and notify HHSC contact",
       "relatedStates": [],
       "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/06/2026-13572/privacy-act-of-1974-matching-program",
-      "timestamp": "2026-07-06T10:06:27.023209"
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/07/2026-13671/privacy-act-of-1974-matching-program",
+      "timestamp": "2026-07-07T09:32:08.754613"
     },
     {
       "id": "insight-procurement",
@@ -145,7 +145,7 @@
       ],
       "source": "Texas HHSC (Procurement)",
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
-      "timestamp": "2026-07-06T10:06:27.023209"
+      "timestamp": "2026-07-07T09:32:08.754613"
     }
   ],
   "riskOpportunity": [
@@ -200,7 +200,7 @@
     {
       "id": "ro-federal-rules",
       "label": "Federal Rule Pipeline",
-      "description": "5 active CMS Medicaid regulatory items in Federal Register.",
+      "description": "6 active CMS Medicaid regulatory items in Federal Register.",
       "risk": 60,
       "opportunity": 55,
       "impact": 60,
@@ -297,7 +297,7 @@
     },
     {
       "label": "OIG/Reg Signals",
-      "value": "7 open",
+      "value": "8 open",
       "delta": null,
       "deltaDirection": "neutral",
       "tooltip": "Combined count of recent OIG and Federal Register signals.",
@@ -312,7 +312,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/"
     }
   ],
-  "updated": "2026-07-06T10:06:27.023209",
+  "updated": "2026-07-07T09:32:08.754613",
   "source": "template",
   "model": null
 }
