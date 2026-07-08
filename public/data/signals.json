@@ -1,16 +1,6 @@
 {
   "signals": [
     {
-      "id": "fr-2026-13671",
-      "title": "Privacy Act of 1974; Matching Program",
-      "summary": "In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS) is providing notice of a re-established matching program between CMS and the Department of Veterans Affa\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/07/2026-13671/privacy-act-of-1974-matching-program",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-07-07"
-    },
-    {
       "id": "hhsc-opportunities",
       "title": "Texas HHSC Procurement Opportunities portal",
       "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
@@ -18,20 +8,10 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-07-07",
+      "timestamp": "2026-07-08",
       "affectedStates": [
         "TX"
       ]
-    },
-    {
-      "id": "fr-2026-13656",
-      "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; Including the Hospital Outpatient Quality Reporting Program an",
-      "summary": "This proposed rule would revise the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2027 based on our continuing experience with these systems. We also describe the changes to the am\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/07/2026-13656/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
-      "category": "regulatory",
-      "relevance": "medium",
-      "timestamp": "2026-07-07"
     },
     {
       "id": "oig-portfolio-medicaid",
@@ -41,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-07"
+      "timestamp": "2026-07-08"
     },
     {
       "id": "oig-workplan",
@@ -51,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-07"
+      "timestamp": "2026-07-08"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -61,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-07-07",
+      "timestamp": "2026-07-08",
       "affectedStates": [
         "TX"
       ]
@@ -74,10 +54,30 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-07-07",
+      "timestamp": "2026-07-08",
       "affectedStates": [
         "OH"
       ]
+    },
+    {
+      "id": "fr-2026-13671",
+      "title": "Privacy Act of 1974; Matching Program",
+      "summary": "In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS) is providing notice of a re-established matching program between CMS and the Department of Veterans Affa\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/07/2026-13671/privacy-act-of-1974-matching-program",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-07-07"
+    },
+    {
+      "id": "fr-2026-13656",
+      "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; Including the Hospital Outpatient Quality Reporting Program an",
+      "summary": "This proposed rule would revise the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2027 based on our continuing experience with these systems. We also describe the changes to the am\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/07/2026-13656/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
+      "category": "regulatory",
+      "relevance": "medium",
+      "timestamp": "2026-07-07"
     },
     {
       "id": "fr-2026-13602",
@@ -123,9 +123,9 @@
   "national": {
     "totalSignals": 11,
     "byCategory": {
-      "regulatory": 6,
       "procurement": 3,
-      "oig": 2
+      "oig": 2,
+      "regulatory": 6
     },
     "byRelevance": {
       "high": 4,
@@ -134,6 +134,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-07-07T09:32:07.306267",
+  "updated": "2026-07-08T08:16:58.504900",
   "source": "aggregated"
 }
