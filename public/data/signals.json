@@ -8,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-07-10",
+      "timestamp": "2026-07-11",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-10"
+      "timestamp": "2026-07-11"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-10"
+      "timestamp": "2026-07-11"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-07-10",
+      "timestamp": "2026-07-11",
       "affectedStates": [
         "TX"
       ]
@@ -54,10 +54,20 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-07-10",
+      "timestamp": "2026-07-11",
       "affectedStates": [
         "OH"
       ]
+    },
+    {
+      "id": "fr-2026-13918",
+      "title": "Medicare and Medicaid Programs; Application From The Joint Commission for Continued CMS Approval of Its Home Health Agency (HHA) Accreditation Program",
+      "summary": "This notice announces our decision to approve The Joint Commission for continued CMS recognition as a national accrediting organization for home health agencies that wish to participate in the Medicare or Medicaid programs.",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/10/2026-13918/medicare-and-medicaid-programs-application-from-the-joint-commission-for-continued-cms-approval-of",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-07-10"
     },
     {
       "id": "fr-2026-13671",
@@ -121,19 +131,19 @@
     }
   ],
   "national": {
-    "totalSignals": 11,
+    "totalSignals": 12,
     "byCategory": {
       "procurement": 3,
       "oig": 2,
-      "regulatory": 6
+      "regulatory": 7
     },
     "byRelevance": {
-      "high": 4,
+      "high": 5,
       "medium": 6,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-07-10T09:24:56.913114",
+  "updated": "2026-07-11T07:46:20.480393",
   "source": "aggregated"
 }
