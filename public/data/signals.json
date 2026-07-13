@@ -8,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-07-12",
+      "timestamp": "2026-07-13",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-12"
+      "timestamp": "2026-07-13"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-12"
+      "timestamp": "2026-07-13"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-07-12",
+      "timestamp": "2026-07-13",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +54,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-07-12",
+      "timestamp": "2026-07-13",
       "affectedStates": [
         "OH"
       ]
@@ -144,6 +144,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-07-12T08:07:48.758209",
+  "updated": "2026-07-13T08:57:55.016498",
   "source": "aggregated"
 }
