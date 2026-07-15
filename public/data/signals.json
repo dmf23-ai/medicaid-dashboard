@@ -1,14 +1,14 @@
 {
   "signals": [
     {
-      "id": "esbd-1",
-      "title": "Food and Consumable products for HHSC El Paso State Supported Living Center",
-      "summary": "Texas HHSC solicitation surfaced on the ESBD: Food and Consumable products for HHSC El Paso State Supported Living Center",
-      "source": "Texas ESBD (HHSC)",
-      "sourceUrl": "https://www.txsmartbuy.gov/esbd/HHS0017449",
+      "id": "hhsc-opportunities",
+      "title": "Texas HHSC Procurement Opportunities portal",
+      "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
+      "source": "Texas HHSC (Procurement)",
+      "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-07-14",
+      "timestamp": "2026-07-15",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-14"
+      "timestamp": "2026-07-15"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +31,20 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-14"
+      "timestamp": "2026-07-15"
+    },
+    {
+      "id": "txsmartbuy-esbd",
+      "title": "Texas Electronic State Business Daily (ESBD) \u2014 search portal",
+      "summary": "Statewide solicitation search. Filter by HHSC agency code and 'Medical Services' category for current Medicaid awards and renewals.",
+      "source": "Texas ESBD (TxSmartBuy)",
+      "sourceUrl": "https://www.txsmartbuy.gov/esbd",
+      "category": "procurement",
+      "relevance": "medium",
+      "timestamp": "2026-07-15",
+      "affectedStates": [
+        "TX"
+      ]
     },
     {
       "id": "ohiobuys-public",
@@ -41,7 +54,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-07-14",
+      "timestamp": "2026-07-15",
       "affectedStates": [
         "OH"
       ]
@@ -118,19 +131,19 @@
     }
   ],
   "national": {
-    "totalSignals": 11,
+    "totalSignals": 12,
     "byCategory": {
-      "procurement": 2,
+      "procurement": 3,
       "oig": 2,
       "regulatory": 7
     },
     "byRelevance": {
       "high": 5,
-      "medium": 5,
+      "medium": 6,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-07-14T07:53:02.433796",
+  "updated": "2026-07-15T07:57:37.030859",
   "source": "aggregated"
 }

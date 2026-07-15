@@ -10,7 +10,7 @@
         "CA"
       ],
       "category": "enrollment",
-      "timestamp": "2026-07-14T07:53:03.855956",
+      "timestamp": "2026-07-15T07:57:38.130331",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -22,7 +22,7 @@
         "AZ"
       ],
       "category": "enrollment",
-      "timestamp": "2026-07-14T07:53:03.855956",
+      "timestamp": "2026-07-15T07:57:38.130331",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -34,7 +34,7 @@
         "IN"
       ],
       "category": "enrollment",
-      "timestamp": "2026-07-14T07:53:03.855956",
+      "timestamp": "2026-07-15T07:57:38.130331",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -46,7 +46,7 @@
         "AK"
       ],
       "category": "enrollment",
-      "timestamp": "2026-07-14T07:53:03.855956",
+      "timestamp": "2026-07-15T07:57:38.130331",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -58,7 +58,7 @@
         "FL"
       ],
       "category": "quality",
-      "timestamp": "2026-07-14T07:53:03.855956",
+      "timestamp": "2026-07-15T07:57:38.130331",
       "sourceLabel": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures"
     }
@@ -79,7 +79,7 @@
       ],
       "source": "CMS Monthly Medicaid & CHIP Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360",
-      "timestamp": "2026-07-14T07:53:03.855956"
+      "timestamp": "2026-07-15T07:57:38.130331"
     },
     {
       "id": "insight-tx-quality",
@@ -96,7 +96,7 @@
       ],
       "source": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures",
-      "timestamp": "2026-07-14T07:53:03.855956"
+      "timestamp": "2026-07-15T07:57:38.130331"
     },
     {
       "id": "insight-tx-managedcare",
@@ -113,7 +113,7 @@
       ],
       "source": "CMS Managed Care Enrollment Summary",
       "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
-      "timestamp": "2026-07-14T07:53:03.855956"
+      "timestamp": "2026-07-15T07:57:38.130331"
     },
     {
       "id": "insight-regulatory",
@@ -128,13 +128,13 @@
       "relatedStates": [],
       "source": "Federal Register (CMS)",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/07/10/2026-13918/medicare-and-medicaid-programs-application-from-the-joint-commission-for-continued-cms-approval-of",
-      "timestamp": "2026-07-14T07:53:03.855956"
+      "timestamp": "2026-07-15T07:57:38.130331"
     },
     {
       "id": "insight-procurement",
       "rank": 5,
-      "title": "Food and Consumable products for HHSC El Paso State Supported Living Center",
-      "summary": "Texas HHSC solicitation surfaced on the ESBD: Food and Consumable products for HHSC El Paso State Supported Living Center",
+      "title": "Texas HHSC Procurement Opportunities portal",
+      "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
       "whyItMatters": "Active procurements are direct pipeline \u2014 Accenture capture timelines are short.",
       "confidence": "medium",
       "category": "competitive",
@@ -143,9 +143,9 @@
       "relatedStates": [
         "TX"
       ],
-      "source": "Texas ESBD (HHSC)",
-      "sourceUrl": "https://www.txsmartbuy.gov/esbd/HHS0017449",
-      "timestamp": "2026-07-14T07:53:03.855956"
+      "source": "Texas HHSC (Procurement)",
+      "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
+      "timestamp": "2026-07-15T07:57:38.130331"
     }
   ],
   "riskOpportunity": [
@@ -224,11 +224,11 @@
     {
       "id": "ro-procurement-pipeline",
       "label": "State Procurement Pipeline",
-      "description": "2 active procurement items across tracked state portals.",
+      "description": "3 active procurement items across tracked state portals.",
       "risk": 35,
       "opportunity": 75,
       "impact": 70,
-      "trend": "stable",
+      "trend": "improving",
       "category": "procurement",
       "recommendedAction": "Bid/no-bid triage on active RFPs",
       "sourceUrl": "https://www.txsmartbuy.gov/esbd"
@@ -289,7 +289,7 @@
     },
     {
       "label": "Procurement",
-      "value": "2 active",
+      "value": "3 active",
       "delta": null,
       "deltaDirection": "neutral",
       "tooltip": "HHSC- or Medicaid-related procurement items currently tracked.",
@@ -312,7 +312,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/"
     }
   ],
-  "updated": "2026-07-14T07:53:03.855956",
+  "updated": "2026-07-15T07:57:38.130331",
   "source": "template",
   "model": null
 }
