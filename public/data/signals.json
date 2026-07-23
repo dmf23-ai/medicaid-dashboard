@@ -1,6 +1,16 @@
 {
   "signals": [
     {
+      "id": "fr-2026-14897",
+      "title": "Medicaid Program; Amending the Indirect Hold Harmless Threshold of Health Care-Related Taxes",
+      "summary": "This proposed rule would revise standards for determining whether an indirect hold harmless arrangement exists for a health care- related tax. This proposed rule is necessary to implement a provision in the \"One Big Beautiful Bill Act,\" herein referred to as the \"Working Families\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/23/2026-14897/medicaid-program-amending-the-indirect-hold-harmless-threshold-of-health-care-related-taxes",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-07-23"
+    },
+    {
       "id": "hhsc-opportunities",
       "title": "Texas HHSC Procurement Opportunities portal",
       "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
@@ -8,7 +18,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-07-22",
+      "timestamp": "2026-07-23",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-22"
+      "timestamp": "2026-07-23"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +41,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-22"
+      "timestamp": "2026-07-23"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +51,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-07-22",
+      "timestamp": "2026-07-23",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +64,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-07-22",
+      "timestamp": "2026-07-23",
       "affectedStates": [
         "OH"
       ]
@@ -128,24 +138,14 @@
       "category": "regulatory",
       "relevance": "medium",
       "timestamp": "2026-07-06"
-    },
-    {
-      "id": "fr-C1-2026-11094",
-      "title": "Medicaid Program; Community Engagement Requirement for Certain Individuals",
-      "summary": "Rule",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/06/29/C1-2026-11094/medicaid-program-community-engagement-requirement-for-certain-individuals",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-06-29"
     }
   ],
   "national": {
     "totalSignals": 13,
     "byCategory": {
+      "regulatory": 8,
       "procurement": 3,
-      "oig": 2,
-      "regulatory": 8
+      "oig": 2
     },
     "byRelevance": {
       "high": 7,
@@ -154,6 +154,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-07-22T08:17:18.615996",
+  "updated": "2026-07-23T08:21:14.513326",
   "source": "aggregated"
 }

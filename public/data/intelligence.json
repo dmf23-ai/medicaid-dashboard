@@ -10,7 +10,7 @@
         "CA"
       ],
       "category": "enrollment",
-      "timestamp": "2026-07-22T08:17:19.720372",
+      "timestamp": "2026-07-23T08:21:15.674709",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -22,7 +22,7 @@
         "AZ"
       ],
       "category": "enrollment",
-      "timestamp": "2026-07-22T08:17:19.720372",
+      "timestamp": "2026-07-23T08:21:15.674709",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -34,7 +34,7 @@
         "IN"
       ],
       "category": "enrollment",
-      "timestamp": "2026-07-22T08:17:19.720372",
+      "timestamp": "2026-07-23T08:21:15.674709",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -46,7 +46,7 @@
         "AK"
       ],
       "category": "enrollment",
-      "timestamp": "2026-07-22T08:17:19.720372",
+      "timestamp": "2026-07-23T08:21:15.674709",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -58,7 +58,7 @@
         "FL"
       ],
       "category": "quality",
-      "timestamp": "2026-07-22T08:17:19.720372",
+      "timestamp": "2026-07-23T08:21:15.674709",
       "sourceLabel": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures"
     }
@@ -79,7 +79,7 @@
       ],
       "source": "CMS Monthly Medicaid & CHIP Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360",
-      "timestamp": "2026-07-22T08:17:19.720372"
+      "timestamp": "2026-07-23T08:21:15.674709"
     },
     {
       "id": "insight-tx-quality",
@@ -96,7 +96,7 @@
       ],
       "source": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures",
-      "timestamp": "2026-07-22T08:17:19.720372"
+      "timestamp": "2026-07-23T08:21:15.674709"
     },
     {
       "id": "insight-tx-managedcare",
@@ -113,13 +113,13 @@
       ],
       "source": "CMS Managed Care Enrollment Summary",
       "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
-      "timestamp": "2026-07-22T08:17:19.720372"
+      "timestamp": "2026-07-23T08:21:15.674709"
     },
     {
       "id": "insight-regulatory",
       "rank": 4,
-      "title": "Medicare Program; Inflation Reduction Act of 2022 (IRA) Medicare Drug Price Negotiation Program Draft Guidance; Comment Request",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) is announcing an opportunity for the public to comment on CMS' draft guidance for the Medicare Drug Price Negotiation Program regarding manufacturer effectuation of the maximum fair price in 2028 for the implementation of the Inf\u2026",
+      "title": "Medicaid Program; Amending the Indirect Hold Harmless Threshold of Health Care-Related Taxes",
+      "summary": "This proposed rule would revise standards for determining whether an indirect hold harmless arrangement exists for a health care- related tax. This proposed rule is necessary to implement a provision in the \"One Big Beautiful Bill Act,\" herein referred to as the \"Working Families\u2026",
       "whyItMatters": "Federal Register rules often carry state implementation deadlines; catching them early avoids downstream compliance scrambles.",
       "confidence": "high",
       "category": "regulatory",
@@ -127,8 +127,8 @@
       "actionPrompt": "Assess TX implementation implications and notify HHSC contact",
       "relatedStates": [],
       "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/20/2026-14583/medicare-program-inflation-reduction-act-of-2022-ira-medicare-drug-price-negotiation-program-draft",
-      "timestamp": "2026-07-22T08:17:19.720372"
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/23/2026-14897/medicaid-program-amending-the-indirect-hold-harmless-threshold-of-health-care-related-taxes",
+      "timestamp": "2026-07-23T08:21:15.674709"
     },
     {
       "id": "insight-procurement",
@@ -145,7 +145,7 @@
       ],
       "source": "Texas HHSC (Procurement)",
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
-      "timestamp": "2026-07-22T08:17:19.720372"
+      "timestamp": "2026-07-23T08:21:15.674709"
     }
   ],
   "riskOpportunity": [
@@ -312,7 +312,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/"
     }
   ],
-  "updated": "2026-07-22T08:17:19.720372",
+  "updated": "2026-07-23T08:21:15.674709",
   "source": "template",
   "model": null
 }
