@@ -1,24 +1,14 @@
 {
   "signals": [
     {
-      "id": "fr-2026-14897",
-      "title": "Medicaid Program; Amending the Indirect Hold Harmless Threshold of Health Care-Related Taxes",
-      "summary": "This proposed rule would revise standards for determining whether an indirect hold harmless arrangement exists for a health care- related tax. This proposed rule is necessary to implement a provision in the \"One Big Beautiful Bill Act,\" herein referred to as the \"Working Families\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/23/2026-14897/medicaid-program-amending-the-indirect-hold-harmless-threshold-of-health-care-related-taxes",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-07-23"
-    },
-    {
-      "id": "hhsc-opportunities",
-      "title": "Texas HHSC Procurement Opportunities portal",
-      "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
-      "source": "Texas HHSC (Procurement)",
-      "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
+      "id": "esbd-1",
+      "title": "PURCHASE OF PARKS WOODCHIPPER",
+      "summary": "Texas HHSC solicitation surfaced on the ESBD: PURCHASE OF PARKS WOODCHIPPER",
+      "source": "Texas ESBD (HHSC)",
+      "sourceUrl": "https://www.txsmartbuy.gov/esbd/6100019760",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-07-23",
+      "timestamp": "2026-07-24",
       "affectedStates": [
         "TX"
       ]
@@ -31,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-23"
+      "timestamp": "2026-07-24"
     },
     {
       "id": "oig-workplan",
@@ -41,20 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-23"
-    },
-    {
-      "id": "txsmartbuy-esbd",
-      "title": "Texas Electronic State Business Daily (ESBD) \u2014 search portal",
-      "summary": "Statewide solicitation search. Filter by HHSC agency code and 'Medical Services' category for current Medicaid awards and renewals.",
-      "source": "Texas ESBD (TxSmartBuy)",
-      "sourceUrl": "https://www.txsmartbuy.gov/esbd",
-      "category": "procurement",
-      "relevance": "medium",
-      "timestamp": "2026-07-23",
-      "affectedStates": [
-        "TX"
-      ]
+      "timestamp": "2026-07-24"
     },
     {
       "id": "ohiobuys-public",
@@ -64,10 +41,20 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-07-23",
+      "timestamp": "2026-07-24",
       "affectedStates": [
         "OH"
       ]
+    },
+    {
+      "id": "fr-2026-14897",
+      "title": "Medicaid Program; Amending the Indirect Hold Harmless Threshold of Health Care-Related Taxes",
+      "summary": "This proposed rule would revise standards for determining whether an indirect hold harmless arrangement exists for a health care- related tax. This proposed rule is necessary to implement a provision in the \"One Big Beautiful Bill Act,\" herein referred to as the \"Working Families\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/23/2026-14897/medicaid-program-amending-the-indirect-hold-harmless-threshold-of-health-care-related-taxes",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-07-23"
     },
     {
       "id": "fr-2026-14583",
@@ -141,19 +128,19 @@
     }
   ],
   "national": {
-    "totalSignals": 13,
+    "totalSignals": 12,
     "byCategory": {
-      "regulatory": 8,
-      "procurement": 3,
-      "oig": 2
+      "procurement": 2,
+      "oig": 2,
+      "regulatory": 8
     },
     "byRelevance": {
       "high": 7,
-      "medium": 5,
+      "medium": 4,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-07-23T08:21:14.513326",
+  "updated": "2026-07-24T08:16:00.833332",
   "source": "aggregated"
 }
