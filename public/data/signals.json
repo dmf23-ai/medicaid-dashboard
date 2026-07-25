@@ -1,6 +1,26 @@
 {
   "signals": [
     {
+      "id": "fr-2026-15124",
+      "title": "Medicare and Medicaid Programs; Quarterly Listing of Program Issuances-April Through June 2026",
+      "summary": "This quarterly notice lists Centers for Medicare & Medicaid Services (CMS) manual instructions, substantive and interpretive regulations, and other Federal Register notices that were published in the 3-month period, relating to the Medicare and Medicaid programs and other program\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/27/2026-15124/medicare-and-medicaid-programs-quarterly-listing-of-program-issuances-april-through-june-2026",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-07-27"
+    },
+    {
+      "id": "fr-2026-15116",
+      "title": "Medicare Program; Approved Renewal of Deeming Authority of the National Committee for Quality Assurance (NCQA) for Medicare Advantage Health Maintenance Organizations and Preferred Provider Organizati",
+      "summary": "This notice announces our decision to approve the National Committee for Quality Assurance's renewal application for Medicare Advantage \"deeming authority\" of Health Maintenance Organizations and Preferred Provider Organizations for a term of 6 years.",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/27/2026-15116/medicare-program-approved-renewal-of-deeming-authority-of-the-national-committee-for-quality",
+      "category": "regulatory",
+      "relevance": "medium",
+      "timestamp": "2026-07-27"
+    },
+    {
       "id": "esbd-1",
       "title": "PURCHASE OF PARKS WOODCHIPPER",
       "summary": "Texas HHSC solicitation surfaced on the ESBD: PURCHASE OF PARKS WOODCHIPPER",
@@ -8,7 +28,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd/6100019760",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-07-24",
+      "timestamp": "2026-07-25",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +41,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-24"
+      "timestamp": "2026-07-25"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +51,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-24"
+      "timestamp": "2026-07-25"
     },
     {
       "id": "ohiobuys-public",
@@ -41,7 +61,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-07-24",
+      "timestamp": "2026-07-25",
       "affectedStates": [
         "OH"
       ]
@@ -128,19 +148,19 @@
     }
   ],
   "national": {
-    "totalSignals": 12,
+    "totalSignals": 14,
     "byCategory": {
+      "regulatory": 10,
       "procurement": 2,
-      "oig": 2,
-      "regulatory": 8
+      "oig": 2
     },
     "byRelevance": {
-      "high": 7,
-      "medium": 4,
+      "high": 8,
+      "medium": 5,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-07-24T08:16:00.833332",
+  "updated": "2026-07-25T07:58:10.898092",
   "source": "aggregated"
 }
