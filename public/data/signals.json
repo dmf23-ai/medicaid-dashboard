@@ -8,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-07-30",
+      "timestamp": "2026-07-31",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-30"
+      "timestamp": "2026-07-31"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-07-30"
+      "timestamp": "2026-07-31"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-07-30",
+      "timestamp": "2026-07-31",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +54,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-07-30",
+      "timestamp": "2026-07-31",
       "affectedStates": [
         "OH"
       ]
@@ -138,32 +138,22 @@
       "category": "regulatory",
       "relevance": "high",
       "timestamp": "2026-07-10"
-    },
-    {
-      "id": "fr-2026-13656",
-      "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; Including the Hospital Outpatient Quality Reporting Program an",
-      "summary": "This proposed rule would revise the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2027 based on our continuing experience with these systems. We also describe the changes to the am\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/07/2026-13656/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
-      "category": "regulatory",
-      "relevance": "medium",
-      "timestamp": "2026-07-07"
     }
   ],
   "national": {
-    "totalSignals": 14,
+    "totalSignals": 13,
     "byCategory": {
       "procurement": 3,
       "oig": 2,
-      "regulatory": 9
+      "regulatory": 8
     },
     "byRelevance": {
       "high": 8,
-      "medium": 5,
+      "medium": 4,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-07-30T08:14:28.822089",
+  "updated": "2026-07-31T08:40:54.509675",
   "source": "aggregated"
 }
