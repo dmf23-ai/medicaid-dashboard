@@ -1,16 +1,6 @@
 {
   "signals": [
     {
-      "id": "fr-2026-17005",
-      "title": "Privacy Act of 1974; System of Records",
-      "summary": "In accordance with the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS) is establishing a new system of records to be maintained by the Centers for Medicare & Medicaid Services (CMS), titled \"Nurses for Nursing Homes Program (NNHP),\" system No. 0\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/08/20/2026-17005/privacy-act-of-1974-system-of-records",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-08-20"
-    },
-    {
       "id": "hhsc-opportunities",
       "title": "Texas HHSC Procurement Opportunities portal",
       "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
@@ -18,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-08-20",
+      "timestamp": "2026-08-21",
       "affectedStates": [
         "TX"
       ]
@@ -31,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-08-20"
+      "timestamp": "2026-08-21"
     },
     {
       "id": "oig-workplan",
@@ -41,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-08-20"
+      "timestamp": "2026-08-21"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -51,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-08-20",
+      "timestamp": "2026-08-21",
       "affectedStates": [
         "TX"
       ]
@@ -64,10 +54,20 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-08-20",
+      "timestamp": "2026-08-21",
       "affectedStates": [
         "OH"
       ]
+    },
+    {
+      "id": "fr-2026-17005",
+      "title": "Privacy Act of 1974; System of Records",
+      "summary": "In accordance with the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS) is establishing a new system of records to be maintained by the Centers for Medicare & Medicaid Services (CMS), titled \"Nurses for Nursing Homes Program (NNHP),\" system No. 0\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/08/20/2026-17005/privacy-act-of-1974-system-of-records",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-08-20"
     },
     {
       "id": "fr-2026-16508",
@@ -123,9 +123,9 @@
   "national": {
     "totalSignals": 11,
     "byCategory": {
-      "regulatory": 6,
       "procurement": 3,
-      "oig": 2
+      "oig": 2,
+      "regulatory": 6
     },
     "byRelevance": {
       "high": 6,
@@ -134,6 +134,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-08-20T06:35:28.790237",
+  "updated": "2026-08-21T06:36:00.594545",
   "source": "aggregated"
 }
