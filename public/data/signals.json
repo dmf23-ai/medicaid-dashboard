@@ -8,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-08-26",
+      "timestamp": "2026-08-27",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-08-26"
+      "timestamp": "2026-08-27"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-08-26"
+      "timestamp": "2026-08-27"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-08-26",
+      "timestamp": "2026-08-27",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +54,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-08-26",
+      "timestamp": "2026-08-27",
       "affectedStates": [
         "OH"
       ]
@@ -108,32 +108,22 @@
       "category": "regulatory",
       "relevance": "high",
       "timestamp": "2026-07-27"
-    },
-    {
-      "id": "fr-2026-15116",
-      "title": "Medicare Program; Approved Renewal of Deeming Authority of the National Committee for Quality Assurance (NCQA) for Medicare Advantage Health Maintenance Organizations and Preferred Provider Organizati",
-      "summary": "This notice announces our decision to approve the National Committee for Quality Assurance's renewal application for Medicare Advantage \"deeming authority\" of Health Maintenance Organizations and Preferred Provider Organizations for a term of 6 years.",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/27/2026-15116/medicare-program-approved-renewal-of-deeming-authority-of-the-national-committee-for-quality",
-      "category": "regulatory",
-      "relevance": "medium",
-      "timestamp": "2026-07-27"
     }
   ],
   "national": {
-    "totalSignals": 11,
+    "totalSignals": 10,
     "byCategory": {
       "procurement": 3,
       "oig": 2,
-      "regulatory": 6
+      "regulatory": 5
     },
     "byRelevance": {
       "high": 6,
-      "medium": 4,
+      "medium": 3,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-08-26T06:38:04.995733",
+  "updated": "2026-08-27T17:13:43.468935",
   "source": "aggregated"
 }

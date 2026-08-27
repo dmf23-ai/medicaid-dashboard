@@ -10,7 +10,7 @@
         "CA"
       ],
       "category": "enrollment",
-      "timestamp": "2026-08-26T06:38:06.213988",
+      "timestamp": "2026-08-27T17:13:44.928561",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -22,7 +22,7 @@
         "AZ"
       ],
       "category": "enrollment",
-      "timestamp": "2026-08-26T06:38:06.213988",
+      "timestamp": "2026-08-27T17:13:44.928561",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -34,7 +34,7 @@
         "IN"
       ],
       "category": "enrollment",
-      "timestamp": "2026-08-26T06:38:06.213988",
+      "timestamp": "2026-08-27T17:13:44.928561",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -46,7 +46,7 @@
         "LA"
       ],
       "category": "enrollment",
-      "timestamp": "2026-08-26T06:38:06.213988",
+      "timestamp": "2026-08-27T17:13:44.928561",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -58,7 +58,7 @@
         "FL"
       ],
       "category": "quality",
-      "timestamp": "2026-08-26T06:38:06.213988",
+      "timestamp": "2026-08-27T17:13:44.928561",
       "sourceLabel": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures"
     }
@@ -79,7 +79,7 @@
       ],
       "source": "CMS Monthly Medicaid & CHIP Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360",
-      "timestamp": "2026-08-26T06:38:06.213988"
+      "timestamp": "2026-08-27T17:13:44.928561"
     },
     {
       "id": "insight-tx-quality",
@@ -96,7 +96,7 @@
       ],
       "source": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures",
-      "timestamp": "2026-08-26T06:38:06.213988"
+      "timestamp": "2026-08-27T17:13:44.928561"
     },
     {
       "id": "insight-tx-managedcare",
@@ -113,7 +113,7 @@
       ],
       "source": "CMS Managed Care Enrollment Summary",
       "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
-      "timestamp": "2026-08-26T06:38:06.213988"
+      "timestamp": "2026-08-27T17:13:44.928561"
     },
     {
       "id": "insight-regulatory",
@@ -128,7 +128,7 @@
       "relatedStates": [],
       "source": "Federal Register (CMS)",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/08/20/2026-17005/privacy-act-of-1974-system-of-records",
-      "timestamp": "2026-08-26T06:38:06.213988"
+      "timestamp": "2026-08-27T17:13:44.928561"
     },
     {
       "id": "insight-procurement",
@@ -145,7 +145,7 @@
       ],
       "source": "Texas HHSC (Procurement)",
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
-      "timestamp": "2026-08-26T06:38:06.213988"
+      "timestamp": "2026-08-27T17:13:44.928561"
     }
   ],
   "riskOpportunity": [
@@ -200,7 +200,7 @@
     {
       "id": "ro-federal-rules",
       "label": "Federal Rule Pipeline",
-      "description": "6 active CMS Medicaid regulatory items in Federal Register.",
+      "description": "5 active CMS Medicaid regulatory items in Federal Register.",
       "risk": 60,
       "opportunity": 55,
       "impact": 60,
@@ -297,7 +297,7 @@
     },
     {
       "label": "OIG/Reg Signals",
-      "value": "8 open",
+      "value": "7 open",
       "delta": null,
       "deltaDirection": "neutral",
       "tooltip": "Combined count of recent OIG and Federal Register signals.",
@@ -312,7 +312,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/"
     }
   ],
-  "updated": "2026-08-26T06:38:06.213988",
+  "updated": "2026-08-27T17:13:44.928561",
   "source": "template",
   "model": null
 }
