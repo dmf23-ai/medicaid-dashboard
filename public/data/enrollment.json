@@ -3,520 +3,610 @@
     {
       "stateCode": "CA",
       "stateName": "California",
-      "enrollment": 11827277,
-      "enrollmentChange": -11.3,
+      "enrollment": 11762641,
+      "enrollmentChange": -11.6,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 1249682,
-      "medicaidEnrollment": 10577595
+      "month": 5,
+      "chipEnrollment": 1256722,
+      "medicaidEnrollment": 10505919
     },
     {
       "stateCode": "NY",
       "stateName": "New York",
-      "enrollment": 6402847,
-      "enrollmentChange": -2.8,
+      "enrollment": 6386205,
+      "enrollmentChange": -3.0,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 650335,
-      "medicaidEnrollment": 5752512
+      "month": 5,
+      "chipEnrollment": 645527,
+      "medicaidEnrollment": 5740678
     },
     {
       "stateCode": "TX",
       "stateName": "Texas",
-      "enrollment": 3976705,
-      "enrollmentChange": -4.9,
+      "enrollment": 3941123,
+      "enrollmentChange": -5.6,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 333003,
-      "medicaidEnrollment": 3643702
+      "month": 5,
+      "chipEnrollment": 328955,
+      "medicaidEnrollment": 3612168
     },
     {
       "stateCode": "FL",
       "stateName": "Florida",
-      "enrollment": 3571613,
-      "enrollmentChange": -3.9,
+      "enrollment": 3577801,
+      "enrollmentChange": -3.3,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 171606,
-      "medicaidEnrollment": 3400007
+      "month": 5,
+      "chipEnrollment": 171608,
+      "medicaidEnrollment": 3406193
     },
     {
       "stateCode": "PA",
       "stateName": "Pennsylvania",
-      "enrollment": 2978336,
+      "enrollment": 2963790,
       "enrollmentChange": -3.1,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 277094,
-      "medicaidEnrollment": 2701242
+      "month": 5,
+      "chipEnrollment": 277244,
+      "medicaidEnrollment": 2686546
     },
     {
       "stateCode": "IL",
       "stateName": "Illinois",
-      "enrollment": 2965999,
-      "enrollmentChange": -5.7,
+      "enrollment": 2939165,
+      "enrollmentChange": -5.9,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 304742,
-      "medicaidEnrollment": 2661257
+      "month": 5,
+      "chipEnrollment": 308158,
+      "medicaidEnrollment": 2631007
     },
     {
       "stateCode": "NC",
       "stateName": "North Carolina",
-      "enrollment": 2835267,
-      "enrollmentChange": -1.0,
+      "enrollment": 2820258,
+      "enrollmentChange": -1.7,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 349014,
-      "medicaidEnrollment": 2486253
+      "month": 5,
+      "chipEnrollment": 348564,
+      "medicaidEnrollment": 2471694
     },
     {
       "stateCode": "OH",
       "stateName": "Ohio",
-      "enrollment": 2633865,
-      "enrollmentChange": -6.0,
+      "enrollment": 2620167,
+      "enrollmentChange": -6.3,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 232871,
-      "medicaidEnrollment": 2400994
+      "month": 5,
+      "chipEnrollment": 229331,
+      "medicaidEnrollment": 2390836
     },
     {
       "stateCode": "MI",
       "stateName": "Michigan",
-      "enrollment": 2166262,
-      "enrollmentChange": -8.2,
+      "enrollment": 2150220,
+      "enrollmentChange": -8.4,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 165309,
-      "medicaidEnrollment": 2000953
+      "month": 5,
+      "chipEnrollment": 162475,
+      "medicaidEnrollment": 1987745
     },
     {
       "stateCode": "GA",
       "stateName": "Georgia",
-      "enrollment": 1837134,
-      "enrollmentChange": -3.5,
+      "enrollment": 1826428,
+      "enrollmentChange": -3.7,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 174668,
-      "medicaidEnrollment": 1662466
+      "month": 5,
+      "chipEnrollment": 174428,
+      "medicaidEnrollment": 1652000
     },
     {
       "stateCode": "WA",
       "stateName": "Washington",
-      "enrollment": 1788884,
-      "enrollmentChange": -1.5,
+      "enrollment": 1786049,
+      "enrollmentChange": -0.9,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 61666,
-      "medicaidEnrollment": 1727218
+      "month": 5,
+      "chipEnrollment": 62049,
+      "medicaidEnrollment": 1724000
     },
     {
       "stateCode": "NJ",
       "stateName": "New Jersey",
-      "enrollment": 1752792,
-      "enrollmentChange": -2.1,
+      "enrollment": 1748840,
+      "enrollmentChange": -2.3,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 261154,
-      "medicaidEnrollment": 1491638
+      "month": 5,
+      "chipEnrollment": 263088,
+      "medicaidEnrollment": 1485752
     },
     {
       "stateCode": "VA",
       "stateName": "Virginia",
-      "enrollment": 1652935,
-      "enrollmentChange": -6.5,
+      "enrollment": 1644308,
+      "enrollmentChange": -5.6,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 189054,
-      "medicaidEnrollment": 1463881
+      "month": 5,
+      "chipEnrollment": 187417,
+      "medicaidEnrollment": 1456891
     },
     {
       "stateCode": "AZ",
       "stateName": "Arizona",
-      "enrollment": 1634618,
-      "enrollmentChange": -10.7,
+      "enrollment": 1621802,
+      "enrollmentChange": -10.8,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 109923,
-      "medicaidEnrollment": 1524695
+      "month": 5,
+      "chipEnrollment": 110644,
+      "medicaidEnrollment": 1511158
     },
     {
       "stateCode": "MA",
       "stateName": "Massachusetts",
-      "enrollment": 1538406,
-      "enrollmentChange": -4.9,
+      "enrollment": 1535921,
+      "enrollmentChange": -4.1,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 174695,
-      "medicaidEnrollment": 1363711
-    },
-    {
-      "stateCode": "IN",
-      "stateName": "Indiana",
-      "enrollment": 1394788,
-      "enrollmentChange": -20.4,
-      "year": 2026,
-      "month": 4,
-      "chipEnrollment": 117023,
-      "medicaidEnrollment": 1277765
+      "month": 5,
+      "chipEnrollment": 173535,
+      "medicaidEnrollment": 1362386
     },
     {
       "stateCode": "TN",
       "stateName": "Tennessee",
-      "enrollment": 1389369,
+      "enrollment": 1387037,
       "enrollmentChange": -3.2,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 181381,
-      "medicaidEnrollment": 1207988
+      "month": 5,
+      "chipEnrollment": 183054,
+      "medicaidEnrollment": 1203983
+    },
+    {
+      "stateCode": "IN",
+      "stateName": "Indiana",
+      "enrollment": 1378365,
+      "enrollmentChange": -21.0,
+      "year": 2026,
+      "month": 5,
+      "chipEnrollment": 116642,
+      "medicaidEnrollment": 1261723
     },
     {
       "stateCode": "MD",
       "stateName": "Maryland",
-      "enrollment": 1383882,
-      "enrollmentChange": -3.6,
+      "enrollment": 1373772,
+      "enrollmentChange": -3.7,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 196326,
-      "medicaidEnrollment": 1187556
+      "month": 5,
+      "chipEnrollment": 195413,
+      "medicaidEnrollment": 1178359
     },
     {
       "stateCode": "LA",
       "stateName": "Louisiana",
-      "enrollment": 1296298,
-      "enrollmentChange": -13.4,
+      "enrollment": 1275658,
+      "enrollmentChange": -14.1,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 131808,
-      "medicaidEnrollment": 1164490
+      "month": 5,
+      "chipEnrollment": 129426,
+      "medicaidEnrollment": 1146232
     },
     {
       "stateCode": "KY",
       "stateName": "Kentucky",
-      "enrollment": 1284860,
-      "enrollmentChange": -6.6,
+      "enrollment": 1272217,
+      "enrollmentChange": -7.2,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 119910,
-      "medicaidEnrollment": 1164950
+      "month": 5,
+      "chipEnrollment": 117302,
+      "medicaidEnrollment": 1154915
     },
     {
       "stateCode": "OR",
       "stateName": "Oregon",
-      "enrollment": 1275661,
-      "enrollmentChange": -2.8,
+      "enrollment": 1271996,
+      "enrollmentChange": -3.4,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 180746,
-      "medicaidEnrollment": 1094915
+      "month": 5,
+      "chipEnrollment": 180216,
+      "medicaidEnrollment": 1091780
     },
     {
       "stateCode": "MO",
       "stateName": "Missouri",
-      "enrollment": 1245962,
-      "enrollmentChange": 1.1,
+      "enrollment": 1243830,
+      "enrollmentChange": 0.9,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 132415,
-      "medicaidEnrollment": 1113547
+      "month": 5,
+      "chipEnrollment": 134279,
+      "medicaidEnrollment": 1109551
     },
     {
       "stateCode": "CO",
       "stateName": "Colorado",
-      "enrollment": 1192118,
+      "enrollment": 1188091,
       "enrollmentChange": -1.9,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 137972,
-      "medicaidEnrollment": 1054146
+      "month": 5,
+      "chipEnrollment": 137849,
+      "medicaidEnrollment": 1050242
     },
     {
       "stateCode": "MN",
       "stateName": "Minnesota",
-      "enrollment": 1134383,
+      "enrollment": 1131743,
       "enrollmentChange": -1.7,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 3968,
-      "medicaidEnrollment": 1130415
+      "month": 5,
+      "chipEnrollment": 3835,
+      "medicaidEnrollment": 1127908
     },
     {
       "stateCode": "WI",
       "stateName": "Wisconsin",
-      "enrollment": 1114488,
-      "enrollmentChange": -3.1,
+      "enrollment": 1108942,
+      "enrollmentChange": -2.4,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 97222,
-      "medicaidEnrollment": 1017266
+      "month": 5,
+      "chipEnrollment": 96647,
+      "medicaidEnrollment": 1012295
     },
     {
       "stateCode": "OK",
       "stateName": "Oklahoma",
-      "enrollment": 979706,
-      "enrollmentChange": -1.4,
+      "enrollment": 991558,
+      "enrollmentChange": -1.8,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 81057,
-      "medicaidEnrollment": 898649
+      "month": 5,
+      "chipEnrollment": 81058,
+      "medicaidEnrollment": 910500
     },
     {
       "stateCode": "SC",
       "stateName": "South Carolina",
-      "enrollment": 962444,
-      "enrollmentChange": -7.2,
+      "enrollment": 957737,
+      "enrollmentChange": -6.1,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 112428,
-      "medicaidEnrollment": 850016
+      "month": 5,
+      "chipEnrollment": 111928,
+      "medicaidEnrollment": 845809
     },
     {
       "stateCode": "AL",
       "stateName": "Alabama",
-      "enrollment": 934554,
-      "enrollmentChange": -2.0,
+      "enrollment": 933487,
+      "enrollmentChange": -0.6,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 198102,
-      "medicaidEnrollment": 736452
+      "month": 5,
+      "chipEnrollment": 198835,
+      "medicaidEnrollment": 734652
     },
     {
       "stateCode": "CT",
       "stateName": "Connecticut",
-      "enrollment": 899752,
-      "enrollmentChange": -2.1,
+      "enrollment": 897214,
+      "enrollmentChange": -2.2,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 25570,
-      "medicaidEnrollment": 874182
+      "month": 5,
+      "chipEnrollment": 25396,
+      "medicaidEnrollment": 871818
     },
     {
       "stateCode": "AR",
       "stateName": "Arkansas",
-      "enrollment": 791448,
+      "enrollment": 787684,
       "enrollmentChange": -3.6,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 78477,
-      "medicaidEnrollment": 712971
+      "month": 5,
+      "chipEnrollment": 78483,
+      "medicaidEnrollment": 709201
     },
     {
       "stateCode": "NV",
       "stateName": "Nevada",
-      "enrollment": 722035,
-      "enrollmentChange": -6.3,
+      "enrollment": 714071,
+      "enrollmentChange": -6.8,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 46080,
-      "medicaidEnrollment": 675955
-    },
-    {
-      "stateCode": "NM",
-      "stateName": "New Mexico",
-      "enrollment": 679401,
-      "enrollmentChange": -4.4,
-      "year": 2026,
-      "month": 4,
-      "chipEnrollment": 42494,
-      "medicaidEnrollment": 636907
+      "month": 5,
+      "chipEnrollment": 45454,
+      "medicaidEnrollment": 668617
     },
     {
       "stateCode": "IA",
       "stateName": "Iowa",
-      "enrollment": 673411,
-      "enrollmentChange": 0.6,
+      "enrollment": 674796,
+      "enrollmentChange": 1.2,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 83517,
-      "medicaidEnrollment": 589894
+      "month": 5,
+      "chipEnrollment": 82952,
+      "medicaidEnrollment": 591844
+    },
+    {
+      "stateCode": "NM",
+      "stateName": "New Mexico",
+      "enrollment": 674273,
+      "enrollmentChange": -4.0,
+      "year": 2026,
+      "month": 5,
+      "chipEnrollment": 42383,
+      "medicaidEnrollment": 631890
     },
     {
       "stateCode": "MS",
       "stateName": "Mississippi",
-      "enrollment": 585185,
-      "enrollmentChange": -1.7,
+      "enrollment": 584206,
+      "enrollmentChange": -1.6,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 83125,
-      "medicaidEnrollment": 502060
+      "month": 5,
+      "chipEnrollment": 83380,
+      "medicaidEnrollment": 500826
     },
     {
       "stateCode": "WV",
       "stateName": "West Virginia",
-      "enrollment": 487462,
-      "enrollmentChange": -3.2,
+      "enrollment": 486392,
+      "enrollmentChange": -3.3,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 39040,
-      "medicaidEnrollment": 448422
-    },
-    {
-      "stateCode": "HI",
-      "stateName": "Hawaii",
-      "enrollment": 392510,
-      "enrollmentChange": -1.7,
-      "year": 2026,
-      "month": 4,
-      "chipEnrollment": 26010,
-      "medicaidEnrollment": 366500
+      "month": 5,
+      "chipEnrollment": 39310,
+      "medicaidEnrollment": 447082
     },
     {
       "stateCode": "KS",
       "stateName": "Kansas",
-      "enrollment": 388785,
-      "enrollmentChange": -5.9,
+      "enrollment": 395191,
+      "enrollmentChange": -2.5,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 70832,
-      "medicaidEnrollment": 317953
+      "month": 5,
+      "chipEnrollment": 71454,
+      "medicaidEnrollment": 323737
+    },
+    {
+      "stateCode": "HI",
+      "stateName": "Hawaii",
+      "enrollment": 392022,
+      "enrollmentChange": -0.9,
+      "year": 2026,
+      "month": 5,
+      "chipEnrollment": 26219,
+      "medicaidEnrollment": 365803
     },
     {
       "stateCode": "NE",
       "stateName": "Nebraska",
-      "enrollment": 332393,
-      "enrollmentChange": -2.3,
+      "enrollment": 332232,
+      "enrollmentChange": -1.7,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 35874,
-      "medicaidEnrollment": 296519
+      "month": 5,
+      "chipEnrollment": 37115,
+      "medicaidEnrollment": 295117
     },
     {
       "stateCode": "ME",
       "stateName": "Maine",
-      "enrollment": 332145,
-      "enrollmentChange": -3.4,
+      "enrollment": 329286,
+      "enrollmentChange": -4.0,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 19858,
-      "medicaidEnrollment": 312287
+      "month": 5,
+      "chipEnrollment": 19430,
+      "medicaidEnrollment": 309856
     },
     {
       "stateCode": "UT",
       "stateName": "Utah",
-      "enrollment": 324385,
-      "enrollmentChange": -4.0,
+      "enrollment": 324460,
+      "enrollmentChange": -3.7,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 34242,
-      "medicaidEnrollment": 290143
+      "month": 5,
+      "chipEnrollment": 34067,
+      "medicaidEnrollment": 290393
     },
     {
       "stateCode": "ID",
       "stateName": "Idaho",
-      "enrollment": 313919,
-      "enrollmentChange": -1.4,
+      "enrollment": 310400,
+      "enrollmentChange": -1.9,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 19597,
-      "medicaidEnrollment": 294322
+      "month": 5,
+      "chipEnrollment": 19456,
+      "medicaidEnrollment": 290944
     },
     {
       "stateCode": "RI",
       "stateName": "Rhode Island",
-      "enrollment": 290335,
-      "enrollmentChange": -8.8,
+      "enrollment": 285146,
+      "enrollmentChange": -10.3,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 33766,
-      "medicaidEnrollment": 256569
+      "month": 5,
+      "chipEnrollment": 33791,
+      "medicaidEnrollment": 251355
     },
     {
       "stateCode": "DC",
       "stateName": "District of Columbia",
-      "enrollment": 238536,
-      "enrollmentChange": -7.9,
+      "enrollment": 238011,
+      "enrollmentChange": -8.0,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 15713,
-      "medicaidEnrollment": 222823
+      "month": 5,
+      "chipEnrollment": 15626,
+      "medicaidEnrollment": 222385
     },
     {
       "stateCode": "DE",
       "stateName": "Delaware",
-      "enrollment": 236771,
-      "enrollmentChange": -3.9,
+      "enrollment": 235322,
+      "enrollmentChange": -4.1,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 13784,
-      "medicaidEnrollment": 222987
+      "month": 5,
+      "chipEnrollment": 13759,
+      "medicaidEnrollment": 221563
     },
     {
       "stateCode": "AK",
       "stateName": "Alaska",
-      "enrollment": 208674,
-      "enrollmentChange": -9.7,
+      "enrollment": 207612,
+      "enrollmentChange": -6.9,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 12740,
-      "medicaidEnrollment": 195934
+      "month": 5,
+      "chipEnrollment": 12640,
+      "medicaidEnrollment": 194972
     },
     {
       "stateCode": "MT",
       "stateName": "Montana",
-      "enrollment": 200644,
-      "enrollmentChange": -5.5,
+      "enrollment": 202904,
+      "enrollmentChange": -5.6,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 19544,
-      "medicaidEnrollment": 181100
+      "month": 5,
+      "chipEnrollment": 20348,
+      "medicaidEnrollment": 182556
     },
     {
       "stateCode": "NH",
       "stateName": "New Hampshire",
-      "enrollment": 170915,
-      "enrollmentChange": -8.2,
+      "enrollment": 168682,
+      "enrollmentChange": -9.0,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 18915,
-      "medicaidEnrollment": 152000
+      "month": 5,
+      "chipEnrollment": 18787,
+      "medicaidEnrollment": 149895
     },
     {
       "stateCode": "VT",
       "stateName": "Vermont",
-      "enrollment": 147661,
-      "enrollmentChange": -5.7,
+      "enrollment": 145403,
+      "enrollmentChange": -6.6,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 5527,
-      "medicaidEnrollment": 142134
+      "month": 5,
+      "chipEnrollment": 5554,
+      "medicaidEnrollment": 139849
     },
     {
       "stateCode": "SD",
       "stateName": "South Dakota",
-      "enrollment": 138920,
-      "enrollmentChange": -2.5,
+      "enrollment": 138641,
+      "enrollmentChange": -1.5,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 14453,
-      "medicaidEnrollment": 124467
+      "month": 5,
+      "chipEnrollment": 14442,
+      "medicaidEnrollment": 124199
     },
     {
       "stateCode": "ND",
       "stateName": "North Dakota",
-      "enrollment": 104017,
-      "enrollmentChange": -1.6,
+      "enrollment": 103256,
+      "enrollmentChange": -2.3,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 5410,
-      "medicaidEnrollment": 98607
+      "month": 5,
+      "chipEnrollment": 5388,
+      "medicaidEnrollment": 97868
     },
     {
       "stateCode": "WY",
       "stateName": "Wyoming",
-      "enrollment": 60267,
-      "enrollmentChange": -3.1,
+      "enrollment": 59917,
+      "enrollmentChange": -2.9,
       "year": 2026,
-      "month": 4,
-      "chipEnrollment": 6065,
-      "medicaidEnrollment": 54202
+      "month": 5,
+      "chipEnrollment": 6087,
+      "medicaidEnrollment": 53830
     }
   ],
   "national": {
-    "totalEnrollment": 73871024,
+    "totalEnrollment": 73526272,
     "statesReporting": 51,
-    "latestPeriod": "2026-04"
+    "latestPeriod": "2026-05"
   },
   "trends": {
+    "OR": [
+      {
+        "month": "2024-08",
+        "value": 1291058
+      },
+      {
+        "month": "2024-09",
+        "value": 1294139
+      },
+      {
+        "month": "2024-10",
+        "value": 1300251
+      },
+      {
+        "month": "2024-11",
+        "value": 1306387
+      },
+      {
+        "month": "2024-12",
+        "value": 1311535
+      },
+      {
+        "month": "2025-01",
+        "value": 1309088
+      },
+      {
+        "month": "2025-02",
+        "value": 1313864
+      },
+      {
+        "month": "2025-03",
+        "value": 1304085
+      },
+      {
+        "month": "2025-04",
+        "value": 1312501
+      },
+      {
+        "month": "2025-05",
+        "value": 1316564
+      },
+      {
+        "month": "2025-06",
+        "value": 1319886
+      },
+      {
+        "month": "2025-07",
+        "value": 1313711
+      },
+      {
+        "month": "2025-08",
+        "value": 1305313
+      },
+      {
+        "month": "2025-09",
+        "value": 1304963
+      },
+      {
+        "month": "2025-10",
+        "value": 1303752
+      },
+      {
+        "month": "2025-11",
+        "value": 1302888
+      },
+      {
+        "month": "2025-12",
+        "value": 1303114
+      },
+      {
+        "month": "2026-01",
+        "value": 1297017
+      },
+      {
+        "month": "2026-02",
+        "value": 1288913
+      },
+      {
+        "month": "2026-03",
+        "value": 1284261
+      },
+      {
+        "month": "2026-04",
+        "value": 1275661
+      },
+      {
+        "month": "2026-05",
+        "value": 1271996
+      }
+    ],
     "PA": [
       {
         "month": "2024-08",
@@ -601,6 +691,10 @@
       {
         "month": "2026-04",
         "value": 2978336
+      },
+      {
+        "month": "2026-05",
+        "value": 2963790
       }
     ],
     "RI": [
@@ -687,6 +781,10 @@
       {
         "month": "2026-04",
         "value": 290335
+      },
+      {
+        "month": "2026-05",
+        "value": 285146
       }
     ],
     "SC": [
@@ -773,6 +871,10 @@
       {
         "month": "2026-04",
         "value": 962444
+      },
+      {
+        "month": "2026-05",
+        "value": 957737
       }
     ],
     "SD": [
@@ -859,6 +961,10 @@
       {
         "month": "2026-04",
         "value": 138920
+      },
+      {
+        "month": "2026-05",
+        "value": 138641
       }
     ],
     "TN": [
@@ -945,6 +1051,10 @@
       {
         "month": "2026-04",
         "value": 1389369
+      },
+      {
+        "month": "2026-05",
+        "value": 1387037
       }
     ],
     "TX": [
@@ -1031,6 +1141,10 @@
       {
         "month": "2026-04",
         "value": 3976705
+      },
+      {
+        "month": "2026-05",
+        "value": 3941123
       }
     ],
     "UT": [
@@ -1117,6 +1231,10 @@
       {
         "month": "2026-04",
         "value": 324385
+      },
+      {
+        "month": "2026-05",
+        "value": 324460
       }
     ],
     "VA": [
@@ -1203,6 +1321,10 @@
       {
         "month": "2026-04",
         "value": 1652935
+      },
+      {
+        "month": "2026-05",
+        "value": 1644308
       }
     ],
     "VT": [
@@ -1289,6 +1411,10 @@
       {
         "month": "2026-04",
         "value": 147661
+      },
+      {
+        "month": "2026-05",
+        "value": 145403
       }
     ],
     "WA": [
@@ -1375,6 +1501,10 @@
       {
         "month": "2026-04",
         "value": 1788884
+      },
+      {
+        "month": "2026-05",
+        "value": 1786049
       }
     ],
     "WI": [
@@ -1461,6 +1591,10 @@
       {
         "month": "2026-04",
         "value": 1114488
+      },
+      {
+        "month": "2026-05",
+        "value": 1108942
       }
     ],
     "WV": [
@@ -1547,6 +1681,10 @@
       {
         "month": "2026-04",
         "value": 487462
+      },
+      {
+        "month": "2026-05",
+        "value": 486392
       }
     ],
     "WY": [
@@ -1633,6 +1771,10 @@
       {
         "month": "2026-04",
         "value": 60267
+      },
+      {
+        "month": "2026-05",
+        "value": 59917
       }
     ],
     "AK": [
@@ -1719,6 +1861,10 @@
       {
         "month": "2026-04",
         "value": 208674
+      },
+      {
+        "month": "2026-05",
+        "value": 207612
       }
     ],
     "AL": [
@@ -1805,6 +1951,10 @@
       {
         "month": "2026-04",
         "value": 934554
+      },
+      {
+        "month": "2026-05",
+        "value": 933487
       }
     ],
     "AR": [
@@ -1891,6 +2041,10 @@
       {
         "month": "2026-04",
         "value": 791448
+      },
+      {
+        "month": "2026-05",
+        "value": 787684
       }
     ],
     "AZ": [
@@ -1977,6 +2131,10 @@
       {
         "month": "2026-04",
         "value": 1634618
+      },
+      {
+        "month": "2026-05",
+        "value": 1621802
       }
     ],
     "CA": [
@@ -2063,6 +2221,10 @@
       {
         "month": "2026-04",
         "value": 11827277
+      },
+      {
+        "month": "2026-05",
+        "value": 11762641
       }
     ],
     "CO": [
@@ -2149,6 +2311,10 @@
       {
         "month": "2026-04",
         "value": 1192118
+      },
+      {
+        "month": "2026-05",
+        "value": 1188091
       }
     ],
     "CT": [
@@ -2235,6 +2401,10 @@
       {
         "month": "2026-04",
         "value": 899752
+      },
+      {
+        "month": "2026-05",
+        "value": 897214
       }
     ],
     "DC": [
@@ -2321,6 +2491,10 @@
       {
         "month": "2026-04",
         "value": 238536
+      },
+      {
+        "month": "2026-05",
+        "value": 238011
       }
     ],
     "DE": [
@@ -2407,6 +2581,10 @@
       {
         "month": "2026-04",
         "value": 236771
+      },
+      {
+        "month": "2026-05",
+        "value": 235322
       }
     ],
     "FL": [
@@ -2493,6 +2671,10 @@
       {
         "month": "2026-04",
         "value": 3571613
+      },
+      {
+        "month": "2026-05",
+        "value": 3577801
       }
     ],
     "GA": [
@@ -2579,6 +2761,10 @@
       {
         "month": "2026-04",
         "value": 1837134
+      },
+      {
+        "month": "2026-05",
+        "value": 1826428
       }
     ],
     "HI": [
@@ -2665,6 +2851,10 @@
       {
         "month": "2026-04",
         "value": 392510
+      },
+      {
+        "month": "2026-05",
+        "value": 392022
       }
     ],
     "IA": [
@@ -2751,6 +2941,10 @@
       {
         "month": "2026-04",
         "value": 673411
+      },
+      {
+        "month": "2026-05",
+        "value": 674796
       }
     ],
     "ID": [
@@ -2837,6 +3031,10 @@
       {
         "month": "2026-04",
         "value": 313919
+      },
+      {
+        "month": "2026-05",
+        "value": 310400
       }
     ],
     "IL": [
@@ -2923,6 +3121,10 @@
       {
         "month": "2026-04",
         "value": 2965999
+      },
+      {
+        "month": "2026-05",
+        "value": 2939165
       }
     ],
     "IN": [
@@ -3009,6 +3211,10 @@
       {
         "month": "2026-04",
         "value": 1394788
+      },
+      {
+        "month": "2026-05",
+        "value": 1378365
       }
     ],
     "KS": [
@@ -3095,6 +3301,10 @@
       {
         "month": "2026-04",
         "value": 388785
+      },
+      {
+        "month": "2026-05",
+        "value": 395191
       }
     ],
     "KY": [
@@ -3181,6 +3391,10 @@
       {
         "month": "2026-04",
         "value": 1284860
+      },
+      {
+        "month": "2026-05",
+        "value": 1272217
       }
     ],
     "LA": [
@@ -3267,6 +3481,10 @@
       {
         "month": "2026-04",
         "value": 1296298
+      },
+      {
+        "month": "2026-05",
+        "value": 1275658
       }
     ],
     "MA": [
@@ -3353,6 +3571,10 @@
       {
         "month": "2026-04",
         "value": 1538406
+      },
+      {
+        "month": "2026-05",
+        "value": 1535921
       }
     ],
     "MD": [
@@ -3439,6 +3661,10 @@
       {
         "month": "2026-04",
         "value": 1383882
+      },
+      {
+        "month": "2026-05",
+        "value": 1373772
       }
     ],
     "ME": [
@@ -3525,6 +3751,10 @@
       {
         "month": "2026-04",
         "value": 332145
+      },
+      {
+        "month": "2026-05",
+        "value": 329286
       }
     ],
     "MI": [
@@ -3611,6 +3841,10 @@
       {
         "month": "2026-04",
         "value": 2166262
+      },
+      {
+        "month": "2026-05",
+        "value": 2150220
       }
     ],
     "MN": [
@@ -3697,6 +3931,10 @@
       {
         "month": "2026-04",
         "value": 1134383
+      },
+      {
+        "month": "2026-05",
+        "value": 1131743
       }
     ],
     "MO": [
@@ -3783,6 +4021,10 @@
       {
         "month": "2026-04",
         "value": 1245962
+      },
+      {
+        "month": "2026-05",
+        "value": 1243830
       }
     ],
     "MS": [
@@ -3869,6 +4111,10 @@
       {
         "month": "2026-04",
         "value": 585185
+      },
+      {
+        "month": "2026-05",
+        "value": 584206
       }
     ],
     "MT": [
@@ -3955,6 +4201,10 @@
       {
         "month": "2026-04",
         "value": 200644
+      },
+      {
+        "month": "2026-05",
+        "value": 202904
       }
     ],
     "NC": [
@@ -4041,6 +4291,10 @@
       {
         "month": "2026-04",
         "value": 2835267
+      },
+      {
+        "month": "2026-05",
+        "value": 2820258
       }
     ],
     "ND": [
@@ -4127,6 +4381,10 @@
       {
         "month": "2026-04",
         "value": 104017
+      },
+      {
+        "month": "2026-05",
+        "value": 103256
       }
     ],
     "NE": [
@@ -4213,6 +4471,10 @@
       {
         "month": "2026-04",
         "value": 332393
+      },
+      {
+        "month": "2026-05",
+        "value": 332232
       }
     ],
     "NH": [
@@ -4299,6 +4561,10 @@
       {
         "month": "2026-04",
         "value": 170915
+      },
+      {
+        "month": "2026-05",
+        "value": 168682
       }
     ],
     "NJ": [
@@ -4385,6 +4651,10 @@
       {
         "month": "2026-04",
         "value": 1752792
+      },
+      {
+        "month": "2026-05",
+        "value": 1748840
       }
     ],
     "NM": [
@@ -4471,6 +4741,10 @@
       {
         "month": "2026-04",
         "value": 679401
+      },
+      {
+        "month": "2026-05",
+        "value": 674273
       }
     ],
     "NV": [
@@ -4557,6 +4831,10 @@
       {
         "month": "2026-04",
         "value": 722035
+      },
+      {
+        "month": "2026-05",
+        "value": 714071
       }
     ],
     "NY": [
@@ -4643,6 +4921,10 @@
       {
         "month": "2026-04",
         "value": 6402847
+      },
+      {
+        "month": "2026-05",
+        "value": 6386205
       }
     ],
     "OH": [
@@ -4729,6 +5011,10 @@
       {
         "month": "2026-04",
         "value": 2633865
+      },
+      {
+        "month": "2026-05",
+        "value": 2620167
       }
     ],
     "OK": [
@@ -4815,96 +5101,14 @@
       {
         "month": "2026-04",
         "value": 979706
-      }
-    ],
-    "OR": [
-      {
-        "month": "2024-08",
-        "value": 1291058
       },
       {
-        "month": "2024-09",
-        "value": 1294139
-      },
-      {
-        "month": "2024-10",
-        "value": 1300251
-      },
-      {
-        "month": "2024-11",
-        "value": 1306387
-      },
-      {
-        "month": "2024-12",
-        "value": 1311535
-      },
-      {
-        "month": "2025-01",
-        "value": 1309088
-      },
-      {
-        "month": "2025-02",
-        "value": 1313864
-      },
-      {
-        "month": "2025-03",
-        "value": 1304085
-      },
-      {
-        "month": "2025-04",
-        "value": 1312501
-      },
-      {
-        "month": "2025-05",
-        "value": 1316564
-      },
-      {
-        "month": "2025-06",
-        "value": 1319886
-      },
-      {
-        "month": "2025-07",
-        "value": 1313711
-      },
-      {
-        "month": "2025-08",
-        "value": 1305313
-      },
-      {
-        "month": "2025-09",
-        "value": 1304963
-      },
-      {
-        "month": "2025-10",
-        "value": 1303752
-      },
-      {
-        "month": "2025-11",
-        "value": 1302888
-      },
-      {
-        "month": "2025-12",
-        "value": 1303114
-      },
-      {
-        "month": "2026-01",
-        "value": 1297017
-      },
-      {
-        "month": "2026-02",
-        "value": 1288913
-      },
-      {
-        "month": "2026-03",
-        "value": 1284261
-      },
-      {
-        "month": "2026-04",
-        "value": 1275661
+        "month": "2026-05",
+        "value": 991558
       }
     ]
   },
-  "updated": "2026-08-27T17:13:40.493215",
+  "updated": "2026-08-28T18:05:57.892759",
   "source": "data.medicaid.gov",
-  "record_count": 2091
+  "record_count": 2193
 }
