@@ -8,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-08-31",
+      "timestamp": "2026-09-01",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-08-31"
+      "timestamp": "2026-09-01"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-08-31"
+      "timestamp": "2026-09-01"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-08-31",
+      "timestamp": "2026-09-01",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +54,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-08-31",
+      "timestamp": "2026-09-01",
       "affectedStates": [
         "OH"
       ]
@@ -98,32 +98,22 @@
       "category": "regulatory",
       "relevance": "high",
       "timestamp": "2026-08-05"
-    },
-    {
-      "id": "fr-2026-15124",
-      "title": "Medicare and Medicaid Programs; Quarterly Listing of Program Issuances-April Through June 2026",
-      "summary": "This quarterly notice lists Centers for Medicare & Medicaid Services (CMS) manual instructions, substantive and interpretive regulations, and other Federal Register notices that were published in the 3-month period, relating to the Medicare and Medicaid programs and other program\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/07/27/2026-15124/medicare-and-medicaid-programs-quarterly-listing-of-program-issuances-april-through-june-2026",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-07-27"
     }
   ],
   "national": {
-    "totalSignals": 10,
+    "totalSignals": 9,
     "byCategory": {
       "procurement": 3,
       "oig": 2,
-      "regulatory": 5
+      "regulatory": 4
     },
     "byRelevance": {
-      "high": 6,
+      "high": 5,
       "medium": 3,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-08-31T12:27:03.689302",
+  "updated": "2026-09-01T10:57:22.132036",
   "source": "aggregated"
 }
