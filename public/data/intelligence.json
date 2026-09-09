@@ -10,7 +10,7 @@
         "CA"
       ],
       "category": "enrollment",
-      "timestamp": "2026-09-08T10:26:54.113179",
+      "timestamp": "2026-09-09T10:37:32.535372",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -22,7 +22,7 @@
         "AZ"
       ],
       "category": "enrollment",
-      "timestamp": "2026-09-08T10:26:54.113179",
+      "timestamp": "2026-09-09T10:37:32.535372",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -34,7 +34,7 @@
         "IN"
       ],
       "category": "enrollment",
-      "timestamp": "2026-09-08T10:26:54.113179",
+      "timestamp": "2026-09-09T10:37:32.535372",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -46,7 +46,7 @@
         "LA"
       ],
       "category": "enrollment",
-      "timestamp": "2026-09-08T10:26:54.113179",
+      "timestamp": "2026-09-09T10:37:32.535372",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -58,7 +58,7 @@
         "RI"
       ],
       "category": "enrollment",
-      "timestamp": "2026-09-08T10:26:54.113179",
+      "timestamp": "2026-09-09T10:37:32.535372",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -70,7 +70,7 @@
         "FL"
       ],
       "category": "quality",
-      "timestamp": "2026-09-08T10:26:54.113179",
+      "timestamp": "2026-09-09T10:37:32.535372",
       "sourceLabel": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures"
     }
@@ -91,7 +91,7 @@
       ],
       "source": "CMS Monthly Medicaid & CHIP Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360",
-      "timestamp": "2026-09-08T10:26:54.113179"
+      "timestamp": "2026-09-09T10:37:32.535372"
     },
     {
       "id": "insight-tx-quality",
@@ -108,7 +108,7 @@
       ],
       "source": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures",
-      "timestamp": "2026-09-08T10:26:54.113179"
+      "timestamp": "2026-09-09T10:37:32.535372"
     },
     {
       "id": "insight-tx-managedcare",
@@ -125,13 +125,13 @@
       ],
       "source": "CMS Managed Care Enrollment Summary",
       "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
-      "timestamp": "2026-09-08T10:26:54.113179"
+      "timestamp": "2026-09-09T10:37:32.535372"
     },
     {
       "id": "insight-regulatory",
       "rank": 4,
       "title": "Privacy Act of 1974; System of Records",
-      "summary": "In accordance with the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS) is establishing a new system of records to be maintained by the Centers for Medicare & Medicaid Services (CMS), titled \"Nurses for Nursing Homes Program (NNHP),\" system No. 0\u2026",
+      "summary": "In accordance with the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS) is modifying an existing system of records maintained by the Centers for Medicare & Medicaid Services (CMS), titled \"Hospice Item Set (HIS) System,\" System No. 09-70-0548. Th\u2026",
       "whyItMatters": "Federal Register rules often carry state implementation deadlines; catching them early avoids downstream compliance scrambles.",
       "confidence": "high",
       "category": "regulatory",
@@ -139,8 +139,8 @@
       "actionPrompt": "Assess TX implementation implications and notify HHSC contact",
       "relatedStates": [],
       "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/08/20/2026-17005/privacy-act-of-1974-system-of-records",
-      "timestamp": "2026-09-08T10:26:54.113179"
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/09/2026-18316/privacy-act-of-1974-system-of-records",
+      "timestamp": "2026-09-09T10:37:32.535372"
     },
     {
       "id": "insight-procurement",
@@ -157,7 +157,7 @@
       ],
       "source": "Texas HHSC (Procurement)",
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
-      "timestamp": "2026-09-08T10:26:54.113179"
+      "timestamp": "2026-09-09T10:37:32.535372"
     }
   ],
   "riskOpportunity": [
@@ -324,7 +324,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/"
     }
   ],
-  "updated": "2026-09-08T10:26:54.113179",
+  "updated": "2026-09-09T10:37:32.535372",
   "source": "template",
   "model": null
 }
