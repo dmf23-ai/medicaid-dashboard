@@ -1,16 +1,6 @@
 {
   "signals": [
     {
-      "id": "fr-2026-19061",
-      "title": "Medicare and Medicaid Programs; Application From DNV Healthcare USA Inc. (DNV) for Continued CMS-Approval of its Hospital Accreditation Program",
-      "summary": "This notice acknowledges the approval of an application from DNV Healthcare USA Inc. (DNV) for continued CMS recognition as a national accrediting organization for hospitals that wish to participate in the Medicare or Medicaid programs.",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/17/2026-19061/medicare-and-medicaid-programs-application-from-dnv-healthcare-usa-inc-dnv-for-continued",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-09-17"
-    },
-    {
       "id": "hhsc-opportunities",
       "title": "Texas HHSC Procurement Opportunities portal",
       "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
@@ -18,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-09-17",
+      "timestamp": "2026-09-18",
       "affectedStates": [
         "TX"
       ]
@@ -31,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-09-17"
+      "timestamp": "2026-09-18"
     },
     {
       "id": "oig-workplan",
@@ -41,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-09-17"
+      "timestamp": "2026-09-18"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -51,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-09-17",
+      "timestamp": "2026-09-18",
       "affectedStates": [
         "TX"
       ]
@@ -64,10 +54,20 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-09-17",
+      "timestamp": "2026-09-18",
       "affectedStates": [
         "OH"
       ]
+    },
+    {
+      "id": "fr-2026-19061",
+      "title": "Medicare and Medicaid Programs; Application From DNV Healthcare USA Inc. (DNV) for Continued CMS-Approval of its Hospital Accreditation Program",
+      "summary": "This notice acknowledges the approval of an application from DNV Healthcare USA Inc. (DNV) for continued CMS recognition as a national accrediting organization for hospitals that wish to participate in the Medicare or Medicaid programs.",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/17/2026-19061/medicare-and-medicaid-programs-application-from-dnv-healthcare-usa-inc-dnv-for-continued",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-09-17"
     },
     {
       "id": "fr-2026-18316",
@@ -113,9 +113,9 @@
   "national": {
     "totalSignals": 10,
     "byCategory": {
-      "regulatory": 5,
       "procurement": 3,
-      "oig": 2
+      "oig": 2,
+      "regulatory": 5
     },
     "byRelevance": {
       "high": 6,
@@ -124,6 +124,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-09-17T10:49:34.804495",
+  "updated": "2026-09-18T10:24:57.851303",
   "source": "aggregated"
 }
