@@ -8,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-09-23",
+      "timestamp": "2026-09-24",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-09-23"
+      "timestamp": "2026-09-24"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-09-23"
+      "timestamp": "2026-09-24"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-09-23",
+      "timestamp": "2026-09-24",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +54,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-09-23",
+      "timestamp": "2026-09-24",
       "affectedStates": [
         "OH"
       ]
@@ -98,32 +98,22 @@
       "category": "regulatory",
       "relevance": "high",
       "timestamp": "2026-08-13"
-    },
-    {
-      "id": "fr-2026-15861",
-      "title": "Privacy Act of 1974; Matching Program",
-      "summary": "In accordance with the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS) is providing notice of the re-establishment of a matching program between CMS and the Department of War for \"Verification of E\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/08/05/2026-15861/privacy-act-of-1974-matching-program",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-08-05"
     }
   ],
   "national": {
-    "totalSignals": 10,
+    "totalSignals": 9,
     "byCategory": {
       "procurement": 3,
       "oig": 2,
-      "regulatory": 5
+      "regulatory": 4
     },
     "byRelevance": {
-      "high": 6,
+      "high": 5,
       "medium": 3,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-09-23T10:37:41.825813",
+  "updated": "2026-09-24T10:57:35.294852",
   "source": "aggregated"
 }
