@@ -1,6 +1,26 @@
 {
   "signals": [
     {
+      "id": "fr-2026-19707",
+      "title": "Medicaid and Children's Health Insurance Program (CHIP) Generic Information Collection Activities: Proposed Collection; Comment Request",
+      "summary": "On May 28, 2010, the Office of Management and Budget (OMB) issued Paperwork Reduction Act (PRA) guidance related to the \"generic\" clearance process. Generally, this is an expedited process by which agencies may obtain OMB's approval of collection of information requests that are \u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/25/2026-19707/medicaid-and-childrens-health-insurance-program-chip-generic-information-collection-activities",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-09-25"
+    },
+    {
+      "id": "fr-2026-19643",
+      "title": "Privacy Act of 1974; Matching Program",
+      "summary": "In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the U.S. Department of Health and Human Services, Centers for Medicare & Medicaid Services (CMS), is providing notice of the re-establishment of a matching program between CMS and the Do Not Pay Working\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/25/2026-19643/privacy-act-of-1974-matching-program",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-09-25"
+    },
+    {
       "id": "hhsc-opportunities",
       "title": "Texas HHSC Procurement Opportunities portal",
       "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
@@ -8,7 +28,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-09-24",
+      "timestamp": "2026-09-25",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +41,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-09-24"
+      "timestamp": "2026-09-25"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +51,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-09-24"
+      "timestamp": "2026-09-25"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +61,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-09-24",
+      "timestamp": "2026-09-25",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +74,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-09-24",
+      "timestamp": "2026-09-25",
       "affectedStates": [
         "OH"
       ]
@@ -101,19 +121,19 @@
     }
   ],
   "national": {
-    "totalSignals": 9,
+    "totalSignals": 11,
     "byCategory": {
+      "regulatory": 6,
       "procurement": 3,
-      "oig": 2,
-      "regulatory": 4
+      "oig": 2
     },
     "byRelevance": {
-      "high": 5,
+      "high": 7,
       "medium": 3,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-09-24T10:57:35.294852",
+  "updated": "2026-09-25T10:58:17.111188",
   "source": "aggregated"
 }
