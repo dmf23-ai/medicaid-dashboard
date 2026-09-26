@@ -1,6 +1,65 @@
 {
   "signals": [
     {
+      "id": "hhsc-opportunities",
+      "title": "Texas HHSC Procurement Opportunities portal",
+      "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
+      "source": "Texas HHSC (Procurement)",
+      "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
+      "category": "procurement",
+      "relevance": "high",
+      "timestamp": "2026-09-26",
+      "affectedStates": [
+        "TX"
+      ]
+    },
+    {
+      "id": "oig-portfolio-medicaid",
+      "title": "HHS OIG Medicaid Portfolio \u2014 active oversight docket",
+      "summary": "Browse current HHS OIG Medicaid audits, evaluations, and advisories. Scraper fell back; visit directly for the latest items.",
+      "source": "HHS OIG (portfolio page)",
+      "sourceUrl": "https://oig.hhs.gov/reports/",
+      "category": "oig",
+      "relevance": "medium",
+      "timestamp": "2026-09-26"
+    },
+    {
+      "id": "oig-workplan",
+      "title": "HHS OIG Work Plan \u2014 in-progress Medicaid items",
+      "summary": "The OIG Work Plan lists audits and evaluations underway; filter to Medicaid & CHIP for upcoming report drops.",
+      "source": "HHS OIG (work plan)",
+      "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
+      "category": "oig",
+      "relevance": "medium",
+      "timestamp": "2026-09-26"
+    },
+    {
+      "id": "txsmartbuy-esbd",
+      "title": "Texas Electronic State Business Daily (ESBD) \u2014 search portal",
+      "summary": "Statewide solicitation search. Filter by HHSC agency code and 'Medical Services' category for current Medicaid awards and renewals.",
+      "source": "Texas ESBD (TxSmartBuy)",
+      "sourceUrl": "https://www.txsmartbuy.gov/esbd",
+      "category": "procurement",
+      "relevance": "medium",
+      "timestamp": "2026-09-26",
+      "affectedStates": [
+        "TX"
+      ]
+    },
+    {
+      "id": "ohiobuys-public",
+      "title": "OhioBuys public RFP browser \u2014 Ohio Department of Medicaid track",
+      "summary": "Browse Ohio Department of Medicaid procurement opportunities and active RFPs. Page is JS-rendered; scraper fell back, visit directly for current items.",
+      "source": "OhioBuys",
+      "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
+      "category": "procurement",
+      "relevance": "low",
+      "timestamp": "2026-09-26",
+      "affectedStates": [
+        "OH"
+      ]
+    },
+    {
       "id": "fr-2026-19707",
       "title": "Medicaid and Children's Health Insurance Program (CHIP) Generic Information Collection Activities: Proposed Collection; Comment Request",
       "summary": "On May 28, 2010, the Office of Management and Budget (OMB) issued Paperwork Reduction Act (PRA) guidance related to the \"generic\" clearance process. Generally, this is an expedited process by which agencies may obtain OMB's approval of collection of information requests that are \u2026",
@@ -19,65 +78,6 @@
       "category": "regulatory",
       "relevance": "high",
       "timestamp": "2026-09-25"
-    },
-    {
-      "id": "hhsc-opportunities",
-      "title": "Texas HHSC Procurement Opportunities portal",
-      "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
-      "source": "Texas HHSC (Procurement)",
-      "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
-      "category": "procurement",
-      "relevance": "high",
-      "timestamp": "2026-09-25",
-      "affectedStates": [
-        "TX"
-      ]
-    },
-    {
-      "id": "oig-portfolio-medicaid",
-      "title": "HHS OIG Medicaid Portfolio \u2014 active oversight docket",
-      "summary": "Browse current HHS OIG Medicaid audits, evaluations, and advisories. Scraper fell back; visit directly for the latest items.",
-      "source": "HHS OIG (portfolio page)",
-      "sourceUrl": "https://oig.hhs.gov/reports/",
-      "category": "oig",
-      "relevance": "medium",
-      "timestamp": "2026-09-25"
-    },
-    {
-      "id": "oig-workplan",
-      "title": "HHS OIG Work Plan \u2014 in-progress Medicaid items",
-      "summary": "The OIG Work Plan lists audits and evaluations underway; filter to Medicaid & CHIP for upcoming report drops.",
-      "source": "HHS OIG (work plan)",
-      "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
-      "category": "oig",
-      "relevance": "medium",
-      "timestamp": "2026-09-25"
-    },
-    {
-      "id": "txsmartbuy-esbd",
-      "title": "Texas Electronic State Business Daily (ESBD) \u2014 search portal",
-      "summary": "Statewide solicitation search. Filter by HHSC agency code and 'Medical Services' category for current Medicaid awards and renewals.",
-      "source": "Texas ESBD (TxSmartBuy)",
-      "sourceUrl": "https://www.txsmartbuy.gov/esbd",
-      "category": "procurement",
-      "relevance": "medium",
-      "timestamp": "2026-09-25",
-      "affectedStates": [
-        "TX"
-      ]
-    },
-    {
-      "id": "ohiobuys-public",
-      "title": "OhioBuys public RFP browser \u2014 Ohio Department of Medicaid track",
-      "summary": "Browse Ohio Department of Medicaid procurement opportunities and active RFPs. Page is JS-rendered; scraper fell back, visit directly for current items.",
-      "source": "OhioBuys",
-      "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
-      "category": "procurement",
-      "relevance": "low",
-      "timestamp": "2026-09-25",
-      "affectedStates": [
-        "OH"
-      ]
     },
     {
       "id": "fr-2026-19061",
@@ -123,9 +123,9 @@
   "national": {
     "totalSignals": 11,
     "byCategory": {
-      "regulatory": 6,
       "procurement": 3,
-      "oig": 2
+      "oig": 2,
+      "regulatory": 6
     },
     "byRelevance": {
       "high": 7,
@@ -134,6 +134,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-09-25T10:58:17.111188",
+  "updated": "2026-09-26T10:39:37.979343",
   "source": "aggregated"
 }
