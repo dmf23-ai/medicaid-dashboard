@@ -8,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-09-28",
+      "timestamp": "2026-09-29",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-09-28"
+      "timestamp": "2026-09-29"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-09-28"
+      "timestamp": "2026-09-29"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-09-28",
+      "timestamp": "2026-09-29",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +54,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-09-28",
+      "timestamp": "2026-09-29",
       "affectedStates": [
         "OH"
       ]
@@ -108,32 +108,22 @@
       "category": "regulatory",
       "relevance": "high",
       "timestamp": "2026-08-13"
-    },
-    {
-      "id": "fr-2026-16472",
-      "title": "Medicare Program; Alternative Payment Model (APM) Incentive Payment Advisory for Clinicians-Request for Current Billing Information for Qualifying APM Participants",
-      "summary": "This advisory is to alert certain clinicians who are Qualifying Alternative Payment Model (APM) participants (QPs) and eligible to receive an APM Incentive Payment that the Centers for Medicare & Medicaid Services (CMS) does not have the current billing information needed to disb\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/08/13/2026-16472/medicare-program-alternative-payment-model-apm-incentive-payment-advisory-for-clinicians-request-for",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-08-13"
     }
   ],
   "national": {
-    "totalSignals": 11,
+    "totalSignals": 10,
     "byCategory": {
       "procurement": 3,
       "oig": 2,
-      "regulatory": 6
+      "regulatory": 5
     },
     "byRelevance": {
-      "high": 7,
+      "high": 6,
       "medium": 3,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-09-28T12:40:39.109817",
+  "updated": "2026-09-29T11:58:35.148830",
   "source": "aggregated"
 }
