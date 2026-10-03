@@ -8,20 +8,10 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-10-02",
+      "timestamp": "2026-10-03",
       "affectedStates": [
         "TX"
       ]
-    },
-    {
-      "id": "fr-2026-20281",
-      "title": "Global Benchmark for Efficient Drug Pricing (GLOBE) Model",
-      "summary": "This final rule implements the Global Benchmark for Efficient Drug Pricing Model (GLOBE Model), a new mandatory Medicare payment model under section 1115A of the Social Security Act. The GLOBE Model will test whether a payment model that uses an alternative method for calculating\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/02/2026-20281/global-benchmark-for-efficient-drug-pricing-globe-model",
-      "category": "regulatory",
-      "relevance": "medium",
-      "timestamp": "2026-10-02"
     },
     {
       "id": "oig-portfolio-medicaid",
@@ -31,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-10-02"
+      "timestamp": "2026-10-03"
     },
     {
       "id": "oig-workplan",
@@ -41,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-10-02"
+      "timestamp": "2026-10-03"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -51,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-10-02",
+      "timestamp": "2026-10-03",
       "affectedStates": [
         "TX"
       ]
@@ -64,10 +54,20 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-10-02",
+      "timestamp": "2026-10-03",
       "affectedStates": [
         "OH"
       ]
+    },
+    {
+      "id": "fr-2026-20281",
+      "title": "Global Benchmark for Efficient Drug Pricing (GLOBE) Model",
+      "summary": "This final rule implements the Global Benchmark for Efficient Drug Pricing Model (GLOBE Model), a new mandatory Medicare payment model under section 1115A of the Social Security Act. The GLOBE Model will test whether a payment model that uses an alternative method for calculating\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/02/2026-20281/global-benchmark-for-efficient-drug-pricing-globe-model",
+      "category": "regulatory",
+      "relevance": "medium",
+      "timestamp": "2026-10-02"
     },
     {
       "id": "fr-2026-19707",
@@ -114,8 +114,8 @@
     "totalSignals": 10,
     "byCategory": {
       "procurement": 3,
-      "regulatory": 5,
-      "oig": 2
+      "oig": 2,
+      "regulatory": 5
     },
     "byRelevance": {
       "high": 5,
@@ -124,6 +124,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-10-02T11:44:48.802024",
+  "updated": "2026-10-03T10:58:11.453387",
   "source": "aggregated"
 }
