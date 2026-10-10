@@ -1,14 +1,14 @@
 {
   "signals": [
     {
-      "id": "esbd-1",
-      "title": "Medicaid and Children\u2019s Health Insurance Program Dental Services",
-      "summary": "Texas HHSC solicitation surfaced on the ESBD: Medicaid and Children\u2019s Health Insurance Program Dental Services",
-      "source": "Texas ESBD (HHSC)",
-      "sourceUrl": "https://www.txsmartbuy.gov/esbd/HHS0017108",
+      "id": "hhsc-opportunities",
+      "title": "Texas HHSC Procurement Opportunities portal",
+      "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
+      "source": "Texas HHSC (Procurement)",
+      "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-10-09",
+      "timestamp": "2026-10-10",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-10-09"
+      "timestamp": "2026-10-10"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +31,20 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-10-09"
+      "timestamp": "2026-10-10"
+    },
+    {
+      "id": "txsmartbuy-esbd",
+      "title": "Texas Electronic State Business Daily (ESBD) \u2014 search portal",
+      "summary": "Statewide solicitation search. Filter by HHSC agency code and 'Medical Services' category for current Medicaid awards and renewals.",
+      "source": "Texas ESBD (TxSmartBuy)",
+      "sourceUrl": "https://www.txsmartbuy.gov/esbd",
+      "category": "procurement",
+      "relevance": "medium",
+      "timestamp": "2026-10-10",
+      "affectedStates": [
+        "TX"
+      ]
     },
     {
       "id": "ohiobuys-public",
@@ -41,7 +54,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-10-09",
+      "timestamp": "2026-10-10",
       "affectedStates": [
         "OH"
       ]
@@ -98,19 +111,19 @@
     }
   ],
   "national": {
-    "totalSignals": 9,
+    "totalSignals": 10,
     "byCategory": {
-      "procurement": 2,
+      "procurement": 3,
       "oig": 2,
       "regulatory": 5
     },
     "byRelevance": {
       "high": 5,
-      "medium": 3,
+      "medium": 4,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-10-09T12:26:37.937614",
+  "updated": "2026-10-10T11:45:48.367285",
   "source": "aggregated"
 }
