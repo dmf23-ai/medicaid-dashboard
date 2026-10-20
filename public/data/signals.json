@@ -8,10 +8,20 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-10-19",
+      "timestamp": "2026-10-20",
       "affectedStates": [
         "TX"
       ]
+    },
+    {
+      "id": "fr-2026-21420",
+      "title": "Medicare Program; Implementation of Sections 6219, 6220, and 6224 of the Consolidated Appropriations Act, 2026",
+      "summary": "This proposed rule would implement section 6219 (Adjustments to Medicare Part D Cost-Sharing Reductions for Low-Income Individuals), section 6220 (Requiring Enhanced and Accurate Lists of (REAL) Health Providers Act), and section 6224 (Modernizing and Ensuring Pharmacy Benefit Ma\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/20/2026-21420/medicare-program-implementation-of-sections-6219-6220-and-6224-of-the-consolidated-appropriations",
+      "category": "regulatory",
+      "relevance": "medium",
+      "timestamp": "2026-10-20"
     },
     {
       "id": "oig-portfolio-medicaid",
@@ -21,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-10-19"
+      "timestamp": "2026-10-20"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +41,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-10-19"
+      "timestamp": "2026-10-20"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +51,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-10-19",
+      "timestamp": "2026-10-20",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +64,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-10-19",
+      "timestamp": "2026-10-20",
       "affectedStates": [
         "OH"
       ]
@@ -101,19 +111,19 @@
     }
   ],
   "national": {
-    "totalSignals": 9,
+    "totalSignals": 10,
     "byCategory": {
       "procurement": 3,
-      "oig": 2,
-      "regulatory": 4
+      "regulatory": 5,
+      "oig": 2
     },
     "byRelevance": {
       "high": 4,
-      "medium": 4,
+      "medium": 5,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-10-19T11:51:45.876813",
+  "updated": "2026-10-20T10:48:54.459525",
   "source": "aggregated"
 }
