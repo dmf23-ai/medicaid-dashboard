@@ -1,6 +1,16 @@
 {
   "signals": [
     {
+      "id": "fr-2026-21491",
+      "title": "Privacy Act of 1974; Matching Program",
+      "summary": "In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS), is providing notice of a computer matching program between CMS and the Department of Veterans Affairs (\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/21/2026-21491/privacy-act-of-1974-matching-program",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-10-21"
+    },
+    {
       "id": "hhsc-opportunities",
       "title": "Texas HHSC Procurement Opportunities portal",
       "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
@@ -8,20 +18,10 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-10-20",
+      "timestamp": "2026-10-21",
       "affectedStates": [
         "TX"
       ]
-    },
-    {
-      "id": "fr-2026-21420",
-      "title": "Medicare Program; Implementation of Sections 6219, 6220, and 6224 of the Consolidated Appropriations Act, 2026",
-      "summary": "This proposed rule would implement section 6219 (Adjustments to Medicare Part D Cost-Sharing Reductions for Low-Income Individuals), section 6220 (Requiring Enhanced and Accurate Lists of (REAL) Health Providers Act), and section 6224 (Modernizing and Ensuring Pharmacy Benefit Ma\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/20/2026-21420/medicare-program-implementation-of-sections-6219-6220-and-6224-of-the-consolidated-appropriations",
-      "category": "regulatory",
-      "relevance": "medium",
-      "timestamp": "2026-10-20"
     },
     {
       "id": "oig-portfolio-medicaid",
@@ -31,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-10-20"
+      "timestamp": "2026-10-21"
     },
     {
       "id": "oig-workplan",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-10-20"
+      "timestamp": "2026-10-21"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -51,7 +51,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-10-20",
+      "timestamp": "2026-10-21",
       "affectedStates": [
         "TX"
       ]
@@ -64,10 +64,20 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-10-20",
+      "timestamp": "2026-10-21",
       "affectedStates": [
         "OH"
       ]
+    },
+    {
+      "id": "fr-2026-21420",
+      "title": "Medicare Program; Implementation of Sections 6219, 6220, and 6224 of the Consolidated Appropriations Act, 2026",
+      "summary": "This proposed rule would implement section 6219 (Adjustments to Medicare Part D Cost-Sharing Reductions for Low-Income Individuals), section 6220 (Requiring Enhanced and Accurate Lists of (REAL) Health Providers Act), and section 6224 (Modernizing and Ensuring Pharmacy Benefit Ma\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/20/2026-21420/medicare-program-implementation-of-sections-6219-6220-and-6224-of-the-consolidated-appropriations",
+      "category": "regulatory",
+      "relevance": "medium",
+      "timestamp": "2026-10-20"
     },
     {
       "id": "fr-2026-20281",
@@ -90,16 +100,6 @@
       "timestamp": "2026-09-25"
     },
     {
-      "id": "fr-2026-19643",
-      "title": "Privacy Act of 1974; Matching Program",
-      "summary": "In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the U.S. Department of Health and Human Services, Centers for Medicare & Medicaid Services (CMS), is providing notice of the re-establishment of a matching program between CMS and the Do Not Pay Working\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/25/2026-19643/privacy-act-of-1974-matching-program",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-09-25"
-    },
-    {
       "id": "fr-2026-19061",
       "title": "Medicare and Medicaid Programs; Application From DNV Healthcare USA Inc. (DNV) for Continued CMS-Approval of its Hospital Accreditation Program",
       "summary": "This notice acknowledges the approval of an application from DNV Healthcare USA Inc. (DNV) for continued CMS recognition as a national accrediting organization for hospitals that wish to participate in the Medicare or Medicaid programs.",
@@ -113,8 +113,8 @@
   "national": {
     "totalSignals": 10,
     "byCategory": {
-      "procurement": 3,
       "regulatory": 5,
+      "procurement": 3,
       "oig": 2
     },
     "byRelevance": {
@@ -124,6 +124,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-10-20T10:48:54.459525",
+  "updated": "2026-10-21T11:01:15.744835",
   "source": "aggregated"
 }
