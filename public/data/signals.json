@@ -1,14 +1,14 @@
 {
   "signals": [
     {
-      "id": "hhsc-opportunities",
-      "title": "Texas HHSC Procurement Opportunities portal",
-      "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
-      "source": "Texas HHSC (Procurement)",
-      "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
+      "id": "esbd-1",
+      "title": "Community Vaccine &amp; Microchip Clinics",
+      "summary": "Texas HHSC solicitation surfaced on the ESBD: Community Vaccine &amp; Microchip Clinics",
+      "source": "Texas ESBD (HHSC)",
+      "sourceUrl": "https://www.txsmartbuy.gov/esbd/26-106",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-10-25",
+      "timestamp": "2026-10-26",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-10-25"
+      "timestamp": "2026-10-26"
     },
     {
       "id": "oig-workplan",
@@ -31,20 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-10-25"
-    },
-    {
-      "id": "txsmartbuy-esbd",
-      "title": "Texas Electronic State Business Daily (ESBD) \u2014 search portal",
-      "summary": "Statewide solicitation search. Filter by HHSC agency code and 'Medical Services' category for current Medicaid awards and renewals.",
-      "source": "Texas ESBD (TxSmartBuy)",
-      "sourceUrl": "https://www.txsmartbuy.gov/esbd",
-      "category": "procurement",
-      "relevance": "medium",
-      "timestamp": "2026-10-25",
-      "affectedStates": [
-        "TX"
-      ]
+      "timestamp": "2026-10-26"
     },
     {
       "id": "ohiobuys-public",
@@ -54,7 +41,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-10-25",
+      "timestamp": "2026-10-26",
       "affectedStates": [
         "OH"
       ]
@@ -111,19 +98,19 @@
     }
   ],
   "national": {
-    "totalSignals": 10,
+    "totalSignals": 9,
     "byCategory": {
-      "procurement": 3,
+      "procurement": 2,
       "oig": 2,
       "regulatory": 5
     },
     "byRelevance": {
       "high": 4,
-      "medium": 5,
+      "medium": 4,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-10-25T10:32:54.695884",
+  "updated": "2026-10-26T12:06:01.062839",
   "source": "aggregated"
 }
