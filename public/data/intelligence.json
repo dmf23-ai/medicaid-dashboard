@@ -10,7 +10,7 @@
         "CA"
       ],
       "category": "enrollment",
-      "timestamp": "2026-10-28T11:58:49.485422",
+      "timestamp": "2026-10-29T12:07:57.027643",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -22,7 +22,7 @@
         "AZ"
       ],
       "category": "enrollment",
-      "timestamp": "2026-10-28T11:58:49.485422",
+      "timestamp": "2026-10-29T12:07:57.027643",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -34,7 +34,7 @@
         "IN"
       ],
       "category": "enrollment",
-      "timestamp": "2026-10-28T11:58:49.485422",
+      "timestamp": "2026-10-29T12:07:57.027643",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -46,7 +46,7 @@
         "LA"
       ],
       "category": "enrollment",
-      "timestamp": "2026-10-28T11:58:49.485422",
+      "timestamp": "2026-10-29T12:07:57.027643",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -58,7 +58,7 @@
         "FL"
       ],
       "category": "quality",
-      "timestamp": "2026-10-28T11:58:49.485422",
+      "timestamp": "2026-10-29T12:07:57.027643",
       "sourceLabel": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures"
     }
@@ -79,7 +79,7 @@
       ],
       "source": "CMS Monthly Medicaid & CHIP Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360",
-      "timestamp": "2026-10-28T11:58:49.485422"
+      "timestamp": "2026-10-29T12:07:57.027643"
     },
     {
       "id": "insight-tx-quality",
@@ -96,7 +96,7 @@
       ],
       "source": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures",
-      "timestamp": "2026-10-28T11:58:49.485422"
+      "timestamp": "2026-10-29T12:07:57.027643"
     },
     {
       "id": "insight-tx-managedcare",
@@ -113,13 +113,13 @@
       ],
       "source": "CMS Managed Care Enrollment Summary",
       "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
-      "timestamp": "2026-10-28T11:58:49.485422"
+      "timestamp": "2026-10-29T12:07:57.027643"
     },
     {
       "id": "insight-regulatory",
       "rank": 4,
       "title": "Privacy Act of 1974; Matching Program",
-      "summary": "In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS), is providing notice of a computer matching program between CMS and the Department of Veterans Affairs (\u2026",
+      "summary": "In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS), is providing notice of a computer matching program between CMS and participating State-Based Administer\u2026",
       "whyItMatters": "Federal Register rules often carry state implementation deadlines; catching them early avoids downstream compliance scrambles.",
       "confidence": "high",
       "category": "regulatory",
@@ -127,14 +127,14 @@
       "actionPrompt": "Assess TX implementation implications and notify HHSC contact",
       "relatedStates": [],
       "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/21/2026-21491/privacy-act-of-1974-matching-program",
-      "timestamp": "2026-10-28T11:58:49.485422"
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/29/2026-22015/privacy-act-of-1974-matching-program",
+      "timestamp": "2026-10-29T12:07:57.027643"
     },
     {
       "id": "insight-procurement",
       "rank": 5,
-      "title": "Texas HHSC Procurement Opportunities portal",
-      "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
+      "title": "Community Vaccine &amp; Microchip Clinics",
+      "summary": "Texas HHSC solicitation surfaced on the ESBD: Community Vaccine &amp; Microchip Clinics",
       "whyItMatters": "Active procurements are direct pipeline \u2014 Accenture capture timelines are short.",
       "confidence": "medium",
       "category": "competitive",
@@ -143,9 +143,9 @@
       "relatedStates": [
         "TX"
       ],
-      "source": "Texas HHSC (Procurement)",
-      "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
-      "timestamp": "2026-10-28T11:58:49.485422"
+      "source": "Texas ESBD (HHSC)",
+      "sourceUrl": "https://www.txsmartbuy.gov/esbd/26-106",
+      "timestamp": "2026-10-29T12:07:57.027643"
     }
   ],
   "riskOpportunity": [
@@ -200,11 +200,11 @@
     {
       "id": "ro-federal-rules",
       "label": "Federal Rule Pipeline",
-      "description": "5 active CMS Medicaid regulatory items in Federal Register.",
+      "description": "4 active CMS Medicaid regulatory items in Federal Register.",
       "risk": 60,
       "opportunity": 55,
       "impact": 60,
-      "trend": "deteriorating",
+      "trend": "stable",
       "category": "policy",
       "recommendedAction": "Brief HHSC on rule timeline implications",
       "sourceUrl": "https://www.federalregister.gov/"
@@ -224,11 +224,11 @@
     {
       "id": "ro-procurement-pipeline",
       "label": "State Procurement Pipeline",
-      "description": "3 active procurement items across tracked state portals.",
+      "description": "2 active procurement items across tracked state portals.",
       "risk": 35,
       "opportunity": 75,
       "impact": 70,
-      "trend": "improving",
+      "trend": "stable",
       "category": "procurement",
       "recommendedAction": "Bid/no-bid triage on active RFPs",
       "sourceUrl": "https://www.txsmartbuy.gov/esbd"
@@ -289,7 +289,7 @@
     },
     {
       "label": "Procurement",
-      "value": "3 active",
+      "value": "2 active",
       "delta": null,
       "deltaDirection": "neutral",
       "tooltip": "HHSC- or Medicaid-related procurement items currently tracked.",
@@ -297,7 +297,7 @@
     },
     {
       "label": "OIG/Reg Signals",
-      "value": "7 open",
+      "value": "6 open",
       "delta": null,
       "deltaDirection": "neutral",
       "tooltip": "Combined count of recent OIG and Federal Register signals.",
@@ -312,7 +312,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/"
     }
   ],
-  "updated": "2026-10-28T11:58:49.485422",
+  "updated": "2026-10-29T12:07:57.027643",
   "source": "template",
   "model": null
 }

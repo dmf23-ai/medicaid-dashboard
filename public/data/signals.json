@@ -1,14 +1,24 @@
 {
   "signals": [
     {
-      "id": "hhsc-opportunities",
-      "title": "Texas HHSC Procurement Opportunities portal",
-      "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
-      "source": "Texas HHSC (Procurement)",
-      "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
+      "id": "fr-2026-22015",
+      "title": "Privacy Act of 1974; Matching Program",
+      "summary": "In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS), is providing notice of a computer matching program between CMS and participating State-Based Administer\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/29/2026-22015/privacy-act-of-1974-matching-program",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-10-29"
+    },
+    {
+      "id": "esbd-1",
+      "title": "Community Vaccine &amp; Microchip Clinics",
+      "summary": "Texas HHSC solicitation surfaced on the ESBD: Community Vaccine &amp; Microchip Clinics",
+      "source": "Texas ESBD (HHSC)",
+      "sourceUrl": "https://www.txsmartbuy.gov/esbd/26-106",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-10-28",
+      "timestamp": "2026-10-29",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-10-28"
+      "timestamp": "2026-10-29"
     },
     {
       "id": "oig-workplan",
@@ -31,20 +41,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-10-28"
-    },
-    {
-      "id": "txsmartbuy-esbd",
-      "title": "Texas Electronic State Business Daily (ESBD) \u2014 search portal",
-      "summary": "Statewide solicitation search. Filter by HHSC agency code and 'Medical Services' category for current Medicaid awards and renewals.",
-      "source": "Texas ESBD (TxSmartBuy)",
-      "sourceUrl": "https://www.txsmartbuy.gov/esbd",
-      "category": "procurement",
-      "relevance": "medium",
-      "timestamp": "2026-10-28",
-      "affectedStates": [
-        "TX"
-      ]
+      "timestamp": "2026-10-29"
     },
     {
       "id": "ohiobuys-public",
@@ -54,20 +51,10 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-10-28",
+      "timestamp": "2026-10-29",
       "affectedStates": [
         "OH"
       ]
-    },
-    {
-      "id": "fr-2026-21491",
-      "title": "Privacy Act of 1974; Matching Program",
-      "summary": "In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS), is providing notice of a computer matching program between CMS and the Department of Veterans Affairs (\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/21/2026-21491/privacy-act-of-1974-matching-program",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-10-21"
     },
     {
       "id": "fr-2026-21420",
@@ -98,32 +85,22 @@
       "category": "regulatory",
       "relevance": "high",
       "timestamp": "2026-09-25"
-    },
-    {
-      "id": "fr-2026-19061",
-      "title": "Medicare and Medicaid Programs; Application From DNV Healthcare USA Inc. (DNV) for Continued CMS-Approval of its Hospital Accreditation Program",
-      "summary": "This notice acknowledges the approval of an application from DNV Healthcare USA Inc. (DNV) for continued CMS recognition as a national accrediting organization for hospitals that wish to participate in the Medicare or Medicaid programs.",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/17/2026-19061/medicare-and-medicaid-programs-application-from-dnv-healthcare-usa-inc-dnv-for-continued",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-09-17"
     }
   ],
   "national": {
-    "totalSignals": 10,
+    "totalSignals": 8,
     "byCategory": {
-      "procurement": 3,
-      "oig": 2,
-      "regulatory": 5
+      "regulatory": 4,
+      "procurement": 2,
+      "oig": 2
     },
     "byRelevance": {
-      "high": 4,
-      "medium": 5,
+      "high": 3,
+      "medium": 4,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-10-28T11:58:48.561811",
+  "updated": "2026-10-29T12:07:56.045883",
   "source": "aggregated"
 }
