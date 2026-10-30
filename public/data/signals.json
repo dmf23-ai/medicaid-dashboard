@@ -1,16 +1,6 @@
 {
   "signals": [
     {
-      "id": "fr-2026-22015",
-      "title": "Privacy Act of 1974; Matching Program",
-      "summary": "In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS), is providing notice of a computer matching program between CMS and participating State-Based Administer\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/29/2026-22015/privacy-act-of-1974-matching-program",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-10-29"
-    },
-    {
       "id": "esbd-1",
       "title": "Community Vaccine &amp; Microchip Clinics",
       "summary": "Texas HHSC solicitation surfaced on the ESBD: Community Vaccine &amp; Microchip Clinics",
@@ -18,7 +8,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd/26-106",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-10-29",
+      "timestamp": "2026-10-30",
       "affectedStates": [
         "TX"
       ]
@@ -31,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-10-29"
+      "timestamp": "2026-10-30"
     },
     {
       "id": "oig-workplan",
@@ -41,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-10-29"
+      "timestamp": "2026-10-30"
     },
     {
       "id": "ohiobuys-public",
@@ -51,10 +41,20 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-10-29",
+      "timestamp": "2026-10-30",
       "affectedStates": [
         "OH"
       ]
+    },
+    {
+      "id": "fr-2026-22015",
+      "title": "Privacy Act of 1974; Matching Program",
+      "summary": "In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS), is providing notice of a computer matching program between CMS and participating State-Based Administer\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/29/2026-22015/privacy-act-of-1974-matching-program",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-10-29"
     },
     {
       "id": "fr-2026-21420",
@@ -90,9 +90,9 @@
   "national": {
     "totalSignals": 8,
     "byCategory": {
-      "regulatory": 4,
       "procurement": 2,
-      "oig": 2
+      "oig": 2,
+      "regulatory": 4
     },
     "byRelevance": {
       "high": 3,
@@ -101,6 +101,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-10-29T12:07:56.045883",
+  "updated": "2026-10-30T11:59:17.019609",
   "source": "aggregated"
 }
