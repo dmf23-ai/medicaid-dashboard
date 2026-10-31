@@ -1,6 +1,16 @@
 {
   "signals": [
     {
+      "id": "fr-2026-22297",
+      "title": "Emergency Clearance: Public Information Collection Requirements Submitted to the Office of Management and Budget (OMB)",
+      "summary": "The Centers for Medicare & Medicaid Services (CMS) is requesting that an information collection request revision for the Review Choice Demonstration or Home Health Services (CMS-10599/0938- 1311) processed under the emergency clearance process associated with the implementing reg\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/02/2026-22297/emergency-clearance-public-information-collection-requirements-submitted-to-the-office-of-management",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-11-02"
+    },
+    {
       "id": "esbd-1",
       "title": "Community Vaccine &amp; Microchip Clinics",
       "summary": "Texas HHSC solicitation surfaced on the ESBD: Community Vaccine &amp; Microchip Clinics",
@@ -8,7 +18,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd/26-106",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-10-30",
+      "timestamp": "2026-10-31",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-10-30"
+      "timestamp": "2026-10-31"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +41,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-10-30"
+      "timestamp": "2026-10-31"
     },
     {
       "id": "ohiobuys-public",
@@ -41,7 +51,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-10-30",
+      "timestamp": "2026-10-31",
       "affectedStates": [
         "OH"
       ]
@@ -88,19 +98,19 @@
     }
   ],
   "national": {
-    "totalSignals": 8,
+    "totalSignals": 9,
     "byCategory": {
+      "regulatory": 5,
       "procurement": 2,
-      "oig": 2,
-      "regulatory": 4
+      "oig": 2
     },
     "byRelevance": {
-      "high": 3,
+      "high": 4,
       "medium": 4,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-10-30T11:59:17.019609",
+  "updated": "2026-10-31T11:33:42.129702",
   "source": "aggregated"
 }

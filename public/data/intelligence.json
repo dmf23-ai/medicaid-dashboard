@@ -1,52 +1,40 @@
 {
-  "executiveSummary": "As of the latest reporting period, approximately 73,167,389 individuals are enrolled in Medicaid and CHIP programs across 51 states and territories. Total Medicaid expenditures stand at $215,903,780,451, with a national average per-enrollee cost of $2,951. Quality performance across the Core Set measures averages 65.6/100, with 10 states classified as high performers and 15 states requiring improvement attention.",
-  "texasSpotlight": "Texas currently has 3,915,559 Medicaid enrollees, making it one of the largest programs nationally. Year-over-year enrollment has changed by -5.9%. Texas's composite quality score of 62/100 places it in the moderate performance tier, below the national average of 65.6.",
+  "executiveSummary": "As of the latest reporting period, approximately 72,946,510 individuals are enrolled in Medicaid and CHIP programs across 51 states and territories. Total Medicaid expenditures stand at $215,903,780,451, with a national average per-enrollee cost of $2,960. Quality performance across the Core Set measures averages 65.6/100, with 10 states classified as high performers and 15 states requiring improvement attention.",
+  "texasSpotlight": "Texas currently has 3,891,857 Medicaid enrollees, making it one of the largest programs nationally. Year-over-year enrollment has changed by -6.7%. Texas's composite quality score of 62/100 places it in the moderate performance tier, below the national average of 65.6.",
   "alerts": [
     {
-      "title": "CA enrollment decrease: -12.4%",
+      "title": "CA enrollment decrease: -12.6%",
       "severity": "info",
-      "description": "California shows a 12.4% year-over-year enrollment decrease, significantly above the typical range.",
+      "description": "California shows a 12.6% year-over-year enrollment decrease, significantly above the typical range.",
       "states": [
         "CA"
       ],
       "category": "enrollment",
-      "timestamp": "2026-10-30T11:59:17.914980",
+      "timestamp": "2026-10-31T11:33:42.952679",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
     {
-      "title": "AZ enrollment decrease: -10.1%",
-      "severity": "info",
-      "description": "Arizona shows a 10.1% year-over-year enrollment decrease, significantly above the typical range.",
-      "states": [
-        "AZ"
-      ],
-      "category": "enrollment",
-      "timestamp": "2026-10-30T11:59:17.914980",
-      "sourceLabel": "CMS Monthly Enrollment",
-      "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
-    },
-    {
-      "title": "IN enrollment decrease: -18.5%",
+      "title": "IN enrollment decrease: -18.6%",
       "severity": "warning",
-      "description": "Indiana shows a 18.5% year-over-year enrollment decrease, significantly above the typical range.",
+      "description": "Indiana shows a 18.6% year-over-year enrollment decrease, significantly above the typical range.",
       "states": [
         "IN"
       ],
       "category": "enrollment",
-      "timestamp": "2026-10-30T11:59:17.914980",
+      "timestamp": "2026-10-31T11:33:42.952679",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
     {
-      "title": "LA enrollment decrease: -14.0%",
+      "title": "LA enrollment decrease: -13.7%",
       "severity": "info",
-      "description": "Louisiana shows a 14.0% year-over-year enrollment decrease, significantly above the typical range.",
+      "description": "Louisiana shows a 13.7% year-over-year enrollment decrease, significantly above the typical range.",
       "states": [
         "LA"
       ],
       "category": "enrollment",
-      "timestamp": "2026-10-30T11:59:17.914980",
+      "timestamp": "2026-10-31T11:33:42.952679",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -58,7 +46,7 @@
         "FL"
       ],
       "category": "quality",
-      "timestamp": "2026-10-30T11:59:17.914980",
+      "timestamp": "2026-10-31T11:33:42.952679",
       "sourceLabel": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures"
     }
@@ -67,8 +55,8 @@
     {
       "id": "insight-tx-enrollment",
       "rank": 1,
-      "title": "Texas Medicaid enrollment at 3,915,559 (-5.9% YoY)",
-      "summary": "Texas reports 3,915,559 enrollees in the latest CMS monthly snapshot, with a year-over-year change of -5.9%.",
+      "title": "Texas Medicaid enrollment at 3,891,857 (-6.7% YoY)",
+      "summary": "Texas reports 3,891,857 enrollees in the latest CMS monthly snapshot, with a year-over-year change of -6.7%.",
       "whyItMatters": "Enrollment movement directly affects Accenture's downstream work volume for Provider Communications and contact-center capacity planning.",
       "confidence": "high",
       "category": "operational",
@@ -79,7 +67,7 @@
       ],
       "source": "CMS Monthly Medicaid & CHIP Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360",
-      "timestamp": "2026-10-30T11:59:17.914980"
+      "timestamp": "2026-10-31T11:33:42.952679"
     },
     {
       "id": "insight-tx-quality",
@@ -96,7 +84,7 @@
       ],
       "source": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures",
-      "timestamp": "2026-10-30T11:59:17.914980"
+      "timestamp": "2026-10-31T11:33:42.952679"
     },
     {
       "id": "insight-tx-managedcare",
@@ -113,13 +101,13 @@
       ],
       "source": "CMS Managed Care Enrollment Summary",
       "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
-      "timestamp": "2026-10-30T11:59:17.914980"
+      "timestamp": "2026-10-31T11:33:42.952679"
     },
     {
       "id": "insight-regulatory",
       "rank": 4,
-      "title": "Privacy Act of 1974; Matching Program",
-      "summary": "In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS), is providing notice of a computer matching program between CMS and participating State-Based Administer\u2026",
+      "title": "Emergency Clearance: Public Information Collection Requirements Submitted to the Office of Management and Budget (OMB)",
+      "summary": "The Centers for Medicare & Medicaid Services (CMS) is requesting that an information collection request revision for the Review Choice Demonstration or Home Health Services (CMS-10599/0938- 1311) processed under the emergency clearance process associated with the implementing reg\u2026",
       "whyItMatters": "Federal Register rules often carry state implementation deadlines; catching them early avoids downstream compliance scrambles.",
       "confidence": "high",
       "category": "regulatory",
@@ -127,8 +115,8 @@
       "actionPrompt": "Assess TX implementation implications and notify HHSC contact",
       "relatedStates": [],
       "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/29/2026-22015/privacy-act-of-1974-matching-program",
-      "timestamp": "2026-10-30T11:59:17.914980"
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/02/2026-22297/emergency-clearance-public-information-collection-requirements-submitted-to-the-office-of-management",
+      "timestamp": "2026-10-31T11:33:42.952679"
     },
     {
       "id": "insight-procurement",
@@ -145,7 +133,7 @@
       ],
       "source": "Texas ESBD (HHSC)",
       "sourceUrl": "https://www.txsmartbuy.gov/esbd/26-106",
-      "timestamp": "2026-10-30T11:59:17.914980"
+      "timestamp": "2026-10-31T11:33:42.952679"
     }
   ],
   "riskOpportunity": [
@@ -200,11 +188,11 @@
     {
       "id": "ro-federal-rules",
       "label": "Federal Rule Pipeline",
-      "description": "4 active CMS Medicaid regulatory items in Federal Register.",
+      "description": "5 active CMS Medicaid regulatory items in Federal Register.",
       "risk": 60,
       "opportunity": 55,
       "impact": 60,
-      "trend": "stable",
+      "trend": "deteriorating",
       "category": "policy",
       "recommendedAction": "Brief HHSC on rule timeline implications",
       "sourceUrl": "https://www.federalregister.gov/"
@@ -249,15 +237,15 @@
   "pulseMetrics": [
     {
       "label": "Enrollment",
-      "value": "3.92M",
-      "delta": "-5.9% YoY",
+      "value": "3.89M",
+      "delta": "-6.7% YoY",
       "deltaDirection": "down",
       "tooltip": "Total Texas Medicaid & CHIP enrollment (latest CMS monthly snapshot).",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
     {
       "label": "12-Mo Delta",
-      "value": "-246,618",
+      "value": "-277,270",
       "delta": "vs peers",
       "deltaDirection": "neutral",
       "tooltip": "Absolute enrollment change over the last 12 months.",
@@ -265,7 +253,7 @@
     },
     {
       "label": "Per Enrollee",
-      "value": "$3,077",
+      "value": "$3,096",
       "delta": null,
       "deltaDirection": "neutral",
       "tooltip": "Average Medicaid spend per enrollee in Texas (CMS-64).",
@@ -297,7 +285,7 @@
     },
     {
       "label": "OIG/Reg Signals",
-      "value": "6 open",
+      "value": "7 open",
       "delta": null,
       "deltaDirection": "neutral",
       "tooltip": "Combined count of recent OIG and Federal Register signals.",
@@ -312,7 +300,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/"
     }
   ],
-  "updated": "2026-10-30T11:59:17.914980",
+  "updated": "2026-10-31T11:33:42.952679",
   "source": "template",
   "model": null
 }
