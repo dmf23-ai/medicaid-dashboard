@@ -12,13 +12,13 @@
     },
     {
       "id": "esbd-1",
-      "title": "Community Vaccine &amp; Microchip Clinics",
-      "summary": "Texas HHSC solicitation surfaced on the ESBD: Community Vaccine &amp; Microchip Clinics",
+      "title": "Medicaid and Children\u2019s Health Insurance Program Dental Services",
+      "summary": "Texas HHSC solicitation surfaced on the ESBD: Medicaid and Children\u2019s Health Insurance Program Dental Services",
       "source": "Texas ESBD (HHSC)",
-      "sourceUrl": "https://www.txsmartbuy.gov/esbd/26-106",
+      "sourceUrl": "https://www.txsmartbuy.gov/esbd/HHS0017108",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-10-31",
+      "timestamp": "2026-11-01",
       "affectedStates": [
         "TX"
       ]
@@ -31,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-10-31"
+      "timestamp": "2026-11-01"
     },
     {
       "id": "oig-workplan",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-10-31"
+      "timestamp": "2026-11-01"
     },
     {
       "id": "ohiobuys-public",
@@ -51,7 +51,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-10-31",
+      "timestamp": "2026-11-01",
       "affectedStates": [
         "OH"
       ]
@@ -111,6 +111,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-10-31T11:33:42.129702",
+  "updated": "2026-11-01T12:31:01.713793",
   "source": "aggregated"
 }
