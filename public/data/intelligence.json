@@ -10,7 +10,7 @@
         "CA"
       ],
       "category": "enrollment",
-      "timestamp": "2026-11-02T14:31:54.407841",
+      "timestamp": "2026-11-03T13:28:34.310811",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -22,7 +22,7 @@
         "IN"
       ],
       "category": "enrollment",
-      "timestamp": "2026-11-02T14:31:54.407841",
+      "timestamp": "2026-11-03T13:28:34.310811",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -34,7 +34,7 @@
         "LA"
       ],
       "category": "enrollment",
-      "timestamp": "2026-11-02T14:31:54.407841",
+      "timestamp": "2026-11-03T13:28:34.310811",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -46,7 +46,7 @@
         "FL"
       ],
       "category": "quality",
-      "timestamp": "2026-11-02T14:31:54.407841",
+      "timestamp": "2026-11-03T13:28:34.310811",
       "sourceLabel": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures"
     }
@@ -67,7 +67,7 @@
       ],
       "source": "CMS Monthly Medicaid & CHIP Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360",
-      "timestamp": "2026-11-02T14:31:54.407841"
+      "timestamp": "2026-11-03T13:28:34.310811"
     },
     {
       "id": "insight-tx-quality",
@@ -84,7 +84,7 @@
       ],
       "source": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures",
-      "timestamp": "2026-11-02T14:31:54.407841"
+      "timestamp": "2026-11-03T13:28:34.310811"
     },
     {
       "id": "insight-tx-managedcare",
@@ -101,13 +101,13 @@
       ],
       "source": "CMS Managed Care Enrollment Summary",
       "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
-      "timestamp": "2026-11-02T14:31:54.407841"
+      "timestamp": "2026-11-03T13:28:34.310811"
     },
     {
       "id": "insight-regulatory",
       "rank": 4,
-      "title": "Emergency Clearance: Public Information Collection Requirements Submitted to the Office of Management and Budget (OMB)",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) is requesting that an information collection request revision for the Review Choice Demonstration or Home Health Services (CMS-10599/0938- 1311) processed under the emergency clearance process associated with the implementing reg\u2026",
+      "title": "Medicare and Medicaid Programs; Organ Procurement Organizations Conditions for Coverage: Revisions to the Conditions for Coverage",
+      "summary": "This final rule revises the Conditions for Coverage for Organ Procurement Organizations (OPOs) to clarify outstanding procedural questions and provide additional operational flexibility for OPOs to achieve high performance resulting in the successful procurement, distribution, an\u2026",
       "whyItMatters": "Federal Register rules often carry state implementation deadlines; catching them early avoids downstream compliance scrambles.",
       "confidence": "high",
       "category": "regulatory",
@@ -115,8 +115,8 @@
       "actionPrompt": "Assess TX implementation implications and notify HHSC contact",
       "relatedStates": [],
       "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/02/2026-22297/emergency-clearance-public-information-collection-requirements-submitted-to-the-office-of-management",
-      "timestamp": "2026-11-02T14:31:54.407841"
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/03/2026-22381/medicare-and-medicaid-programs-organ-procurement-organizations-conditions-for-coverage-revisions-to",
+      "timestamp": "2026-11-03T13:28:34.310811"
     },
     {
       "id": "insight-procurement",
@@ -133,7 +133,7 @@
       ],
       "source": "Texas ESBD (HHSC)",
       "sourceUrl": "https://www.txsmartbuy.gov/esbd/HHS0017108",
-      "timestamp": "2026-11-02T14:31:54.407841"
+      "timestamp": "2026-11-03T13:28:34.310811"
     }
   ],
   "riskOpportunity": [
@@ -300,7 +300,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/"
     }
   ],
-  "updated": "2026-11-02T14:31:54.407841",
+  "updated": "2026-11-03T13:28:34.310811",
   "source": "template",
   "model": null
 }

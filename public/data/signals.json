@@ -1,14 +1,14 @@
 {
   "signals": [
     {
-      "id": "fr-2026-22297",
-      "title": "Emergency Clearance: Public Information Collection Requirements Submitted to the Office of Management and Budget (OMB)",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) is requesting that an information collection request revision for the Review Choice Demonstration or Home Health Services (CMS-10599/0938- 1311) processed under the emergency clearance process associated with the implementing reg\u2026",
+      "id": "fr-2026-22381",
+      "title": "Medicare and Medicaid Programs; Organ Procurement Organizations Conditions for Coverage: Revisions to the Conditions for Coverage",
+      "summary": "This final rule revises the Conditions for Coverage for Organ Procurement Organizations (OPOs) to clarify outstanding procedural questions and provide additional operational flexibility for OPOs to achieve high performance resulting in the successful procurement, distribution, an\u2026",
       "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/02/2026-22297/emergency-clearance-public-information-collection-requirements-submitted-to-the-office-of-management",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/03/2026-22381/medicare-and-medicaid-programs-organ-procurement-organizations-conditions-for-coverage-revisions-to",
       "category": "regulatory",
       "relevance": "high",
-      "timestamp": "2026-11-02"
+      "timestamp": "2026-11-03"
     },
     {
       "id": "esbd-1",
@@ -18,7 +18,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd/HHS0017108",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-11-02",
+      "timestamp": "2026-11-03",
       "affectedStates": [
         "TX"
       ]
@@ -31,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-11-02"
+      "timestamp": "2026-11-03"
     },
     {
       "id": "oig-workplan",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-11-02"
+      "timestamp": "2026-11-03"
     },
     {
       "id": "ohiobuys-public",
@@ -51,10 +51,20 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-11-02",
+      "timestamp": "2026-11-03",
       "affectedStates": [
         "OH"
       ]
+    },
+    {
+      "id": "fr-2026-22297",
+      "title": "Emergency Clearance: Public Information Collection Requirements Submitted to the Office of Management and Budget (OMB)",
+      "summary": "The Centers for Medicare & Medicaid Services (CMS) is requesting that an information collection request revision for the Review Choice Demonstration or Home Health Services (CMS-10599/0938- 1311) processed under the emergency clearance process associated with the implementing reg\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/02/2026-22297/emergency-clearance-public-information-collection-requirements-submitted-to-the-office-of-management",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-11-02"
     },
     {
       "id": "fr-2026-22015",
@@ -85,16 +95,6 @@
       "category": "regulatory",
       "relevance": "medium",
       "timestamp": "2026-10-02"
-    },
-    {
-      "id": "fr-2026-19707",
-      "title": "Medicaid and Children's Health Insurance Program (CHIP) Generic Information Collection Activities: Proposed Collection; Comment Request",
-      "summary": "On May 28, 2010, the Office of Management and Budget (OMB) issued Paperwork Reduction Act (PRA) guidance related to the \"generic\" clearance process. Generally, this is an expedited process by which agencies may obtain OMB's approval of collection of information requests that are \u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/09/25/2026-19707/medicaid-and-childrens-health-insurance-program-chip-generic-information-collection-activities",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-09-25"
     }
   ],
   "national": {
@@ -111,6 +111,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-11-02T14:31:53.035308",
+  "updated": "2026-11-03T13:28:33.025217",
   "source": "aggregated"
 }
