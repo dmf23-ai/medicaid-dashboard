@@ -1,24 +1,14 @@
 {
   "signals": [
     {
-      "id": "fr-2026-22381",
-      "title": "Medicare and Medicaid Programs; Organ Procurement Organizations Conditions for Coverage: Revisions to the Conditions for Coverage",
-      "summary": "This final rule revises the Conditions for Coverage for Organ Procurement Organizations (OPOs) to clarify outstanding procedural questions and provide additional operational flexibility for OPOs to achieve high performance resulting in the successful procurement, distribution, an\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/03/2026-22381/medicare-and-medicaid-programs-organ-procurement-organizations-conditions-for-coverage-revisions-to",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-11-03"
-    },
-    {
-      "id": "esbd-1",
-      "title": "Medicaid and Children\u2019s Health Insurance Program Dental Services",
-      "summary": "Texas HHSC solicitation surfaced on the ESBD: Medicaid and Children\u2019s Health Insurance Program Dental Services",
-      "source": "Texas ESBD (HHSC)",
-      "sourceUrl": "https://www.txsmartbuy.gov/esbd/HHS0017108",
+      "id": "hhsc-opportunities",
+      "title": "Texas HHSC Procurement Opportunities portal",
+      "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
+      "source": "Texas HHSC (Procurement)",
+      "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-11-03",
+      "timestamp": "2026-11-04",
       "affectedStates": [
         "TX"
       ]
@@ -31,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-11-03"
+      "timestamp": "2026-11-04"
     },
     {
       "id": "oig-workplan",
@@ -41,7 +31,20 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-11-03"
+      "timestamp": "2026-11-04"
+    },
+    {
+      "id": "txsmartbuy-esbd",
+      "title": "Texas Electronic State Business Daily (ESBD) \u2014 search portal",
+      "summary": "Statewide solicitation search. Filter by HHSC agency code and 'Medical Services' category for current Medicaid awards and renewals.",
+      "source": "Texas ESBD (TxSmartBuy)",
+      "sourceUrl": "https://www.txsmartbuy.gov/esbd",
+      "category": "procurement",
+      "relevance": "medium",
+      "timestamp": "2026-11-04",
+      "affectedStates": [
+        "TX"
+      ]
     },
     {
       "id": "ohiobuys-public",
@@ -51,10 +54,20 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-11-03",
+      "timestamp": "2026-11-04",
       "affectedStates": [
         "OH"
       ]
+    },
+    {
+      "id": "fr-2026-22381",
+      "title": "Medicare and Medicaid Programs; Organ Procurement Organizations Conditions for Coverage: Revisions to the Conditions for Coverage",
+      "summary": "This final rule revises the Conditions for Coverage for Organ Procurement Organizations (OPOs) to clarify outstanding procedural questions and provide additional operational flexibility for OPOs to achieve high performance resulting in the successful procurement, distribution, an\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/03/2026-22381/medicare-and-medicaid-programs-organ-procurement-organizations-conditions-for-coverage-revisions-to",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-11-03"
     },
     {
       "id": "fr-2026-22297",
@@ -98,19 +111,19 @@
     }
   ],
   "national": {
-    "totalSignals": 9,
+    "totalSignals": 10,
     "byCategory": {
-      "regulatory": 5,
-      "procurement": 2,
-      "oig": 2
+      "procurement": 3,
+      "oig": 2,
+      "regulatory": 5
     },
     "byRelevance": {
       "high": 4,
-      "medium": 4,
+      "medium": 5,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-11-03T13:28:33.025217",
+  "updated": "2026-11-04T13:39:32.227829",
   "source": "aggregated"
 }
