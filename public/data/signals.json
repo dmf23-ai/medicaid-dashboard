@@ -8,20 +8,10 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-11-06",
+      "timestamp": "2026-11-07",
       "affectedStates": [
         "TX"
       ]
-    },
-    {
-      "id": "fr-2026-22739",
-      "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program an",
-      "summary": "This final rule with comment period revises the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2027 based on our continuing experience with these systems. We also describe the chang\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
-      "category": "regulatory",
-      "relevance": "medium",
-      "timestamp": "2026-11-06"
     },
     {
       "id": "oig-portfolio-medicaid",
@@ -31,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-11-06"
+      "timestamp": "2026-11-07"
     },
     {
       "id": "oig-workplan",
@@ -41,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-11-06"
+      "timestamp": "2026-11-07"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -51,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-11-06",
+      "timestamp": "2026-11-07",
       "affectedStates": [
         "TX"
       ]
@@ -64,10 +54,20 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-11-06",
+      "timestamp": "2026-11-07",
       "affectedStates": [
         "OH"
       ]
+    },
+    {
+      "id": "fr-2026-22739",
+      "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program an",
+      "summary": "This final rule with comment period revises the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2027 based on our continuing experience with these systems. We also describe the chang\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
+      "category": "regulatory",
+      "relevance": "medium",
+      "timestamp": "2026-11-06"
     },
     {
       "id": "fr-2026-22381",
@@ -114,8 +114,8 @@
     "totalSignals": 10,
     "byCategory": {
       "procurement": 3,
-      "regulatory": 5,
-      "oig": 2
+      "oig": 2,
+      "regulatory": 5
     },
     "byRelevance": {
       "high": 4,
@@ -124,6 +124,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-11-06T13:37:22.114499",
+  "updated": "2026-11-07T12:17:49.132889",
   "source": "aggregated"
 }
