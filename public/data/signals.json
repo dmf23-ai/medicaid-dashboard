@@ -1,16 +1,6 @@
 {
   "signals": [
     {
-      "id": "fr-2026-22812",
-      "title": "Medicare and Medicaid Programs; Cutting Administrative Requirements for Excellence in Patient Care",
-      "summary": "This proposed rule would reform Medicare and Medicaid regulations deemed obsolete or excessively burdensome on healthcare providers and suppliers, with the objective of reducing costs, enhancing flexibility in delivering innovative care, and streamlining existing regulations. Thi\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/10/2026-22812/medicare-and-medicaid-programs-cutting-administrative-requirements-for-excellence-in-patient-care",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-11-10"
-    },
-    {
       "id": "hhsc-opportunities",
       "title": "Texas HHSC Procurement Opportunities portal",
       "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
@@ -18,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-11-10",
+      "timestamp": "2026-11-11",
       "affectedStates": [
         "TX"
       ]
@@ -31,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-11-10"
+      "timestamp": "2026-11-11"
     },
     {
       "id": "oig-workplan",
@@ -41,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-11-10"
+      "timestamp": "2026-11-11"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -51,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-11-10",
+      "timestamp": "2026-11-11",
       "affectedStates": [
         "TX"
       ]
@@ -64,10 +54,20 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-11-10",
+      "timestamp": "2026-11-11",
       "affectedStates": [
         "OH"
       ]
+    },
+    {
+      "id": "fr-2026-22812",
+      "title": "Medicare and Medicaid Programs; Cutting Administrative Requirements for Excellence in Patient Care",
+      "summary": "This proposed rule would reform Medicare and Medicaid regulations deemed obsolete or excessively burdensome on healthcare providers and suppliers, with the objective of reducing costs, enhancing flexibility in delivering innovative care, and streamlining existing regulations. Thi\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/10/2026-22812/medicare-and-medicaid-programs-cutting-administrative-requirements-for-excellence-in-patient-care",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-11-10"
     },
     {
       "id": "fr-2026-22743",
@@ -143,9 +143,9 @@
   "national": {
     "totalSignals": 13,
     "byCategory": {
-      "regulatory": 8,
       "procurement": 3,
-      "oig": 2
+      "oig": 2,
+      "regulatory": 8
     },
     "byRelevance": {
       "high": 6,
@@ -154,6 +154,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-11-10T14:08:43.800111",
+  "updated": "2026-11-11T13:25:22.004551",
   "source": "aggregated"
 }
