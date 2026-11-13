@@ -8,7 +8,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-11-12",
+      "timestamp": "2026-11-13",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-11-12"
+      "timestamp": "2026-11-13"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +31,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-11-12"
+      "timestamp": "2026-11-13"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +41,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-11-12",
+      "timestamp": "2026-11-13",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +54,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-11-12",
+      "timestamp": "2026-11-13",
       "affectedStates": [
         "OH"
       ]
@@ -128,32 +128,22 @@
       "category": "regulatory",
       "relevance": "high",
       "timestamp": "2026-10-29"
-    },
-    {
-      "id": "fr-2026-21420",
-      "title": "Medicare Program; Implementation of Sections 6219, 6220, and 6224 of the Consolidated Appropriations Act, 2026",
-      "summary": "This proposed rule would implement section 6219 (Adjustments to Medicare Part D Cost-Sharing Reductions for Low-Income Individuals), section 6220 (Requiring Enhanced and Accurate Lists of (REAL) Health Providers Act), and section 6224 (Modernizing and Ensuring Pharmacy Benefit Ma\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/20/2026-21420/medicare-program-implementation-of-sections-6219-6220-and-6224-of-the-consolidated-appropriations",
-      "category": "regulatory",
-      "relevance": "medium",
-      "timestamp": "2026-10-20"
     }
   ],
   "national": {
-    "totalSignals": 13,
+    "totalSignals": 12,
     "byCategory": {
       "procurement": 3,
       "oig": 2,
-      "regulatory": 8
+      "regulatory": 7
     },
     "byRelevance": {
       "high": 6,
-      "medium": 6,
+      "medium": 5,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-11-12T14:29:56.750103",
+  "updated": "2026-11-13T13:47:15.746175",
   "source": "aggregated"
 }
