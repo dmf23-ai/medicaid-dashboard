@@ -1,6 +1,26 @@
 {
   "signals": [
     {
+      "id": "fr-2026-23242",
+      "title": "Medicare, Medicaid, and Children's Health Insurance Programs: Announcement of the Extension and Modification of the Nationwide Temporary Moratorium on Enrollment of Hospices",
+      "summary": "This notice announces the extension and modification of the nationwide temporary moratorium on the enrollment of new Medicare hospices.",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/16/2026-23242/medicare-medicaid-and-childrens-health-insurance-programs-announcement-of-the-extension-and",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-11-16"
+    },
+    {
+      "id": "fr-2026-23241",
+      "title": "Medicare, Medicaid, and Children's Health Insurance Programs: Announcement of the Extension and Modification of the Nationwide Temporary Moratorium on Enrollment of Home Health Agencies (HHAs)",
+      "summary": "This notice announces the extension and modification of the nationwide temporary moratorium on the enrollment of new Medicare Home Health Agencies.",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/16/2026-23241/medicare-medicaid-and-childrens-health-insurance-programs-announcement-of-the-extension-and",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-11-16"
+    },
+    {
       "id": "hhsc-opportunities",
       "title": "Texas HHSC Procurement Opportunities portal",
       "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
@@ -8,7 +28,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-11-13",
+      "timestamp": "2026-11-14",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +41,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-11-13"
+      "timestamp": "2026-11-14"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +51,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-11-13"
+      "timestamp": "2026-11-14"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +61,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-11-13",
+      "timestamp": "2026-11-14",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +74,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-11-13",
+      "timestamp": "2026-11-14",
       "affectedStates": [
         "OH"
       ]
@@ -118,32 +138,22 @@
       "category": "regulatory",
       "relevance": "high",
       "timestamp": "2026-11-02"
-    },
-    {
-      "id": "fr-2026-22015",
-      "title": "Privacy Act of 1974; Matching Program",
-      "summary": "In accordance with subsection (e)(12) of the Privacy Act of 1974, as amended, the Department of Health and Human Services (HHS), Centers for Medicare & Medicaid Services (CMS), is providing notice of a computer matching program between CMS and participating State-Based Administer\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/10/29/2026-22015/privacy-act-of-1974-matching-program",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-10-29"
     }
   ],
   "national": {
-    "totalSignals": 12,
+    "totalSignals": 13,
     "byCategory": {
+      "regulatory": 8,
       "procurement": 3,
-      "oig": 2,
-      "regulatory": 7
+      "oig": 2
     },
     "byRelevance": {
-      "high": 6,
+      "high": 7,
       "medium": 5,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-11-13T13:47:15.746175",
+  "updated": "2026-11-14T12:51:20.470986",
   "source": "aggregated"
 }
