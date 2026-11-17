@@ -1,6 +1,65 @@
 {
   "signals": [
     {
+      "id": "hhsc-opportunities",
+      "title": "Texas HHSC Procurement Opportunities portal",
+      "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
+      "source": "Texas HHSC (Procurement)",
+      "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
+      "category": "procurement",
+      "relevance": "high",
+      "timestamp": "2026-11-17",
+      "affectedStates": [
+        "TX"
+      ]
+    },
+    {
+      "id": "oig-portfolio-medicaid",
+      "title": "HHS OIG Medicaid Portfolio \u2014 active oversight docket",
+      "summary": "Browse current HHS OIG Medicaid audits, evaluations, and advisories. Scraper fell back; visit directly for the latest items.",
+      "source": "HHS OIG (portfolio page)",
+      "sourceUrl": "https://oig.hhs.gov/reports/",
+      "category": "oig",
+      "relevance": "medium",
+      "timestamp": "2026-11-17"
+    },
+    {
+      "id": "oig-workplan",
+      "title": "HHS OIG Work Plan \u2014 in-progress Medicaid items",
+      "summary": "The OIG Work Plan lists audits and evaluations underway; filter to Medicaid & CHIP for upcoming report drops.",
+      "source": "HHS OIG (work plan)",
+      "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
+      "category": "oig",
+      "relevance": "medium",
+      "timestamp": "2026-11-17"
+    },
+    {
+      "id": "txsmartbuy-esbd",
+      "title": "Texas Electronic State Business Daily (ESBD) \u2014 search portal",
+      "summary": "Statewide solicitation search. Filter by HHSC agency code and 'Medical Services' category for current Medicaid awards and renewals.",
+      "source": "Texas ESBD (TxSmartBuy)",
+      "sourceUrl": "https://www.txsmartbuy.gov/esbd",
+      "category": "procurement",
+      "relevance": "medium",
+      "timestamp": "2026-11-17",
+      "affectedStates": [
+        "TX"
+      ]
+    },
+    {
+      "id": "ohiobuys-public",
+      "title": "OhioBuys public RFP browser \u2014 Ohio Department of Medicaid track",
+      "summary": "Browse Ohio Department of Medicaid procurement opportunities and active RFPs. Page is JS-rendered; scraper fell back, visit directly for current items.",
+      "source": "OhioBuys",
+      "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
+      "category": "procurement",
+      "relevance": "low",
+      "timestamp": "2026-11-17",
+      "affectedStates": [
+        "OH"
+      ]
+    },
+    {
       "id": "fr-2026-23242",
       "title": "Medicare, Medicaid, and Children's Health Insurance Programs: Announcement of the Extension and Modification of the Nationwide Temporary Moratorium on Enrollment of Hospices",
       "summary": "This notice announces the extension and modification of the nationwide temporary moratorium on the enrollment of new Medicare hospices.",
@@ -19,65 +78,6 @@
       "category": "regulatory",
       "relevance": "high",
       "timestamp": "2026-11-16"
-    },
-    {
-      "id": "hhsc-opportunities",
-      "title": "Texas HHSC Procurement Opportunities portal",
-      "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
-      "source": "Texas HHSC (Procurement)",
-      "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
-      "category": "procurement",
-      "relevance": "high",
-      "timestamp": "2026-11-16",
-      "affectedStates": [
-        "TX"
-      ]
-    },
-    {
-      "id": "oig-portfolio-medicaid",
-      "title": "HHS OIG Medicaid Portfolio \u2014 active oversight docket",
-      "summary": "Browse current HHS OIG Medicaid audits, evaluations, and advisories. Scraper fell back; visit directly for the latest items.",
-      "source": "HHS OIG (portfolio page)",
-      "sourceUrl": "https://oig.hhs.gov/reports/",
-      "category": "oig",
-      "relevance": "medium",
-      "timestamp": "2026-11-16"
-    },
-    {
-      "id": "oig-workplan",
-      "title": "HHS OIG Work Plan \u2014 in-progress Medicaid items",
-      "summary": "The OIG Work Plan lists audits and evaluations underway; filter to Medicaid & CHIP for upcoming report drops.",
-      "source": "HHS OIG (work plan)",
-      "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
-      "category": "oig",
-      "relevance": "medium",
-      "timestamp": "2026-11-16"
-    },
-    {
-      "id": "txsmartbuy-esbd",
-      "title": "Texas Electronic State Business Daily (ESBD) \u2014 search portal",
-      "summary": "Statewide solicitation search. Filter by HHSC agency code and 'Medical Services' category for current Medicaid awards and renewals.",
-      "source": "Texas ESBD (TxSmartBuy)",
-      "sourceUrl": "https://www.txsmartbuy.gov/esbd",
-      "category": "procurement",
-      "relevance": "medium",
-      "timestamp": "2026-11-16",
-      "affectedStates": [
-        "TX"
-      ]
-    },
-    {
-      "id": "ohiobuys-public",
-      "title": "OhioBuys public RFP browser \u2014 Ohio Department of Medicaid track",
-      "summary": "Browse Ohio Department of Medicaid procurement opportunities and active RFPs. Page is JS-rendered; scraper fell back, visit directly for current items.",
-      "source": "OhioBuys",
-      "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
-      "category": "procurement",
-      "relevance": "low",
-      "timestamp": "2026-11-16",
-      "affectedStates": [
-        "OH"
-      ]
     },
     {
       "id": "fr-2026-22812",
@@ -143,9 +143,9 @@
   "national": {
     "totalSignals": 13,
     "byCategory": {
-      "regulatory": 8,
       "procurement": 3,
-      "oig": 2
+      "oig": 2,
+      "regulatory": 8
     },
     "byRelevance": {
       "high": 7,
@@ -154,6 +154,6 @@
     }
   },
   "errors": {},
-  "updated": "2026-11-16T14:32:34.568318",
+  "updated": "2026-11-17T15:22:44.098436",
   "source": "aggregated"
 }
