@@ -1,6 +1,26 @@
 {
   "signals": [
     {
+      "id": "fr-2026-23540",
+      "title": "Medicare and Medicaid Programs; Quarterly Listing of Program Issuances-July Through September 2026",
+      "summary": "This quarterly notice lists Centers for Medicare & Medicaid Services (CMS) manual instructions, substantive and interpretive regulations, and other Federal Register notices that were published in the 3-month period, relating to the Medicare and Medicaid programs and other program\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/19/2026-23540/medicare-and-medicaid-programs-quarterly-listing-of-program-issuances-july-through-september-2026",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-11-19"
+    },
+    {
+      "id": "fr-2026-23461",
+      "title": "Medicare, Medicaid, and Marketplace Programs; Comprehensive Regulations To Uncover Suspicious Healthcare (CRUSH)",
+      "summary": "This proposed rule would revise provisions regarding provider enrollment, medical review, investigations, and other program integrity oversight provisions to greatly strengthen our ability to crush fraud, enhance program integrity efforts across Medicare, Medicaid, Children's Hea\u2026",
+      "source": "Federal Register (CMS)",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/19/2026-23461/medicare-medicaid-and-marketplace-programs-comprehensive-regulations-to-uncover-suspicious",
+      "category": "regulatory",
+      "relevance": "high",
+      "timestamp": "2026-11-19"
+    },
+    {
       "id": "hhsc-opportunities",
       "title": "Texas HHSC Procurement Opportunities portal",
       "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
@@ -8,7 +28,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-11-18",
+      "timestamp": "2026-11-19",
       "affectedStates": [
         "TX"
       ]
@@ -21,7 +41,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-11-18"
+      "timestamp": "2026-11-19"
     },
     {
       "id": "oig-workplan",
@@ -31,7 +51,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-11-18"
+      "timestamp": "2026-11-19"
     },
     {
       "id": "txsmartbuy-esbd",
@@ -41,7 +61,7 @@
       "sourceUrl": "https://www.txsmartbuy.gov/esbd",
       "category": "procurement",
       "relevance": "medium",
-      "timestamp": "2026-11-18",
+      "timestamp": "2026-11-19",
       "affectedStates": [
         "TX"
       ]
@@ -54,7 +74,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-11-18",
+      "timestamp": "2026-11-19",
       "affectedStates": [
         "OH"
       ]
@@ -128,32 +148,22 @@
       "category": "regulatory",
       "relevance": "high",
       "timestamp": "2026-11-03"
-    },
-    {
-      "id": "fr-2026-22297",
-      "title": "Emergency Clearance: Public Information Collection Requirements Submitted to the Office of Management and Budget (OMB)",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) is requesting that an information collection request revision for the Review Choice Demonstration or Home Health Services (CMS-10599/0938- 1311) processed under the emergency clearance process associated with the implementing reg\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/02/2026-22297/emergency-clearance-public-information-collection-requirements-submitted-to-the-office-of-management",
-      "category": "regulatory",
-      "relevance": "high",
-      "timestamp": "2026-11-02"
     }
   ],
   "national": {
-    "totalSignals": 13,
+    "totalSignals": 14,
     "byCategory": {
+      "regulatory": 9,
       "procurement": 3,
-      "oig": 2,
-      "regulatory": 8
+      "oig": 2
     },
     "byRelevance": {
-      "high": 7,
+      "high": 8,
       "medium": 5,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-11-18T14:57:34.828924",
+  "updated": "2026-11-19T15:04:12.930308",
   "source": "aggregated"
 }

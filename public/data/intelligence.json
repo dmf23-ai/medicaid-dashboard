@@ -10,7 +10,7 @@
         "CA"
       ],
       "category": "enrollment",
-      "timestamp": "2026-11-18T14:57:36.469709",
+      "timestamp": "2026-11-19T15:04:14.311225",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -22,7 +22,7 @@
         "IN"
       ],
       "category": "enrollment",
-      "timestamp": "2026-11-18T14:57:36.469709",
+      "timestamp": "2026-11-19T15:04:14.311225",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -34,7 +34,7 @@
         "LA"
       ],
       "category": "enrollment",
-      "timestamp": "2026-11-18T14:57:36.469709",
+      "timestamp": "2026-11-19T15:04:14.311225",
       "sourceLabel": "CMS Monthly Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360"
     },
@@ -46,7 +46,7 @@
         "FL"
       ],
       "category": "quality",
-      "timestamp": "2026-11-18T14:57:36.469709",
+      "timestamp": "2026-11-19T15:04:14.311225",
       "sourceLabel": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures"
     }
@@ -67,7 +67,7 @@
       ],
       "source": "CMS Monthly Medicaid & CHIP Enrollment",
       "sourceUrl": "https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360",
-      "timestamp": "2026-11-18T14:57:36.469709"
+      "timestamp": "2026-11-19T15:04:14.311225"
     },
     {
       "id": "insight-tx-quality",
@@ -84,7 +84,7 @@
       ],
       "source": "CMS Core Set Quality Measures",
       "sourceUrl": "https://www.medicaid.gov/medicaid/quality-of-care/performance-measurement/adult-and-child-health-care-quality-measures",
-      "timestamp": "2026-11-18T14:57:36.469709"
+      "timestamp": "2026-11-19T15:04:14.311225"
     },
     {
       "id": "insight-tx-managedcare",
@@ -101,13 +101,13 @@
       ],
       "source": "CMS Managed Care Enrollment Summary",
       "sourceUrl": "https://data.medicaid.gov/dataset/52ed908b-0cb8-5dd2-846d-99d4af12b369",
-      "timestamp": "2026-11-18T14:57:36.469709"
+      "timestamp": "2026-11-19T15:04:14.311225"
     },
     {
       "id": "insight-regulatory",
       "rank": 4,
-      "title": "Medicare, Medicaid, and Children's Health Insurance Programs: Announcement of the Extension and Modification of the Nationwide Temporary Moratorium on Enrollment of Hospices",
-      "summary": "This notice announces the extension and modification of the nationwide temporary moratorium on the enrollment of new Medicare hospices.",
+      "title": "Medicare and Medicaid Programs; Quarterly Listing of Program Issuances-July Through September 2026",
+      "summary": "This quarterly notice lists Centers for Medicare & Medicaid Services (CMS) manual instructions, substantive and interpretive regulations, and other Federal Register notices that were published in the 3-month period, relating to the Medicare and Medicaid programs and other program\u2026",
       "whyItMatters": "Federal Register rules often carry state implementation deadlines; catching them early avoids downstream compliance scrambles.",
       "confidence": "high",
       "category": "regulatory",
@@ -115,8 +115,8 @@
       "actionPrompt": "Assess TX implementation implications and notify HHSC contact",
       "relatedStates": [],
       "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/16/2026-23242/medicare-medicaid-and-childrens-health-insurance-programs-announcement-of-the-extension-and",
-      "timestamp": "2026-11-18T14:57:36.469709"
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/19/2026-23540/medicare-and-medicaid-programs-quarterly-listing-of-program-issuances-july-through-september-2026",
+      "timestamp": "2026-11-19T15:04:14.311225"
     },
     {
       "id": "insight-procurement",
@@ -133,7 +133,7 @@
       ],
       "source": "Texas HHSC (Procurement)",
       "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
-      "timestamp": "2026-11-18T14:57:36.469709"
+      "timestamp": "2026-11-19T15:04:14.311225"
     }
   ],
   "riskOpportunity": [
@@ -188,7 +188,7 @@
     {
       "id": "ro-federal-rules",
       "label": "Federal Rule Pipeline",
-      "description": "8 active CMS Medicaid regulatory items in Federal Register.",
+      "description": "9 active CMS Medicaid regulatory items in Federal Register.",
       "risk": 60,
       "opportunity": 55,
       "impact": 60,
@@ -285,7 +285,7 @@
     },
     {
       "label": "OIG/Reg Signals",
-      "value": "10 open",
+      "value": "11 open",
       "delta": null,
       "deltaDirection": "neutral",
       "tooltip": "Combined count of recent OIG and Federal Register signals.",
@@ -300,7 +300,7 @@
       "sourceUrl": "https://www.hhs.texas.gov/"
     }
   ],
-  "updated": "2026-11-18T14:57:36.469709",
+  "updated": "2026-11-19T15:04:14.311225",
   "source": "template",
   "model": null
 }
