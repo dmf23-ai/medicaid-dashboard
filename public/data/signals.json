@@ -1,6 +1,65 @@
 {
   "signals": [
     {
+      "id": "esbd-1",
+      "title": "Drywall Removal, Treatment, and Repair HHSC RAS Office",
+      "summary": "Texas HHSC solicitation surfaced on the ESBD: Drywall Removal, Treatment, and Repair HHSC RAS Office",
+      "source": "Texas ESBD (HHSC)",
+      "sourceUrl": "https://www.txsmartbuy.gov/esbd/HHS0018211",
+      "category": "procurement",
+      "relevance": "high",
+      "timestamp": "2026-11-26",
+      "affectedStates": [
+        "TX"
+      ]
+    },
+    {
+      "id": "esbd-2",
+      "title": "Medicaid and Children\u2019s Health Insurance Program Dental Services",
+      "summary": "Texas HHSC solicitation surfaced on the ESBD: Medicaid and Children\u2019s Health Insurance Program Dental Services",
+      "source": "Texas ESBD (HHSC)",
+      "sourceUrl": "https://www.txsmartbuy.gov/esbd/HHS0017108",
+      "category": "procurement",
+      "relevance": "high",
+      "timestamp": "2026-11-26",
+      "affectedStates": [
+        "TX"
+      ]
+    },
+    {
+      "id": "oig-portfolio-medicaid",
+      "title": "HHS OIG Medicaid Portfolio \u2014 active oversight docket",
+      "summary": "Browse current HHS OIG Medicaid audits, evaluations, and advisories. Scraper fell back; visit directly for the latest items.",
+      "source": "HHS OIG (portfolio page)",
+      "sourceUrl": "https://oig.hhs.gov/reports/",
+      "category": "oig",
+      "relevance": "medium",
+      "timestamp": "2026-11-26"
+    },
+    {
+      "id": "oig-workplan",
+      "title": "HHS OIG Work Plan \u2014 in-progress Medicaid items",
+      "summary": "The OIG Work Plan lists audits and evaluations underway; filter to Medicaid & CHIP for upcoming report drops.",
+      "source": "HHS OIG (work plan)",
+      "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
+      "category": "oig",
+      "relevance": "medium",
+      "timestamp": "2026-11-26"
+    },
+    {
+      "id": "ohiobuys-public",
+      "title": "OhioBuys public RFP browser \u2014 Ohio Department of Medicaid track",
+      "summary": "Browse Ohio Department of Medicaid procurement opportunities and active RFPs. Page is JS-rendered; scraper fell back, visit directly for current items.",
+      "source": "OhioBuys",
+      "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
+      "category": "procurement",
+      "relevance": "low",
+      "timestamp": "2026-11-26",
+      "affectedStates": [
+        "OH"
+      ]
+    },
+    {
       "id": "fr-2026-24000",
       "title": "Medicare, Medicaid, and Children's Health Insurance Programs; Provider Enrollment Application Fee Amount for Calendar Year 2027",
       "summary": "This notice announces a $776.00 calendar year 2027 application fee for institutional providers that are initially enrolling in the Medicare or Medicaid program or the Children's Health Insurance Program (CHIP); revalidating their Medicare, Medicaid, or CHIP enrollment; or adding \u2026",
@@ -11,19 +70,6 @@
       "timestamp": "2026-11-25"
     },
     {
-      "id": "esbd-1",
-      "title": "RFI for HHSC, Software Asset Management and Software Assessment Services",
-      "summary": "Texas HHSC solicitation surfaced on the ESBD: RFI for HHSC, Software Asset Management and Software Assessment Services",
-      "source": "Texas ESBD (HHSC)",
-      "sourceUrl": "https://www.txsmartbuy.gov/esbd/HHS0018233",
-      "category": "procurement",
-      "relevance": "high",
-      "timestamp": "2026-11-25",
-      "affectedStates": [
-        "TX"
-      ]
-    },
-    {
       "id": "fr-2026-23960",
       "title": "Medicare Program; Contract Year 2028 Policy and Technical Changes to the Medicare Advantage Program, Medicare Prescription Drug Benefit Program, and Programs of All-Inclusive Care for the Elderly",
       "summary": "This proposed rule would revise the Medicare Advantage (Part C), Medicare Prescription Drug Benefit (Part D), and Programs of All- Inclusive Care for the Elderly regulations to implement changes related to marketing and communications, drug coverage, enrollment processes, special\u2026",
@@ -32,39 +78,6 @@
       "category": "regulatory",
       "relevance": "medium",
       "timestamp": "2026-11-25"
-    },
-    {
-      "id": "oig-portfolio-medicaid",
-      "title": "HHS OIG Medicaid Portfolio \u2014 active oversight docket",
-      "summary": "Browse current HHS OIG Medicaid audits, evaluations, and advisories. Scraper fell back; visit directly for the latest items.",
-      "source": "HHS OIG (portfolio page)",
-      "sourceUrl": "https://oig.hhs.gov/reports/",
-      "category": "oig",
-      "relevance": "medium",
-      "timestamp": "2026-11-25"
-    },
-    {
-      "id": "oig-workplan",
-      "title": "HHS OIG Work Plan \u2014 in-progress Medicaid items",
-      "summary": "The OIG Work Plan lists audits and evaluations underway; filter to Medicaid & CHIP for upcoming report drops.",
-      "source": "HHS OIG (work plan)",
-      "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
-      "category": "oig",
-      "relevance": "medium",
-      "timestamp": "2026-11-25"
-    },
-    {
-      "id": "ohiobuys-public",
-      "title": "OhioBuys public RFP browser \u2014 Ohio Department of Medicaid track",
-      "summary": "Browse Ohio Department of Medicaid procurement opportunities and active RFPs. Page is JS-rendered; scraper fell back, visit directly for current items.",
-      "source": "OhioBuys",
-      "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
-      "category": "procurement",
-      "relevance": "low",
-      "timestamp": "2026-11-25",
-      "affectedStates": [
-        "OH"
-      ]
     },
     {
       "id": "fr-2026-23540",
@@ -135,32 +148,22 @@
       "category": "regulatory",
       "relevance": "medium",
       "timestamp": "2026-11-09"
-    },
-    {
-      "id": "fr-2026-22739",
-      "title": "Medicare Program: Hospital Outpatient Prospective Payment and Ambulatory Surgical Center Payment Systems; and Quality Reporting Programs; including the Hospital Outpatient Quality Reporting Program an",
-      "summary": "This final rule with comment period revises the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2027 based on our continuing experience with these systems. We also describe the chang\u2026",
-      "source": "Federal Register (CMS)",
-      "sourceUrl": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
-      "category": "regulatory",
-      "relevance": "medium",
-      "timestamp": "2026-11-06"
     }
   ],
   "national": {
     "totalSignals": 14,
     "byCategory": {
-      "regulatory": 10,
-      "procurement": 2,
-      "oig": 2
+      "procurement": 3,
+      "oig": 2,
+      "regulatory": 9
     },
     "byRelevance": {
-      "high": 8,
-      "medium": 5,
+      "high": 9,
+      "medium": 4,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-11-25T16:39:50.002510",
+  "updated": "2026-11-26T16:13:36.672112",
   "source": "aggregated"
 }
