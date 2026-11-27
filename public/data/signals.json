@@ -1,27 +1,14 @@
 {
   "signals": [
     {
-      "id": "esbd-1",
-      "title": "Drywall Removal, Treatment, and Repair HHSC RAS Office",
-      "summary": "Texas HHSC solicitation surfaced on the ESBD: Drywall Removal, Treatment, and Repair HHSC RAS Office",
-      "source": "Texas ESBD (HHSC)",
-      "sourceUrl": "https://www.txsmartbuy.gov/esbd/HHS0018211",
+      "id": "hhsc-opportunities",
+      "title": "Texas HHSC Procurement Opportunities portal",
+      "summary": "Active solicitations and pre-procurement notices from Texas Health and Human Services Commission. Filter by Medicaid Operations / TMHP / STAR program.",
+      "source": "Texas HHSC (Procurement)",
+      "sourceUrl": "https://www.hhs.texas.gov/business/contracting-hhs",
       "category": "procurement",
       "relevance": "high",
-      "timestamp": "2026-11-26",
-      "affectedStates": [
-        "TX"
-      ]
-    },
-    {
-      "id": "esbd-2",
-      "title": "Medicaid and Children\u2019s Health Insurance Program Dental Services",
-      "summary": "Texas HHSC solicitation surfaced on the ESBD: Medicaid and Children\u2019s Health Insurance Program Dental Services",
-      "source": "Texas ESBD (HHSC)",
-      "sourceUrl": "https://www.txsmartbuy.gov/esbd/HHS0017108",
-      "category": "procurement",
-      "relevance": "high",
-      "timestamp": "2026-11-26",
+      "timestamp": "2026-11-27",
       "affectedStates": [
         "TX"
       ]
@@ -34,7 +21,7 @@
       "sourceUrl": "https://oig.hhs.gov/reports/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-11-26"
+      "timestamp": "2026-11-27"
     },
     {
       "id": "oig-workplan",
@@ -44,7 +31,20 @@
       "sourceUrl": "https://oig.hhs.gov/reports/work-plan/",
       "category": "oig",
       "relevance": "medium",
-      "timestamp": "2026-11-26"
+      "timestamp": "2026-11-27"
+    },
+    {
+      "id": "txsmartbuy-esbd",
+      "title": "Texas Electronic State Business Daily (ESBD) \u2014 search portal",
+      "summary": "Statewide solicitation search. Filter by HHSC agency code and 'Medical Services' category for current Medicaid awards and renewals.",
+      "source": "Texas ESBD (TxSmartBuy)",
+      "sourceUrl": "https://www.txsmartbuy.gov/esbd",
+      "category": "procurement",
+      "relevance": "medium",
+      "timestamp": "2026-11-27",
+      "affectedStates": [
+        "TX"
+      ]
     },
     {
       "id": "ohiobuys-public",
@@ -54,7 +54,7 @@
       "sourceUrl": "https://ohiobuys.ohio.gov/page.aspx/en/rfp/request_browse_public",
       "category": "procurement",
       "relevance": "low",
-      "timestamp": "2026-11-26",
+      "timestamp": "2026-11-27",
       "affectedStates": [
         "OH"
       ]
@@ -158,12 +158,12 @@
       "regulatory": 9
     },
     "byRelevance": {
-      "high": 9,
-      "medium": 4,
+      "high": 8,
+      "medium": 5,
       "low": 1
     }
   },
   "errors": {},
-  "updated": "2026-11-26T16:13:36.672112",
+  "updated": "2026-11-27T15:58:45.583369",
   "source": "aggregated"
 }
